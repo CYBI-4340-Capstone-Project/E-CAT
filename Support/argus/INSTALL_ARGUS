@@ -23,8 +23,9 @@
         sudo mv argusarchive /usr/local/bin/argusarchive
         sudo chmod +x /usr/local/bin/argusarchive
 ### You can also click on the Argus GitHub link in the "Additional Resources" section at the bottom and manually download or copy and paste the file. It can be found under "argus-5.0/support/Archive/argusarchive". You will also need to download excel.rc that can be found under "argus-clients-5.0/support/Config/excel.rc" and move it to "/etc/argus/excel.rc".
+### Additionally, modified versions of argus.conf, argus.service, argusarchive, and excel.rc are included in this repository for reference. These are not the default versions from Argus but have been configured specifically for this setup.
 ## Configuring argus.conf
-### Ensure your argus.conf file is correctly configured. The following are is the configuration settings I have, they are scattered throughout the entire argus.conf file: 
+### Ensure your argus.conf file is correctly configured. The following are the key settings, but the file contains more options scattered throughout: 
         ARGUS_ACCESS_PORT=561
         ARGUS_INTERFACE=eth0
         ARGUS_OUTPUT_FILE=/var/log/argus/argus.out
@@ -40,6 +41,7 @@
         ARGUS_CAPTURE_DATA_LEN=32
         ARGUS_FILTER_OPTIMIZER=yes
         ARGUS_SELF_SYNCHRONIZE=yes 
+### This argus.conf file can be found in the repository, but it has been modified to match this specific setup. Ensure you review it before replacing your configuration.
 
 # Running Argus & Capturing Traffic
 ## Start Argus Manually
@@ -64,20 +66,24 @@
         sudo netstat -tulnp | grep argus
 
 # Archiving & Converting Logs
-### Once you stop Argus, archive the logs:
+## Once you stop Argus, archive the logs:
         sudo /usr/local/bin/argusarchive    # Ensure Argus is not running beforehand
-### This will:
+## This will:
     - Move /var/log/argus/argus.out to a date-organized archive (/usr/local/argus/argus.archive/).
     - Create compressed .gz of the raw log file (argus.out)
     - Also automatically creates a .csv version of the log file (argus.out).
-### Both files will be found in their directory of the date they were created. For example:
-        seed@seed-Virtual-Machine:/usr/local/argus/argus.archive/2025/02/12$ ls
-        argus.2025.02.12.22.40.49.0.csv  argus.2025.02.12.22.40.49.0.gz
-        argus.2025.02.12.22.34.02.0.csv  argus.2025.02.12.22.34.02.0.gz
-### The following is the command on how to convert the argus.out file to .csv manually:
+### The archived logs are stored in a structured calendar-based directory. An example is included in this repository (argus.archive) to illustrate the structure, but your actual logs will be generated dynamically.
+## Example Archive Directory:
+        /usr/local/argus/argus.archive/2025/02/12/
+        ├── argus.2025.02.12.22.40.49.0.csv
+        ├── argus.2025.02.12.22.40.49.0.gz
+        ├── argus.2025.02.12.22.34.02.0.csv
+        ├── argus.2025.02.12.22.34.02.0.gz
+## The following is the command on how to convert the argus.out file to .csv manually:
         ra -r /var/log/argus/argus.out -F /etc/argus/excel.rc -s stime ltime proto saddr sport daddr dport state dur sbytes dbytes sttl dttl sloss dloss service sload dload spkts dpkts swin dwin stcpb dtcpb smeansz dmeansz trans_depth res_bdy_len sjit djit sintpkt dintpkt tcprtt synack ackdat is_sm_ips_ports ct_state_ttl ct_flw_http_mthd is_ftp_login ct_ftp_cmd ct_srv_src ct_srv_dst ct_dst_ltm ct_src_ltm ct_src_dport_ltm ct_dst_sport_ltm ct_dst_src_ltm -c ',' > /var/log/argus/argus_data.csv
 
 # Setting Up Argus as a Systemd Service (WORK IN PROGRESS)
+### The argus.service file, included in this repository, is a modified version intended for automatic service management.
 ## Step 1: Create a Systemd Service
         sudo nano /lib/systemd/system/argus.service
 ### Paste the following:
@@ -132,6 +138,7 @@ WantedBy=multi-user.target
 | /usr/local/bin/argusarchive       | Argus log archiver   |
 | /usr/local/argus/argus.archive    | Archived logs        |
 | /lib/systemd/system/argus.service | Systemd service file |
+### All modified versions of these files are included in this repository.
 
 # Conclusion
 ### This guide covers:
