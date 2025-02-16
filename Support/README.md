@@ -1,12 +1,12 @@
 # About this directory
-### This directory contains Argus configuration files, scripts, and services used 
-### to set up, manage, and archive network traffic logs. These files help configure 
-### Argus, automate its execution, store logs efficiently, and export data for 
-### further analysis. Besides the excel.rc file these files have been modified
-### to fit my configuration needs. If you want the original version of these files
-### please refer to the Argus GitHub page that can be found in the INSTALL_ARGUS
-### file. Please refer to the INSTALL_ARGUS file for instructions on how to use
-### these configuration files and scripts. 
+This directory contains Argus configuration files, scripts, and services used 
+to set up, manage, and archive network traffic logs. These files help configure 
+Argus, automate its execution, store logs efficiently, and export data for 
+further analysis. Besides the excel.rc file these files have been modified
+to fit my configuration needs. If you want the original version of these files
+please refer to the Argus GitHub page that can be found in the INSTALL_ARGUS
+file. Please refer to the INSTALL_ARGUS file for instructions on how to use
+these configuration files and scripts. 
 
 ## argus
     INSTALL_ARGUS - This file provides installation instructions for setting 
