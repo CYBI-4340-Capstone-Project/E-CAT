@@ -1,11 +1,15 @@
-# Argus Setup & Usage Guide for Virtualized Ubuntu (Hyper-V)
-### This guide provides step-by-step instructions for setting up and running Argus on a virtualized Ubuntu machine (Hyper-V Manager). It also includes troubleshooting tips and useful commands to manage and archive network traffic logs.
+# Argus Setup & Usage Guide for Virtualized Ubuntu (Hyper-V Manager & VMware Fusion)
+### This guide provides step-by-step instructions for setting up and running Argus on a virtualized Ubuntu machine using Hyper-V Manager (Windows 10) and VMware Fusion (MacBook Air M1). 
+### Tested configurations:
+    - Windows 10 Pro (Hyper-V Manager) --> Ubuntu 24.04 LTS
+    - MacBook Air M1 (VMware Fusion) --> Ubuntu 22.0.4.5 64-bit Arm
+### Note: Ubuntu 24.04.1 LTS caused a *** buffer overflow detected *** error when running Argus, so I reverted to 22.04 LTS instead.
 
 # Installing Argus
 ## Step 1: Install Argus & Argus Clients
         sudo apt update
         sudo apt install argus-server argus-client -y
-### On the Argus website it says "argus-clients" however the command only runs when it is "argus-client" and not "argus-clients". It will say "argus-client is could not be found". 
+### Note: The official Argus documentation refers to argus-clients, but the correct package is argus-client.
 ## Step 2: Verify Installation
         argus -h
         ra -h
@@ -21,12 +25,14 @@
         sudo chmod 755 /var/log/argus
         sudo chmod 755 /usr/local/argus/argus.archive
 ## Copying Files from GitHub Repository
-### Download and copy the argusarchive script from the Argus GitHub Repository: 
+### Download argusarchive (for log archiving) and excel.rc (for CSV formatting):
         wget https://raw.githubusercontent.com/openargus/argus/master/support/Archive/argusarchive
         sudo mv argusarchive /usr/local/bin/argusarchive
         sudo chmod +x /usr/local/bin/argusarchive
-### You can also click on the Argus GitHub link in the "Additional Resources" section at the bottom and manually download or copy and paste the file. It can be found under "argus-5.0/support/Archive/argusarchive". You will also need to download excel.rc that can be found under "argus-clients-5.0/support/Config/excel.rc" and move it to "/etc/argus/excel.rc".
-### Additionally, modified versions of argus.conf, argus.service, argusarchive, and excel.rc are included in this repository for reference. These are not the default versions from Argus but have been configured specifically for this setup.
+### Manually download excel.rc from the Argus Github repository: 
+    - Location: argus-clients-5.0/support/Config/excel.rc
+    - Move it to: /etc/argus/excel.rc
+### Modified versions of argus.conf, argus.service, argusarchive, and excel.rc are included in this repository. These are not the default Argus files and have been customized for this setup. 
 ## Configuring argus.conf
 ### Ensure your argus.conf file is correctly configured. The following are the key settings, but the file contains more options scattered throughout: 
         ARGUS_ACCESS_PORT=561
@@ -44,24 +50,26 @@
         ARGUS_CAPTURE_DATA_LEN=32
         ARGUS_FILTER_OPTIMIZER=yes
         ARGUS_SELF_SYNCHRONIZE=yes 
-### This argus.conf file can be found in the repository, but it has been modified to match this specific setup. Ensure you review it before replacing your configuration, especially the ARGUS_INTERFACE which can be found by running IP A to find your network interface.
+### Important: 
+   - Modify ARGUS_INTERFACE to match your network interface (use ip a to find it).
+   - The argus.conf file in this repository is a customized version. Review before replacing your default configuration.
 
 # Running Argus & Capturing Traffic
 ## Start Argus Manually
         sudo argus -d -P 561 -i eth0 -w /var/log/argus/argus.out -F /etc/argus/argus.conf
 ### CLI Arguments Explained:
-    - -d --> Run as a daemon (option).
+    - -d --> Run as a daemon (optional).
     - -P --> Listen on port 561 (default).
-    - -i eth0 --> Monitor the eth0 interface (ip a to confirm interface).
+    - -i eth0 --> Monitor the eth0 interface (check wtih ip a).
     - -w /var/log/argus/argus.out --> Store logs in this file.
     - -F /etc/argus/argus.conf --> Use the Argus config file.
-
+### Tip: If your argus.conf file already defines port, interface, and output file, you can simply start Argus with:
+        sudo argus -d -F /etc/argus/argus.conf
 ## View Captured Traffic (Real-Time)
         ra -S localhost:561 
 ### Tip: Load Firefox, Youtube, or any site to generate network traffic
-
 ## Stopping Argus
-### Find and kill the process:
+### Find and kill the process manually:
         ps aux | grep argus     # Find the Argus PID
         sudo kill -9 <PID>      # Replace <PID> with the actual process ID
 ### Another way to verify Argus is listening/running
@@ -70,23 +78,20 @@
 
 # Archiving & Converting Logs
 ## Once you stop Argus, archive the logs:
-        sudo /usr/local/bin/argusarchive    # Ensure Argus is not running beforehand
+        sudo /usr/local/bin/argusarchive
 ## This will:
-    - Move /var/log/argus/argus.out to a date-organized archive (/usr/local/argus/argus.archive/).
-    - Create compressed .gz of the raw log file (argus.out)
-    - Also automatically creates a .csv version of the log file (argus.out).
-### The archived logs are stored in a structured calendar-based directory. An example is included in this repository (argus.archive) to illustrate the structure, but your actual logs will be generated dynamically.
+    - Move /var/log/argus/argus.out to a date-based archive (/usr/local/argus/argus.archive/).
+    - Create compressed .gz of the log.
+    - Automatically generate a .csv file.
 ## Example Archive Directory:
         /usr/local/argus/argus.archive/2025/02/12/
         ├── argus.2025.02.12.22.40.49.0.csv
         ├── argus.2025.02.12.22.40.49.0.gz
-        ├── argus.2025.02.12.22.34.02.0.csv
-        ├── argus.2025.02.12.22.34.02.0.gz
+### Note: This repository includes a sample argus.archive directory for reference.
 ## The following is the command on how to convert the argus.out file to .csv manually:
         ra -r /var/log/argus/argus.out -F /etc/argus/excel.rc -s stime ltime proto saddr sport daddr dport state dur sbytes dbytes sttl dttl sloss dloss service sload dload spkts dpkts swin dwin stcpb dtcpb smeansz dmeansz trans_depth res_bdy_len sjit djit sintpkt dintpkt tcprtt synack ackdat is_sm_ips_ports ct_state_ttl ct_flw_http_mthd is_ftp_login ct_ftp_cmd ct_srv_src ct_srv_dst ct_dst_ltm ct_src_ltm ct_src_dport_ltm ct_dst_sport_ltm ct_dst_src_ltm -c ',' > /var/log/argus/argus_data.csv
 
-# Setting Up Argus as a Systemd Service (WORK IN PROGRESS)
-### The argus.service file, included in this repository, is a modified version intended for automatic service management.
+# Setting Up Argus as a Systemd Service (Optional)
 ## Step 1: Create a Systemd Service
         sudo nano /lib/systemd/system/argus.service
 ### Paste the following:
@@ -95,16 +100,21 @@ Description=Start Argus daemon
 After=network.target
 [Service]
 ExecStartPre=/sbin/ifconfig eth0 up
-ExecStart=/usr/sbin/argus -d -P 561 -i eth0 -w /var/log/argus/argus.out -F /etc/argus/argus.conf
+ExecStart=/usr/sbin/argus -P 561 -i eth0 -w /var/log/argus/argus.out -F /etc/argus/argus.conf
 [Install]
 WantedBy=multi-user.target
+### Warning:
+    - Do NOT use -d in ExecStart, systemd already runs Argus as a daemon.
+    - Ensure ARGUS_DAEMON=no in argus.conf, or the service will fail.
+    - Can reduce to ExecStart=/usr/sbin/argus -F /etc/argus/argus.conf if argus.conf already is configured.
 ## Step 2: Reload Systemd & Start Argus
         sudo systemctl daemon-reload
         sudo systemctl enable argus
         sudo systemctl start argus
 ## Step 3: Check Status
         sudo systemctl status argus
-### Argus should now auto-start on boot
+    - Should say "active (running)" if successful.
+    - Argus will auto-start on boot, can run "sudo systemctl disable argus" to disable auto-start on boot.
 
 # Troubleshooting & Fixes (WORK IN PROGRESS)
 ## Connection Refused on ra -S localhost:561
@@ -126,9 +136,9 @@ WantedBy=multi-user.target
 ### Kill the process: 
         sudo kill -9 <PID>
 ### If you have killed the process but still receive this error. Change the port number to 562 or another port number, this should fix it. 
-## start-limit-hit Systemd Failure (STILL TROUBLESHOOTING)
+## start-limit-hit Systemd Failure
         argus.service: Failed with result 'start-limit-hit'
-### This error means that there is something wrong with the argus.service file, not Argus itself. You are still able to run Argus with the manual command. STILL TROUBLESHOOTING TRYING TO FIX THE argus.service file or find out why it doesn't want to work when trying to run it with sudo systemctl start argus
+### This error means that there is something wrong with the argus.service file, not Argus itself. You are still able to run Argus with the manual command. This error usually means the ExecStart variable has the -d option to enable daemon mode, however this will break the systemd service. 
 ## Viewing logs: 
         sudo journalctl -xe
         sudo journalctl -u argus --no-pager | tail -30
@@ -148,9 +158,10 @@ WantedBy=multi-user.target
     - Installing & running Argus
     - Capturing & viewing network traffic
     - Archiving logs & converting to CSV
-    - Setting up Argus as a systemd service (work in progress)
+    - Setting up Argus as a systemd service (Optional)
     - Troubleshooting common issues
 ### With this setup, you can automatically collect, store, and analyze network traffic data in a structured format!
+# Note: There were many features that were skipped over due to not being relevant to this setup.
 
 # Additional Resources
     - [https://openargus.org] Argus Homepage / Updates
