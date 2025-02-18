@@ -4,7 +4,8 @@
 # Installing Argus
 ## Step 1: Install Argus & Argus Clients
         sudo apt update
-        sudo apt install argus-server argus-clients -y
+        sudo apt install argus-server argus-client -y
+### On the Argus website it says "argus-clients" however the command only runs when it is "argus-client" and not "argus-clients". It will say "argus-client is could not be found". 
 ## Step 2: Verify Installation
         argus -h
         ra -h
@@ -13,8 +14,10 @@
 # Additional Steps for Setup
 ## Creating Necessary Directories
 ### Ensure the necessary directories exist and have the correct permissions:
+        sudo mkdir -p /etc/argus
         sudo mkdir -p /var/log/argus
         sudo mkdir -p /usr/local/argus/argus.archive
+        sudo chmod 755 /etc/argus
         sudo chmod 755 /var/log/argus
         sudo chmod 755 /usr/local/argus/argus.archive
 ## Copying Files from GitHub Repository
@@ -41,7 +44,7 @@
         ARGUS_CAPTURE_DATA_LEN=32
         ARGUS_FILTER_OPTIMIZER=yes
         ARGUS_SELF_SYNCHRONIZE=yes 
-### This argus.conf file can be found in the repository, but it has been modified to match this specific setup. Ensure you review it before replacing your configuration.
+### This argus.conf file can be found in the repository, but it has been modified to match this specific setup. Ensure you review it before replacing your configuration, especially the ARGUS_INTERFACE which can be found by running IP A to find your network interface.
 
 # Running Argus & Capturing Traffic
 ## Start Argus Manually
