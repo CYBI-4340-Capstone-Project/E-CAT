@@ -1,0 +1,8 @@
+[Unit]
+Description=Start Argus daemon
+After=network.target
+[Service]
+ExecStartPre=/sbin/ifconfig eth0 up
+ExecStart=/usr/sbin/argus -P 561 -i eth0 -w /var/log/argus/argus.out -F /etc/argus/argus.conf
+[Install]
+WantedBy=multi-user.target
