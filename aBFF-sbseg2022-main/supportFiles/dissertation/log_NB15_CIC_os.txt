@@ -1,0 +1,64 @@
+2025-02-23 19:41:54
+training MLP from NB15_CIC_os
+2025-02-23 19:45:39
+training SVM from NB15_CIC_os
+2025-02-23 19:56:42
+training XGB from NB15_CIC_os
+2025-02-23 19:56:49
+training NB from NB15_CIC_os
+2025-02-23 19:56:51
+training LR from NB15_CIC_os
+2025-02-23 19:57:13
+training DT from NB15_CIC_os
+2025-02-23 19:59:26
+Done!
+2025-02-23 21:27:25
+training MLP from NB15_CIC_os
+2025-02-23 21:31:05
+training SVM from NB15_CIC_os
+2025-02-23 21:42:21
+training XGB from NB15_CIC_os
+2025-02-23 21:42:28
+training NB from NB15_CIC_os
+2025-02-23 21:42:29
+training LR from NB15_CIC_os
+2025-02-23 21:42:51
+training DT from NB15_CIC_os
+2025-02-23 21:45:03
+Done!
+2025-02-23 23:51:15
+Done!
+2025-02-23 23:58:46
+Done!
+2025-02-24 00:03:08
+training MLP from NB15_CIC_os
+2025-02-24 00:06:48
+training SVM from NB15_CIC_os
+2025-02-24 00:18:10
+training XGB from NB15_CIC_os
+2025-02-24 00:18:17
+training NB from NB15_CIC_os
+2025-02-24 00:18:18
+training LR from NB15_CIC_os
+2025-02-24 00:18:41
+training DT from NB15_CIC_os
+2025-02-24 00:20:57
+Done!
+2025-02-24 00:28:23
+Done!
+2025-02-24 00:33:22
+Done!
+2025-02-24 19:35:31
+training MLP from NB15_CIC_os
+2025-02-24 19:39:05
+training SVM from NB15_CIC_os
+2025-02-24 19:50:09
+training XGB from NB15_CIC_os
+2025-02-24 19:50:16
+training NB from NB15_CIC_os
+2025-02-24 19:50:17
+training LR from NB15_CIC_os
+2025-02-24 19:50:40
+training DT from NB15_CIC_os
+2025-02-24 19:52:53
+Done!
