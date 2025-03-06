@@ -36,4 +36,5 @@ these configuration files and scripts.
                      if needed.
 
 ## zeek
-    PENDING - PENDING
+    INSTALL_ZEEK - This file provides installation instructions for setting 
+                     up zeek on Ubuntu and provides steps to test zeek functionality. 

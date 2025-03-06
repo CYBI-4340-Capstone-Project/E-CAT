@@ -1,0 +1,177 @@
+Zeek Setup & Usage Guide for Ubuntu
+
+Windows 11 (Oracle Virtualbox Manager) --> Ubuntu 22.04 Desktop
+
+Zeek (formerly known as Bro) is an open-source network analysis framework that provides deep visibility into network traffic. It is widely used for network security monitoring, troubleshooting, and performance analysis. This guide provides step-by-step instructions for installing and configuring Zeek on Ubuntu.
+
+Installing Zeek
+Step 1: Update and Upgrade Ubuntu
+Ensure your system is up-to-date:
+
+sudo apt-get update
+sudo apt-get upgrade
+
+Step 2: Install Dependencies
+Zeek requires several dependencies to be installed:
+
+sudo apt-get install cmake make gcc g++ flex bison libpcap-dev libssl-dev python3-dev swig zlib1g-dev
+
+Step 3: Download Zeek Source Code
+Download the latest Zeek source code from the official website:
+Zeek Download Page
+
+Extract the downloaded file:
+
+cd ~/Downloads
+tar -xzf zeek-<version>.tar.gz
+
+Step 4: Build and Install Zeek
+Navigate to the extracted directory and configure Zeek:
+
+cd zeek-<version>
+./configure
+
+Compile and install Zeek:
+
+
+make
+sudo make install
+
+    Note: This process may take some time.
+
+Step 5: Add Zeek to PATH
+Add Zeek’s binary directory to your system’s PATH:
+
+
+nano ~/.bashrc
+Add the following line at the end of the file:
+
+
+export PATH=/usr/local/zeek/bin:$PATH
+Save and exit, then apply the changes:
+
+
+source ~/.bashrc
+Verify the installation:
+
+which zeek
+zeek --version
+
+Configuring Zeek
+Step 1: Configure Network Interface
+Identify your network interface:
+
+
+ip a
+Note the interface name (e.g., enp0s1).
+
+Edit the Zeek configuration file:
+
+
+cd /usr/local/zeek/etc
+nano node.cfg
+Replace the interface value with your network interface:
+
+ini
+Copy
+[zeek]
+type=standalone
+host=localhost
+interface=enp0s1
+Step 2: Validate Configuration
+Check the configuration for errors:
+
+
+zeekctl check
+If the output says “Zeek scripts are OK,” proceed to the next step.
+
+Step 3: Deploy Zeek
+Start Zeek as a service:
+
+
+zeekctl deploy
+Check the status of Zeek:
+
+
+zeekctl status
+Using Zeek
+Viewing Logs
+Zeek generates logs in the /usr/local/zeek/logs/current directory. To view the logs:
+
+
+cd /usr/local/zeek/logs/current
+ls
+Tail the conn.log file to monitor live connections:
+
+
+tail -f conn.log
+Setting Up Zeek as a Systemd Service (Optional)
+Step 1: Create a Systemd Service File
+Create a new service file:
+
+
+sudo nano /etc/systemd/system/zeek.service
+Add the following content:
+
+ini
+Copy
+[Unit]
+Description=Zeek Network Analysis Framework
+After=network.target
+
+[Service]
+ExecStart=/usr/local/zeek/bin/zeekctl deploy
+ExecStop=/usr/local/zeek/bin/zeekctl stop
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+Step 2: Enable and Start Zeek Service
+Reload Systemd and enable the service:
+
+
+sudo systemctl daemon-reload
+sudo systemctl enable zeek
+sudo systemctl start zeek
+Check the status:
+
+
+sudo systemctl status zeek
+Troubleshooting
+Issue: Zeek Fails to Start
+Ensure the correct network interface is configured in node.cfg.
+
+Check for errors in the configuration:
+
+
+zeekctl check
+Verify that no other service is using the same network interface.
+
+Issue: Logs Not Generated
+Ensure Zeek is running:
+
+
+zeekctl status
+Check the logs directory for permissions:
+
+
+sudo chmod -R 755 /usr/local/zeek/logs
+Conclusion
+This guide covers:
+
+Installing and configuring Zeek on Ubuntu.
+
+Monitoring network traffic and viewing logs.
+
+Setting up Zeek as a Systemd service (optional).
+
+Troubleshooting common issues.
+
+With Zeek, you can gain deep insights into your network traffic and enhance your network security monitoring capabilities.
+
+Additional Resources
+Zeek Official Website
+
+Zeek Documentation
+
+Zeek GitHub Repository
