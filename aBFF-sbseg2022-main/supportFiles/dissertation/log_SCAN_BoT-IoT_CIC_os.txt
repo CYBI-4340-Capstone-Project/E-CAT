@@ -1,0 +1,18 @@
+2025-03-04 23:13:13
+training MLP from SCAN_BoT-IoT_CIC_os
+2025-03-04 23:57:33
+training MLP from SCAN_BoT-IoT_CIC_os
+2025-03-05 03:22:31
+training SVM from SCAN_BoT-IoT_CIC_os
+2025-03-05 16:57:16
+training XGB from SCAN_BoT-IoT_CIC_os
+2025-03-05 17:05:46
+training NB from SCAN_BoT-IoT_CIC_os
+2025-03-05 17:09:19
+training LR from SCAN_BoT-IoT_CIC_os
+2025-03-05 19:43:06
+training LR from SCAN_BoT-IoT_CIC_os
+2025-03-05 22:12:24
+training DT from SCAN_BoT-IoT_CIC_os
+2025-03-06 02:30:40
+Done!

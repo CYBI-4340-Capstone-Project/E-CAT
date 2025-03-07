@@ -83,7 +83,7 @@ ALGORITHMS = {
     }),
     "XGB" : (XGBClassifier(random_state=17, n_jobs=-1,verbosity=0), {}),
     "NB" : (GaussianNB(), {}),
-    "LR" : (LogisticRegression(random_state=17, n_jobs=-1), {}),
+    "LR" : (LogisticRegression(random_state=17, n_jobs=-1, max_iter=5000), {}),
     "RF" : (RandomForestClassifier(random_state=17, n_jobs=-1), {
         "n_estimators" : [10, 15, 20],
         "criterion" : ("gini", "entropy"), 
@@ -140,23 +140,25 @@ balanceNaming = {"none":"", U_SAMPLE:"_us", O_SAMPLE:"_os"} # used in file namin
 # Uses global pcapTypeNum value
 
 # TO_DO: Add misssing dNum, scanOnly and scan variables for other feature sets and attack classes
-def zeroVarWrite(ZV,pcapTypeNum):
+def zeroVarWrite(ZV, pcapTypeNum):
     name = "zeroVar{0}.txt".format(getDSName(pcapTypeNum))
-    print("writing file: ".format(name))
+    print(f"Writing zero variance features to ./ML-output/{name}")
     
-    featFile = open("./ML-output/{0}".format(name),"w")
+    featFile = open("./ML-output/{0}".format(name), "w")
     featFile.write(",".join(ZV))
     featFile.close()
+    print(f"Zero variance features written to ./ML-output/{name}")
     
 ## Read zero variance feature names from text file: comma separated, no spaces
 def zeroVarRead(pcapTypeNum):
     name = "zeroVar{0}.txt".format(getDSName(pcapTypeNum))
-    print("reading file: ".format(name))
+    print(f"Reading zero variance features from ./ML-output/{name}")
     
-    featFile = open("./ML-output/{0}".format(name),"r")
+    featFile = open("./ML-output/{0}".format(name), "r")
     ZV = featFile.read()
     featFile.close()
     ZV = ZV.split(",")
+    print(f"Zero variance features read from ./ML-output/{name}")
     return ZV
 
 
@@ -202,6 +204,7 @@ def log(DSName, data):
 
 ## Get pcap number options
 def pcapOptions():
+    print(f'pcapType.keys(): {pcapType.keys()}')
     return pcapType.keys()
 
 ## Get feature set number options
@@ -299,8 +302,9 @@ def buildComparisonTable(scanOnly, scan):
     
     if not table.empty:
         saveTable( table, '{0}fCross'.format(name),
-                  'F1 score of each data set\'s best model on other data sets \[ {0}\]'.format(name.replace("_"," ")),
-                  'f1_cross_{0}'.format(name.casefold().replace("_","")) ) 
+                  'F1 score of each data set\'s best model on other data sets \\[ {0}\\]'.format(name.replace("_"," ")),
+                  'f1_cross_{0}'.format(name.casefold().replace("_","")) )
+
 
         
 #XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -347,18 +351,21 @@ def loadModel(modelType):
         if testline["avg_score"] >= bestScore:
             bestScore = float(testline["avg_score"])
             algo = testline['model']
-        table = table.append(testline, ignore_index = True)
+        table = pd.concat([table, pd.DataFrame([testline])], ignore_index=True)
         models.update({testline['model']:testModel})
     if bestScore == 0:
         algo = "ErrorBestScore"
     print(algo)
     return (models, prep, table, algo)
 
+
     
     
 #XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 def getFeatureList(varType):
-    featFile = open("./ML-output/features_{0}.txt".format(getDSName(varType), "r"))
+    filename = "./ML-output/features_{0}.txt".format(getDSName(varType))
+    print(f"Reading feature list from {filename}")
+    featFile = open(filename, "r")
     features = featFile.read()
     featFile.close()
     features = features.split(", ")
@@ -367,10 +374,13 @@ def getFeatureList(varType):
     return [x for x in features if x not in zeroVar]
 
 def loadAndSet(DSName, zeroVarType):
-    
+    print('THIS IS loadAndSet')
+    print('DSName: ', DSName)
     finalfilepath = "./dataset/final/{0}.csv".format( DSName.replace("ATK_","").replace("SCAN_","") )
-    
+    print('zeroVarType: ', zeroVarType)
     features = getFeatureList(zeroVarType)
+    print('finalfilepath: ', finalfilepath)
+    print('features: ', features)
     
     if os.path.isfile(finalfilepath):
         print( "Loading data set from existing file: {0}.csv".format( DSName ) )
@@ -403,7 +413,7 @@ def loadAndSet(DSName, zeroVarType):
         return data, y
     print("Error: file not found")
     return {}
-        
+
 #-----------------#
 # LOADING DATASET #
 #-----------------#
@@ -468,8 +478,47 @@ def buildDataset(pcapTypeNum, maxNumFiles, datasetTypeNum, filepath):
             temp.append(pd.read_csv(filepath+file,dtype={'Flow ID':'string', ' Source IP':'string', ' Destination IP':'string',
                                                          ' Timestamp':'string', ' Label':'string'}, encoding='utf-8', sep=','))
     else:
-        for file in files[0:maxNumFiles]:
-            temp.append(pd.read_csv(filepath+file, sep=','))
+        if pcapTypeNum == 4:
+            print('Passed if == 4 statement')
+            for file in files[0:maxNumFiles]:
+                print('df read csv')
+                df = pd.read_csv(filepath + file, sep=',')
+                
+                print('df removing rows of html')
+                # Remove any rows containing HTML artifacts
+                # Only apply string conversion on object-type columns to reduce memory usage
+                html_mask = df.select_dtypes(include=['object']).apply(lambda x: x.str.contains("<!DOCTYPE html>", na=False)).any(axis=1)
+                
+                # Remove rows that contain HTML artifacts
+                df = df[~html_mask]                
+                # Fix column names
+                print('fix column names')
+                df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_").str.replace("/", "_")
+                
+                # Rename columns to match FEATURE_TYPES keys
+                column_mapping = {
+                    "bw_pkt_l_std": "bwd_pkt_len_std",
+                    "bw_pkt_l_avg": "bwd_pkt_len_mean",
+                    "fw_pkt_l_max": "fwd_pkt_len_max",
+                    "fw_pkt_l_min": "fwd_pkt_len_min"
+                }
+                df.rename(columns=column_mapping, inplace=True)
+                
+                # Drop NaN and corrupted values
+                print('drop NaN and corrupted values')
+                df.dropna(subset=['bwd_pkt_len_std'], inplace=True)
+                # Convert data types
+                for col, dtype in FEATURE_TYPES.items():
+                    if col in df.columns:
+                        try:
+                            df[col] = df[col].astype(dtype)
+                        except ValueError:
+                            print(f"Warning: Could not convert {col} to {dtype}, replacing errors with NaN")
+                            df[col] = pd.to_numeric(df[col], errors='coerce')
+            temp.append(df)
+        else:
+            for file in files[0:maxNumFiles]:
+                temp.append(pd.read_csv(filepath+file, sep=','))
  
     # If AB-TRAP LAN or internet
     if pcapTypeNum == 0:
@@ -547,17 +596,9 @@ def buildDataset(pcapTypeNum, maxNumFiles, datasetTypeNum, filepath):
     full_data = full_data.astype({"dst_port":"int32"})
     
     full_data = full_data.astype(FEATURE_TYPES)
-    # Print number of flows and attack/bonafide distribution
-    if datasetTypeNum == 0:
-        # if NB15 feature set: data['Label'] == 0
-        columnName = 'Label'
-        columnValue = 0
-    if datasetTypeNum == 1:
-        # if CIC feature set: data['Label'] == 'benign'
-        columnName = 'Label'
-        columnValue = 'benign'
-    #print( "DEBUG: ", full_data[columnName].unique() )#apply(lambda x: x.casefold()) )
-    examples_bonafide = full_data[full_data[columnName].apply(lambda x: True if x.casefold() == columnValue else False)].shape[0] #examples_bonafide = full_data[full_data[columnName] == columnValue].shape[0]
+    columnName = 'Label'
+    columnValue = 'benign' if datasetTypeNum == 1 else 0
+    examples_bonafide = full_data[full_data[columnName].apply(lambda x: True if x.casefold() == columnValue else False)].shape[0]
     total = full_data.shape[0]
     log(DSName,'Total examples of {0} with {1} attacks and {2} bonafide flows'.format(total, total - examples_bonafide, examples_bonafide))
 
@@ -568,9 +609,17 @@ def buildDataset(pcapTypeNum, maxNumFiles, datasetTypeNum, filepath):
     #zeroVar = full_data.select_dtypes(exclude='string').columns[(full_data.var() == 0).values]
     #zeroVar = np.concatenate((zeroVar.values.T, ID_FEATURES))
     zeroVarWrite(zeroVar, pcapTypeNum)         
-    
+
     print("saving finalized dataset")
     full_data.to_csv("./dataset/final/{0}.csv".format( DSName ), index=None, header=True)
+    print(f"Saving dataset to: ./dataset/final/{DSName}.csv")
+    
+    # Save the feature list to a file
+    features = full_data.columns.tolist()
+    print(f"Saving feature list to ./ML-output/features_{DSName}.txt")
+    with open("./ML-output/features_{0}.txt".format(DSName), "w") as featFile:
+        featFile.write(", ".join(features))
+    print(f"Feature list saved to ./ML-output/features_{DSName}.txt")
        
     return full_data
 
@@ -602,8 +651,12 @@ def setTarget(full_data, pNum, scanOnly, scan, zeroVarType):
     zeroVar = zeroVarRead(zeroVarType)
     full_data.drop(columns=zeroVar, axis=1, inplace=True)
     
-    X = full_data.drop(columns = ["Label"])
+    X = full_data.drop(columns=["Label"])
     y = full_data.Label
+    
+    # Print initial class distribution
+    print("Initial class distribution in y:\n", y.value_counts())
+    
     scanTypes = ["reconnaissance", "portscan", "scanning"]
     # Exclude other attacks from data
     if scanOnly and pNum:
@@ -613,6 +666,10 @@ def setTarget(full_data, pNum, scanOnly, scan, zeroVarType):
         X = X[temp]
         y = y[temp]
         log(getDSName(pNum, 1, scanOnly, scan),"setTarget: Removed {0} flows from other attack types".format(full_data.shape[0] - X.shape[0]))
+    
+    # Print class distribution after filtering
+    print("Class distribution in y after filtering:\n", y.value_counts())
+    
     # Define identification scheme
     targetText = ["benign"]
     targetToML = (0, 1)
@@ -620,13 +677,15 @@ def setTarget(full_data, pNum, scanOnly, scan, zeroVarType):
     if not scanOnly and scan and pNum:
         targetText = scanTypes.copy()
         index = 1
+    
+    # Map labels to target values
     y = y.apply(lambda x: targetToML[index] if x.casefold() in targetText else targetToML[index-1])
     y = y.astype('int32')
 
-    # Print class distribution
-    print("Class distribution in y:\n", y.value_counts())
+    # Print class distribution after transformation
+    print("Class distribution in y after transformation:\n", y.value_counts())
     
-    # Check if y contains more than one class
-    if y.nunique() <= 1:
-        raise ValueError("The target 'y' needs to have more than 1 class. Got {0} class instead".format(y.nunique()))
+    # Select only numeric columns for X. Didn't give an error for CIC-IDS
+    #X = X.select_dtypes(include=[np.number])
+    
     return X, y

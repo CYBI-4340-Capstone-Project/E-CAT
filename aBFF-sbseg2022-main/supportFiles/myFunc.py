@@ -83,7 +83,7 @@ ALGORITHMS = {
     }),
     "XGB" : (XGBClassifier(random_state=17, n_jobs=-1,verbosity=0), {}),
     "NB" : (GaussianNB(), {}),
-    "LR" : (LogisticRegression(random_state=17, n_jobs=-1), {}),
+    "LR" : (LogisticRegression(random_state=17, n_jobs=-1, max_iter=5000), {}),
     "RF" : (RandomForestClassifier(random_state=17, n_jobs=-1), {
         "n_estimators" : [10, 15, 20],
         "criterion" : ("gini", "entropy"), 
@@ -302,8 +302,9 @@ def buildComparisonTable(scanOnly, scan):
     
     if not table.empty:
         saveTable( table, '{0}fCross'.format(name),
-                  'F1 score of each data set\'s best model on other data sets \[ {0}\]'.format(name.replace("_"," ")),
-                  'f1_cross_{0}'.format(name.casefold().replace("_","")) ) 
+                  'F1 score of each data set\'s best model on other data sets \\[ {0}\\]'.format(name.replace("_"," ")),
+                  'f1_cross_{0}'.format(name.casefold().replace("_","")) )
+
 
         
 #XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -477,8 +478,47 @@ def buildDataset(pcapTypeNum, maxNumFiles, datasetTypeNum, filepath):
             temp.append(pd.read_csv(filepath+file,dtype={'Flow ID':'string', ' Source IP':'string', ' Destination IP':'string',
                                                          ' Timestamp':'string', ' Label':'string'}, encoding='utf-8', sep=','))
     else:
-        for file in files[0:maxNumFiles]:
-            temp.append(pd.read_csv(filepath+file, sep=','))
+        if pcapTypeNum == 4:
+            print('Passed if == 4 statement')
+            for file in files[0:maxNumFiles]:
+                print('df read csv')
+                df = pd.read_csv(filepath + file, sep=',')
+                
+                print('df removing rows of html')
+                # Remove any rows containing HTML artifacts
+                # Only apply string conversion on object-type columns to reduce memory usage
+                html_mask = df.select_dtypes(include=['object']).apply(lambda x: x.str.contains("<!DOCTYPE html>", na=False)).any(axis=1)
+                
+                # Remove rows that contain HTML artifacts
+                df = df[~html_mask]                
+                # Fix column names
+                print('fix column names')
+                df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_").str.replace("/", "_")
+                
+                # Rename columns to match FEATURE_TYPES keys
+                column_mapping = {
+                    "bw_pkt_l_std": "bwd_pkt_len_std",
+                    "bw_pkt_l_avg": "bwd_pkt_len_mean",
+                    "fw_pkt_l_max": "fwd_pkt_len_max",
+                    "fw_pkt_l_min": "fwd_pkt_len_min"
+                }
+                df.rename(columns=column_mapping, inplace=True)
+                
+                # Drop NaN and corrupted values
+                print('drop NaN and corrupted values')
+                df.dropna(subset=['bwd_pkt_len_std'], inplace=True)
+                # Convert data types
+                for col, dtype in FEATURE_TYPES.items():
+                    if col in df.columns:
+                        try:
+                            df[col] = df[col].astype(dtype)
+                        except ValueError:
+                            print(f"Warning: Could not convert {col} to {dtype}, replacing errors with NaN")
+                            df[col] = pd.to_numeric(df[col], errors='coerce')
+            temp.append(df)
+        else:
+            for file in files[0:maxNumFiles]:
+                temp.append(pd.read_csv(filepath+file, sep=','))
  
     # If AB-TRAP LAN or internet
     if pcapTypeNum == 0:
@@ -572,6 +612,7 @@ def buildDataset(pcapTypeNum, maxNumFiles, datasetTypeNum, filepath):
 
     print("saving finalized dataset")
     full_data.to_csv("./dataset/final/{0}.csv".format( DSName ), index=None, header=True)
+    print(f"Saving dataset to: ./dataset/final/{DSName}.csv")
     
     # Save the feature list to a file
     features = full_data.columns.tolist()
@@ -644,7 +685,7 @@ def setTarget(full_data, pNum, scanOnly, scan, zeroVarType):
     # Print class distribution after transformation
     print("Class distribution in y after transformation:\n", y.value_counts())
     
-    # Select only numeric columns for X
-    X = X.select_dtypes(include=[np.number])
+    # Select only numeric columns for X. Didn't give an error for CIC-IDS
+    #X = X.select_dtypes(include=[np.number])
     
     return X, y

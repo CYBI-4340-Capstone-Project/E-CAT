@@ -1,0 +1,30 @@
+2025-02-27 22:53:51
+Removed 0 lines of full NaN values
+2025-02-27 23:04:32
+Removed 0 lines of full NaN values
+2025-02-27 23:04:47
+Removed 2830743 lines of NaN ID values
+2025-02-27 23:04:48
+Removed 0 lines with infinity valued features
+2025-02-27 23:04:48
+Removed 0 duplicated lines
+2025-02-27 23:26:14
+Removed 288602 lines of full NaN values
+2025-02-27 23:26:16
+Removed 0 lines of NaN ID values
+2025-02-27 23:26:24
+Removed 2867 lines with infinity valued features
+2025-02-27 23:26:42
+Removed 199 duplicated lines
+2025-02-27 23:26:47
+Total examples of 2827677 with 556555 attacks and 2271122 bonafide flows
+2025-02-27 23:51:11
+Removed 288602 lines of full NaN values
+2025-02-27 23:51:13
+Removed 0 lines of NaN ID values
+2025-02-27 23:51:21
+Removed 2867 lines with infinity valued features
+2025-02-27 23:51:39
+Removed 199 duplicated lines
+2025-02-27 23:51:44
+Total examples of 2827677 with 556555 attacks and 2271122 bonafide flows

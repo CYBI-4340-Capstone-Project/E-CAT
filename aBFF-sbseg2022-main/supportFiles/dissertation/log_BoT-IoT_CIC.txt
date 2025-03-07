@@ -1,0 +1,58 @@
+2025-03-03 21:41:39
+Removed 0 lines of full NaN values
+2025-03-03 21:42:22
+Removed 78 lines of NaN ID values
+2025-03-03 21:43:14
+Removed 1033 lines with infinity valued features
+2025-03-03 21:47:50
+Removed 0 duplicated lines
+2025-03-03 22:15:42
+Removed 0 lines of full NaN values
+2025-03-03 22:16:22
+Removed 78 lines of NaN ID values
+2025-03-03 22:17:01
+Removed 1033 lines with infinity valued features
+2025-03-03 22:22:32
+Removed 0 duplicated lines
+2025-03-03 23:47:09
+Removed 0 lines of full NaN values
+2025-03-03 23:47:46
+Removed 78 lines of NaN ID values
+2025-03-03 23:48:37
+Removed 1033 lines with infinity valued features
+2025-03-03 23:53:17
+Removed 0 duplicated lines
+2025-03-04 00:25:20
+Removed 0 lines of full NaN values
+2025-03-04 00:25:54
+Removed 78 lines of NaN ID values
+2025-03-04 00:26:34
+Removed 1033 lines with infinity valued features
+2025-03-04 00:31:17
+Removed 0 duplicated lines
+2025-03-04 00:49:14
+Removed 0 lines of full NaN values
+2025-03-04 00:49:46
+Removed 78 lines of NaN ID values
+2025-03-04 00:50:36
+Removed 1033 lines with infinity valued features
+2025-03-04 00:56:03
+Removed 0 duplicated lines
+2025-03-04 18:39:49
+Removed 0 lines of full NaN values
+2025-03-04 18:40:20
+Removed 78 lines of NaN ID values
+2025-03-04 18:41:10
+Removed 1033 lines with infinity valued features
+2025-03-04 18:45:47
+Removed 0 duplicated lines
+2025-03-04 22:50:41
+Removed 0 lines of full NaN values
+2025-03-04 22:50:50
+Removed 0 lines of NaN ID values
+2025-03-04 22:53:38
+Removed 1033 lines with infinity valued features
+2025-03-04 22:56:57
+Removed 0 duplicated lines
+2025-03-04 22:57:12
+Total examples of 13427563 with 13338329 attacks and 89234 bonafide flows

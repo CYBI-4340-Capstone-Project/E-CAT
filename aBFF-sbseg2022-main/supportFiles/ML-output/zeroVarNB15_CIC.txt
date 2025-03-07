@@ -1,1 +1,0 @@
-bwd_psh_flags,fwd_urg_flags,bwd_urg_flags,fin_flag_cnt,rst_flag_cnt,cwe_flag_count,ece_flag_cnt,fwd_byts_b_avg,fwd_pkts_b_avg,fwd_blk_rate_avg,bwd_byts_b_avg,bwd_pkts_b_avg,bwd_blk_rate_avg,timestamp,flow_ID,src_port,src_ip,dst_ip

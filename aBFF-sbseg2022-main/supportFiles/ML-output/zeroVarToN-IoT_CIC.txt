@@ -1,0 +1,1 @@
+bwd_psh_flags,fwd_urg_flags,bwd_urg_flags,urg_flag_cnt,fwd_byts_b_avg,fwd_pkts_b_avg,fwd_blk_rate_avg,subflow_bwd_pkts,idle_max,timestamp,flow_ID,src_port,src_ip,dst_ip

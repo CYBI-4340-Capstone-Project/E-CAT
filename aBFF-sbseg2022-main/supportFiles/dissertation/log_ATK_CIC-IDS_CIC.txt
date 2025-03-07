@@ -1,0 +1,6 @@
+2025-02-27 23:28:34
+training MLP from ATK_CIC-IDS_CIC
+2025-02-27 23:53:30
+training MLP from ATK_CIC-IDS_CIC
+2025-02-28 02:51:38
+training SVM from ATK_CIC-IDS_CIC

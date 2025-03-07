@@ -1,0 +1,80 @@
+2025-03-03 00:15:03
+Removed 0 lines of full NaN values
+2025-03-03 00:15:06
+Removed 0 lines of NaN ID values
+2025-03-03 00:15:10
+Removed 1177 lines with infinity valued features
+2025-03-03 00:15:49
+Removed 0 duplicated lines
+2025-03-03 00:15:56
+Total examples of 5350583 with 2836524 attacks and 2514059 bonafide flows
+2025-03-04 17:58:40
+Removed 0 lines of full NaN values
+2025-03-04 17:58:43
+Removed 0 lines of NaN ID values
+2025-03-04 17:58:47
+Removed 1177 lines with infinity valued features
+2025-03-04 17:59:25
+Removed 0 duplicated lines
+2025-03-04 17:59:32
+Total examples of 5350583 with 2836524 attacks and 2514059 bonafide flows
+2025-03-04 18:04:34
+Removed 0 lines of full NaN values
+2025-03-04 18:04:36
+Removed 0 lines of NaN ID values
+2025-03-04 18:04:40
+Removed 1177 lines with infinity valued features
+2025-03-04 18:05:19
+Removed 0 duplicated lines
+2025-03-04 18:05:26
+Total examples of 5350583 with 2836524 attacks and 2514059 bonafide flows
+2025-03-04 18:07:12
+Removed 0 lines of full NaN values
+2025-03-04 18:07:15
+Removed 0 lines of NaN ID values
+2025-03-04 18:07:18
+Removed 1177 lines with infinity valued features
+2025-03-04 18:07:59
+Removed 0 duplicated lines
+2025-03-04 18:08:06
+Total examples of 5350583 with 2836524 attacks and 2514059 bonafide flows
+2025-03-04 18:09:52
+Removed 0 lines of full NaN values
+2025-03-04 18:09:55
+Removed 0 lines of NaN ID values
+2025-03-04 18:09:59
+Removed 1177 lines with infinity valued features
+2025-03-04 18:10:38
+Removed 0 duplicated lines
+2025-03-04 18:10:45
+Total examples of 5350583 with 2836524 attacks and 2514059 bonafide flows
+2025-03-04 18:20:25
+Removed 0 lines of full NaN values
+2025-03-04 18:20:28
+Removed 0 lines of NaN ID values
+2025-03-04 18:20:32
+Removed 1177 lines with infinity valued features
+2025-03-04 18:21:10
+Removed 0 duplicated lines
+2025-03-04 18:21:17
+Total examples of 5350583 with 2836524 attacks and 2514059 bonafide flows
+2025-03-04 18:23:51
+Removed 0 lines of full NaN values
+2025-03-04 18:23:53
+Removed 0 lines of NaN ID values
+2025-03-04 18:23:57
+Removed 1177 lines with infinity valued features
+2025-03-04 18:24:37
+Removed 0 duplicated lines
+2025-03-04 18:24:44
+Total examples of 5350583 with 2836524 attacks and 2514059 bonafide flows
+2025-03-04 18:27:51
+Removed 0 lines of full NaN values
+2025-03-04 18:27:54
+Removed 0 lines of NaN ID values
+2025-03-04 18:27:57
+Removed 1177 lines with infinity valued features
+2025-03-04 18:28:37
+Removed 0 duplicated lines
+2025-03-04 18:28:44
+Total examples of 5350583 with 2836524 attacks and 2514059 bonafide flows

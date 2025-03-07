@@ -17,6 +17,8 @@ import numpy as np
 import datetime
 from joblib import dump
 import myFunc
+from tqdm import tqdm
+import time
 
 from sklearn.utils.random import sample_without_replacement as uSample
 from sklearn.tree import DecisionTreeClassifier
@@ -37,11 +39,9 @@ from imblearn.over_sampling import ADASYN
 import warnings
 warnings.filterwarnings('ignore')
 
-
 # GLOBAL VARIABLES 
 
-## Select PCAP and dataset types
-#
+# Select PCAP and dataset types
 # pcapType 0: MAWILab(no attacks) + synthetic attacks
 # pcapType 1: UNSW_NB15
 # pcapType 2: CIC-IDS
@@ -66,11 +66,13 @@ def runExperiment(pcapTypeNum, maxNumFiles, datasetTypeNum=1, scanOnly=False, sc
     #----------------------#
     
     # Load training set..             using its own zero variance list
+    print('Preparing for training...')
     print('pcapTypeNum: ', pcapTypeNum)
     print('maxNumFiles: ', maxNumFiles)
     print('datasetTypeNum: ', datasetTypeNum)
     print('scanOnly: ', scanOnly)
     print('scan: ', scan)
+    
     X, y = myFunc.setTarget(myFunc.loadDataset(pcapTypeNum, maxNumFiles, datasetTypeNum), pcapTypeNum, scanOnly, scan, pcapTypeNum)
 
     #--------------#
@@ -106,7 +108,8 @@ def runExperiment(pcapTypeNum, maxNumFiles, datasetTypeNum=1, scanOnly=False, sc
             print("Oversampling minority class")
             ada = ADASYN() #random_state=42)
             print('Original dataset shape {0}'.format(y.value_counts()))
-            X, y = ada.fit_resample(X, y)
+            for _ in tqdm(range(1), desc="Oversampling"):
+                X, y = ada.fit_resample(X, y)
             print('Resampled dataset shape {0}'.format(y.value_counts()))
         else:
             print("Skipping oversampling: Only one class present in y")
@@ -114,14 +117,17 @@ def runExperiment(pcapTypeNum, maxNumFiles, datasetTypeNum=1, scanOnly=False, sc
     # Normalize input data for training
     prep.fit(X)
     dump(prep, open('models/{0}_prep.pkl'.format(filename), 'wb'))
-    for algorithm, (clf, parameters) in myFunc.algorithms.items(): #{'DT': algorithms.get('DT')}.items():
+    
+    # TRAINING
+    print('Starting training...')
+    for algorithm, (clf, parameters) in tqdm(myFunc.algorithms.items(), desc="Training models"):
         # file path
         modelPath = "models/{0}_{1}.joblib".format(filename,algorithm)
         # if algorithm already trained and KEEP flag set
         if (os.path.isfile(modelPath)) and no_overwrite:
             print("{0} not overwritten".format(algorithm))
             continue
-        #for each ML algorithm: train
+        
         myFunc.log(filename, "training " + algorithm + " from " + filename)
         
         # F1 score
@@ -132,6 +138,9 @@ def runExperiment(pcapTypeNum, maxNumFiles, datasetTypeNum=1, scanOnly=False, sc
             dump(best, modelPath)
         except Exception as e:
             myFunc.log(filename, "Something went wrong with {0} from {1}\n".format(algorithm, filename)+str(e)+"\n")
+        
+        # Add a small sleep interval to ensure the terminal gets updated
+        time.sleep(1)
 
     myFunc.log(filename, "Done!")
 
