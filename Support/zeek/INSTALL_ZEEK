@@ -71,13 +71,11 @@ Edit the Zeek configuration file:
 cd /usr/local/zeek/etc
 nano node.cfg
 Replace the interface value with your network interface:
-
-ini
-Copy
 [zeek]
 type=standalone
 host=localhost
-interface=enp0s1
+interface=enp0s1 <your interface name>
+
 Step 2: Validate Configuration
 Check the configuration for errors:
 
