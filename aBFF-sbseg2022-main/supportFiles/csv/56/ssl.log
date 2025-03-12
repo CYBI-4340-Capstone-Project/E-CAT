@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-03-08-01-45-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1424223462.031118	ClZ6j4sH9QL85i5pi	175.45.176.0	17150	149.171.126.18	2444	TLSv10	TLS_RSA_WITH_NULL_SHA	-	-	F	-	-	T	CsxnGIi	d0806cf65173dc8fcb9f4bce15d7aec79c90f0f8d8c9a3112b00c9748c741414	(empty)	-
+1424223562.293234	Ci2jdR30GekgT9i9Wf	175.45.176.0	45485	149.171.126.11	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	T	CsxnGIi	dcfe9e1ba1b2cae7e60f16c121c4b11178484636ab94c410cb6a2d0805efddb6,d2a34864166234e3dc1d753b5397e6523922efff767581a1ff8cf925134dc651,175940aceee0ec31812718f4972279648f23a7d908dbc5e48bdb493899fd4adb	(empty)	-
+1424223684.548534	CAdtw047rzp7WZ7Eic	175.45.176.1	12393	149.171.126.12	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	F	Csxn	2932fb1b71347b49ae0674e0fc5c7459d1fb80358768233a3340f8000c5acec4	(empty)	-
+#close	2025-03-08-01-46-09

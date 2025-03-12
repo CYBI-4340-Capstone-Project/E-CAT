@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2025-03-08-02-03-09
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1424241235.938165	aa4f098633b528c25de50142e6d6ff2cd7f8c574e72ee6f1cd6f5f5c03455363	3	56B095A0	CN=ncLOzMoJdwkBHcoUxXro,O=bReDXExRheJKGvCUVIUM,L=ODrPEiisSUoFMODGUUCk,ST=NH,C=US	CN=plGvbIGoLoXOiSGCFLSw,O=JRzKRGFcucWBoOwKMkWo,L=YIxXhbACKHqioLVtFAyE,ST=NC,C=US	0.000000	0.000000	rsaEncryption	sha1WithRSAEncryption	rsa	512	65537	-	-	-	-	-	F	-	T	F
+#close	2025-03-08-02-03-10

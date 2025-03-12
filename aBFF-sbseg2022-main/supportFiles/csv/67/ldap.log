@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap
+#open	2025-03-08-02-03-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	version	opcode	result	diagnostic_message	object	argument
+#types	time	string	addr	port	addr	port	int	int	string	string	string	string	string
+1424241487.207390	CxYAHwGyGb5NbGlDc	175.45.176.1	44292	149.171.126.12	389	1	3	bind simple	success	-	dc\\administrator	REDACTED
+1424241614.725796	CviF8Q3Od6A6HDhT37	175.45.176.2	48285	149.171.126.19	389	1	3	bind simple	success	-	-	-
+1424241610.222336	C71RAtMGlfnXCHDq6	175.45.176.3	56006	149.171.126.19	389	1	-	add	-	-	-	-
+1424241615.194866	CviF8Q3Od6A6HDhT37	175.45.176.2	48285	149.171.126.19	389	2	-	modify	-	-	-	-
+1424242222.236194	CL0rII2NOa7jQyk0u2	175.45.176.3	64204	149.171.126.17	389	1	3	bind simple	success	-	-	-
+1424242222.396635	CL0rII2NOa7jQyk0u2	175.45.176.3	64204	149.171.126.17	389	2	-	extended	-	-	2.16.840.1.113719.1.27.100.84 (unknown)	-
+1424242676.139070	CSCfq71proWMb27e7k	175.45.176.1	14819	149.171.126.13	389	1	3	bind simple	success	-	o=hIvXsg,ou=Dzfsm,dc=cfLHVLCvUs,dc=sZSjPbvGDCOXFu	REDACTED
+#close	2025-03-08-02-03-34

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-03-08-02-09-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1424248383.423684	Cjye1I38v0idmeu598	175.45.176.0	39595	149.171.126.18	443	TLSv10	TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA	-	-	T	-	-	F	CBsxnb	52ca25f1a455e499f2ebe93de6cb4f9b7a7f953510e0b1165de71458c7976d0d	(empty)	-
+1424248470.184486	CfLUFSLhKpqoQAhKd	175.45.176.3	60556	149.171.126.12	443	TLSv10	TLS_DHE_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	F	Csrn	-	-	-
+1424248528.430166	CZw5AEoUvuOpFHTR9	175.45.176.2	38467	149.171.126.18	443	TLSv10	TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA	-	-	T	protocol_version	-	F	CsxnGIl	5d52d3c81504be22e2c32892e79d247640b7ef044e04f162eee2c4995e2b27f1	(empty)	-
+#close	2025-03-08-02-10-01

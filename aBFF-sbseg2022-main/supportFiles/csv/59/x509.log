@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2025-03-08-01-50-44
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1424228253.840729	39fdf0b13a30583f7c3fcec1c1ea79ae8b0617789458aafbe7d66af182481133	3	5E7FF887	CN=NAGObAmqKXfMPajEajAf,O=jPSFQiabuTONxcJsSGGp,L=nbRrltZXZTFYjOBAZRsK,ST=GA,C=US	CN=AuuZIzpcGZdQcqkwhMCr,O=hspFoTXjnmDyXlMzuvHr,L=fyFmzgjwOixauVhvnVtD,ST=HI,C=US	0.000000	0.000000	rsaEncryption	sha1WithRSAEncryption	rsa	512	65537	-	-	-	-	-	F	-	T	F
+1424228616.043822	897e7ecfe7e3975367422f49ee662ced57a2ea7aa31fd2bcfb6a113ee97ab1fc	2	5297752FCAB7AD4FC2	CN=nZrq.com\\00MPLZWwoISOFOE.com,OU=VjACscgOhIXhlGf,O=TkJdTeLoiJywjJX,L=FhoLEiYIghycJH,ST=Michigan,C=US	CN=KRNkWhUzimVH.com,OU=PFz,O=hJHKWnzvVQq,L=aolqzVJXHXlCpD,ST=California,C=US	1398215054.000000	1455671054.000000	rsaEncryption	sha1WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	-	-	T	F
+1424229700.826202	800c1c21815b08683c7c9b505692c6d4cc2738af505cdae2ff6e6ec272d84640	3	00	emailAddress=N/A,CN=VRT60,OU=VRT,O=FSC,L=Toronto,ST=Ontario,C=CA	emailAddress=N/A,CN=VRT60,OU=VRT,O=FSC,L=Toronto,ST=Ontario,C=CA	1095979953.000000	1190587953.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	T	F
+1424229700.835314	ed40c89c3f1dcc64c7b938a5b036cc2cd62f6b0416cd0bfff5b35090350787ef	3	02	CN=stunnel,O=FSC,L=Toronto,ST=Ontario,C=CA	CN=VRTCA,OU=VRT,O=FSC,L=Toronto,ST=Ontario,C=CA	1094259248.000000	1125795248.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	T	T
+#close	2025-03-08-01-51-01

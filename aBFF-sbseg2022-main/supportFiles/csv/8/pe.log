@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	pe
+#open	2025-03-07-06-49-07
+#fields	ts	id	machine	compile_ts	os	subsystem	is_exe	is_64bit	uses_aslr	uses_dep	uses_code_integrity	uses_seh	has_import_table	has_export_table	has_cert_table	has_debug_data	section_names
+#types	time	string	string	time	string	string	bool	bool	bool	bool	bool	bool	bool	bool	bool	bool	vector[string]
+1421933257.217453	FPFgouW6uT7eCTDLc	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1421933538.676809	FNr9yg4nnwLeSDP9Ad	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1421933639.839320	FQ5eIU1zyceNWzU4Ec	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1421933767.392483	F8XVBd3YuFMXo0Cx28	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1421933932.204689	FtUYDX1YRRv2by11I6	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+#close	2025-03-07-06-49-15

@@ -1,0 +1,71 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-08-00-14-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421948348.549743	CzZdCQ1opkYsPC1Vh4	59.166.0.0	8921	149.171.126.6	6668	irc_invalid_command	-	F	zeek	IRC
+1421948348.551280	CzZdCQ1opkYsPC1Vh4	59.166.0.0	8921	149.171.126.6	6668	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421948348.551280	CzZdCQ1opkYsPC1Vh4	59.166.0.0	8921	149.171.126.6	6668	irc_invalid_reply_number	-	F	zeek	IRC
+1421948348.555171	CzZdCQ1opkYsPC1Vh4	59.166.0.0	8921	149.171.126.6	6668	irc_too_many_invalid	-	F	zeek	IRC
+1421948349.982397	CpMWhN3ZBY01hEQaeg	59.166.0.9	65151	149.171.126.0	6881	above_hole_data_without_any_acks	-	F	zeek	TCP
+1421948360.100211	CHpeiQ2SSGLVIX4vlb	59.166.0.2	49628	149.171.126.9	143	possible_split_routing	-	F	zeek	-
+1421948360.100211	CHpeiQ2SSGLVIX4vlb	59.166.0.2	49628	149.171.126.9	143	data_before_established	-	F	zeek	TCP
+1421948723.357271	C39yu82DYpl7rBsEj	59.166.0.6	44509	149.171.126.6	6669	irc_invalid_command	-	F	zeek	IRC
+1421948723.358439	C39yu82DYpl7rBsEj	59.166.0.6	44509	149.171.126.6	6669	irc_line_too_short	-	F	zeek	IRC
+1421948723.358439	C39yu82DYpl7rBsEj	59.166.0.6	44509	149.171.126.6	6669	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421948723.359410	C39yu82DYpl7rBsEj	59.166.0.6	44509	149.171.126.6	6669	irc_invalid_reply_number	-	F	zeek	IRC
+1421948813.332543	CNVi3H3pttxdTIaAT9	59.166.0.0	35514	149.171.126.1	25	possible_split_routing	-	F	zeek	-
+1421948813.334526	CNVi3H3pttxdTIaAT9	59.166.0.0	35514	149.171.126.1	25	data_before_established	-	F	zeek	TCP
+1421948814.360627	CkclUE4PHPnscvheY7	149.171.126.9	30141	59.166.0.6	53598	connection_originator_SYN_ack	-	F	zeek	TCP
+1421948814.361699	CkclUE4PHPnscvheY7	59.166.0.6	53598	149.171.126.9	30141	data_before_established	-	F	zeek	TCP
+1421948814.428646	CW4T2n1RtOmAOwVhBc	149.171.126.6	2725	59.166.0.6	50090	connection_originator_SYN_ack	-	F	zeek	TCP
+1421948814.449664	CW4T2n1RtOmAOwVhBc	59.166.0.6	50090	149.171.126.6	2725	data_before_established	-	F	zeek	TCP
+1421948831.213917	CUa1Mv3qTXasyarA47	149.171.126.2	48549	59.166.0.0	6548	connection_originator_SYN_ack	-	F	zeek	TCP
+1421948831.230935	CUa1Mv3qTXasyarA47	59.166.0.0	6548	149.171.126.2	48549	data_before_established	-	F	zeek	TCP
+1421948832.235908	CXkDyQ329ylFg5Tnb9	59.166.0.2	28353	149.171.126.9	6881	data_before_established	-	F	zeek	TCP
+1421948841.386006	CVDjss2sD032hLQu48	149.171.126.3	58485	59.166.0.0	61853	connection_originator_SYN_ack	-	F	zeek	TCP
+1421948841.427908	CU4KW92UrESA1xnDC7	59.166.0.9	25702	149.171.126.4	22	possible_split_routing	-	F	zeek	-
+1421948841.427923	CU4KW92UrESA1xnDC7	59.166.0.9	25702	149.171.126.4	22	data_before_established	-	F	zeek	TCP
+1421948841.440045	CVDjss2sD032hLQu48	59.166.0.0	61853	149.171.126.3	58485	data_before_established	-	F	zeek	TCP
+1421948847.045994	Cy1kba4DzZR1kPU38a	59.166.0.0	50714	149.171.126.7	3424	possible_split_routing	-	F	zeek	-
+1421948847.045994	Cy1kba4DzZR1kPU38a	59.166.0.0	50714	149.171.126.7	3424	data_before_established	-	F	zeek	TCP
+1421948847.238019	Cy1kba4DzZR1kPU38a	59.166.0.0	50714	149.171.126.7	3424	inappropriate_FIN	-	F	zeek	TCP
+1421948850.229086	ClA23C450fKkKOUvnj	59.166.0.6	62613	149.171.126.8	17217	data_before_established	-	F	zeek	TCP
+1421948850.262044	C3IbAU1xouSayAPD8	149.171.126.9	18182	59.166.0.6	20000	dnp3_header_lacks_magic	-	F	zeek	DNP3_TCP
+1421948861.226145	CwUCZ21p0W6ck1bxba	59.166.0.0	20068	149.171.126.8	19434	data_before_established	-	F	zeek	TCP
+1421948862.434216	CYfMyp32wHaAgiYNPk	59.166.0.4	24684	149.171.126.6	80	data_before_established	-	F	zeek	TCP
+1421948879.387573	CmNiAu4htXceOLInke	59.166.0.1	18789	149.171.126.2	8885	data_before_established	-	F	zeek	TCP
+1421948935.364228	CSZfZ74RyTAlxTEvxj	59.166.0.7	42209	149.171.126.7	143	data_before_established	-	F	zeek	TCP
+1421948937.324835	C3wM5woBJQzN22N59	149.171.126.5	5013	59.166.0.8	43985	connection_originator_SYN_ack	-	F	zeek	TCP
+1421948937.325971	C3wM5woBJQzN22N59	59.166.0.8	43985	149.171.126.5	5013	data_before_established	-	F	zeek	TCP
+1421948937.871522	Chnto20gYlhFu66U7	59.166.0.2	22337	149.171.126.9	19208	TCP_ack_underflow_or_misorder	-	F	zeek	TCP
+1421948939.265072	CPcA8k2OoFgxkWsgm6	59.166.0.8	38923	149.171.126.3	7065	data_before_established	-	F	zeek	TCP
+1421948939.572835	CiE7le3ff9zMKZ31E5	149.171.126.0	12849	59.166.0.6	14800	connection_originator_SYN_ack	-	F	zeek	TCP
+1421948939.573861	CiE7le3ff9zMKZ31E5	59.166.0.6	14800	149.171.126.0	12849	data_before_established	-	F	zeek	TCP
+1421948940.735450	Cn5KUz65sJoqubGol	59.166.0.8	2401	149.171.126.5	2422	data_before_established	-	F	zeek	TCP
+1421948942.926092	C6IPz94vLrzxoovAQ3	59.166.0.3	39358	149.171.126.5	6669	irc_invalid_command	-	F	zeek	IRC
+1421948942.926092	C6IPz94vLrzxoovAQ3	59.166.0.3	39358	149.171.126.5	6669	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421948942.932492	C6IPz94vLrzxoovAQ3	59.166.0.3	39358	149.171.126.5	6669	irc_invalid_reply_number	-	F	zeek	IRC
+1421948942.933463	C6IPz94vLrzxoovAQ3	59.166.0.3	39358	149.171.126.5	6669	irc_line_size_exceeded	-	F	zeek	IRC
+1421948942.936635	C6IPz94vLrzxoovAQ3	59.166.0.3	39358	149.171.126.5	6669	irc_too_many_invalid	-	F	zeek	IRC
+1421948942.936635	C6IPz94vLrzxoovAQ3	59.166.0.3	39358	149.171.126.5	6669	irc_line_too_short	-	F	zeek	IRC
+1421948947.025561	CqzPH8nF6oU6s0JVh	149.171.126.4	17269	59.166.0.3	16865	connection_originator_SYN_ack	-	F	zeek	TCP
+1421948947.035606	CqzPH8nF6oU6s0JVh	59.166.0.3	16865	149.171.126.4	17269	data_before_established	-	F	zeek	TCP
+1421949025.430920	Ch6cyrgUic8tSN6b4	59.166.0.7	12228	149.171.126.1	9208	data_before_established	-	F	zeek	TCP
+1421949038.328417	Cw4hXE1G3RA0PCd7J3	59.166.0.2	34171	149.171.126.6	22	data_before_established	-	F	zeek	TCP
+1421949038.531066	CNM5402Z5b5zFTUXK4	59.166.0.3	36668	149.171.126.9	34372	data_before_established	-	F	zeek	TCP
+1421949056.205089	CgoRVmXl5avFCvowf	59.166.0.1	45275	149.171.126.0	5308	data_before_established	-	F	zeek	TCP
+1421949061.735212	CK3yir3RSJuJld0r0g	59.166.0.2	44138	149.171.126.3	7899	data_before_established	-	F	zeek	TCP
+1421949061.819063	CrZZIIb1aQQdXAkm9	59.166.0.2	39669	149.171.126.4	7864	possible_split_routing	-	F	zeek	-
+1421949061.819063	CrZZIIb1aQQdXAkm9	59.166.0.2	39669	149.171.126.4	7864	data_before_established	-	F	zeek	TCP
+1421949068.540072	C89qpS2TecAGyQRY91	59.166.0.6	14073	149.171.126.3	80	data_before_established	-	F	zeek	TCP
+1421949071.691459	COM7lZ7ecQBZMVMFc	149.171.126.7	21212	59.166.0.5	23309	connection_originator_SYN_ack	-	F	zeek	TCP
+1421949071.700288	COM7lZ7ecQBZMVMFc	59.166.0.5	23309	149.171.126.7	21212	data_before_established	-	F	zeek	TCP
+1421949072.743154	CEThN55P9gx6ihfci	59.166.0.7	11030	149.171.126.7	143	possible_split_routing	-	F	zeek	-
+1421949072.743164	CEThN55P9gx6ihfci	59.166.0.7	11030	149.171.126.7	143	data_before_established	-	F	zeek	TCP
+1421949115.429452	CHA33D1Cor3SfVMyql	59.166.0.9	20891	149.171.126.5	35119	data_before_established	-	F	zeek	TCP
+1421949116.828692	CWBhme4dzgk6KCuQ3i	59.166.0.6	16326	149.171.126.8	22	data_before_established	-	F	zeek	TCP
+#close	2025-03-08-00-15-04

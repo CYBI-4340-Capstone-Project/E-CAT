@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	modbus
+#open	2025-03-08-02-06-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	tid	unit	func	pdu_type	exception
+#types	time	string	addr	port	addr	port	count	count	string	string	string
+1424243434.667604	Cz67jc3lQAjDgmJKQ	175.45.176.2	55493	149.171.126.11	502	495	24	READ_HOLDING_REGISTERS	REQ	-
+#close	2025-03-08-02-06-20

@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	pe
+#open	2025-03-08-01-42-58
+#fields	ts	id	machine	compile_ts	os	subsystem	is_exe	is_64bit	uses_aslr	uses_dep	uses_code_integrity	uses_seh	has_import_table	has_export_table	has_cert_table	has_debug_data	section_names
+#types	time	string	string	time	string	string	bool	bool	bool	bool	bool	bool	bool	bool	bool	bool	vector[string]
+1424221705.549029	FhkbIY2WsEW5cZe5nk	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424221776.097973	Fhja9048asfnLD00ye	I386	1093183501.000000	Windows 95 or NT 4.0	WINDOWS_GUI	T	F	F	F	F	T	T	F	F	F	UPX0,UPX1,.rsrc
+1424221781.874082	FCpYc14eR7eoyN2gS	I386	1159372996.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	F	F	F	.text,.data,.ctors,.rdata,.bss,.idata
+1424221862.090042	FOCpCh2FeZL3oe9GJ2	I386	1159372996.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	F	F	F	.text,.data,.ctors,.rdata,.bss,.idata
+1424222115.037922	FcfNxa1MzfBuk6mRB8	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424222250.485787	FCChK72VU0vOFHOwx7	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424222399.239931	FjstEN39iPY25IRb0k	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424222443.799976	FLrY9L3dEvmmUG2sCd	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424222572.984974	FLHRzqraYehDGNsAj	unknown-137	0.000000	-	-	F	T	F	F	F	T	-	-	-	-	-
+1424222717.926090	FFmstCmlqG3jyd4oj	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424222948.210725	FeVxsl449txGuCrm3	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+#close	2025-03-08-01-43-14

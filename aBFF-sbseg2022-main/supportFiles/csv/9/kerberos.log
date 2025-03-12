@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2025-03-07-06-40-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1421934362.345474	Cn2Nub1qHgvVaCwz9	175.45.176.3	25474	149.171.126.10	88	AS	sqqfYdAyU/EXAMPLE.COM	PoVevs/EXAMPLE.COM	T	-	1421840975.000000	1421927375.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+#close	2025-03-07-06-40-44

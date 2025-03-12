@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2025-03-08-02-16-01
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1424252064.887328	Reporter::WARNING	get_file_handle() handler missing for Analyzer::ANALYZER_POP3	/opt/zeek/share/zeek/base/frameworks/files/main.zeek, line 523
+1424253026.218286	Reporter::ERROR	bad conversion to count (to_count(SIP::value) and CjPJ)	/opt/zeek/share/zeek/base/protocols/sip/main.zeek, line 213
+1424253026.218296	Reporter::ERROR	bad conversion to count (to_count(SIP::value) and CjPJ)	/opt/zeek/share/zeek/base/protocols/sip/main.zeek, line 213
+#close	2025-03-08-02-16-19

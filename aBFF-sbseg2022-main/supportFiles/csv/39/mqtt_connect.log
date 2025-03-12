@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	mqtt_connect
+#open	2025-03-08-00-27-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto_name	proto_version	client_id	connect_status	will_topic	will_payload
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string
+1421960900.661327	Ci55myLzlvdTKILij	59.166.0.7	23551	149.171.126.2	1883	-	-	-	unknown-return-code-38	-	-
+1421960900.661327	Ci55myLzlvdTKILij	59.166.0.7	23551	149.171.126.2	1883	-	-	-	unknown-return-code-38	-	-
+1421960900.661327	Ci55myLzlvdTKILij	59.166.0.7	23551	149.171.126.2	1883	-	-	-	unknown-return-code-38	-	-
+#close	2025-03-08-00-28-00

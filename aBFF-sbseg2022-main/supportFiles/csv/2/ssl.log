@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-03-07-06-43-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1421928344.930025	Co1cF82DpiI4rZIIxa	175.45.176.0	49970	149.171.126.13	7002	SSLv3	TLS_RSA_WITH_DES_CBC_SHA	-	-	F	-	-	T	CsxnGIi	8f0b55d526c1b4467315335089df24d4e6b3dc6fe6bdbd3382008e3ad7ac4edc	(empty)	-
+1421928352.847338	CB3wCM1KaIEABO5USk	175.45.176.0	48785	149.171.126.13	7002	SSLv3	TLS_RSA_WITH_DES_CBC_SHA	-	-	F	-	-	T	CsxnGIi	8f0b55d526c1b4467315335089df24d4e6b3dc6fe6bdbd3382008e3ad7ac4edc	(empty)	-
+1421928358.651361	CO2vtJZzrUeaFww6i	175.45.176.0	59746	149.171.126.13	7002	SSLv3	TLS_RSA_WITH_DES_CBC_SHA	-	-	F	-	-	T	CsxnGIi	8f0b55d526c1b4467315335089df24d4e6b3dc6fe6bdbd3382008e3ad7ac4edc	(empty)	-
+1421928366.390691	Cfc7Qf475yBqO6Cch	175.45.176.0	61542	149.171.126.13	7002	SSLv3	TLS_RSA_WITH_DES_CBC_SHA	-	-	F	-	-	T	CsxnGIi	8f0b55d526c1b4467315335089df24d4e6b3dc6fe6bdbd3382008e3ad7ac4edc	(empty)	-
+1421928375.891304	CiL76T37kuXS2AGl24	175.45.176.0	59953	149.171.126.13	7002	SSLv3	TLS_RSA_WITH_DES_CBC_SHA	-	-	F	-	-	T	CsxnGIi	8f0b55d526c1b4467315335089df24d4e6b3dc6fe6bdbd3382008e3ad7ac4edc	(empty)	-
+1421928507.426807	COFqH73CEYadhdnIei	175.45.176.0	23607	149.171.126.16	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	F	Csxn	(empty)	(empty)	-
+1421928705.158713	C415nt1JD1lNLxFBF4	175.45.176.1	15652	149.171.126.12	443	TLSv10	TLS_DH_ANON_EXPORT_WITH_DES40_CBC_SHA	-	-	T	-	-	F	CsxnI	8c7c81ecca9cec9eb9f68fccc0cee3da24867693a6b628d67e070c49d4bd9af8	(empty)	-
+1421928806.921051	CANmsc25skkwATiHA8	175.45.176.0	31711	149.171.126.10	443	-	-	-	-	F	-	-	F	C	-	-	-
+1421928939.154732	CVZ8qg1d4JCgdIocpe	175.45.176.1	45599	149.171.126.18	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	F	Cs	-	-	-
+#close	2025-03-07-06-43-29

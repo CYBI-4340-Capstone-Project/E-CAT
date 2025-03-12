@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	mysql
+#open	2025-03-08-01-50-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	cmd	arg	success	rows	response
+#types	time	string	addr	port	addr	port	string	string	bool	count	string
+1424228776.135411	C0KO523qaIPCZgvCv4	175.45.176.0	30896	149.171.126.15	3306	query	select @@version_comment limit 1	-	-	-
+1424228776.135411	C0KO523qaIPCZgvCv4	175.45.176.0	30896	149.171.126.15	3306	query	select @@version_comment limit 1	T	0	-
+1424229632.168413	Cgz8bL13sCErlXJAB3	175.45.176.1	25126	149.171.126.15	3306	query	delete GYUCNpLHWKdkACAsoJahouehHxLgPRutezsZrRTXIXuMKjEsRkbdQrwCqoifmOOORdpfAMKcfxaXgFSpVTXMNdYdUFdVbJcqTOvFzEgNtFhJHiLDjaRIcWOGfUmOmlbQpYJcfxlsbvdpBmDDrVGFBsRrPzRikcPGRbyKCEvzMYuRvggDtApPOnsKkpzyRsOlHdZhwpYnhfEPXkOTnmvHnFNgAQbqoapbQoyndHJJDZfjfEdxnjVyWImKhVUHAlIcrzWRhMammbYQEUJgnbsMCfPpgrlmUDHlVWgjOPBDftsRZrvkZBVawnZJvfWCFlbpzDrWsREvdQXeJHIswyLUvdpXUUATofkIqbLfbSHEOLyjMpTGLuwqfmCWcybbJAlicRxfVNWrVuUqWNWvilmbVBLvdmMMe	-	-	-
+#close	2025-03-08-01-51-01

@@ -18,3 +18,101 @@ training LR from SCAN_CIC-IDS_CIC_os
 training DT from SCAN_CIC-IDS_CIC_os
 2025-03-02 16:09:47
 Done!
+2025-03-10 23:50:40
+Evaluating SCAN_CIC-IDS_CIC_os's ML models on SCAN_NB15_CIC data set
+2025-03-10 23:50:40
+F1-score for DT: TN = 0, FP = 0, FN = 18665, TP = 2
+2025-03-10 23:50:40
+F1-score for LR: TN = 0, FP = 0, FN = 18586, TP = 81
+2025-03-10 23:50:40
+F1-score for MLP: TN = 0, FP = 0, FN = 18662, TP = 5
+2025-03-10 23:50:40
+F1-score for NB: TN = 0, FP = 0, FN = 18660, TP = 7
+2025-03-10 23:50:40
+F1-score for SVM: TN = 0, FP = 0, FN = 18596, TP = 71
+2025-03-10 23:50:40
+F1-score for XGB: TN = 0, FP = 0, FN = 18667, TP = 0
+2025-03-10 23:51:22
+Evaluating SCAN_CIC-IDS_CIC_os's ML models on SCAN_ToN-IoT_CIC data set
+2025-03-10 23:51:25
+F1-score for DT: TN = 2501684, FP = 12375, FN = 29637, TP = 6568
+2025-03-10 23:51:26
+F1-score for LR: TN = 2514059, FP = 0, FN = 36205, TP = 0
+2025-03-10 23:51:29
+F1-score for MLP: TN = 0, FP = 2514059, FN = 0, TP = 36205
+2025-03-10 23:51:34
+F1-score for NB: TN = 2514059, FP = 0, FN = 36205, TP = 0
+2025-03-10 23:51:36
+F1-score for SVM: TN = 2514059, FP = 0, FN = 36205, TP = 0
+2025-03-10 23:51:39
+F1-score for XGB: TN = 2512909, FP = 1150, FN = 35957, TP = 248
+2025-03-11 18:06:00
+Evaluating SCAN_CIC-IDS_CIC_os's ML models on SCAN_NB15_CIC data set
+2025-03-11 18:06:00
+F1-score for DT: TN = 0, FP = 0, FN = 18665, TP = 2
+2025-03-11 18:06:00
+F1-score for LR: TN = 0, FP = 0, FN = 18586, TP = 81
+2025-03-11 18:06:00
+F1-score for MLP: TN = 0, FP = 0, FN = 18662, TP = 5
+2025-03-11 18:06:00
+F1-score for NB: TN = 0, FP = 0, FN = 18660, TP = 7
+2025-03-11 18:06:00
+F1-score for SVM: TN = 0, FP = 0, FN = 18596, TP = 71
+2025-03-11 18:06:00
+F1-score for XGB: TN = 0, FP = 0, FN = 18667, TP = 0
+2025-03-11 18:06:35
+Evaluating SCAN_CIC-IDS_CIC_os's ML models on SCAN_ToN-IoT_CIC data set
+2025-03-11 18:06:37
+F1-score for DT: TN = 2501684, FP = 12375, FN = 29637, TP = 6568
+2025-03-11 18:06:39
+F1-score for LR: TN = 2514059, FP = 0, FN = 36205, TP = 0
+2025-03-11 18:06:41
+F1-score for MLP: TN = 0, FP = 2514059, FN = 0, TP = 36205
+2025-03-11 18:06:46
+F1-score for NB: TN = 2514059, FP = 0, FN = 36205, TP = 0
+2025-03-11 18:06:48
+F1-score for SVM: TN = 2514059, FP = 0, FN = 36205, TP = 0
+2025-03-11 18:06:50
+F1-score for XGB: TN = 2512909, FP = 1150, FN = 35957, TP = 248
+2025-03-11 18:18:48
+Evaluating SCAN_CIC-IDS_CIC_os's ML models on SCAN_NB15_CIC data set
+2025-03-11 18:18:48
+F1-score for DT: TN = 0, FP = 0, FN = 18665, TP = 2
+2025-03-11 18:18:48
+F1-score for LR: TN = 0, FP = 0, FN = 18586, TP = 81
+2025-03-11 18:18:48
+F1-score for MLP: TN = 0, FP = 0, FN = 18662, TP = 5
+2025-03-11 18:18:48
+F1-score for NB: TN = 0, FP = 0, FN = 18660, TP = 7
+2025-03-11 18:18:48
+F1-score for SVM: TN = 0, FP = 0, FN = 18596, TP = 71
+2025-03-11 18:18:48
+F1-score for XGB: TN = 0, FP = 0, FN = 18667, TP = 0
+2025-03-11 18:19:23
+Evaluating SCAN_CIC-IDS_CIC_os's ML models on SCAN_ToN-IoT_CIC data set
+2025-03-11 18:19:25
+F1-score for DT: TN = 2501684, FP = 12375, FN = 29637, TP = 6568
+2025-03-11 18:19:27
+F1-score for LR: TN = 2514059, FP = 0, FN = 36205, TP = 0
+2025-03-11 18:19:29
+F1-score for MLP: TN = 0, FP = 2514059, FN = 0, TP = 36205
+2025-03-11 18:19:33
+F1-score for NB: TN = 2514059, FP = 0, FN = 36205, TP = 0
+2025-03-11 18:19:35
+F1-score for SVM: TN = 2514059, FP = 0, FN = 36205, TP = 0
+2025-03-11 18:19:37
+F1-score for XGB: TN = 2512909, FP = 1150, FN = 35957, TP = 248
+2025-03-11 18:22:06
+Evaluating SCAN_CIC-IDS_CIC_os's ML models on SCAN_BoT-IoT_CIC data set
+2025-03-11 18:22:09
+F1-score for DT: TN = 89067, FP = 167, FN = 3513086, TP = 322
+2025-03-11 18:22:11
+F1-score for LR: TN = 83982, FP = 5252, FN = 3494554, TP = 18854
+2025-03-11 18:22:22
+F1-score for MLP: TN = 80776, FP = 8458, FN = 3465976, TP = 47432
+2025-03-11 18:22:29
+F1-score for NB: TN = 85031, FP = 4203, FN = 3494223, TP = 19185
+2025-03-11 18:22:31
+F1-score for SVM: TN = 80443, FP = 8791, FN = 3484181, TP = 29227
+2025-03-11 18:22:36
+F1-score for XGB: TN = 89223, FP = 11, FN = 3513255, TP = 153

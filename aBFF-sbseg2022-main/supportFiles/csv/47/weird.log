@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-08-00-35-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421968515.701817	C9R0vDUgnaZSwOnk7	59.166.0.5	54198	149.171.126.4	32920	possible_split_routing	-	F	zeek	-
+1421968515.702488	C9R0vDUgnaZSwOnk7	59.166.0.5	54198	149.171.126.4	32920	data_before_established	-	F	zeek	TCP
+1421968515.903826	CK7H5m46Jjof9g3BHa	59.166.0.7	2096	149.171.126.5	5190	possible_split_routing	-	F	zeek	-
+1421968515.904505	CK7H5m46Jjof9g3BHa	59.166.0.7	2096	149.171.126.5	5190	data_before_established	-	F	zeek	TCP
+1421968519.328760	Ct3D6V2ziIY0h3FIFb	149.171.126.4	60735	59.166.0.2	26812	connection_originator_SYN_ack	-	F	zeek	TCP
+1421968519.334761	Ct3D6V2ziIY0h3FIFb	59.166.0.2	26812	149.171.126.4	60735	data_before_established	-	F	zeek	TCP
+1421968519.705455	CTnYzX1VmvgKwYvBRj	59.166.0.4	7957	149.171.126.2	25	smtp_mail_transaction_invalid	data missing rcpt to	F	zeek	SMTP
+1421968520.104605	CUQOTy2wFWUFUw1928	59.166.0.5	9375	149.171.126.4	25	data_before_established	-	F	zeek	TCP
+1421968526.138694	CYjdXN2DIEbTqjnVh5	59.166.0.5	23450	149.171.126.0	21	data_before_established	-	F	zeek	TCP
+1421968526.149847	COAOnr23FekFU6lTbh	149.171.126.0	21133	59.166.0.5	24446	connection_originator_SYN_ack	-	F	zeek	TCP
+1421968526.195840	COAOnr23FekFU6lTbh	59.166.0.5	24446	149.171.126.0	21133	data_before_established	-	F	zeek	TCP
+1421968531.558363	CVl0OsO50hrkKG2Nc	149.171.126.7	25010	59.166.0.4	29021	connection_originator_SYN_ack	-	F	zeek	TCP
+1421968531.560385	CVl0OsO50hrkKG2Nc	59.166.0.4	29021	149.171.126.7	25010	data_before_established	-	F	zeek	TCP
+1421968531.701239	CY17cY2Rg2arSwTXb6	59.166.0.0	24084	149.171.126.3	56471	data_before_established	-	F	zeek	TCP
+1421968531.725738	CruPpC42tgUoVig0x8	59.166.0.0	61438	149.171.126.4	61562	possible_split_routing	-	F	zeek	-
+1421968561.055149	C8nyDI2QTMnxS3gmD6	59.166.0.3	25957	149.171.126.5	80	possible_split_routing	-	F	zeek	-
+#close	2025-03-08-00-35-23

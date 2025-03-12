@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-08-01-59-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1424237070.952189	CDyrex42YVrSvp52H9	175.45.176.3	12520	149.171.126.12	445	0.203373	\\spoolss	spoolss	RpcStartDocPrinter
+1424237071.264495	CDyrex42YVrSvp52H9	175.45.176.3	12520	149.171.126.12	445	0.302747	\\spoolss	spoolss	RpcWritePrinter
+#close	2025-03-08-02-00-01

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2025-03-08-02-09-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time
+1424248271.320110	Cwhs5a2xye6R7TNXfk	175.45.176.1	29184	149.171.126.18	162	0.000009	1	public	2	0	0	0	-	-
+1424248340.583202	CIuHao1Ecg1L8NWIA8	175.45.176.1	45692	149.171.126.12	161	0.000003	1	public	2	0	0	0	-	-
+1424248615.529790	C5p90kRe6vEmoexfb	175.45.176.3	36665	149.171.126.19	161	0.000012	1	private	2	0	0	0	-	-
+1424248736.492381	Cm7juM3NM2cXsRsRgl	175.45.176.3	25112	149.171.126.19	161	0.000010	2c	public	0	60	0	0	-	-
+#close	2025-03-08-02-10-01

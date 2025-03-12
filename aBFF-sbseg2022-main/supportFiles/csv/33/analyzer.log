@@ -1,0 +1,123 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-03-08-00-21-56
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1421955379.917843	violation	protocol	SSH	CgASoE1eSWPXoJjZTd	-	59.166.0.8	37272	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955395.017338	violation	protocol	SSH	Cr0OF32FMRD3OrZSu8	-	59.166.0.9	23426	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955442.518156	violation	protocol	SSH	C33pw640riDObSHG46	-	59.166.0.4	21972	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955459.520000	violation	protocol	SSH	CduvVg1jNdRExh0Jyf	-	59.166.0.5	52286	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955475.920249	violation	protocol	SSH	C5EIPo4JPxCHstHu7d	-	59.166.0.0	53984	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955523.619412	violation	protocol	SSH	CMphCzpjmEHhw5EL	-	59.166.0.1	52529	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955536.021030	violation	protocol	SSH	CEgXCB4lfcB6Kn45oi	-	59.166.0.3	55976	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955546.420150	violation	protocol	SSH	CSoZsI3MEtJQi2Wki9	-	59.166.0.8	36836	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955612.723131	violation	protocol	SSH	C8V0ww2jCfKXOCg9kj	-	59.166.0.1	29538	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955661.023753	violation	protocol	SSH	CWfgKb3F2940QLITXf	-	59.166.0.1	7004	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955671.321928	violation	protocol	SSH	CFz1hcYXHPkjJUOKe	-	59.166.0.0	57995	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955707.723496	violation	protocol	SSH	Cv9rik1yxpXuGi1jQ1	-	59.166.0.3	28801	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955749.123019	violation	protocol	SSH	CUTuKN2xwL7gZg36Wf	-	59.166.0.0	39961	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955755.625171	violation	protocol	SSH	CcuaeI1eyI4us6MtJd	-	59.166.0.9	51526	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955761.225228	violation	protocol	SSH	CFwkcL2qePLDn0zCd1	-	59.166.0.8	52326	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955765.325287	violation	protocol	SSH	CobT8a1M235u88CIWd	-	59.166.0.9	45676	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955793.123636	violation	protocol	SSH	CB2ldW2DifXPhpurHa	-	59.166.0.3	34210	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955851.324412	violation	protocol	SSH	CWNGumWBYbzVhtsR5	-	59.166.0.5	9156	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955854.125471	violation	protocol	SSH	CPOVVg2VrSuha9uwV5	-	59.166.0.6	61370	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955883.324885	violation	protocol	SSH	CTksjTFlKWwAl5YW4	-	59.166.0.8	61678	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955887.822928	violation	protocol	XMPP	CwbCIC2x3XMjR7GUyd	-	59.166.0.8	45598	149.171.126.6	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3="	-
+1421955887.823580	violation	protocol	XMPP	CwbCIC2x3XMjR7GUyd	-	59.166.0.8	45598	149.171.126.6	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3<"	-
+1421955887.823590	violation	protocol	XMPP	CwbCIC2x3XMjR7GUyd	-	59.166.0.8	45598	149.171.126.6	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3="	-
+1421955887.823818	violation	protocol	XMPP	CwbCIC2x3XMjR7GUyd	-	59.166.0.8	45598	149.171.126.6	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3<"	-
+1421955887.823826	violation	protocol	XMPP	CwbCIC2x3XMjR7GUyd	-	59.166.0.8	45598	149.171.126.6	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3\x11"	-
+1421955887.823830	violation	protocol	XMPP	CwbCIC2x3XMjR7GUyd	-	59.166.0.8	45598	149.171.126.6	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3\x11"	-
+1421955897.926165	violation	protocol	SSH	CzXA0Mf5cXmNLz9Pf	-	59.166.0.9	25323	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955915.424829	violation	protocol	SSH	C7H2u4fWQY1a94Jof	-	59.166.0.8	9885	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955924.925453	violation	protocol	SSH	CtfKKv1TjwXxM0Jnml	-	59.166.0.7	17360	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955925.626479	violation	protocol	SSH	CbyZeT1HBf1Otpbs2c	-	59.166.0.7	56347	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955964.127010	violation	protocol	SSH	C7QZ2b3buGKWGDtHk9	-	59.166.0.2	29743	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421955973.825790	violation	protocol	SSH	C3Lzkw1BtIa3nkbaoh	-	59.166.0.2	10923	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956004.329576	violation	protocol	SSH	C2zkcn1fe9ZD4qxKhe	-	59.166.0.1	50450	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956045.826839	violation	protocol	SSH	CkDsy33nEItJB0E6o8	-	59.166.0.4	60414	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956081.030922	violation	protocol	SSH	CiPSZ03rPmfC5M77xe	-	59.166.0.1	51800	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956081.829311	violation	protocol	SSH	Csf3pT2Zn6ALQNs33c	-	59.166.0.4	11399	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956085.029235	violation	protocol	SSH	Cj4a0C3cx5xyE17QS7	-	59.166.0.4	1869	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956086.629325	violation	protocol	SSH	CNJQMf1RLqGg4UqQRi	-	59.166.0.1	31058	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956091.428820	violation	protocol	SSH	CKRg6bCmLLAErX8Wh	-	59.166.0.4	1101	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956091.430715	violation	protocol	SSH	CKRg6bCmLLAErX8Wh	-	59.166.0.4	1101	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956091.628880	violation	protocol	SSH	CMHOL4kHTQopMBdV5	-	59.166.0.7	21557	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956091.699757	violation	protocol	SSH	CMHOL4kHTQopMBdV5	-	59.166.0.7	21557	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956092.105789	violation	protocol	SSH	CF6Xfi2ngd2R78joEl	-	59.166.0.1	29518	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956096.150741	violation	protocol	RDP	CKs5Ts22tar1BxT3Lh	-	59.166.0.7	43192	149.171.126.0	3389	Binpac exception: binpac exception: out_of_bound: COTP:pdu: 2 > 0	-
+1421956096.151371	violation	protocol	RDP	CKs5Ts22tar1BxT3Lh	-	59.166.0.7	43192	149.171.126.0	3389	Binpac exception: binpac exception: out_of_bound: COTP:pdu: 2 > 0	-
+1421956096.151377	violation	protocol	RDP	CKs5Ts22tar1BxT3Lh	-	59.166.0.7	43192	149.171.126.0	3389	Binpac exception: binpac exception: out_of_bound: COTP:pdu: 2 > 0	-
+1421956096.151627	violation	protocol	RDP	CKs5Ts22tar1BxT3Lh	-	59.166.0.7	43192	149.171.126.0	3389	Binpac exception: binpac exception: out_of_bound: COTP:pdu: 2 > 0	-
+1421956096.151635	violation	protocol	RDP	CKs5Ts22tar1BxT3Lh	-	59.166.0.7	43192	149.171.126.0	3389	Binpac exception: binpac exception: out_of_bound: COTP:pdu: 2 > 0	-
+1421956096.151641	violation	protocol	RDP	CKs5Ts22tar1BxT3Lh	-	59.166.0.7	43192	149.171.126.0	3389	Binpac exception: binpac exception: out_of_bound: COTP:pdu: 2 > 0	-
+1421956098.129638	violation	protocol	SSH	CV9IVr3QJNPxgWcN1j	-	59.166.0.3	45987	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956100.129978	violation	protocol	SSH	CyNnSR3Uzm2eOgxpC7	-	59.166.0.0	40063	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956100.133312	violation	protocol	SSH	CyNnSR3Uzm2eOgxpC7	-	59.166.0.0	40063	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956100.730216	violation	protocol	SSH	ClmYuJ1F4CICKIgMGc	-	59.166.0.5	26722	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956101.327497	violation	protocol	SSH	C7CFFe2xp86EP9Oe34	-	59.166.0.4	53969	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956101.330988	violation	protocol	SSH	C7CFFe2xp86EP9Oe34	-	59.166.0.4	53969	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956103.630249	violation	protocol	SSH	CwILvo3gJajpfH01Jj	-	59.166.0.5	6899	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956107.432063	violation	protocol	SSH	CrZcwS1Q2yCxzf4kzc	-	59.166.0.0	41791	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956107.436394	violation	protocol	SSH	CrZcwS1Q2yCxzf4kzc	-	59.166.0.0	41791	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956111.051047	violation	protocol	SSH	CRlfh14eY3ynkShbxa	-	59.166.0.0	6052	149.171.126.8	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956111.357038	violation	protocol	SSH	CU1zXEWbCt5PoRmZ9	-	59.166.0.8	9608	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956113.829756	violation	protocol	SSH	CdRW0rS2oZ4azpqg7	-	59.166.0.9	27813	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956114.515093	violation	protocol	SSH	CzMmy1mAInk3WBDoc	-	59.166.0.5	29674	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956114.750092	violation	protocol	SSH	CAX0gH3EAY3iVwh6h	-	59.166.0.7	29816	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956114.967100	violation	protocol	SSH	Cptv394MvOaHCPtMxj	-	59.166.0.2	32318	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956115.206130	violation	protocol	SSH	CYMyyl1khM8u5Gn6Cl	-	59.166.0.9	14318	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956115.745094	violation	protocol	SSH	CaaWFz1MmDtpqfmqO5	-	59.166.0.0	37319	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956116.056075	violation	protocol	SSH	CXUlmA1anqKYvyFShh	-	59.166.0.2	36167	149.171.126.8	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956117.315118	violation	protocol	SSH	CD8o7l4jcYjXrPkIPi	-	59.166.0.4	10931	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956118.337180	violation	protocol	SSH	C5RIBe2ZWjTKexOn49	-	59.166.0.9	32537	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956118.696147	violation	protocol	SSH	CumRJj2bFE4IlG3JV5	-	59.166.0.1	7698	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956120.829805	violation	protocol	SSH	Cr7dwb5jx2cnNhhj1	-	59.166.0.6	58890	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956121.529814	violation	protocol	SSH	Cwh0Mq40hTJjmKbcAc	-	59.166.0.3	32952	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956122.024191	violation	protocol	SSH	CpNDIl4H9Gb6pGbWJg	-	59.166.0.5	39317	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956122.629811	violation	protocol	SSH	Cax5fq1xAUz3t5tTLh	-	59.166.0.7	1860	149.171.126.8	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956123.535266	violation	protocol	SSH	CkjruP1KUdfvGG6DO8	-	59.166.0.1	61103	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956124.065223	violation	protocol	SSH	CFTYOl27M0A5Yp6jth	-	59.166.0.1	38649	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956124.455231	violation	protocol	SSH	Coa6j21XxZWYrF0d7h	-	59.166.0.5	12925	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956127.329747	violation	protocol	SSH	C15JjVZCj38PrFdy1	-	59.166.0.3	6070	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956129.730545	violation	protocol	SSH	CYwoFl4Kv650RALXbb	-	59.166.0.5	21865	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956131.530647	violation	protocol	SSH	CCB1lq4K31NRjUAV71	-	59.166.0.9	17393	149.171.126.8	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956134.629373	violation	protocol	SSH	CkmVB8fS5AzOT9xs6	-	59.166.0.2	43836	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956134.631675	violation	protocol	SSH	CkmVB8fS5AzOT9xs6	-	59.166.0.2	43836	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956134.928392	violation	protocol	SSH	C6jJzL3CL7VSiqk3b6	-	59.166.0.4	40637	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956134.930678	violation	protocol	SSH	C6jJzL3CL7VSiqk3b6	-	59.166.0.4	40637	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956136.028467	violation	protocol	SSH	C48AMQ19eUuaXHQHyf	-	59.166.0.0	53557	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956136.030342	violation	protocol	SSH	C48AMQ19eUuaXHQHyf	-	59.166.0.0	53557	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956136.429686	violation	protocol	SSH	CDlFMF4vEeYW945jZh	-	59.166.0.5	43227	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956137.281454	violation	protocol	SSH	CQftVH1wS1RuW0CoGh	-	59.166.0.4	13486	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956140.731751	violation	protocol	SSH	CK4VziXETbwStgtS6	-	59.166.0.7	21806	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956141.830500	violation	protocol	SSH	Cj3kJ53eL6AIDzRykg	-	59.166.0.0	6132	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956141.834822	violation	protocol	SSH	Cj3kJ53eL6AIDzRykg	-	59.166.0.0	6132	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956141.930857	violation	protocol	SSH	CtNIZw2uSlB1DTV5zl	-	59.166.0.5	5993	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956142.250456	violation	protocol	SSH	CZojjI23GScU8yuol4	-	59.166.0.0	8368	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956142.745476	violation	protocol	SSH	Cdgfu54ZWZ1qWP51Ne	-	59.166.0.5	35698	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956144.233493	violation	protocol	SSH	CCnv0J2ITGn12uLARh	-	59.166.0.2	14870	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956145.830262	violation	protocol	SSH	CcotDB1eiFj2GGNbf1	-	59.166.0.6	11347	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956148.130220	violation	protocol	SSH	CUqNCDmM9WNB1mlsb	-	59.166.0.3	18620	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956148.830572	violation	protocol	SSH	CJDolC99wfOPN935l	-	59.166.0.2	33137	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956151.630378	violation	protocol	SSH	CIzYVHqZthlZXVjdh	-	59.166.0.1	17176	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956153.930394	violation	protocol	SSH	C1fPz51gMZO9DaetZ9	-	59.166.0.0	60722	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956154.330211	violation	protocol	SSH	CwGTti3XaqnQ888ZJe	-	59.166.0.4	52129	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956156.030217	violation	protocol	SSH	Cw8QjQ184CIrW7Vb37	-	59.166.0.1	27620	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956156.930136	violation	protocol	SSH	CjMEc6WIL4C5glfe3	-	59.166.0.7	40422	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956157.630093	violation	protocol	SSH	CxWHgo2wnic5doZPuk	-	59.166.0.0	24670	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956159.530325	violation	protocol	SSH	CTDPJGfgVvAl2LB7h	-	59.166.0.4	26678	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956163.730377	violation	protocol	SSH	C2PNzr2IVxIBi2s3Y8	-	59.166.0.3	8470	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956165.930601	violation	protocol	SSH	C78whu1M9lC7gCFKK	-	59.166.0.3	10488	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956168.331220	violation	protocol	SSH	ClP86t2Cic4sycmRMd	-	59.166.0.4	64579	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956168.772855	violation	protocol	SSH	CJkz143iAxgHOc3Lz8	-	59.166.0.7	59427	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956169.285917	violation	protocol	SSH	CHiWuH2L3r8LP4oVS6	-	59.166.0.3	50724	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956171.929953	violation	protocol	SSH	CCNjqJ3wk1CU81xfvf	-	59.166.0.9	20062	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421956171.931822	violation	protocol	SSH	CCNjqJ3wk1CU81xfvf	-	59.166.0.9	20062	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -20923194 > 0	-
+1421956173.431241	violation	protocol	SSH	CPsWmZ1yzBnisSejR8	-	59.166.0.6	34537	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+1421956173.631239	violation	protocol	SSH	CQPrjS3Jg8TayqhXb1	-	59.166.0.7	36457	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_Key_Exchange: -1536747218 > 0	-
+#close	2025-03-08-00-22-04

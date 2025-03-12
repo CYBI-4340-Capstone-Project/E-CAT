@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	pe
+#open	2025-03-08-01-46-16
+#fields	ts	id	machine	compile_ts	os	subsystem	is_exe	is_64bit	uses_aslr	uses_dep	uses_code_integrity	uses_seh	has_import_table	has_export_table	has_cert_table	has_debug_data	section_names
+#types	time	string	string	time	string	string	bool	bool	bool	bool	bool	bool	bool	bool	bool	bool	vector[string]
+1424224820.500090	FqIcoB43ffuONuijCe	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424224831.483377	FN4Wxq4EntMEXnGTj5	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424224851.521953	FS3o6i3K4GjRLhWmcc	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424225039.505575	FQjO3m3JrheecX6Xnl	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424225050.765508	Fp5Qag3Qg57hA3s3yl	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424225166.604617	FXgHcj4mbb0DK5P4L4	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424225515.504757	FR2rLp4toGCtSm4dcj	I386	998081552.000000	Windows XP	WINDOWS_GUI	T	F	F	F	F	T	T	F	F	T	.text,.data,.rsrc
+1424225549.486866	FMRLIc1Yzr4aJbxHh	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424225594.316606	Fye4nzpYgapIxhbx5	I386	1159372996.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	F	F	F	.text,.data,.ctors,.rdata,.bss,.idata
+1424225615.143194	F11q9d14Sg94zCA6N2	I386	1384527968.000000	Windows 95 or NT 4.0	WINDOWS_GUI	T	F	T	T	F	F	T	F	F	T	.text,.rsrc,.reloc
+1424225651.315369	FZRtgh27OB8uxKzXr7	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424225756.703363	FQ1GXvJh2unkLvMtj	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424226041.169451	FkmTUe2WnyRtnvb7b4	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424226143.205403	FsMciL6XX2dTqIj07	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424226267.474857	FdbHba1BwUaIRd2Gdh	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424226433.808601	FVp6un1pgm8PsQolgb	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+#close	2025-03-08-01-46-34

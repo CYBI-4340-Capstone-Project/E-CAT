@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	rfb
+#open	2025-03-08-01-42-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	client_major_version	client_minor_version	server_major_version	server_minor_version	authentication_method	auth	share_flag	desktop_name	width	height
+#types	time	string	addr	port	addr	port	string	string	string	string	string	bool	bool	string	count	count
+1424220743.198692	Cg8O8L17a2Rwg05rqk	175.45.176.3	42106	149.171.126.10	5900	003	004	003	006	Invalid	-	-	-	-	-
+1424220988.132206	CMreIm3xeaHv7hJ3Ak	175.45.176.3	61434	149.171.126.17	5900	003	005	003	005	-	-	-	-	-	-
+1424220993.616642	C3Pkwc45pRTbWVXsQj	175.45.176.3	64092	149.171.126.17	5900	003	005	003	005	-	-	-	-	-	-
+1424221326.638989	CsVs8n1sN46r9NdLK	175.45.176.1	37722	149.171.126.17	5900	003	008	003	008	None	T	T	-	-	-
+#close	2025-03-08-01-42-50

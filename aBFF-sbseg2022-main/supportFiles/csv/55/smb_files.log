@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-08-01-42-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1424221632.395002	CpvRg4Fu2epvM0XJk	175.45.176.3	12928	149.171.126.12	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424221664.560798	C7i51C2BwRfQI1CP5c	175.45.176.2	43840	149.171.126.18	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424221773.971491	C0zvLU3b1YIkSjf6e3	175.45.176.3	38525	149.171.126.15	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424221963.811091	CPN0kx4zzreWzatedi	175.45.176.1	4297	149.171.126.18	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424222016.375573	CFxk4r3GcI7HfHoey6	175.45.176.2	63825	149.171.126.10	139	-	SMB::FILE_OPEN	-	\\ROUTER	0	-	-	-	-	-
+1424222226.016839	CSL33CygYXrKfN6V4	175.45.176.2	5424	149.171.126.19	139	-	SMB::FILE_OPEN	-	\\LSARPC	0	-	-	-	-	-
+1424222446.907434	CzNA6auk5AcHq4Tv5	175.45.176.1	24704	149.171.126.19	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424222685.721359	CpZ5MI3Rm0O93CvW9e	175.45.176.2	48937	149.171.126.13	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424222692.844821	CymS8PzPbCdxpWvS1	175.45.176.2	63968	149.171.126.17	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424222886.480062	Cu9rNa3MLqp1Stx4Ma	175.45.176.0	23011	149.171.126.16	139	-	SMB::FILE_OPEN	-	\\LSARPC	0	-	-	-	-	-
+1424222958.955817	CTAkzN2xHCMvIHEP2g	175.45.176.0	1418	149.171.126.12	445	-	SMB::FILE_OPEN	-	\\spoolss	0	-	-	-	-	-
+1424223060.390616	CmEJCe2hnsGcBHmUL9	175.45.176.3	2132	149.171.126.19	139	-	SMB::FILE_OPEN	-	wkssvc	0	-	-	-	-	-
+#close	2025-03-08-01-43-14

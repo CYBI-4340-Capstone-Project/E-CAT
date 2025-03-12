@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2025-03-07-06-46-36
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1421930959.459813	d0806cf65173dc8fcb9f4bce15d7aec79c90f0f8d8c9a3112b00c9748c741414	3	12FEFC	CN=dhcp207-3953fbbd-7b6b-4195-9277-2eb3b4339c93	CN=dhcp207-3953fbbd-7b6b-4195-9277-2eb3b4339c93	1182383768.000000	1813535768.000000	rsaEncryption	sha1WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	-	-	T	F
+1421931056.585257	dcfe9e1ba1b2cae7e60f16c121c4b11178484636ab94c410cb6a2d0805efddb6	3	1798C09D00000001F923D4C6F923D4C6	emailAddress=notused@notused.com,O=IBM,CN=vrtvm-win2ksrv	emailAddress=notused@notused.com,O=IBM,CN=vrtvm-win2ksrv	0.000000	1206377117.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	-	-	T	F
+1421931056.585257	d2a34864166234e3dc1d753b5397e6523922efff767581a1ff8cf925134dc651	3	00	emailAddress=sales@rembo.com,O=Rembo Technology Sarl,L=Carouge,ST=Geneva,C=CH,GN=00000000,CN=Rembo	emailAddress=sales@rembo.com,O=Rembo Technology Sarl,L=Carouge,ST=Geneva,C=CH,GN=00000000,CN=Rembo	1090330775.000000	2050321175.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	F	F
+1421931056.585257	175940aceee0ec31812718f4972279648f23a7d908dbc5e48bdb493899fd4adb	3	05	emailAddress=sales@rembo.com,O=Rembo Technology Sarl Activation CA,L=Carouge,ST=Geneva,C=CH,GN=RemboMasterSSL,CN=Rembo Master SSL CA	emailAddress=sales@rembo.com,O=Rembo Technology Sarl,L=Carouge,ST=Geneva,C=CH,GN=00000000,CN=Rembo	1101142578.000000	2061132978.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	F	F
+1421931177.859268	809dab0a1946d2a43af811cb457b8cbb2bdebe3dd8fc1f48602c1b107776bc13	2	F7A52EA24FB44F876F	2.5.4.14734882823672430595=#0C0F6B6B567A474F656A5561452E636F6D,CN=YDdithR.com,OU=SsZR,O=XYzbcGFdOX,L=IrZbCbOITKOJrN,ST=Ohio,C=US	CN=QFfNY.com,OU=kiQlLmTg,O=JrdzUeOVYxq,L=oDNPTCtFLSNWo,ST=Rhode Island,C=US	1395878190.000000	1453334190.000000	rsaEncryption	sha1WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	-	-	T	F
+#close	2025-03-07-06-46-41

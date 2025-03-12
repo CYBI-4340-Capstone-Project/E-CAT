@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2025-03-07-06-43-08
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1421927573.748227	8e8dba243660b353e81471033e5b821751136eca9ba335ff7b253639f58154bd	3	C35FDAD1	CN=UMncLOzMoJdwkBHcoUxX,O=CkbReDXExRheJKGvCUVI,L=rMODrPEiisSUoFMODGUU,ST=SD,C=US	CN=WoplGvbIGoLoXOiSGCFL,O=yEJRzKRGFcucWBoOwKMk,L=ozYIxXhbACKHqioLVtFA,ST=NC,C=US	0.000000	0.000000	rsaEncryption	sha1WithRSAEncryption	rsa	512	65537	-	-	-	-	-	F	-	T	F
+1421927716.279755	c4deb7aac78ef2e941ad256acc2e82b2df379bfaabc22570e7a7dce195469e64	3	0BA7B6F5	CN=kgVqhLBtWosXsVpFtZyZ,O=MkBLBYnoVIDwKwYfJnAT,L=jFSFNNllzUaIYcbFztUr,ST=OR,C=US	CN=QRdLuBnkHVDwWVuGRVJV,O=xjptDLTtkPcjVOrARnWr,L=TbARQAPtjDFcfvlAhSqe,ST=UT,C=US	0.000000	0.000000	rsaEncryption	sha1WithRSAEncryption	rsa	512	65537	-	-	-	-	-	F	-	T	F
+1421928267.536074	f72f77c7793d4e63fb4636b9195d59a6fcedc8cd95d490627142267c25b743e3	3	00	emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	1080688900.000000	1112224900.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	T	F
+#close	2025-03-07-06-43-17

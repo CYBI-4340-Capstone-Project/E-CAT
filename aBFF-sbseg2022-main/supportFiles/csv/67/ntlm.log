@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-02-03-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424241356.231069	CrZu2Dewj11UNQqNb	175.45.176.0	3764	149.171.126.18	445	FQFQaZ	-	-	KCQJDTZ$	kcqjdtz$.lwuuuaj.com	lwuuuaj.com	T
+1424241605.157901	CftTzB2eCcaLySatqg	175.45.176.0	46265	149.171.126.11	139	-	4IQ	-	Y7OT	y7ot.domain.com	domain.com	T
+1424241635.372712	Cs6GkB2ToxBo80XZ65	175.45.176.2	25303	149.171.126.12	139	-	w	-	GVO1sV	gvo1sv.domain.com	domain.com	T
+1424241694.136710	CGmXgUJzsXO7yakBa	175.45.176.0	28754	149.171.126.11	445	-	-	-	VRTVM-WIN2KSRV	vrtvm-win2ksrv	-	-
+1424241737.969961	CGFjyD2NNc0SZY0Cjl	175.45.176.2	51200	149.171.126.14	139	-	IHx2g42a	-	UW24igjb	uw24igjb.domain.com	domain.com	T
+1424241753.400374	CQxBAS3HjgjuumvgNi	175.45.176.2	7138	149.171.126.14	139	-	3KeGTf2uY	-	VTlvGtkdw5	vtlvgtkdw5.domain.com	domain.com	T
+1424241778.135389	CmbR2128vCnrxLSdc	175.45.176.2	23076	149.171.126.12	445	-	HOD	-	VMWIN2000	vmwin2000	-	-
+1424241865.160249	CMqP643LALVNcm9Ht1	175.45.176.0	30955	149.171.126.16	445	anonymous	8745A	-	g9vbn6oFQ	g9vbn6ofq.domain.com	domain.com	T
+1424241939.979399	C342di3UHBrpGL4Ieg	175.45.176.1	16476	149.171.126.16	445	-	dlMjVSilwFW	-	7bMP9rRJo	7bmp9rrjo.domain.com	domain.com	T
+1424241951.145741	Cnrmji4fb88ssNxky6	175.45.176.1	17830	149.171.126.17	445	-	kn8IPkq1	-	clYPyOzbjs	clypyozbjs.domain.com	domain.com	T
+1424242106.290428	CUn8CpocGaNZ1qkM7	175.45.176.3	50568	149.171.126.14	445	-	-	-	CA-AV-EHSAN	ca-av-ehsan	-	-
+1424242201.630582	C4glih1gJjyaURsNX	175.45.176.0	43974	149.171.126.10	445	-	ZT4A8XOnCjec	-	1xdycm7JRE	1xdycm7jre.domain.com	domain.com	T
+1424242290.315337	CoMUwf1kAfLtGwQPEk	175.45.176.0	32048	149.171.126.17	445	qLUWIM	-	-	KCQJDTZ$$	kcqjdtz$$.lwuuuaj.com	lwuuuaj.com	T
+1424242307.484485	CpS7OE1fJ7w8VBcS82	175.45.176.3	4583	149.171.126.15	139	-	h	-	9hRe5j	9hre5j.domain.com	domain.com	T
+1424242331.955605	Ce6lvb1G0REi33Fn78	175.45.176.1	64913	149.171.126.15	445	-	cJVwWATM6	-	1yzvBQtOs	1yzvbqtos.domain.com	domain.com	T
+1424242359.027658	C3VpW53RXpPB5R0Ipd	175.45.176.1	65462	149.171.126.13	445	-	9c	-	pg8Gf	pg8gf.domain.com	domain.com	T
+1424242527.954770	COZ4St239lZTXdawwl	175.45.176.0	43416	149.171.126.17	139	-	ON	-	Sdio	sdio.domain.com	domain.com	T
+1424242812.902806	C5l9IH4nrPyDfpwG3	175.45.176.3	32254	149.171.126.16	139	-	Ol	-	l	l.domain.com	domain.com	T
+1424242845.640150	CRfPiU2KOi71HQ7fCa	175.45.176.0	13246	149.171.126.16	139	-	g7ckq0RCda4W	-	JI33zcQ	ji33zcq.domain.com	domain.com	T
+#close	2025-03-08-02-03-34

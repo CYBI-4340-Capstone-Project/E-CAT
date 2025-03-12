@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2025-03-08-01-50-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1424229450.391413	CnD7A93sCKmIjIQam6	175.45.176.0	18388	149.171.126.13	389	1	base	never	dc=com	1	success	-	(objectclass=*)	-
+1424229450.854436	CnD7A93sCKmIjIQam6	175.45.176.0	18388	149.171.126.13	389	3	single	never	OU=DDjDtpcV,DC=sGAR05EC1Eyo	0	-	-	(objectclass=*)	-
+#close	2025-03-08-01-51-01

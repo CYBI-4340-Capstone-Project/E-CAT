@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-08-02-02-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1424239843.204988	CS98El3tytfaxJd783	175.45.176.0	21765	149.171.126.19	139	1.196647	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+1424239844.625559	CS98El3tytfaxJd783	175.45.176.0	21765	149.171.126.19	139	1.196647	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+1424239996.853084	CueUPV34UxWnMAQ1M9	175.45.176.1	52130	149.171.126.11	139	0.227891	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+1424239997.287844	CueUPV34UxWnMAQ1M9	175.45.176.1	52130	149.171.126.11	139	0.227891	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+1424240863.650400	C4SqE43SGAPw8yDQ8l	175.45.176.3	52115	149.171.126.13	139	0.192321	\\spoolss	spoolss	RpcStartDocPrinter
+1424240863.905295	C4SqE43SGAPw8yDQ8l	175.45.176.3	52115	149.171.126.13	139	0.169015	\\spoolss	spoolss	RpcWritePrinter
+1424241112.667681	CkkL3v3rFX1QglA8xc	175.45.176.0	65496	149.171.126.19	445	0.169084	\\spoolss	spoolss	RpcGetPrinter
+1424241113.167115	CkkL3v3rFX1QglA8xc	175.45.176.0	65496	149.171.126.19	445	0.218671	\\spoolss	spoolss	RpcGetPrinter
+1424241113.450292	CkkL3v3rFX1QglA8xc	175.45.176.0	65496	149.171.126.19	445	0.224973	\\spoolss	spoolss	RpcEnumJobs
+1424241113.719387	CkkL3v3rFX1QglA8xc	175.45.176.0	65496	149.171.126.19	445	0.134044	\\spoolss	spoolss	RpcEnumJobs
+#close	2025-03-08-02-03-10

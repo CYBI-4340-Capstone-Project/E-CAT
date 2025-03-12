@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-03-08-01-53-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1424231870.847810	CHenal10kEI229jenb	175.45.176.3	16520	149.171.126.15	9090	SSLv3	TLS_DHE_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	T	CsxknGIi	6a093b669dcf68491e3ca8dd03dbed50aac2297e9e01c663b10308eab7ae14b8,81228bd37c216d23867915a1dc52e9c1441f5309618d33a6ee98e9333f062d53	(empty)	-
+#close	2025-03-08-01-54-10

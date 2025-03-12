@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-01-53-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424229737.222217	CzJQN84uwJJNE18k2h	175.45.176.0	31898	149.171.126.17	139	-	l6f	-	R1HmE1qIYOUe	r1hme1qiyoue.domain.com	domain.com	T
+1424229808.503256	CNRq8G2pEdIfmuIVp7	175.45.176.0	32458	149.171.126.14	139	-	uF	-	MhSPXP	mhspxp.domain.com	domain.com	T
+1424229932.345008	CFp4E33DVyH0KWPig3	175.45.176.0	64378	149.171.126.15	139	-	JQj5MsZj0Y	-	9pepLqXicBwz4	9peplqxicbwz4.domain.com	domain.com	T
+1424229939.744655	Cb5FF94OPjkenwH659	175.45.176.1	44422	149.171.126.13	445	6uB9	-	-	LQBRNQ$	lqbrnq$.awplbb.com	awplbb.com	T
+1424230005.430155	Cq0E2B1DC5H3COQ7k7	175.45.176.3	16262	149.171.126.11	445	demo	mfJnnUMMx	demo	DEMOPC	demopc.demo.com	demo.com	T
+1424230106.415546	CwnGHu2vTKuEJTOrpd	175.45.176.1	50570	149.171.126.17	139	hziFyeGUVBL	B2lu	-	eRo0DMDq13	ero0dmdq13.domain.com	domain.com	T
+1424230133.064160	CxxOmA3Ux8NXyT6h93	175.45.176.3	55379	149.171.126.14	445	-	4g4CK2	-	LSxEmV	lsxemv.domain.com	domain.com	T
+1424230144.245905	CjWZBw1bbSNgX1Spof	175.45.176.0	59908	149.171.126.13	139	-	Scw	-	0A3kTUAtBj	0a3ktuatbj.domain.com	domain.com	T
+1424230428.285389	CtA6t23L4TqSrAwXW2	175.45.176.2	39943	149.171.126.15	445	-	nS	-	eCp	ecp.domain.com	domain.com	T
+1424230469.425638	CWYPcV3OoF7dIMziI3	175.45.176.0	18620	149.171.126.11	445	-	mL7N9GRyK7	-	R17dy	r17dy.domain.com	domain.com	T
+1424230495.277234	CcWZx72rH9qLXyk1Ae	175.45.176.2	12790	149.171.126.14	139	-	Iv1z4YuhUTUZ	-	SZKcVR	szkcvr.domain.com	domain.com	T
+1424230562.080169	CXpkMZ2DhGgxsSNwFd	175.45.176.1	47955	149.171.126.14	445	-	JxyeMqkwUaxg	-	rpitKb	rpitkb.domain.com	domain.com	T
+1424230706.567719	CQmho140OUUfSKE9z9	175.45.176.0	61572	149.171.126.18	445	-	PIDaIL51Fgyo2	-	OoOajkiOSac	oooajkiosac.domain.com	domain.com	T
+1424230794.472868	CnW0Ep4ik3x3EguwF3	175.45.176.0	64646	149.171.126.17	445	vrt	VRTVM-WINXPPRO	VRTVM-WINXPPRO	STICKY	sticky.vrt.telus.com	-	T
+1424230984.376410	CpUdJg9wNlp7Ug5Vh	175.45.176.1	19258	149.171.126.12	139	-	TmpcMM41SuFjH	-	H121jN4c9xr1	h121jn4c9xr1.domain.com	domain.com	T
+1424231155.180345	CM4nd02P4eZBVXRrP	175.45.176.0	17887	149.171.126.17	445	-	-	-	-	-	-	-
+1424231250.923691	CcysoK3D4BZ0Y28q52	175.45.176.1	54219	149.171.126.15	139	-	DXpQaWpt	-	smI3	smi3.domain.com	domain.com	T
+1424231252.520066	CZJ2PY8kOKWeqYp1d	175.45.176.1	11957	149.171.126.14	139	-	8ACwGe7	-	ktrdX13m	ktrdx13m.domain.com	domain.com	T
+#close	2025-03-08-01-53-45

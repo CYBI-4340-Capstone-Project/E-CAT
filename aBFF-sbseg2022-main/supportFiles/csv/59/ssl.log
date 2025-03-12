@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-03-08-01-50-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1424228253.724800	CFzKkj1yRxs5rgm466	175.45.176.0	29320	149.171.126.10	443	TLSv10	TLS_NULL_WITH_NULL_NULL	-	-	T	-	-	F	CsxnI	39fdf0b13a30583f7c3fcec1c1ea79ae8b0617789458aafbe7d66af182481133	(empty)	-
+1424228355.380101	C6I7xZ1aUAmkSO5wbf	175.45.176.0	23171	149.171.126.16	443	-	-	-	-	F	-	-	F	C	-	-	-
+1424228488.443692	CkCcekqe0LYzlp0hh	175.45.176.0	57452	149.171.126.11	443	TLSv10	TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5	-	-	F	-	-	F	Cs	-	-	-
+1424228616.008343	CdXDeV25kSTbNjOVe9	175.45.176.3	63353	149.171.126.11	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	F	Csxn	897e7ecfe7e3975367422f49ee662ced57a2ea7aa31fd2bcfb6a113ee97ab1fc	(empty)	-
+1424229006.567093	CUdjyk3489lXt3G06	175.45.176.0	11457	149.171.126.10	443	-	-	-	-	F	-	-	F	C	-	-	-
+1424229033.284547	CZxHBt3PGoEaiCFluj	175.45.176.1	17185	149.171.126.11	5061	-	-	-	-	F	internal_error	-	F	Clllf	-	-	-
+1424229041.280478	CgWpNP03RTYcCtWI6	175.45.176.0	41065	149.171.126.13	443	-	-	-	-	F	-	-	F	C	-	-	-
+1424229700.778321	CUMLre3b4Dq49Wctxa	175.45.176.1	41955	149.171.126.14	443	SSLv3	TLS_DHE_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	T	CsxkrnXGYIi	800c1c21815b08683c7c9b505692c6d4cc2738af505cdae2ff6e6ec272d84640	ed40c89c3f1dcc64c7b938a5b036cc2cd62f6b0416cd0bfff5b35090350787ef	-
+#close	2025-03-08-01-51-01

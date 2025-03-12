@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-01-45-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424223096.527650	CF0GecSLZmahiZzf7	175.45.176.1	33019	149.171.126.11	139	-	FxyGg8MSUK	-	Wj8b	wj8b.domain.com	domain.com	T
+1424223380.408252	Cnx1yE2zKWlP3PozGf	175.45.176.0	53333	149.171.126.15	445	-	y	-	jWrqq	jwrqq.domain.com	domain.com	T
+1424223422.123734	C4GEHo2McMjhlrEo0d	175.45.176.0	9741	149.171.126.13	445	-	pCfxd	-	kS3BwOiv	ks3bwoiv.domain.com	domain.com	T
+1424223447.623234	CzzbOf2vrftQCIim62	175.45.176.0	14633	149.171.126.18	139	-	4LWUjfvveWzO	-	plGPA7	plgpa7.domain.com	domain.com	T
+1424223515.325401	ClMyeodawIRAxDZak	175.45.176.3	43819	149.171.126.14	445	-	Zf3N	-	v2ThFzq	v2thfzq.domain.com	domain.com	T
+1424223660.654851	CALAu91JjqfewqCU9b	175.45.176.3	15643	149.171.126.11	445	-	8mKChct	-	THpUNo	thpuno.domain.com	domain.com	T
+1424223751.134263	Co23T22fkvemeOJXi7	175.45.176.0	46129	149.171.126.19	445	vrt	VRTVM-WINXPPRO	VRTVM-WINXPPRO	STICKY	sticky.vrt.telus.com	-	T
+1424223943.482743	CBYbsd4mmo7z2dPd52	175.45.176.1	32559	149.171.126.12	139	-	or7	-	IXIjvoR	ixijvor.domain.com	domain.com	T
+1424224107.251581	CRumvF4m1MwVjBtJNh	175.45.176.2	61168	149.171.126.11	445	-	-	-	-	-	-	-
+1424224206.710057	CeBksk3eVhH0nNArPc	175.45.176.1	50139	149.171.126.13	139	-	hJI1nuCz9Uk	-	puNeKYK6X	punekyk6x.domain.com	domain.com	T
+1424224207.395134	Ce9uaD39KPaqs66lt6	175.45.176.3	47632	149.171.126.17	139	-	YUw	-	rk5Yb	rk5yb.domain.com	domain.com	T
+1424224475.189059	CJBsjK2OAGSFZ2Vz83	175.45.176.3	9295	149.171.126.17	445	-	KHKKAcZfYWA0	-	qw	qw.domain.com	domain.com	T
+1424224492.283794	CzDDvP1yiYmhXQ2WHl	175.45.176.2	5764	149.171.126.19	445	-	EGNQHjO	-	kJv1d2b	kjv1d2b.domain.com	domain.com	T
+1424224563.821673	CWqQlQMUICkqhBHFk	175.45.176.2	51517	149.171.126.15	139	-	9WKvHra	-	PS	ps.domain.com	domain.com	T
+1424224610.030111	C79mir46f06iQENTF3	175.45.176.1	10236	149.171.126.14	445	-	Fo9KADj1S	-	LDmBhv	ldmbhv.domain.com	domain.com	T
+1424224624.016801	C27QVKb8y6MrYPoYk	175.45.176.3	26473	149.171.126.13	445	-	ESCFU2cIaw	-	HQQH	hqqh.domain.com	domain.com	T
+#close	2025-03-08-01-46-09

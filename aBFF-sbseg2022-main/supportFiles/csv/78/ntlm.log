@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-02-22-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424258979.627243	CBh5j5e9tlj03DNk1	175.45.176.2	18982	149.171.126.18	445	-	lEHgk2xUJU	-	jDKqkx2	jdkqkx2.domain.com	domain.com	T
+1424259022.789189	Cv0W9vl2pckoGUHcf	175.45.176.0	37347	149.171.126.14	445	-	M	-	FedvEyd6	fedveyd6.domain.com	domain.com	T
+1424259048.835914	C4HUxo1L2eLyJc0s8j	175.45.176.0	26476	149.171.126.13	139	-	TDFb56CAgk	-	Pgv5	pgv5.domain.com	domain.com	T
+1424259116.022721	CcfZlX3J8MMz90iyr	175.45.176.3	12683	149.171.126.16	445	-	nMmmUgCSy	-	aTFX	atfx.domain.com	domain.com	T
+1424259264.152049	C4XsdfBYqSsi8NB5d	175.45.176.1	18037	149.171.126.10	445	-	ZR7CEgs	-	b84vn7ocM0kq	b84vn7ocm0kq.domain.com	domain.com	T
+1424259354.009698	CErGol139b6eoTsafi	175.45.176.0	9810	149.171.126.14	445	vrt	VRTVM-WINXPPRO	VRTVM-WINXPPRO	STICKY	sticky.vrt.telus.com	-	T
+1424259547.664951	CoCDp939hHzwt0sJlh	175.45.176.3	24695	149.171.126.13	139	-	z3Js766I	-	Nnj4A	nnj4a.domain.com	domain.com	T
+1424259719.030665	CdkRpf3IKbkKH7xOpa	175.45.176.3	16991	149.171.126.17	445	-	-	-	-	-	-	-
+1424259818.632147	CXWJCm3d28BTm1oGWj	175.45.176.3	50066	149.171.126.11	139	-	4YQjIzsg	-	S4vKKCNPxOuO	s4vkkcnpxouo.domain.com	domain.com	T
+1424259819.676500	CiYXwr4P8IKobYisNf	175.45.176.2	61033	149.171.126.12	139	-	l6PVg	-	InxUGu	inxugu.domain.com	domain.com	T
+1424260091.640228	C5MyQz2q3kjlgumey9	175.45.176.3	24148	149.171.126.17	445	-	42hk1cevckJ2	-	kNX	knx.domain.com	domain.com	T
+1424260109.476083	CgFctm4iON3FBzDuFf	175.45.176.3	55516	149.171.126.12	445	-	2	-	eAnZyFoJ9C5r	eanzyfoj9c5r.domain.com	domain.com	T
+1424260181.573936	CPAbai1RIXYG7UMFAj	175.45.176.0	53786	149.171.126.15	139	-	yMlwqqEzOvZ	-	ScaSQH8ok3	scasqh8ok3.domain.com	domain.com	T
+1424260229.538725	CTR30x4vFh4gWLIEg5	175.45.176.1	36530	149.171.126.17	445	-	wRYBX	-	5SzjpeDNQn4a	5szjpednqn4a.domain.com	domain.com	T
+1424260244.270438	CckHyf2ZWgZW8b467c	175.45.176.3	62674	149.171.126.13	445	-	ZOYSWOXN6ZS	-	gSdGs9pZhH	gsdgs9pzhh.domain.com	domain.com	T
+#close	2025-03-08-02-22-46

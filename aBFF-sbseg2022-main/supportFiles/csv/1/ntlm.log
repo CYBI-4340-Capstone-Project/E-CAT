@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-07-06-43-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1421927450.633091	CFgonT3z4b0M8fMVIa	175.45.176.3	42254	149.171.126.16	445	-	D	-	ThK	thk.domain.com	domain.com	T
+1421927693.710839	CXEGph2I2MJjjWmDik	175.45.176.2	22471	149.171.126.18	445	QsMvJVZA	-	-	BRGES$	brges$.szqxc.com	szqxc.com	T
+1421927933.723434	Cmr2Kv1q62d0fMlMme	175.45.176.1	9227	149.171.126.14	139	-	jW	-	pyrGfGDdoZ4	pyrgfgddoz4.domain.com	domain.com	T
+1421927965.205027	C6U0Xi1aLeKyWwe33e	175.45.176.1	59183	149.171.126.11	139	-	RkcIQ6L7PnHNj	-	EMqTuv	emqtuv.domain.com	domain.com	T
+1421928024.118587	Cw0wU14gxeV8UQVtIf	175.45.176.1	53140	149.171.126.17	445	-	-	-	VRTVM-WIN2KSRV	vrtvm-win2ksrv	-	-
+1421928065.627476	CTMCqhytBwsDULQsl	175.45.176.1	42019	149.171.126.13	139	-	9TXy3S9nd1	-	bdIqH	bdiqh.domain.com	domain.com	T
+1421928085.295810	CcRymy33hju5oiyNe1	175.45.176.3	49580	149.171.126.19	139	-	5gCUdkn0fK3U	-	sqd2eGd6	sqd2egd6.domain.com	domain.com	T
+1421928106.723950	CFLq1C27fhO0b0WUpi	175.45.176.2	44178	149.171.126.19	445	-	HOD	-	VMWIN2000	vmwin2000	-	-
+1421928190.774526	CXVk3d2mLu9F4IxhDj	175.45.176.1	44676	149.171.126.11	445	anonymous	rYeEGq	-	gA3XjQ5eW7b	ga3xjq5ew7b.domain.com	domain.com	T
+1421928266.776760	Cj9Iq13fTSKAllSGB6	175.45.176.1	62765	149.171.126.12	445	-	HordVr	-	xAfNRr	xafnrr.domain.com	domain.com	T
+1421928276.936102	CUjIoACB9gLDC9Zs2	175.45.176.1	12962	149.171.126.17	445	-	GVoN29K	-	F9N9pBuJIU	f9n9pbujiu.domain.com	domain.com	T
+#close	2025-03-07-06-43-17

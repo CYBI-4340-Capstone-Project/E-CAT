@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-03-08-02-19-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1424257005.940392	CQD0IZ3nwZutdFKorc	175.45.176.1	17478	149.171.126.12	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	F	-	-	F	Cs	-	-	-
+1424257134.147732	CjkxcQ1ryjUKNwwS88	175.45.176.1	20999	149.171.126.19	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	F	Csxn	716396a3ea34b0067d890dcd6e775b366e76de3e1df349abedfbcb959ba3b17e	(empty)	-
+1424257529.622294	C7cxp04MFnUs85cvT2	175.45.176.1	42252	149.171.126.15	443	-	-	-	-	F	-	-	F	C	-	-	-
+1424257556.432282	CwZiE21TnK8AWP7iP8	175.45.176.3	63735	149.171.126.14	5061	-	-	-	-	F	handshake_failure	-	F	Clllf	-	-	-
+1424257564.611962	C7MtWx2zEM3uqDksf5	175.45.176.1	39383	149.171.126.10	443	-	-	-	-	F	-	-	F	C	-	-	-
+1424258237.135079	CYpqzMK6cAJUeEezi	175.45.176.1	41789	149.171.126.16	443	SSLv3	TLS_DHE_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	T	CsxkrnXGYIi	800c1c21815b08683c7c9b505692c6d4cc2738af505cdae2ff6e6ec272d84640	ed40c89c3f1dcc64c7b938a5b036cc2cd62f6b0416cd0bfff5b35090350787ef	-
+1424258284.792812	CSi8Oy4wVAKEc1IGCe	175.45.176.0	61160	149.171.126.19	443	SSLv2	SSLv20_CK_DES_192_EDE3_CBC_WITH_MD5	-	-	F	-	-	T	Cs	ebc811160591bd12ebcc2cf243ad9f74d797410221c62718baa10956f3a8c5bb	(empty)	-
+1424258333.546772	ChwuhA1N7iSYgHB61l	175.45.176.2	50330	149.171.126.12	1311	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	F	-	-	T	CsxnGIi	ed8dc9dd2837dde3754764fe6b295767f36e4a21666ceba8fc17478ebc05038c	(empty)	-
+1424258589.595249	CiZiCU2kwER0akWhl9	175.45.176.1	55414	149.171.126.11	443	TLSv10	TLS_DHE_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	F	CsrnX	(empty)	(empty)	-
+#close	2025-03-08-02-19-54

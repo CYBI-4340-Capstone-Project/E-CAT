@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-03-08-00-10-52
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1421943856.455510	violation	protocol	SSH	CzWDlt2IhQ0qommhr7	-	59.166.0.4	22302	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421943891.459386	violation	protocol	SSH	Cuklo8P4wmyB9Lwk6	-	59.166.0.3	26248	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944091.059213	violation	protocol	SSH	CMFKQo1dIiec6hduD5	-	59.166.0.6	52287	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944127.959120	violation	protocol	SSH	CQRywT3ZlJd1ZSe8S4	-	59.166.0.3	4342	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944129.059028	violation	protocol	SSH	CJ2fSjaqswqhlCPpl	-	59.166.0.1	24319	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944309.761705	violation	protocol	SSH	C9GvU81BKSamgkuDNb	-	59.166.0.4	62843	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944317.862325	violation	protocol	SSH	CQNdCS29lTVVnk9Ihl	-	59.166.0.9	43011	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944325.962441	violation	protocol	SSH	C8nW3vZgOlwviYZgg	-	59.166.0.8	64292	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944336.163616	violation	protocol	SSH	ChTMKW1BaUkrpkj35k	-	59.166.0.0	32136	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944446.164236	violation	protocol	SSH	CmJ4KA4rZChiX24X3i	-	59.166.0.5	48302	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944563.365784	violation	protocol	SSH	CsSVQy3rd5E0yNSbe1	-	59.166.0.4	44066	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944649.569006	violation	protocol	SSH	C5s01F1feTDbFyyTpj	-	59.166.0.4	12318	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421944807.768707	violation	protocol	SSH	C2w06E4XvUL73Js8e7	-	59.166.0.8	28821	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+#close	2025-03-08-00-11-01

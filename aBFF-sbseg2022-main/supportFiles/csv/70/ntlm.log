@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-02-09-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424246055.015526	CQPXDQHC7iTg8D2K3	175.45.176.3	48821	149.171.126.10	139	-	JPr	-	4	4.domain.com	domain.com	T
+1424246097.863507	CeVSHuMkzvFxnwhH2	175.45.176.2	39927	149.171.126.16	139	-	Ch7CKrFS	-	Dwwr	dwwr.domain.com	domain.com	T
+1424246159.195049	CoelH32jex2on8R8uf	175.45.176.1	62378	149.171.126.17	139	-	XlSFHL3iKl	-	EZMX94b1	ezmx94b1.domain.com	domain.com	T
+1424246328.510114	CmOcZy4DsXeXcHk9Yf	175.45.176.0	1967	149.171.126.14	139	-	1H6eft7EbKs	-	5bpIwfk2TVU	5bpiwfk2tvu.domain.com	domain.com	T
+1424246350.268921	CDPPHw48RacBSroPE1	175.45.176.2	3857	149.171.126.19	139	-	tnw7UL5dql	-	Ufhx8F49c	ufhx8f49c.domain.com	domain.com	T
+1424246509.435436	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	Administrator	WIN2KSRV	WIN2KSRV	SERVICEPC	servicepc	-	-
+1424246828.930904	CPKS5r2asEbxBPbDm5	175.45.176.1	13874	149.171.126.18	445	sxhII	-	-	OIKRFQV$$$$	oikrfqv$$$$...com	..com	T
+1424246917.678171	CTJyUq1bQunr5MBjyh	175.45.176.3	44361	149.171.126.16	139	-	2I	-	BRMOxokxzu	brmoxokxzu.domain.com	domain.com	T
+1424246929.003997	CwQc7z2JZJthIiXhJ1	175.45.176.3	27831	149.171.126.17	139	-	Pnl	-	v	v.domain.com	domain.com	T
+1424246975.971641	CSs6tc1oo8ILgg8DP2	175.45.176.2	12041	149.171.126.10	139	-	qyfRp04n	-	UTjXoMjuoac1L	utjxomjuoac1l.domain.com	domain.com	T
+1424246978.088363	CGXM68215wlQpAh6p2	175.45.176.1	54442	149.171.126.11	139	-	gIxw1L6s	-	LdG8Qu98dVr	ldg8qu98dvr.domain.com	domain.com	T
+1424247087.798419	CeAEYmCshPUOWrEM5	175.45.176.2	5433	149.171.126.18	139	-	hWm5oEY	-	U6uWE1YI0M7Yq	u6uwe1yi0m7yq.domain.com	domain.com	T
+1424247239.648669	CP0ZDvJNR8CzjSph	175.45.176.0	2621	149.171.126.14	139	-	eN6mEC7ZKrX	-	ao	ao.domain.com	domain.com	T
+#close	2025-03-08-02-09-37

@@ -1,0 +1,44 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-03-08-00-31-26
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1421963592.331627	violation	protocol	RADIUS	CXf1Ai42fUDa2CQWf1	-	149.171.126.7	1116	59.166.0.8	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 68	-
+1421963592.331630	violation	protocol	RADIUS	CXf1Ai42fUDa2CQWf1	-	149.171.126.7	1116	59.166.0.8	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 68	-
+1421963592.332730	violation	protocol	RADIUS	CXf1Ai42fUDa2CQWf1	-	149.171.126.7	1116	59.166.0.8	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 4	-
+1421963592.332738	violation	protocol	RADIUS	CXf1Ai42fUDa2CQWf1	-	149.171.126.7	1116	59.166.0.8	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 4	-
+1421963592.332972	violation	protocol	RADIUS	CXf1Ai42fUDa2CQWf1	-	149.171.126.7	1116	59.166.0.8	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 96	-
+1421963592.332976	violation	protocol	RADIUS	CXf1Ai42fUDa2CQWf1	-	149.171.126.7	1116	59.166.0.8	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 96	-
+1421963885.938906	violation	protocol	SSH	C0HsM63Kd6Gu21qPc8	-	59.166.0.8	4347	149.171.126.6	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421963888.639994	violation	protocol	SSH	C648xu2mRvXKs9csgh	-	59.166.0.1	25602	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421963912.674288	violation	protocol	RADIUS	CCq6ve45tiDWk2cz24	-	149.171.126.4	19456	59.166.0.2	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 68	-
+1421963912.674298	violation	protocol	RADIUS	CCq6ve45tiDWk2cz24	-	149.171.126.4	19456	59.166.0.2	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 68	-
+1421963912.719327	violation	protocol	RADIUS	CCq6ve45tiDWk2cz24	-	149.171.126.4	19456	59.166.0.2	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 4	-
+1421963912.719332	violation	protocol	RADIUS	CCq6ve45tiDWk2cz24	-	149.171.126.4	19456	59.166.0.2	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 4	-
+1421963912.734268	violation	protocol	RADIUS	CCq6ve45tiDWk2cz24	-	149.171.126.4	19456	59.166.0.2	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 104	-
+1421963912.734278	violation	protocol	RADIUS	CCq6ve45tiDWk2cz24	-	149.171.126.4	19456	59.166.0.2	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 104	-
+1421963942.337709	violation	protocol	SSH	CP4VSqvN13EmBbtaa	-	59.166.0.6	53320	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421963949.967855	violation	protocol	LDAP_TCP	CyxDXw4QXbDaKd0qc4	-	59.166.0.6	5193	149.171.126.5	3268	&requires failed: ($$.tag.class == ASN1::ASN1Class::Universal &* $$.tag.type_ == ASN1::ASN1Type::Sequence) (/usr/src/packages/BUILD/src/analyzer/protocol/ldap/ldap.spicy:306:31-306:128)	\xe3=\x00\x00\x00\x01\x10\x8en\xba\x02\x8d\x0eU;\xa94\x02\x13\x07\x1aoYq\x83\xf3\xd6\x00\x00\x02\x00\x00\x00\x02\x01\x00\x01\x0c\x00m
+1421964001.120560	violation	protocol	RADIUS	CwJxGsCgrbjoOHIhg	-	149.171.126.9	111	59.166.0.6	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 94	-
+1421964001.120570	violation	protocol	RADIUS	CwJxGsCgrbjoOHIhg	-	149.171.126.9	111	59.166.0.6	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 94	-
+1421964001.135852	violation	protocol	RADIUS	CwJxGsCgrbjoOHIhg	-	149.171.126.9	111	59.166.0.6	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 28	-
+1421964001.135854	violation	protocol	RADIUS	CwJxGsCgrbjoOHIhg	-	149.171.126.9	111	59.166.0.6	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 28	-
+1421964001.192523	violation	protocol	RADIUS	CwJxGsCgrbjoOHIhg	-	149.171.126.9	111	59.166.0.6	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 94	-
+1421964001.192557	violation	protocol	RADIUS	CwJxGsCgrbjoOHIhg	-	149.171.126.9	111	59.166.0.6	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 94	-
+1421964008.238624	violation	protocol	SSH	CTepP527mU8yd1SnZ4	-	59.166.0.2	52917	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964041.238722	violation	protocol	SSH	CAQiSs3ObXhfH462dh	-	59.166.0.6	47737	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964063.940424	violation	protocol	SSH	C4yCgv4tNI1S8s6uu7	-	59.166.0.6	16355	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964077.839628	violation	protocol	SSH	CNL61M5vKm77f18Hc	-	59.166.0.4	2098	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964083.941670	violation	protocol	SSH	C1Rtyt1epJSInOlTPd	-	59.166.0.1	35648	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964123.688379	violation	protocol	IRC	CCFJH04Q2juCZgDrQ	-	59.166.0.4	39853	149.171.126.1	6668	too many long lines	-
+1421964123.688379	violation	protocol	IRC	CCFJH04Q2juCZgDrQ	-	59.166.0.4	39853	149.171.126.1	6668	too many long lines	-
+1421964166.642878	violation	protocol	SSH	CBPHOsG22lM3Fk4cg	-	59.166.0.7	60431	149.171.126.9	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964172.742017	violation	protocol	SSH	CmT1rF2IY2s62DCwH2	-	59.166.0.8	32715	149.171.126.8	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964302.643760	violation	protocol	SSH	CRyNn24q8NdaG6fhl5	-	59.166.0.0	4609	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964309.942425	violation	protocol	SSH	CQK2bl1zo5BWZ270x7	-	59.166.0.6	52825	149.171.126.8	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964347.846373	violation	protocol	SSH	CuWDL62vPK1OKiCU5i	-	59.166.0.6	60466	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421964353.645500	violation	protocol	SSH	CsZvAz29YV6Fn3gHAf	-	59.166.0.2	33430	149.171.126.1	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+#close	2025-03-08-00-31-33

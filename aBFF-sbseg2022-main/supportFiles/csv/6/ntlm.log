@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-07-06-47-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1421931600.925629	CIZdA22h9f9K6DMXUh	175.45.176.0	1872	149.171.126.10	445	-	-	-	-	-	-	-
+1421931699.332229	CDzFXR2RY7qRguftv7	175.45.176.2	34703	149.171.126.14	139	-	2	-	x	x.domain.com	domain.com	T
+1421931699.294353	C5XELoTFq99cJLUt2	175.45.176.2	41069	149.171.126.16	139	-	7M0F	-	CxEJtR3UDvyEA	cxejtr3udvyea.domain.com	domain.com	T
+1421931967.278155	ClpjcR1lcIro4uGW7	175.45.176.0	48659	149.171.126.19	445	-	mYui	-	QqydUADv	qqyduadv.domain.com	domain.com	T
+1421931983.764988	ClnuHa2Ga9svjIjfLe	175.45.176.0	18325	149.171.126.16	445	-	dYwS	-	HyQhKci	hyqhkci.domain.com	domain.com	T
+1421932055.250300	CzjfUjXc6h7c6X249	175.45.176.3	33559	149.171.126.11	139	-	YtAClw3ySH	-	9hntpJHyH	9hntpjhyh.domain.com	domain.com	T
+1421932101.400403	CvXxlS3ohcJxUFZSa	175.45.176.2	38860	149.171.126.10	445	-	L5CraL5POhQxJ	-	3ZzEjik09	3zzejik09.domain.com	domain.com	T
+1421932115.866772	C3spVV2UQ0p14yzm3a	175.45.176.1	62782	149.171.126.14	445	-	9woP6yOwQAE	-	8CySFm7y	8cysfm7y.domain.com	domain.com	T
+#close	2025-03-07-06-47-44

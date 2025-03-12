@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-07-06-40-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1421934063.537236	CtYaxq3FmAekZuqPRi	175.45.176.3	23796	149.171.126.19	445	anonymous	7T9kgjBj	-	14O47ozHnPSOb	14o47ozhnpsob.domain.com	domain.com	T
+1421934094.878834	CXbXbR39eTWFIxDJRl	175.45.176.1	53129	149.171.126.17	139	-	eAcsrOpyDrX6n	-	9qj	9qj.domain.com	domain.com	T
+1421934221.091119	CrqFTI22iuh91ER7e2	175.45.176.1	58185	149.171.126.14	139	-	n4W	-	SmzvePZDFkgC	smzvepzdfkgc.domain.com	domain.com	T
+1421934223.081292	C4U11r1CplZ1gv9qt	175.45.176.1	58081	149.171.126.10	139	-	0J	-	OOJ8yG9rY66hS	ooj8yg9ry66hs.domain.com	domain.com	T
+1421934271.643227	Cjv8QbLQ7rLO8yIFb	175.45.176.1	59437	149.171.126.18	139	-	BX	-	XHx7Oe3	xhx7oe3.domain.com	domain.com	T
+1421934305.340723	CknqkT2klAYLI1gAse	175.45.176.3	55549	149.171.126.11	445	VMryocjz	-	.	ICPR$	icpr$...com	..com	T
+#close	2025-03-07-06-40-44

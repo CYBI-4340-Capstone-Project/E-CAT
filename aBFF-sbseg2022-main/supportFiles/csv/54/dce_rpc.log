@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-08-01-42-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1424219162.418399	C9aIjV1B8FyI5Dxx3	175.45.176.0	9788	149.171.126.11	139	0.068682	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+1424219162.553741	C9aIjV1B8FyI5Dxx3	175.45.176.0	9788	149.171.126.11	139	0.068682	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+1424219899.558559	ChQv4w1LjXp5Ybncn7	175.45.176.2	7025	149.171.126.17	445	0.187260	\\spoolss	spoolss	RpcGetPrinter
+1424219899.836742	ChQv4w1LjXp5Ybncn7	175.45.176.2	7025	149.171.126.17	445	0.143198	\\spoolss	spoolss	RpcGetPrinter
+1424219900.048728	ChQv4w1LjXp5Ybncn7	175.45.176.2	7025	149.171.126.17	445	0.268537	\\spoolss	spoolss	RpcEnumJobs
+1424219900.362460	ChQv4w1LjXp5Ybncn7	175.45.176.2	7025	149.171.126.17	445	0.155981	\\spoolss	spoolss	RpcEnumJobs
+1424220498.859019	CfQl6D3EpX8aZbaSdi	175.45.176.2	5823	149.171.126.19	6502	0.098650	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424220499.056604	CfQl6D3EpX8aZbaSdi	175.45.176.2	5823	149.171.126.19	6502	0.098650	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424221041.472498	CvTKGsB5Y5RHdFjG	175.45.176.0	22661	149.171.126.18	6502	0.108643	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424221041.685803	CvTKGsB5Y5RHdFjG	175.45.176.0	22661	149.171.126.18	6502	0.108643	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+#close	2025-03-08-01-42-50

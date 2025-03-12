@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-07-06-46-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1421930583.483120	CKLodX15w0zZCEGTg2	175.45.176.1	7309	149.171.126.16	445	-	f0b0KcL	-	P2SAJMTG830kJ	p2sajmtg830kj.domain.com	domain.com	T
+1421930595.057144	Cr0Ipy3yzzVXcCwYvc	175.45.176.1	6530	149.171.126.11	139	-	NMHp	-	ePE3Owh4Cm4S	epe3owh4cm4s.domain.com	domain.com	T
+1421930878.856761	CxlFc62NvBhEdKUXr2	175.45.176.0	13833	149.171.126.11	445	-	b	-	OCQX	ocqx.domain.com	domain.com	T
+1421930919.762291	CP1Kop3fxDyV9FI7O6	175.45.176.1	49760	149.171.126.10	445	-	ZOOvOir	-	HeZRjphX	hezrjphx.domain.com	domain.com	T
+1421930945.559158	CnkCCN3v15ppcrXw6d	175.45.176.0	4713	149.171.126.10	139	-	zeB3y	-	mc3KfE	mc3kfe.domain.com	domain.com	T
+1421931010.432040	CFlNzk2H86Yiyf9bZa	175.45.176.3	55081	149.171.126.14	445	-	066pfL4	-	ayfElrWU	ayfelrwu.domain.com	domain.com	T
+1421931155.133938	CSG5cS1MY48ykd72m8	175.45.176.3	12569	149.171.126.16	445	-	IZ	-	lhhnVOQX	lhhnvoqx.domain.com	domain.com	T
+1421931243.452952	C5asgN1uJtjUEa3Yzg	175.45.176.3	32381	149.171.126.16	445	vrt	VRTVM-WINXPPRO	VRTVM-WINXPPRO	STICKY	sticky.vrt.telus.com	-	T
+1421931431.787089	Ce1unm2gZBYtmAbfcc	175.45.176.2	36944	149.171.126.15	139	-	u8Hg0Hw	-	7I2KZ7bQU	7i2kz7bqu.domain.com	domain.com	T
+#close	2025-03-07-06-46-41

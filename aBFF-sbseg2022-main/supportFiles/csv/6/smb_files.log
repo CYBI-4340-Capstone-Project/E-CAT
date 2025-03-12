@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-07-06-47-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1421931700.039203	CDzFXR2RY7qRguftv7	175.45.176.2	34703	149.171.126.14	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1421931984.178461	ClnuHa2Ga9svjIjfLe	175.45.176.0	18325	149.171.126.16	445	-	SMB::FILE_OPEN	-	\\$Extend\\$Quota:$Q:$INDEX_ALLOCATION	0	-	-	-	-	-
+1421932102.123485	CvXxlS3ohcJxUFZSa	175.45.176.2	38860	149.171.126.10	445	-	SMB::FILE_OPEN	-	\\vHMayuFvkHJ\\ecbYLki\\Briefcase Database	0	-	-	-	-	-
+1421932116.489739	C3spVV2UQ0p14yzm3a	175.45.176.1	62782	149.171.126.14	445	-	SMB::FILE_OPEN	-	SRVSVC	0	-	-	-	-	-
+#close	2025-03-07-06-47-44

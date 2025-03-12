@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-07-06-47-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1421932341.432847	CsULVy1OclHx72WW6l	175.45.176.0	5895	149.171.126.15	139	-	K4b8Yrs	-	DhPUpqWmVf8U	dhpupqwmvf8u.domain.com	domain.com	T
+1421932384.620170	C3OkVl1qqKmEsnmi74	175.45.176.3	36688	149.171.126.16	139	-	lYxZbP	-	9KswsSC5cZvUn	9kswssc5czvun.domain.com	domain.com	T
+1421932446.447071	CGi65bWgVLPuCb4bj	175.45.176.0	14657	149.171.126.11	139	-	3	-	9ZC68Oj05	9zc68oj05.domain.com	domain.com	T
+1421932612.596689	CNEDUswGqfkSzSOid	175.45.176.2	48117	149.171.126.15	139	-	Zbz3Q	-	dy31	dy31.domain.com	domain.com	T
+1421932632.539563	ChEUhk3rd4jArf25ub	175.45.176.3	45547	149.171.126.18	139	-	RCENdbQdr9s	-	A3UgYUCO2ilD	a3ugyuco2ild.domain.com	domain.com	T
+1421932788.609533	C7wTEH1GxA05qHbVs2	175.45.176.1	61593	149.171.126.15	139	Administrator	WIN2KSRV	WIN2KSRV	SERVICEPC	servicepc	-	-
+1421933115.516441	CbhiuT11WU3DFEOvsb	175.45.176.2	62717	149.171.126.15	445	GZeZHYU0	-	-	1N5LZ1hfhuZ$	1n5lz1hfhuz$.szqxc.com	szqxc.com	T
+#close	2025-03-07-06-47-58

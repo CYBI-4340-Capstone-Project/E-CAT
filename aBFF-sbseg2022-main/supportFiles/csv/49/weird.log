@@ -1,0 +1,55 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-08-00-36-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421969711.617521	CXvA6u3y9tQxK1aUrd	59.166.0.4	1859	149.171.126.8	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969735.317833	C7ayeU2Ll0T6C6sbXl	59.166.0.4	53596	149.171.126.3	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969747.518130	Ch1HPq4C0R0WpHFz2l	59.166.0.0	28274	149.171.126.6	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969770.530082	Cotixv1x4XSNOerll	59.166.0.9	13670	149.171.126.1	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969773.631098	C30IzH2TmKccyHQLw7	59.166.0.7	30851	149.171.126.3	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969783.420215	CZWYLf4ZkPuLUOB16j	59.166.0.6	38093	149.171.126.1	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969785.234243	CPKQxG3l2zqI98G0a7	59.166.0.2	44802	149.171.126.6	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969797.218756	C13ISlwaF08FMrj0f	59.166.0.7	28413	149.171.126.1	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969799.118690	CpZoR8ABJTH7uQni1	59.166.0.4	29522	149.171.126.4	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969800.923501	Clj6Pu3ottjwvVe2dc	59.166.0.8	57275	149.171.126.1	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969804.918797	CXrvzy4Nn3gw7noGZk	59.166.0.6	3457	149.171.126.0	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969806.932615	CnoSKY1aw9VvDxZvpc	59.166.0.9	43864	149.171.126.7	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969808.932599	CqmifB1tkE1gMWMWKf	59.166.0.4	44479	149.171.126.9	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969820.118849	CqlYMZ2V4BoTTvq4bd	59.166.0.3	41361	149.171.126.1	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969844.119412	CvB6h63JpyMPzyLvt2	59.166.0.0	35920	149.171.126.7	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969848.720261	CDbJRF2pfbLnRfv7C9	59.166.0.3	2530	149.171.126.2	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969867.819894	C5kKd04Gbk1kvviig6	59.166.0.6	16012	149.171.126.5	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969869.236434	Cxh4ZY2RsNs5e4Tr64	59.166.0.3	45640	149.171.126.5	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969871.128472	CbPuuM3O2PT7NycIy6	59.166.0.2	44985	149.171.126.5	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969891.020213	CgevJz25waxhSd7b08	59.166.0.1	48557	149.171.126.0	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969902.220162	C4sDX53FcOgssKOQng	59.166.0.0	39301	149.171.126.6	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969907.920275	CgUSu13kLQpAQccDZf	59.166.0.2	13569	149.171.126.2	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969909.520973	Cm6h0h2VFZgd33hiHh	59.166.0.4	13976	149.171.126.4	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969913.920286	C3nQDi3DR1GvdDDSP2	59.166.0.2	22859	149.171.126.3	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969914.321039	CzdQ8j39jFnjzjTW28	59.166.0.8	56871	149.171.126.3	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969914.520600	CET1Qf3TZvqAHD2kx7	59.166.0.3	43508	149.171.126.9	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969924.421160	CJXFst3YEkRC0Giwdi	59.166.0.7	35004	149.171.126.4	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969962.020937	Cdtrxa2KvMQyQr3A4e	59.166.0.9	31856	149.171.126.8	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969985.221291	CgzA4e1smmSQ538Xhl	59.166.0.4	58451	149.171.126.1	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969997.021680	CHgUQw2F2LzRiDVDG3	59.166.0.1	48730	149.171.126.7	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969997.322535	CojR2m2ISiKsW42uU7	59.166.0.7	8281	149.171.126.9	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969998.941257	CfJNrt1mmgnpilen6	59.166.0.7	6751	149.171.126.7	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421969999.131204	Cqlpb42JEz1Prf1Az2	59.166.0.2	39057	149.171.126.2	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970001.110242	CxoIzl34fuDsbbOnV3	59.166.0.4	11158	149.171.126.4	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970004.935323	CEsM7B4F5Bhe0Fcg0i	59.166.0.3	37158	149.171.126.5	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970005.898785	ChacDZ2tPusy2fs7q2	59.166.0.1	50327	149.171.126.9	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970013.936419	C2GyWB4LyinvJmxa1c	59.166.0.0	12150	149.171.126.3	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970017.321745	CxAPVn3nBNc6fmasN3	59.166.0.2	8209	149.171.126.9	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970029.221997	CkcC3u2rloBddp0mEe	59.166.0.7	54658	149.171.126.0	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970039.022008	CaOV6QBJG5CXdjaVc	59.166.0.1	3315	149.171.126.7	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970040.532809	C1NdKI1Sv5lEDV3IA1	59.166.0.9	3074	149.171.126.1	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970050.022218	CgrZWO2bSqxba8nKvh	59.166.0.6	6302	149.171.126.7	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970201.042430	CjVQ1s38VDyY2uaOc	59.166.0.6	59578	149.171.126.0	1080	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421970201.052628	CjVQ1s38VDyY2uaOc	59.166.0.6	59578	149.171.126.0	1080	bad_HTTP_request	-	F	zeek	HTTP
+1421970454.761577	CL5aMz6xhZakM013g	59.166.0.2	13006	149.171.126.4	5190	possible_split_routing	-	F	zeek	-
+1421970454.761577	CL5aMz6xhZakM013g	59.166.0.2	13006	149.171.126.4	5190	data_before_established	-	F	zeek	TCP
+#close	2025-03-08-00-36-57

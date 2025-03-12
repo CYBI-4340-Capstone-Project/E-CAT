@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-08-01-56-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1424233785.229485	CR8r2p2Hd64GZBbJNj	175.45.176.1	51933	149.171.126.10	139	0.223617	\\spoolss	spoolss	RpcStartDocPrinter
+1424233785.531289	CR8r2p2Hd64GZBbJNj	175.45.176.1	51933	149.171.126.10	139	0.218396	\\spoolss	spoolss	RpcWritePrinter
+1424234038.754878	CKmYAU1wvbLG4JueCf	175.45.176.0	60665	149.171.126.13	445	0.080267	\\spoolss	spoolss	RpcGetPrinter
+1424234038.865533	CKmYAU1wvbLG4JueCf	175.45.176.0	60665	149.171.126.13	445	0.070607	\\spoolss	spoolss	RpcGetPrinter
+1424234038.954390	CKmYAU1wvbLG4JueCf	175.45.176.0	60665	149.171.126.13	445	0.116546	\\spoolss	spoolss	RpcEnumJobs
+1424234039.089051	CKmYAU1wvbLG4JueCf	175.45.176.0	60665	149.171.126.13	445	0.078091	\\spoolss	spoolss	RpcEnumJobs
+1424234627.528460	CwNvTc2e04LlwndRn3	175.45.176.0	6037	149.171.126.12	6502	0.127646	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424234627.828219	CwNvTc2e04LlwndRn3	175.45.176.0	6037	149.171.126.12	6502	0.127646	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+#close	2025-03-08-01-56-55

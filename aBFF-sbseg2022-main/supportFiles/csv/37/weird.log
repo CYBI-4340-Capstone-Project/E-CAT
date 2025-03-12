@@ -1,0 +1,45 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-08-00-26-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421958837.390384	CoJ5VpIH04xUXORh8	149.171.126.2	6881	59.166.0.3	46986	above_hole_data_without_any_acks	-	F	zeek	TCP
+1421958857.668265	C4t0Ao1HlJxZfo4bH1	59.166.0.3	17225	149.171.126.5	8080	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421958857.677101	C4t0Ao1HlJxZfo4bH1	59.166.0.3	17225	149.171.126.5	8080	bad_HTTP_request	-	F	zeek	HTTP
+1421959291.069634	CQ6s7t3gyuGidVAhkc	59.166.0.6	41153	149.171.126.1	53	dnp3_corrupt_header_checksum	-	F	zeek	DNP3_UDP
+1421959382.700029	CeUWJ1goe9qGGWP5i	59.166.0.0	11331	149.171.126.9	8080	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421959382.795545	CeUWJ1goe9qGGWP5i	59.166.0.0	11331	149.171.126.9	8080	bad_HTTP_request	-	F	zeek	HTTP
+1421959620.717227	COhLMn3Njcn0oT8Yg	59.166.0.7	55940	149.171.126.0	25	smtp_mail_transaction_invalid	data missing rcpt to	F	zeek	SMTP
+1421959626.893833	CwGmWc3yar9KTsgR31	149.171.126.4	50577	59.166.0.9	52558	connection_originator_SYN_ack	-	F	zeek	TCP
+1421959626.896039	CwGmWc3yar9KTsgR31	59.166.0.9	52558	149.171.126.4	50577	data_before_established	-	F	zeek	TCP
+1421959634.219366	COZRoG2ziyCjixaprj	59.166.0.1	1487	149.171.126.4	31981	possible_split_routing	-	F	zeek	-
+1421959641.775452	CvPwC51AZWA2S1tNv6	149.171.126.3	10442	59.166.0.9	4787	connection_originator_SYN_ack	-	F	zeek	TCP
+1421959641.776545	CvPwC51AZWA2S1tNv6	59.166.0.9	4787	149.171.126.3	10442	data_before_established	-	F	zeek	TCP
+1421959653.523506	CNGOb72oMjrwAGFFaj	59.166.0.1	64381	149.171.126.2	16146	possible_split_routing	-	F	zeek	-
+1421959653.523514	CNGOb72oMjrwAGFFaj	59.166.0.1	64381	149.171.126.2	16146	data_before_established	-	F	zeek	TCP
+1421959653.586145	Cs1ygQ3FWKsRz51UD7	59.166.0.1	18455	149.171.126.7	64195	possible_split_routing	-	F	zeek	-
+1421959653.625911	CTY13Q19rpevCHjtkk	149.171.126.2	64182	59.166.0.1	1395	connection_originator_SYN_ack	-	F	zeek	TCP
+1421959653.632850	CTY13Q19rpevCHjtkk	59.166.0.1	1395	149.171.126.2	64182	data_before_established	-	F	zeek	TCP
+1421959659.250738	Cu2Gpc3UQBqC5Wj485	59.166.0.9	20519	149.171.126.0	5190	possible_split_routing	-	F	zeek	-
+1421959659.250738	Cu2Gpc3UQBqC5Wj485	59.166.0.9	20519	149.171.126.0	5190	data_before_established	-	F	zeek	TCP
+1421959664.441821	CrCrhd3TG3wbqA7kD1	59.166.0.5	37310	149.171.126.0	5190	possible_split_routing	-	F	zeek	-
+1421959664.441821	CrCrhd3TG3wbqA7kD1	59.166.0.5	37310	149.171.126.0	5190	data_before_established	-	F	zeek	TCP
+1421959672.351890	C8pAgt1D759mMO7YGb	59.166.0.8	23218	149.171.126.3	34073	possible_split_routing	-	F	zeek	-
+1421959672.351890	C8pAgt1D759mMO7YGb	59.166.0.8	23218	149.171.126.3	34073	data_before_established	-	F	zeek	TCP
+1421959672.528240	C8pAgt1D759mMO7YGb	59.166.0.8	23218	149.171.126.3	34073	inappropriate_FIN	-	F	zeek	TCP
+1421959683.889046	CI7iFeQ9ulhpnF0R	59.166.0.4	4052	149.171.126.2	8690	data_before_established	-	F	zeek	TCP
+1421959686.379067	CADg8N1E0NxKOAohwi	59.166.0.0	36677	149.171.126.3	22	data_before_established	-	F	zeek	TCP
+1421959716.081388	C123AD3Holk2lMmKBi	59.166.0.1	54384	149.171.126.1	25	possible_split_routing	-	F	zeek	-
+1421959716.081396	C123AD3Holk2lMmKBi	59.166.0.1	54384	149.171.126.1	25	data_before_established	-	F	zeek	TCP
+1421959728.497274	Cx0CCv3ezAn0lmiuxg	149.171.126.7	6881	59.166.0.4	23163	connection_originator_SYN_ack	-	F	zeek	TCP
+1421959728.635140	C0CfmB4U93nyE0H131	59.166.0.4	62139	149.171.126.7	6881	possible_split_routing	-	F	zeek	-
+1421959728.635140	C0CfmB4U93nyE0H131	59.166.0.4	62139	149.171.126.7	6881	data_before_established	-	F	zeek	TCP
+1421959729.720717	COyyHd1XLXgKFQudI8	59.166.0.8	10519	149.171.126.8	6881	possible_split_routing	-	F	zeek	-
+1421959729.720717	COyyHd1XLXgKFQudI8	59.166.0.8	10519	149.171.126.8	6881	data_before_established	-	F	zeek	TCP
+1421959729.817730	Ch28o02ktCuBbz3Oa8	59.166.0.5	49180	149.171.126.3	5190	possible_split_routing	-	F	zeek	-
+1421959729.817730	Ch28o02ktCuBbz3Oa8	59.166.0.5	49180	149.171.126.3	5190	data_before_established	-	F	zeek	TCP
+1421959729.877894	Cx0CCv3ezAn0lmiuxg	59.166.0.4	23163	149.171.126.7	6881	data_before_established	-	F	zeek	TCP
+#close	2025-03-08-00-26-09

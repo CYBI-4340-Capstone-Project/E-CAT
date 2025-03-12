@@ -104,15 +104,22 @@ def runExperiment(pcapTypeNum, maxNumFiles, datasetTypeNum=1, scanOnly=False, sc
         y.drop(toKillIndex, inplace=True)
         X.drop(toKillIndex, inplace=True)
     if balance == myFunc.O_SAMPLE:
-        if len(y.unique()) > 1:
-            print("Oversampling minority class")
-            ada = ADASYN() #random_state=42)
-            print('Original dataset shape {0}'.format(y.value_counts()))
-            for _ in tqdm(range(1), desc="Oversampling"):
-                X, y = ada.fit_resample(X, y)
-            print('Resampled dataset shape {0}'.format(y.value_counts()))
-        else:
-            print("Skipping oversampling: Only one class present in y")
+        print("Oversampling minority class")
+        ada = ADASYN() #random_state=42)
+        print('Original dataset shape {0}'.format(y.value_counts()))
+        X, y = ada.fit_resample(X, y)
+        print('Resampled dataset shape {0}'.format(y.value_counts()))
+        #if len(y.unique()) > 1:
+        #    print("Oversampling minority class")
+        #    ada = ADASYN() #random_state=42)
+        #    print('Original dataset shape {0}'.format(y.value_counts()))
+        #    X, y = ada.fit_resample(X, y)
+        #    print('Resampled dataset shape {0}'.format(y.value_counts()))
+        #    for _ in tqdm(range(1), desc="Oversampling"):
+        #       X, y = ada.fit_resample(X, y)
+        #    print('Resampled dataset shape {0}'.format(y.value_counts()))
+        #else:
+        #    print("Skipping oversampling: Only one class present in y")
 
     # Normalize input data for training
     prep.fit(X)

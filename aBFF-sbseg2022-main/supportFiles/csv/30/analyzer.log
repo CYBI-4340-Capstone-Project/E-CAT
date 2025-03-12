@@ -1,0 +1,36 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-03-08-00-20-07
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1421952697.879948	violation	protocol	SSH	CwxIDNforFKGRwVhd	-	59.166.0.6	61803	149.171.126.5	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421952740.287879	violation	protocol	SSH	Cnpcxe4amVZQWROh94	-	59.166.0.7	51469	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421952793.181535	violation	protocol	SSH	CgA2QU1QTmmdAVskU9	-	59.166.0.1	57765	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421952822.880640	violation	packet	GENEVE	CksKUhWktKSY4pfo3	-	149.171.126.1	47418	59.166.0.6	6081	Geneve option header truncation	\x1b\xf1\\\xec\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86\xa5\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x000\x8d\xf0\x12\xa0\x00\x00\x00\x10
+1421952836.484126	violation	protocol	SSH	CBwabGNwpaIxdE33	-	59.166.0.5	18007	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421952840.482183	violation	protocol	SSH	ChcABCDr1ldr4Gu6c	-	59.166.0.4	24207	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421952844.481708	violation	protocol	SSH	C6LLbo4L5wNpbAzS9e	-	59.166.0.0	52147	149.171.126.0	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421952853.959367	violation	protocol	RADIUS	CHp1823H8AvwopV7p5	-	149.171.126.3	111	59.166.0.7	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 94	-
+1421952853.959378	violation	protocol	RADIUS	CHp1823H8AvwopV7p5	-	149.171.126.3	111	59.166.0.7	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 94	-
+1421952853.974789	violation	protocol	RADIUS	CHp1823H8AvwopV7p5	-	149.171.126.3	111	59.166.0.7	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 32	-
+1421952853.974798	violation	protocol	RADIUS	CHp1823H8AvwopV7p5	-	149.171.126.3	111	59.166.0.7	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 32	-
+1421952854.117367	violation	protocol	RADIUS	CHp1823H8AvwopV7p5	-	149.171.126.3	111	59.166.0.7	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 94	-
+1421952854.117377	violation	protocol	RADIUS	CHp1823H8AvwopV7p5	-	149.171.126.3	111	59.166.0.7	1812	Binpac exception: binpac exception: out_of_bound: RADIUS_Attribute:value: 0 > 94	-
+1421952914.282444	violation	protocol	SSH	C8BZJT3lkLUj1Ony0h	-	59.166.0.4	49341	149.171.126.8	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421952917.782769	violation	protocol	SSH	CYcnYe1JqsOhjMXr88	-	59.166.0.4	5037	149.171.126.3	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421952958.281857	violation	protocol	XMPP	Co5rgK3hWP8MLQZvCd	-	59.166.0.4	43375	149.171.126.0	5269	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3="	-
+1421952958.282528	violation	protocol	XMPP	Co5rgK3hWP8MLQZvCd	-	59.166.0.4	43375	149.171.126.0	5269	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3<"	-
+1421952958.282535	violation	protocol	XMPP	Co5rgK3hWP8MLQZvCd	-	59.166.0.4	43375	149.171.126.0	5269	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3="	-
+1421952958.282808	violation	protocol	XMPP	Co5rgK3hWP8MLQZvCd	-	59.166.0.4	43375	149.171.126.0	5269	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3<"	-
+1421952958.282820	violation	protocol	XMPP	Co5rgK3hWP8MLQZvCd	-	59.166.0.4	43375	149.171.126.0	5269	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3\x11"	-
+1421952958.282824	violation	protocol	XMPP	Co5rgK3hWP8MLQZvCd	-	59.166.0.4	43375	149.171.126.0	5269	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xe3\x11"	-
+1421952968.083539	violation	protocol	SSH	CLGSTj1N6K7VehScIj	-	59.166.0.8	63792	149.171.126.7	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421953059.384760	violation	protocol	SSH	CEUaWc2ndvqy4kraD2	-	59.166.0.7	14735	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421953092.587751	violation	protocol	SSH	CQOwd61GB3mApVbsn7	-	59.166.0.8	19887	149.171.126.8	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421953164.587785	violation	protocol	SSH	CQRxueDhngJ6LHUta	-	59.166.0.1	53076	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421953167.687861	violation	protocol	SSH	CTuu2b1l6fdEiXuFb2	-	59.166.0.4	65259	149.171.126.2	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+1421953180.687968	violation	protocol	SSH	CclCaB2u2HbAK9hVZh	-	59.166.0.8	25003	149.171.126.4	22	Binpac exception: binpac exception: out_of_bound: SSH2_KEXINIT:cookie: 16 > 4	-
+#close	2025-03-08-00-20-15

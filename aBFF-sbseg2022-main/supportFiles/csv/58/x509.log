@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2025-03-08-01-50-24
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1424227112.878979	993a215c9d0651471d2d1165afcac8a5462d9ef2d0a2b8cb55a1ac751c7ded2c	3	56B095A0	CN=ncLOzMoJdwkBHcoUxXro,O=bReDXExRheJKGvCUVIUM,L=ODrPEiisSUoFMODGUUCk,ST=NH,C=US	CN=plGvbIGoLoXOiSGCFLSw,O=JRzKRGFcucWBoOwKMkWo,L=YIxXhbACKHqioLVtFAyE,ST=NC,C=US	0.000000	0.000000	rsaEncryption	sha1WithRSAEncryption	rsa	512	65537	-	-	-	-	-	F	-	T	F
+1424227257.150221	b91d65053e0173a6eecbebd2badb0dc27586d6772d8a566af6b50abcb0dd34ba	3	29E3DB5B	CN=JnATkgVqhLBtWosXsVpF,O=ztUrMkBLBYnoVIDwKwYf,L=EncCjFSFNNllzUaIYcbF,ST=VA,C=US	CN=RnWrQRdLuBnkHVDwWVuG,O=hSqexjptDLTtkPcjVOrA,L=ZyZfTbARQAPtjDFcfvlA,ST=MD,C=US	0.000000	0.000000	rsaEncryption	sha1WithRSAEncryption	rsa	512	65537	-	-	-	-	-	F	-	T	F
+1424227815.600694	f72f77c7793d4e63fb4636b9195d59a6fcedc8cd95d490627142267c25b743e3	3	00	emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	1080688900.000000	1112224900.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	T	F
+1424227896.446168	8f0b55d526c1b4467315335089df24d4e6b3dc6fe6bdbd3382008e3ad7ac4edc	1	3BEF42491BFE62B9BAF90FDD782239DB	CN=vrt-bz,OU=FOR TESTING ONLY,O=MyOrganization,L=MyTown,ST=MyState,C=US	CN=CertGenCAB,OU=FOR TESTING ONLY,O=MyOrganization,L=MyTown,ST=MyState,C=US	1087355395.000000	1560740995.000000	rsaEncryption	md5WithRSAEncryption	rsa	512	65537	-	-	-	-	-	-	-	T	F
+1424228054.322952	eaf20d6d9da189eeee923ed18fbe65988fd72f616c8889eeef849ce0d6684482	1	01	C=US,ST=State,L=City,O=Org,OU=Org unit,CN=Common name	O=Internet Widgits Pty Ltd,ST=Some-State,C=AU	1190143182.000000	1221679182.000000	rsaEncryption	sha1WithRSAEncryption	rsa	512	65537	-	-	-	-	-	-	-	T	F
+#close	2025-03-08-01-50-35

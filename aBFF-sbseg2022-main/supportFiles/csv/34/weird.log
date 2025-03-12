@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-08-00-23-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421956763.855060	Ce59jo3kE1naj403l6	59.166.0.1	38757	149.171.126.4	8888	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421956763.858819	Ce59jo3kE1naj403l6	59.166.0.1	38757	149.171.126.4	8888	bad_HTTP_request	-	F	zeek	HTTP
+1421956819.437153	CNi2kK1CkyJE64n9me	149.171.126.1	62042	59.166.0.7	20975	connection_originator_SYN_ack	-	F	zeek	TCP
+1421956819.438319	CNi2kK1CkyJE64n9me	59.166.0.7	20975	149.171.126.1	62042	data_before_established	-	F	zeek	TCP
+1421956820.641407	CHSjeb47yQ8cxd2tu6	59.166.0.4	41093	149.171.126.4	45045	possible_split_routing	-	F	zeek	-
+1421956896.140013	Cqfvab28P2Uy27IbMg	59.166.0.3	21189	149.171.126.6	25	smtp_mail_transaction_invalid	data missing rcpt to	F	zeek	SMTP
+1421956896.154015	C00JNZ3fIa8AHgoQU3	59.166.0.3	36012	149.171.126.5	25	smtp_mail_transaction_invalid	data missing rcpt to	F	zeek	SMTP
+1421956904.941471	CYU3jq2VQ7Ub8qCDka	59.166.0.4	35810	149.171.126.4	13204	possible_split_routing	-	F	zeek	-
+1421956904.941479	CYU3jq2VQ7Ub8qCDka	59.166.0.4	35810	149.171.126.4	13204	data_before_established	-	F	zeek	TCP
+1421956964.637568	CeHGNX2dc9C4HrhGNb	149.171.126.4	5190	59.166.0.4	2863	connection_originator_SYN_ack	-	F	zeek	TCP
+1421956964.639300	CeHGNX2dc9C4HrhGNb	59.166.0.4	2863	149.171.126.4	5190	data_before_established	-	F	zeek	TCP
+1421956969.147508	CNnXTZOpQ7iEiPFc	149.171.126.7	27976	59.166.0.5	7783	connection_originator_SYN_ack	-	F	zeek	TCP
+1421956969.253165	CNnXTZOpQ7iEiPFc	59.166.0.5	7783	149.171.126.7	27976	data_before_established	-	F	zeek	TCP
+1421956997.539913	CZqnsj34C33RohLDG5	59.166.0.8	3065	149.171.126.8	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421957010.740012	CvmJtD1exz1vdhp6W8	59.166.0.9	36205	149.171.126.1	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421957056.740573	CnJTgRhnSH8jlrRL6	59.166.0.8	21894	149.171.126.1	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+#close	2025-03-08-00-23-55

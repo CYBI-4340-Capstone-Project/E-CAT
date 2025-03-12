@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-08-02-19-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1424256111.604908	CYRM7q3fWubFqjD8b	175.45.176.2	45073	149.171.126.16	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424256127.149884	CGcTcfHonFV2mC5Rd	175.45.176.0	57784	149.171.126.10	139	-	SMB::FILE_OPEN	-	\\ROUTER	0	-	-	-	-	-
+1424256151.192231	Cx9ejt2hBBeZ72VZEe	175.45.176.0	19866	149.171.126.12	445	-	SMB::FILE_OPEN	-	\\browser	0	-	-	-	-	-
+1424256237.427219	CnjwoI2rSmdYu1PKHh	175.45.176.1	36557	149.171.126.19	445	-	SMB::FILE_OPEN	-	\\browser	0	-	-	-	-	-
+1424256314.612255	ChQnSRI9fAX6Gf8Uf	175.45.176.2	57644	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\srvsvc	0	-	-	-	-	-
+1424256317.307778	ChQnSRI9fAX6Gf8Uf	175.45.176.2	57644	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\proc\\sys\\crypto\\fips_enabled	0	-	-	-	-	-
+1424256317.699837	ChQnSRI9fAX6Gf8Uf	175.45.176.2	57644	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\ywDdTRLl\\wireshark\\console.lua	0	-	-	-	-	-
+1424256325.265579	CuRCb23Bw23us63x99	175.45.176.2	10748	149.171.126.17	139	-	SMB::FILE_OPEN	-	\\SRVSVC	0	-	-	-	-	-
+1424256686.827537	C0WzO016adhXKwcAn	175.45.176.2	37794	149.171.126.14	139	-	SMB::FILE_OPEN	-	\\DNSSERVER	0	-	-	-	-	-
+1424256710.074283	CJF2wc4dZiDk2MgPZh	175.45.176.1	21448	149.171.126.17	445	-	SMB::FILE_OPEN	-	\\rjWhNOblYULCteRS\\bRjCnRDMZMSO\\Briefcase Database	0	-	-	-	-	-
+1424256737.175775	C2Vqqw3Oht1bAUwRh3	175.45.176.0	26026	149.171.126.17	445	-	SMB::FILE_OPEN	-	\\uja3ko\\VKPA.lnk	0	-	-	-	-	-
+1424256737.910039	C2Vqqw3Oht1bAUwRh3	175.45.176.0	26026	149.171.126.17	445	-	SMB::FILE_OPEN	-	\\uja3ko\\ekhwY13av.dll	0	-	-	-	-	-
+#close	2025-03-08-02-19-29

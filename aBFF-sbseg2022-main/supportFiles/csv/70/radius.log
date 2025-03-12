@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	radius
+#open	2025-03-08-02-09-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	mac	framed_addr	tunnel_client	connect_info	reply_msg	result	ttl
+#types	time	string	addr	port	addr	port	string	string	addr	string	string	string	string	interval
+1424247215.536861	C6g2IDsOINt7FNy55	175.45.176.0	35590	149.171.126.17	1812	-	-	-	-	-	-	unknown	-
+#close	2025-03-08-02-09-37

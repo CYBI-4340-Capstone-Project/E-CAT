@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-01-53-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424231521.206773	CF2NGv32wdFqGzBdp8	175.45.176.1	46379	149.171.126.12	445	-	YQuel	-	dODX9zRQxrU	dodx9zrqxru.domain.com	domain.com	T
+1424231538.879349	CRCDA449xuK0aYDPn1	175.45.176.2	45766	149.171.126.14	445	-	BrM4T3UPerP	-	nN9etfw	nn9etfw.domain.com	domain.com	T
+1424231611.155262	CeH5UUwQMNDc2yYBh	175.45.176.1	56806	149.171.126.12	139	-	18	-	Zg2dt	zg2dt.domain.com	domain.com	T
+1424231654.163733	Cbd9eh2Qel1In1f8Ze	175.45.176.2	21210	149.171.126.10	445	-	KeeFdk8S7RJQ	-	EuE	eue.domain.com	domain.com	T
+1424231669.307942	CtChog1ZbCgVqeZEd5	175.45.176.0	12382	149.171.126.12	445	-	EJwtyy	-	9	9.domain.com	domain.com	T
+1424231895.382279	CpYi0O3CMIN42dxrbi	175.45.176.1	53065	149.171.126.13	139	-	EWnXUKR	-	rzjBl	rzjbl.domain.com	domain.com	T
+1424231937.768350	C48NtO1qe1aF1Gf5V7	175.45.176.2	22500	149.171.126.10	139	-	nWWkyVV	-	ECh	ech.domain.com	domain.com	T
+1424231999.275555	C79ZGx2ZV5ty5CVa5	175.45.176.1	13847	149.171.126.13	139	-	Uz	-	uQVS	uqvs.domain.com	domain.com	T
+1424232165.319207	CweyZVaKoLgFAukag	175.45.176.2	60077	149.171.126.11	139	-	ri5iwVU9	-	a1dv9rL	a1dv9rl.domain.com	domain.com	T
+1424232184.743215	ChpQ6k2TIzEMjC0d94	175.45.176.2	20160	149.171.126.18	139	-	cKRoPL	-	XH5SCZZUaZV	xh5sczzuazv.domain.com	domain.com	T
+1424232342.252775	CnHUth1QgUHhJ2UHqf	175.45.176.1	9781	149.171.126.17	139	Administrator	WIN2KSRV	WIN2KSRV	SERVICEPC	servicepc	-	-
+1424232661.536864	ChyE3D3OMLoZwl8M4	175.45.176.0	23363	149.171.126.14	445	XUuU	-	-	LQBRNQ$$	lqbrnq$$.awplbb.com	awplbb.com	T
+1424232750.084600	CvFSvh3R8GsbF3AQEc	175.45.176.2	51933	149.171.126.13	139	-	Lk	-	tG	tg.domain.com	domain.com	T
+1424232760.563191	Cw42DGPHW7aDk2tnf	175.45.176.1	55101	149.171.126.18	139	-	47Sr5V8fItoz	-	AMDkSC	amdksc.domain.com	domain.com	T
+1424232810.765388	Ce9kbq15baFZLPy5Rj	175.45.176.2	8853	149.171.126.11	139	-	9OY5wQXQsME	-	XaN8qfG5	xan8qfg5.domain.com	domain.com	T
+1424232811.153116	CCe6Oz3GeyCXh9Rowb	175.45.176.0	1333	149.171.126.11	139	-	6D27yQefNx	-	eqlzbttnuC	eqlzbttnuc.domain.com	domain.com	T
+1424232914.619829	CX3M9t2YpaY2loxTXi	175.45.176.2	23619	149.171.126.18	139	-	hgDAgnuBEwzK	-	7	7.domain.com	domain.com	T
+#close	2025-03-08-01-54-10

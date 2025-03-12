@@ -45,8 +45,8 @@ warnings.filterwarnings('ignore')
 
 
 # GLOBAL VARIABLES 
-
-TARGET_LIST = [0, 1, 2, 3, 4, 5]
+# Exclude AB-TRAP (0) and internet (5) datasets
+TARGET_LIST = [1, 2, 3, 4]
 
 ## Select PCAP and dataset types
 #
@@ -92,7 +92,6 @@ def runEvaluation(pNum, maxNumFiles, dNum=1, scanOnly=False, scan=True, no_overw
         return(-1)
     # make target list for testing model
     targetList = TARGET_LIST
-    print('targetList before: ', targetList)
     if os.path.isfile(scorefile) and no_overwrite:          # if file already exists, load table
         print("Found F1-score file for {0} data set".format(DSName))
         table = pd.read_csv(scorefile, sep=',')
@@ -104,7 +103,7 @@ def runEvaluation(pNum, maxNumFiles, dNum=1, scanOnly=False, scan=True, no_overw
         #table["ML"] = algo
     # remove targets already tested or out of bound
     targetList = [x for x in targetList if (x in myFunc.pcapOptions() and x != pNum)] #and myFunc.getDSName(x, dNum) not in table.columns)]
-    print("targetList after: ", targetList)
+     
     #---------#
     # TESTING #
     #---------#
@@ -115,8 +114,6 @@ def runEvaluation(pNum, maxNumFiles, dNum=1, scanOnly=False, scan=True, no_overw
     for targetNum in targetList:                            # test model on every target in the list
         # load target data set
         tName = myFunc.getDSName(targetNum, dNum, scanOnly, scan)
-        print('tName: ', tName)
-        print('pNum: ', pNum)
         X, y = myFunc.loadAndSet(tName, pNum)
         myFunc.log(DSName, MSG.format(tName))
         
@@ -139,6 +136,7 @@ def runEvaluation(pNum, maxNumFiles, dNum=1, scanOnly=False, scan=True, no_overw
     
     
 #XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+    
     
     
 # IF CALLED FROM TERMINAL

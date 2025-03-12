@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-03-08-02-03-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1424241235.719072	CIqIQN1Wvu4iRGSbyc	175.45.176.1	60586	149.171.126.15	443	TLSv10	TLS_DH_ANON_WITH_RC4_128_MD5	-	-	T	-	-	F	CBsxnb	aa4f098633b528c25de50142e6d6ff2cd7f8c574e72ee6f1cd6f5f5c03455363	(empty)	-
+1424241321.696202	CwC3m12YlraFWbAoM6	175.45.176.0	1174	149.171.126.10	443	TLSv10	TLS_DHE_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	F	Csrn	-	-	-
+#close	2025-03-08-02-03-10

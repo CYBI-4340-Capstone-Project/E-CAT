@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	sip
+#open	2025-03-07-06-40-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	uri	date	request_from	request_to	response_from	response_to	reply_to	call_id	seq	subject	request_path	response_path	user_agent	status_code	status_msg	warning	request_body_len	response_body_len	content_type
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	string	string	string	string	vector[string]	vector[string]	string	count	string	string	count	count	string
+1421933992.188124	Cgqjdp2ZaRdqRm7nAi	175.45.176.3	8892	149.171.126.12	5060	0	OPTIONS	sip:s66F4Q3fBDsq6gelkZO9HfQ1XZOY3K@149.171.126.12	-	"7drabx3zdiX9hCK" <sip:zgEEGj5A@175.45.176.3>	"dj20cW014c7A" <sip:s66F4Q3fBDsq6gelkZO9HfQ1XZOY3K@149.171.126.12>	-	-	-	47099@175.45.176.3	51662 OPTIONS	bdMszagc5G3mTLMfLNnCeE	SIP/2.0/UDP 175.45.176.3,SIP/2.0/UDP 175.45.176.3	(empty)	-	-	-	-	226	-	-
+1421934027.720173	CHUjwP2TAZ47b3UIl5	175.45.176.1	32431	149.171.126.16	5060	0	CANCEL	sip:duiA5m@149.171.126.16	-	"P5ZAOOK4Tz5tKM" <sip:zVR1wNqUSy1Q9c@175.45.176.1>	"tv4bFeKmXB" <sip:duiA5m@149.171.126.16>	-	-	-	52311@175.45.176.1	59355 CANCEL	cEkLoWCxf	SIP/2.0/UDP 175.45.176.1;rport=32431	(empty)	-	-	-	-	22824	-	-
+1421934043.101560	CaxZzwTUMlylTVwra	175.45.176.0	34209	149.171.126.16	5060	0	INVITE	sip:K9ec4YOHKmeAQqtNZaB2GCBTkyck7L@149.171.126.16	-	"h4FoQtpvMr8j" <sip:LAT3NAChOhVD@175.45.176.0>	"d211" <sip:K9ec4YOHKmeAQqtNZaB2GCBTkyck7L@149.171.126.16>	-	-	-	30651@175.45.176.0	11089 INVITE	hh1DxNH4oDt9Y1R4B6t	SIP/2.0/UDP 175.45.176.0;rport=34209,SIP/2.0/UDP 175.45.176.0;rport=34209	(empty)	-	-	-	-	223	-	-
+1421934079.469159	CiaVQl2vyO3dyX3LFf	175.45.176.1	10140	149.171.126.11	5060	0	OPTIONS	sip:FfANLGsWWz3PPlR@149.171.126.11	-	"KCEtR95zVo" <sip:IDRN3TLurjmMo@175.45.176.1>	"itXHELyK" <\x09sip:FfANLGsWWz3PPlR@149.171.126.11\x09\x09>	-	-	-	26351@175.45.176.1	60645 OPTIONS	oqhorqkwXvsILYPXIDA	SIP/2.0/UDP 175.45.176.1,SIP/2.0/UDP 175.45.176.1	(empty)	-	-	-	-	223	-	-
+1421934237.850167	CcfLaK2Ng7wnaYK229	175.45.176.2	22148	149.171.126.12	5060	0	ACK	sip:SmAIKt8Y2epoVDraU2NEuZmU5OBT61WE@149.171.126.12	-	"8PdIp4Ddc <sip:OOnJPYx@175.45.176.2>	"I4QHGSj1ozPz3K" <sip:SmAIKt8Y2epoVDraU2NEuZmU5OBT61WE@149.171.126.12>	-	-	-	27183@175.45.176.2	45873 ACK	jYqJXKViQJfhtmct	SIP/2.0/UDP 175.45.176.2;rport=22148,SIP/2.0/UDP 175.45.176.2;rport=22148	(empty)	-	-	-	-	220	-	-
+1421934244.865734	CeShJ1wMMEPN6tKo5	175.45.176.3	31032	149.171.126.12	5060	0	OPTIONS	sip:rzbBTprRAehk@149.171.126.12	-	"cYTsb5d" <sip:xoolrC@175.45.176.3>	"Qo9OyH" <sip:rzbBTprRAehk@149.171.126.12>	-	-	-	32987@175.45.176.3	13903 OPTIONS	ijMCl6RkkK4j	SIP/2.0/UDP 175.45.176.3,SIP/2.0/UDP 175.45.176.3	(empty)	-	-	-	-	216	-	-
+#close	2025-03-07-06-40-44

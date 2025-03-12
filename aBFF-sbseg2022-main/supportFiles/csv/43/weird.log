@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-08-00-31-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421964953.354517	CSrZMd1eZGceantd6i	149.171.126.7	50352	59.166.0.0	53740	connection_originator_SYN_ack	-	F	zeek	TCP
+1421964953.355842	CSrZMd1eZGceantd6i	59.166.0.0	53740	149.171.126.7	50352	data_before_established	-	F	zeek	TCP
+1421964954.000405	C281Yp3p1uEykSXzBj	149.171.126.1	42669	59.166.0.6	44795	connection_originator_SYN_ack	-	F	zeek	TCP
+1421964954.001468	C281Yp3p1uEykSXzBj	59.166.0.6	44795	149.171.126.1	42669	data_before_established	-	F	zeek	TCP
+1421964954.066586	CDVuoIhugtysKjhG2	149.171.126.6	42890	59.166.0.9	44883	connection_originator_SYN_ack	-	F	zeek	TCP
+1421964954.067611	CDVuoIhugtysKjhG2	59.166.0.9	44883	149.171.126.6	42890	data_before_established	-	F	zeek	TCP
+1421964959.196078	CnbCMp3oRHsWjesZO2	59.166.0.1	61411	149.171.126.9	6881	above_hole_data_without_any_acks	-	F	zeek	TCP
+1421964969.606009	CceguEDbMCdvWuwra	59.166.0.6	19817	149.171.126.6	10198	possible_split_routing	-	F	zeek	-
+1421964969.606009	CceguEDbMCdvWuwra	59.166.0.6	19817	149.171.126.6	10198	data_before_established	-	F	zeek	TCP
+1421964969.782316	CceguEDbMCdvWuwra	59.166.0.6	19817	149.171.126.6	10198	inappropriate_FIN	-	F	zeek	TCP
+1421964971.773893	C4tNDv42zdUEs0xtM9	149.171.126.9	30013	59.166.0.3	53313	connection_originator_SYN_ack	-	F	zeek	TCP
+1421964971.785254	C4tNDv42zdUEs0xtM9	59.166.0.3	53313	149.171.126.9	30013	data_before_established	-	F	zeek	TCP
+1421965016.650740	CJVXgH2Mu5VcXY2ZBh	149.171.126.2	5190	59.166.0.0	36065	connection_originator_SYN_ack	-	F	zeek	TCP
+1421965016.651759	CJVXgH2Mu5VcXY2ZBh	59.166.0.0	36065	149.171.126.2	5190	data_before_established	-	F	zeek	TCP
+1421965054.959442	CjXaVg2mpdQu9R1Gl8	59.166.0.7	15162	149.171.126.9	40605	data_before_established	-	F	zeek	TCP
+1421965090.580039	CDB6yA2EKcmFN8Nxi9	59.166.0.1	3275	149.171.126.7	32498	data_before_established	-	F	zeek	TCP
+#close	2025-03-08-00-31-44

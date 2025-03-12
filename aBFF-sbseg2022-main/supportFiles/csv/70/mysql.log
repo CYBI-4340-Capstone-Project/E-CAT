@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	mysql
+#open	2025-03-08-02-09-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	cmd	arg	success	rows	response
+#types	time	string	addr	port	addr	port	string	string	bool	count	string
+1424246513.243727	CRd6NZdQshq0IrP4k	175.45.176.1	31040	149.171.126.10	3306	login	kTYPNMsb	-	-	-
+#close	2025-03-08-02-09-37

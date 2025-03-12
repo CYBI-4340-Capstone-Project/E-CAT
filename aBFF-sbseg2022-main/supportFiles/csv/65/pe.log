@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	pe
+#open	2025-03-08-02-00-09
+#fields	ts	id	machine	compile_ts	os	subsystem	is_exe	is_64bit	uses_aslr	uses_dep	uses_code_integrity	uses_seh	has_import_table	has_export_table	has_cert_table	has_debug_data	section_names
+#types	time	string	string	time	string	string	bool	bool	bool	bool	bool	bool	bool	bool	bool	bool	vector[string]
+1424238099.980889	FZMnUz3IPLNBmX8hgj	I386	1159372996.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	F	F	F	.text,.data,.ctors,.rdata,.bss,.idata
+1424238246.528904	FchEOK2FQd0jsfKxvi	I386	1159372996.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	F	F	F	.text,.data,.ctors,.rdata,.bss,.idata
+1424238373.385958	FSBXev20qnQPiRLp68	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424238553.793101	FGiZp012ldwvGLUMld	I386	1168906815.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	F	T	F	F	F	.text,.rsrc,.reloc
+1424238812.755593	Ff2WRA3VyU8SgBf8Va	I386	998081552.000000	Windows XP	WINDOWS_GUI	T	F	F	F	F	T	T	F	F	T	.text,.data,.rsrc
+1424238935.652583	FBrMUs4dKmJITCPJ56	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424238947.179926	FVRiBMjSjEggiSj63	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424238967.165214	FGKJKE1g1mbFEXAEP4	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424239159.547126	FrBCfn4LhslkRSG2Gk	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424239169.000296	FhQ6rG3EyyOZpAIaFl	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424239285.918448	FFyIo32XBuMAyDHdAb	I386	1279581775.000000	Windows 95 or NT 4.0	WINDOWS_CUI	T	F	F	F	F	T	T	T	F	F	.text,.data,.rdata,.bss,.edata,.idata,.rsrc,.reloc
+1424239637.639055	FCs1u12gg8BNwmmVOk	I386	998081552.000000	Windows XP	WINDOWS_GUI	T	F	F	F	F	T	T	F	F	T	.text,.data,.rsrc
+#close	2025-03-08-02-00-27

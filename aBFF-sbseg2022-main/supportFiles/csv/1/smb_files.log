@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-07-06-43-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1421927450.933930	CFgonT3z4b0M8fMVIa	175.45.176.3	42254	149.171.126.16	445	-	SMB::FILE_OPEN	-	\\spoolss	0	-	-	-	-	-
+1421928066.685649	CTMCqhytBwsDULQsl	175.45.176.1	42019	149.171.126.13	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1421928086.152411	CcRymy33hju5oiyNe1	175.45.176.3	49580	149.171.126.19	139	-	SMB::FILE_OPEN	-	\\ROUTER	0	-	-	-	-	-
+1421928107.472826	CFLq1C27fhO0b0WUpi	175.45.176.2	44178	149.171.126.19	445	-	SMB::FILE_OPEN	-	\\browser	0	-	-	-	-	-
+1421928191.261692	CXVk3d2mLu9F4IxhDj	175.45.176.1	44676	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\browser	0	-	-	-	-	-
+1421928267.394676	Cj9Iq13fTSKAllSGB6	175.45.176.1	62765	149.171.126.12	445	-	SMB::FILE_OPEN	-	\\srvsvc	0	-	-	-	-	-
+1421928269.793416	Cj9Iq13fTSKAllSGB6	175.45.176.1	62765	149.171.126.12	445	-	SMB::FILE_OPEN	-	\\proc\\sys\\crypto\\fips_enabled	0	-	-	-	-	-
+1421928270.232594	Cj9Iq13fTSKAllSGB6	175.45.176.1	62765	149.171.126.12	445	-	SMB::FILE_OPEN	-	\\MHNVrXgKTGtM\\wireshark\\console.lua	0	-	-	-	-	-
+1421928277.634317	CUjIoACB9gLDC9Zs2	175.45.176.1	12962	149.171.126.17	445	-	SMB::FILE_OPEN	-	\\SRVSVC	0	-	-	-	-	-
+#close	2025-03-07-06-43-17

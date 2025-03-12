@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-01-59-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424236548.626326	CU1i691DU8l5wgAOhh	175.45.176.0	45799	149.171.126.12	139	-	KZWvq1	-	okKyLtu	okkyltu.domain.com	domain.com	T
+1424236787.802532	CYjhgf3fdrebp3OH6	175.45.176.1	59629	149.171.126.16	139	-	YVs6D	-	Ggw	ggw.domain.com	domain.com	T
+1424236795.024360	Ca8vTz3oDmQ4q4AsG4	175.45.176.3	36411	149.171.126.15	139	-	UAdUVbdJDXSc	-	Uye	uye.domain.com	domain.com	T
+1424236866.315771	CCPbnv2f65EIrk36W8	175.45.176.2	32035	149.171.126.10	139	-	mOcmFvOqrgT	-	hQb1izacYA	hqb1izacya.domain.com	domain.com	T
+1424236994.358396	CPoCyj26HOjK2rYYKc	175.45.176.1	12310	149.171.126.19	139	-	br96KTszGijG	-	9oU1DSEoSRg6	9ou1dseosrg6.domain.com	domain.com	T
+1424237028.027942	Ccgw9W1GdT48BF88Z5	175.45.176.0	10330	149.171.126.16	445	YG2GayF	-	-	FDDABW$	fddabw$.gtlsiycd.com	gtlsiycd.com	T
+1424237069.239862	CDyrex42YVrSvp52H9	175.45.176.3	12520	149.171.126.12	445	demo	IW7	demo	DEMOPC	demopc.demo.com	demo.com	T
+1424237171.426780	CXQ0IL1x4E7Dm947Xa	175.45.176.1	60974	149.171.126.12	139	KNNCpR	GJ9vHVA	-	iwQF	iwqf.domain.com	domain.com	T
+1424237196.931645	CkExBJ2f6mYyWzAAD3	175.45.176.1	52920	149.171.126.12	445	-	ENGZ3GHl4UC	-	6jspWbkQq	6jspwbkqq.domain.com	domain.com	T
+1424237208.546970	CtS7mg29gvzuwN4EN6	175.45.176.3	56071	149.171.126.18	139	-	IN7	-	LJAiz	ljaiz.domain.com	domain.com	T
+1424237491.841150	CftT693o8h20QN5jWa	175.45.176.2	56178	149.171.126.14	445	-	ifPD9KZ	-	BH7	bh7.domain.com	domain.com	T
+1424237533.774030	CXie3K3xa9L60WMr5i	175.45.176.3	24876	149.171.126.10	445	-	92gp	-	mHXaoiHs	mhxaoihs.domain.com	domain.com	T
+1424237559.450742	Cjsaj62JM1Jr1q7ntk	175.45.176.0	26605	149.171.126.16	139	-	NokkKdvL	-	opK	opk.domain.com	domain.com	T
+1424237624.814944	Cg6Dwl3gfmlN8mTPV4	175.45.176.1	52328	149.171.126.11	445	-	RK9L3bm2	-	jW5ER5iDhrbPr	jw5er5idhrbpr.domain.com	domain.com	T
+1424237773.548383	CJiVfj4rSbFbIiMD98	175.45.176.0	38922	149.171.126.11	445	-	7o	-	algIXnnEZ	algixnnez.domain.com	domain.com	T
+1424237861.026816	CHXwkY2cPWVmCz4oi6	175.45.176.3	14904	149.171.126.12	445	vrt	VRTVM-WINXPPRO	VRTVM-WINXPPRO	STICKY	sticky.vrt.telus.com	-	T
+1424238054.881163	CmKVgu4gLMfW4jPqYb	175.45.176.2	32150	149.171.126.13	139	-	f	-	vsJmX	vsjmx.domain.com	domain.com	T
+#close	2025-03-08-02-00-01

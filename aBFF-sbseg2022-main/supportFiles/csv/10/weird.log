@@ -1,0 +1,44 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-07-06-44-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421935067.469517	CXmpsoIcWBSeaczPk	59.166.0.7	8732	149.171.126.2	6669	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421935067.469523	CXmpsoIcWBSeaczPk	59.166.0.7	8732	149.171.126.2	6669	irc_invalid_command	-	F	zeek	IRC
+1421935067.477497	CXmpsoIcWBSeaczPk	59.166.0.7	8732	149.171.126.2	6669	irc_line_too_short	-	F	zeek	IRC
+1421935067.481531	CXmpsoIcWBSeaczPk	59.166.0.7	8732	149.171.126.2	6669	irc_invalid_reply_number	-	F	zeek	IRC
+1421935067.481531	CXmpsoIcWBSeaczPk	59.166.0.7	8732	149.171.126.2	6669	irc_too_many_invalid	-	F	zeek	IRC
+1421935080.818691	Cytawt41p6Smgx1sxk	149.171.126.6	10866	59.166.0.8	40986	connection_originator_SYN_ack	-	F	zeek	TCP
+1421935082.044544	CMqkLC2BDnjeeW4Ml	59.166.0.4	11835	149.171.126.1	5190	possible_split_routing	-	F	zeek	-
+1421935082.044544	CMqkLC2BDnjeeW4Ml	59.166.0.4	11835	149.171.126.1	5190	data_before_established	-	F	zeek	TCP
+1421935082.743635	CGqogk2nXHWHbLPFX2	59.166.0.6	46684	149.171.126.4	80	data_before_established	-	F	zeek	TCP
+1421935188.547051	Cx4eUc39SuABVFtQx8	59.166.0.0	14715	149.171.126.7	80	possible_split_routing	-	F	zeek	-
+1421935188.547051	Cx4eUc39SuABVFtQx8	59.166.0.0	14715	149.171.126.7	80	data_before_established	-	F	zeek	TCP
+1421935228.937180	Cq46es4NIAm9PJ2qfd	59.166.0.3	20453	149.171.126.9	21	data_before_established	-	F	zeek	TCP
+1421935255.734272	CcIsCe1Kl9UuD9zB4a	59.166.0.6	44341	149.171.126.4	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421935255.933134	CPwhB42A6Y9x8s1fFi	149.171.126.0	5190	59.166.0.8	37943	connection_originator_SYN_ack	-	F	zeek	TCP
+1421935257.100996	Cdvqqo3gSLGLiI3o61	59.166.0.4	1726	149.171.126.8	6881	possible_split_routing	-	F	zeek	-
+1421935257.100996	Cdvqqo3gSLGLiI3o61	59.166.0.4	1726	149.171.126.8	6881	data_before_established	-	F	zeek	TCP
+1421935263.776115	CApkRc1OnVQ9rDu9rd	59.166.0.8	18346	149.171.126.0	25	smtp_mail_transaction_invalid	rcpt to missing mail from	F	zeek	SMTP
+1421935317.235177	CCLfGm3VD91rD2gZYb	59.166.0.3	29755	149.171.126.0	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421935337.135414	CbyEIi1Mt5RbUtQqI3	59.166.0.5	25983	149.171.126.6	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421935366.135763	CzgDC31TRuhmPzfCPd	59.166.0.1	20970	149.171.126.6	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421935368.031573	Ch0RSd3qgKLBztMfke	149.171.126.7	28001	59.166.0.3	19026	connection_originator_SYN_ack	-	F	zeek	TCP
+1421935368.127743	Ch0RSd3qgKLBztMfke	59.166.0.3	19026	149.171.126.7	28001	data_before_established	-	F	zeek	TCP
+1421935368.199571	CPKSSGptQhDPqy7Rb	59.166.0.1	62142	149.171.126.0	6881	possible_split_routing	-	F	zeek	-
+1421935368.199571	CPKSSGptQhDPqy7Rb	59.166.0.1	62142	149.171.126.0	6881	data_before_established	-	F	zeek	TCP
+1421935368.231699	CHntPJ9sJmDYTr6U5	59.166.0.1	22602	149.171.126.0	6881	data_before_established	-	F	zeek	TCP
+1421935372.935933	CvO1hp4m3kTIKIojnj	59.166.0.2	41072	149.171.126.7	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421935374.441615	CQXw7l1q9FF8do51da	59.166.0.0	4055	149.171.126.3	52334	possible_split_routing	-	F	zeek	-
+1421935375.035310	ChkHZf24pKuF0DpfVf	59.166.0.7	18502	149.171.126.7	8832	data_before_established	-	F	zeek	TCP
+1421935375.762641	CKJW3i3f3U9HgW2Mh1	59.166.0.9	51015	149.171.126.0	6881	possible_split_routing	-	F	zeek	-
+1421935375.762641	CKJW3i3f3U9HgW2Mh1	59.166.0.9	51015	149.171.126.0	6881	data_before_established	-	F	zeek	TCP
+1421935394.336206	CNbmvz1BFuaU80Swt4	59.166.0.6	1477	149.171.126.9	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421935428.136562	Cz7mYJbtmDOWf79aa	59.166.0.1	18972	149.171.126.9	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421935459.141823	CNFz0b1kRaUHDPuqEa	59.166.0.1	16556	149.171.126.2	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421935515.337542	CS04tN3eMqGipk8kXe	59.166.0.4	45774	149.171.126.5	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421935543.338126	CbQm4L3AqedssU0c7i	59.166.0.9	18558	149.171.126.8	80	unescaped_%_in_URI	-	F	zeek	HTTP
+#close	2025-03-07-06-44-36

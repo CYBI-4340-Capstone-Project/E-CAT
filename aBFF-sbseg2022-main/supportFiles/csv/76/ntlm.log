@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-02-19-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424255731.150573	CuD1r84o56NKSf3DWf	175.45.176.1	63745	149.171.126.13	445	FQFQaZ	-	-	KCQJDTZ$	kcqjdtz$.lwuuuaj.com	lwuuuaj.com	T
+1424255973.947744	CLbxkoi0P8NKzAR99	175.45.176.1	31738	149.171.126.14	139	-	ntfzfyiWt7k	-	Awb7bU	awb7bu.domain.com	domain.com	T
+1424256004.183955	CIL0q01p8MJD5nKxma	175.45.176.3	22067	149.171.126.15	139	-	xz6nip3E1UuN	-	JqA6fh	jqa6fh.domain.com	domain.com	T
+1424256067.149986	CWKEab4ikAK1ia8Yw6	175.45.176.2	37290	149.171.126.10	445	-	-	-	VRTVM-WIN2KSRV	vrtvm-win2ksrv	-	-
+1424256110.382032	CYRM7q3fWubFqjD8b	175.45.176.2	45073	149.171.126.16	139	-	wOKL	-	3CN28iHJbU4N	3cn28ihjbu4n.domain.com	domain.com	T
+1424256126.242489	CGcTcfHonFV2mC5Rd	175.45.176.0	57784	149.171.126.10	139	-	G33	-	QUyGcsOk4hw	quygcsok4hw.domain.com	domain.com	T
+1424256150.333659	Cx9ejt2hBBeZ72VZEe	175.45.176.0	19866	149.171.126.12	445	-	HOD	-	VMWIN2000	vmwin2000	-	-
+1424256236.658737	CnjwoI2rSmdYu1PKHh	175.45.176.1	36557	149.171.126.19	445	anonymous	tRgcRYymP9nk	-	jjWR5CocC9XFO	jjwr5cocc9xfo.domain.com	domain.com	T
+1424256314.068518	ChQnSRI9fAX6Gf8Uf	175.45.176.2	57644	149.171.126.11	445	-	UnA	-	0	0.domain.com	domain.com	T
+1424256324.631567	CuRCb23Bw23us63x99	175.45.176.2	10748	149.171.126.17	139	-	XdUuSSeJA7COV	-	Mq5pg8f92UIW	mq5pg8f92uiw.domain.com	domain.com	T
+1424256485.180367	CMDyFT2WatWN28DHHe	175.45.176.3	30787	149.171.126.18	445	-	-	-	CA-AV-EHSAN	ca-av-ehsan	-	-
+1424256577.621997	CeIzG74lBMzJjNPFHf	175.45.176.0	42005	149.171.126.10	445	-	Hm	-	PRVu4q	prvu4q.domain.com	domain.com	T
+1424256667.256306	Cc921ha3VwKeDjoZi	175.45.176.1	38940	149.171.126.18	445	9NsQyUR	-	-	XZQMN$	xzqmn$.ggynodtn.com	ggynodtn.com	T
+1424256686.206281	C0WzO016adhXKwcAn	175.45.176.2	37794	149.171.126.14	139	-	bKmSq	-	TCmO	tcmo.domain.com	domain.com	T
+1424256709.264521	CJF2wc4dZiDk2MgPZh	175.45.176.1	21448	149.171.126.17	445	-	dmrkdR4s7S	-	yWX8C2MwIlTL	ywx8c2mwiltl.domain.com	domain.com	T
+1424256736.374729	C2Vqqw3Oht1bAUwRh3	175.45.176.0	26026	149.171.126.17	445	-	c1yicN1X6EV3b	-	eM7Zqu	em7zqu.domain.com	domain.com	T
+1424256909.554704	Cgkc3m1dZqCdCbtK1a	175.45.176.0	40109	149.171.126.11	139	-	bpj4aWtd	-	cRTYqvkf	crtyqvkf.domain.com	domain.com	T
+#close	2025-03-08-02-19-29

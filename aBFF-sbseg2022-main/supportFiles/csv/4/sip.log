@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	sip
+#open	2025-03-07-06-46-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	uri	date	request_from	request_to	response_from	response_to	reply_to	call_id	seq	subject	request_path	response_path	user_agent	status_code	status_msg	warning	request_body_len	response_body_len	content_type
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	string	string	string	string	vector[string]	vector[string]	string	count	string	string	count	count	string
+1421929806.514775	CW3xet1Bx15UOtUBlf	175.45.176.2	5060	149.171.126.18	5060	0	INVITE	sip:LulHX5E9pSHaqiZLetf@IhmxqRwHFrhg.edu	-	sip:ZYiVr48@175.45.176.2	sip:K6plc@149.171.126.18	sip:ZYiVr48@175.45.176.2	sip:K6plc@149.171.126.18	-	XPpJSH@175.45.176.2	10419 INVITE	-	SIP/2.0/UDP 175.45.176.2,SIP/2.0/UDP 175.45.176.2	SIP/2.0/UDP 175.45.176.2;rport=5060	-	100	Trying	-	233	0	-
+1421929833.999612	CrIVCU2KC850AEXkij	175.45.176.1	39641	149.171.126.12	5060	0	BYE	sip:fkSVDENQ1QS6n8XTxvTKt@149.171.126.12	-	"ERkQfCZNY7" sip:nj457cFKryJ4Bb0EOjZoN@175.45.176.1?HgbOhM=%3csip:DCJiBdIEuQpMjOQTLExODeHGUXbFxu.us%3e	"lQ9Uobbz" <sip:fkSVDENQ1QS6n8XTxvTKt@149.171.126.12>	-	-	-	41358@175.45.176.1	40632 BYE	DLmnpvZ6kXOfgp2i4Im8S	SIP/2.0/UDP 175.45.176.1;rport=39641,SIP/2.0/UDP 175.45.176.1;rport=39641	(empty)	-	-	-	-	225	-	-
+1421929908.102208	CCl2m81WViQ5WC8t5h	175.45.176.0	19495	149.171.126.18	5060	0	ACK	sip:WhfPT6sVnuxf6b9Np@149.171.126.18	-	"xRrMvo" <sip:CuE@175.45.176.0>	"1AodRdztzeL4" <sip:WhfPT6sVnuxf6b9Np@149.171.126.18>	-	-	-	17802@175.45.176.0	1423735566 ACK	1QVNbaMby	SIP/2.0/UDP 175.45.176.0,SIP/2.0/UDP 175.45.176.0	(empty)	-	-	-	-	213	-	-
+1421929938.149049	C75FfxiqPKiiDPFa1	175.45.176.3	3856	149.171.126.10	5060	0	INVITE	xBq8:nFMoFeEkNspCMB8bPclU	-	"LI1JK4" <sip:rmCIWAgUPKu3LgaVB@175.45.176.3>	"MjkPkj" <sip:QXx7vG5@149.171.126.10>	-	-	-	54515@175.45.176.3	11554 INVITE	Wmmq9 ek   qajbXcX64G7	SIP/2.0/UDP 175.45.176.3,SIP/2.0/UDP 175.45.176.3	(empty)	-	-	-	-	226	-	-
+1421930126.703280	CzI2sa3RPnUfufMlM1	175.45.176.0	50455	149.171.126.10	5060	0	OPTIONS	sip:Po589gPp0KOhN7gZSu2UP@149.171.126.10	-	"2f1b" <sip:eargZau4esLpdobmwwleqARg9T@175.45.176.0>	"nay439OYNp" <sip:Po589gPp0KOhN7gZSu2UP@149.171.126.10>	-	-	-	42206@175.45.176.0	54715 OPTIONS	6cS6P	SIP/2.0/UDP 175.45.176.0,SIP/2.0/UDP 175.45.176.0	(empty)	-	-	-	-	209	-	-
+1421930413.666890	Ct8WIU3kAesgo9kCK5	175.45.176.3	53768	149.171.126.10	5060	0	DiDUxTywjr	sip:hT248QDjwb21fPf3Cq@149.171.126.10	-	"JkfRxl6ud" <sip:ypO4On2YCtHEOmL7g5IBX@175.45.176.3>	"lKbnthr0es" <sip:hT248QDjwb21fPf3Cq@149.171.126.10>	-	-	-	61762@175.45.176.3	8247 ACK	EDpKRfbZzJnxJRNLNClKpIW	SIP/2.0/UDP 175.45.176.3,SIP/2.0/UDP 175.45.176.3	(empty)	-	-	-	-	227	-	-
+#close	2025-03-07-06-46-27

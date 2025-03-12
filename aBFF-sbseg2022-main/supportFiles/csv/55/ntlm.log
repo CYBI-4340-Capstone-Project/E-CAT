@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-01-42-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424221632.077672	CpvRg4Fu2epvM0XJk	175.45.176.3	12928	149.171.126.12	139	-	Y0GwqZom	-	2SUsWD2ov8907	2suswd2ov8907.domain.com	domain.com	T
+1424221664.258508	C7i51C2BwRfQI1CP5c	175.45.176.2	43840	149.171.126.18	139	-	jvqY	-	Q	q.domain.com	domain.com	T
+1424221773.672607	C0zvLU3b1YIkSjf6e3	175.45.176.3	38525	149.171.126.15	139	-	qxo	-	6oWvcWYdcD	6owvcwydcd.domain.com	domain.com	T
+1424221880.389543	CvSKza2ODreqplmYV9	175.45.176.2	52380	149.171.126.12	445	-	lGXj6tfXOT	-	1RW9e7Fs	1rw9e7fs.domain.com	domain.com	T
+1424221963.491507	CPN0kx4zzreWzatedi	175.45.176.1	4297	149.171.126.18	139	-	J	-	WtLwqq4f5zYwf	wtlwqq4f5zywf.domain.com	domain.com	T
+1424222015.918822	CFxk4r3GcI7HfHoey6	175.45.176.2	63825	149.171.126.10	139	-	k	-	5o9TFTjXMgE	5o9tftjxmge.domain.com	domain.com	T
+1424222225.670324	CSL33CygYXrKfN6V4	175.45.176.2	5424	149.171.126.19	139	-	Eu9bcbxO	-	f7Fdjkx	f7fdjkx.domain.com	domain.com	T
+1424222446.559995	CzNA6auk5AcHq4Tv5	175.45.176.1	24704	149.171.126.19	139	-	fSFIk	-	jq86MBojvv	jq86mbojvv.domain.com	domain.com	T
+1424222685.383371	CpZ5MI3Rm0O93CvW9e	175.45.176.2	48937	149.171.126.13	139	-	lE1	-	t	t.domain.com	domain.com	T
+1424222692.473783	CymS8PzPbCdxpWvS1	175.45.176.2	63968	149.171.126.17	139	-	C74	-	B3z8bh7p0wYU	b3z8bh7p0wyu.domain.com	domain.com	T
+1424222763.316567	CWCrQs2x8RiPF8blC3	175.45.176.0	52295	149.171.126.19	139	-	oUbs1eEX	-	MN9	mn9.domain.com	domain.com	T
+1424222886.068354	Cu9rNa3MLqp1Stx4Ma	175.45.176.0	23011	149.171.126.16	139	-	71ohMU	-	szen1e53AQw	szen1e53aqw.domain.com	domain.com	T
+1424222893.293307	CQQJHk3w6NCkrNmD74	175.45.176.3	7892	149.171.126.10	445	ypZNreO	-	-	CUDI$	cudi$.sxpnzxjgua.com	sxpnzxjgua.com	T
+1424222958.555509	CTAkzN2xHCMvIHEP2g	175.45.176.0	1418	149.171.126.12	445	demo	948azZ1AF	demo	DEMOPC	demopc.demo.com	demo.com	T
+1424223059.904330	CmEJCe2hnsGcBHmUL9	175.45.176.3	2132	149.171.126.19	139	yOmym	f	-	CmQ	cmq.domain.com	domain.com	T
+1424223084.396852	CFcWaF2yldMfKR8I35	175.45.176.0	17362	149.171.126.16	445	-	b77qIRGENXO	-	7K3dvJgq6iJhT	7k3dvjgq6ijht.domain.com	domain.com	T
+#close	2025-03-08-01-43-14

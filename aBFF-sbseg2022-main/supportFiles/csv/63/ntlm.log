@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-01-57-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424234786.479613	C22FPA4cUhKoHVEQae	175.45.176.3	37141	149.171.126.19	445	anonymous	LVBnPdBd	-	AMS9741BkM9	ams9741bkm9.domain.com	domain.com	T
+1424234859.420749	CClF6W3NkbgRib925b	175.45.176.0	54775	149.171.126.11	445	-	ySY7d9jqer	-	92aA2	92aa2.domain.com	domain.com	T
+1424234869.802281	CsAM9raFzImdQeaU2	175.45.176.2	47568	149.171.126.10	445	-	cxtvpO7AzGqTP	-	B4YMd7qwT	b4ymd7qwt.domain.com	domain.com	T
+1424235029.942087	CSWfN84eqhHlkBR4Dl	175.45.176.2	49083	149.171.126.12	445	-	-	-	CA-AV-EHSAN	ca-av-ehsan	-	-
+1424235118.262999	CmNaNL3F845MVpQVCf	175.45.176.3	4601	149.171.126.16	445	-	UlulE0gs	-	hK0n	hk0n.domain.com	domain.com	T
+1424235208.426014	CAir7o1ouABg6VfVT4	175.45.176.1	27758	149.171.126.12	445	gQpF	-	-	BRGES$$	brges$$.szqxc.com	szqxc.com	T
+1424235224.130857	C8NS7B2zvHGuTMPHQj	175.45.176.2	27670	149.171.126.17	139	-	ev6NwK	-	7PBrRU8Sm	7pbrru8sm.domain.com	domain.com	T
+1424235252.492670	CObMJAJxz7bfU6ua4	175.45.176.2	42970	149.171.126.19	445	-	4muUqQuxDB3Io	-	hxf6Q	hxf6q.domain.com	domain.com	T
+1424235276.675892	C4BGtBFE4lO4s4IDb	175.45.176.0	14790	149.171.126.16	445	-	gTv0uLYp5Nn	-	c	c.domain.com	domain.com	T
+1424235445.495881	CvBYQl2nF3laSqDl8l	175.45.176.2	62362	149.171.126.18	139	-	1cYs6	-	VeIXGx	veixgx.domain.com	domain.com	T
+1424235730.499232	CMPnA9298qdzlftFA8	175.45.176.0	33975	149.171.126.14	139	-	J6wSfVSt7ur66	-	zN	zn.domain.com	domain.com	T
+1424235762.678912	CoPpbv3Pynz1MpcUV6	175.45.176.3	34808	149.171.126.15	139	-	SaStpmWY	-	ZRiU9gkbeM3f	zriu9gkbem3f.domain.com	domain.com	T
+1424235873.928628	CH9TNN3hoRKUIukjD7	175.45.176.1	58500	149.171.126.17	139	-	ApTgPZqc	-	mDrHFoSZgUbu	mdrhfoszgubu.domain.com	domain.com	T
+1424235981.312868	C4wtiK3P7oMuhb3xwa	175.45.176.3	36676	149.171.126.10	445	-	4yEg9FXkfsUkr	-	fDSXZ5l	fdsxz5l.domain.com	domain.com	T
+1424236064.781130	CAxEwh4TdoDgF76T9b	175.45.176.3	9122	149.171.126.15	139	-	ZmllxS	-	FFAhvb0Vh7gLt	ffahvb0vh7glt.domain.com	domain.com	T
+1424236117.437730	C0O0X11ScerSD8Z7mi	175.45.176.2	35706	149.171.126.12	139	-	9AclVdNEHnc2	-	yz77gKYj	yz77gkyj.domain.com	domain.com	T
+1424236328.531234	CqPmlG2fLM94buqkAe	175.45.176.2	30736	149.171.126.19	139	-	NzwlDb4kBN0uB	-	EjaatKV7q30	ejaatkv7q30.domain.com	domain.com	T
+#close	2025-03-08-01-57-19

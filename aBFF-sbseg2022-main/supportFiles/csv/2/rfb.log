@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	rfb
+#open	2025-03-07-06-43-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	client_major_version	client_minor_version	server_major_version	server_minor_version	authentication_method	auth	share_flag	desktop_name	width	height
+#types	time	string	addr	port	addr	port	string	string	string	string	string	bool	bool	string	count	count
+1421928482.965895	CiKFIH1eoscbyDjsN8	175.45.176.2	7462	149.171.126.15	5900	003	005	003	005	-	-	-	-	-	-
+1421928486.715812	CQrLLn1oAspyooN5q9	175.45.176.2	48344	149.171.126.15	5900	003	005	003	005	-	-	-	-	-	-
+1421928822.744344	CXzd0r1VzUCSvT84J7	175.45.176.2	63019	149.171.126.16	5900	003	008	003	008	None	T	T	-	-	-
+#close	2025-03-07-06-43-29

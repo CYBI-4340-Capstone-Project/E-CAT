@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2025-03-08-02-19-38
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1424257134.200798	716396a3ea34b0067d890dcd6e775b366e76de3e1df349abedfbcb959ba3b17e	2	9A773E9868AE2F2142	CN=uVEycH.com\\00njxoOwVyuqbebclExlJ.com,OU=mhUEnXB,O=UzzTqUsqUT,L=aTmKVEcrCIvmGiAdQ,ST=Minnesota,C=US	CN=cqbaqTlF.com,OU=Ae,O=awM,L=jhMfjaJOiSRBeKiax,ST=Wisconsin,C=US	1398243572.000000	1455699572.000000	rsaEncryption	sha1WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	-	-	T	F
+1424258237.198255	800c1c21815b08683c7c9b505692c6d4cc2738af505cdae2ff6e6ec272d84640	3	00	emailAddress=N/A,CN=VRT60,OU=VRT,O=FSC,L=Toronto,ST=Ontario,C=CA	emailAddress=N/A,CN=VRT60,OU=VRT,O=FSC,L=Toronto,ST=Ontario,C=CA	1095979953.000000	1190587953.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	T	F
+1424258237.211154	ed40c89c3f1dcc64c7b938a5b036cc2cd62f6b0416cd0bfff5b35090350787ef	3	02	CN=stunnel,O=FSC,L=Toronto,ST=Ontario,C=CA	CN=VRTCA,OU=VRT,O=FSC,L=Toronto,ST=Ontario,C=CA	1094259248.000000	1125795248.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	T	T
+1424258284.842827	ebc811160591bd12ebcc2cf243ad9f74d797410221c62718baa10956f3a8c5bb	3	00	emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	1159540500.000000	1191076500.000000	rsaEncryption	md5WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	T	F
+1424258333.546772	ed8dc9dd2837dde3754764fe6b295767f36e4a21666ceba8fc17478ebc05038c	1	3C10F7EE	CN=Dell Computer Corporation,OU=Enterprise Software Development,L=Round Rock,ST=TX,C=US	CN=Dell Computer Corporation,OU=Enterprise Software Development,L=Round Rock,ST=TX,C=US	1007745006.000000	1102439406.000000	rsaEncryption	sha1WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	-	-	T	F
+#close	2025-03-08-02-19-54

@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-08-00-38-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421971396.170716	CvEliOf0CmvyR0OTk	59.166.0.2	9454	149.171.126.0	8080	bad_HTTP_request	-	F	zeek	HTTP
+1421971396.330694	CvEliOf0CmvyR0OTk	59.166.0.2	9454	149.171.126.0	8080	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421971999.556051	C82SSliSPa8N7qDsi	59.166.0.6	45968	149.171.126.7	25	data_before_established	-	F	zeek	TCP
+1421971999.652619	CK7RUjOeR3yo897h3	149.171.126.6	6881	59.166.0.0	38582	connection_originator_SYN_ack	-	F	zeek	TCP
+1421971999.664874	CK7RUjOeR3yo897h3	59.166.0.0	38582	149.171.126.6	6881	data_before_established	-	F	zeek	TCP
+1421972001.906295	CWN0Rz2SiKvJPUU7Fd	149.171.126.7	35421	59.166.0.6	37393	connection_originator_SYN_ack	-	F	zeek	TCP
+1421972001.907346	CWN0Rz2SiKvJPUU7Fd	59.166.0.6	37393	149.171.126.7	35421	data_before_established	-	F	zeek	TCP
+1421972006.281836	Cv8YC03Ajv5Vg5y9jj	59.166.0.1	28383	149.171.126.6	54281	data_before_established	-	F	zeek	TCP
+1421972009.623278	Cguo4t1B6ezCeBdss2	59.166.0.1	21036	149.171.126.7	25	smtp_mail_transaction_invalid	data missing rcpt to	F	zeek	SMTP
+1421972036.978631	CKEsse6YhW8S8kfp1	149.171.126.9	6881	59.166.0.9	60743	TCP_ack_underflow_or_misorder	-	F	zeek	TCP
+1421972047.267754	CDCZSc4VBHYUfPwxpd	59.166.0.9	9455	149.171.126.9	6881	possible_split_routing	-	F	zeek	-
+1421972047.267754	CDCZSc4VBHYUfPwxpd	59.166.0.9	9455	149.171.126.9	6881	data_before_established	-	F	zeek	TCP
+1421972057.058946	C7wYw62VyBMVtLrLHd	59.166.0.5	21599	149.171.126.3	80	possible_split_routing	-	F	zeek	-
+1421972057.296655	CCqi1x3i37gY3fUvna	59.166.0.0	27887	149.171.126.7	6881	possible_split_routing	-	F	zeek	-
+1421972057.296655	CCqi1x3i37gY3fUvna	59.166.0.0	27887	149.171.126.7	6881	data_before_established	-	F	zeek	TCP
+1421972058.058949	C7wYw62VyBMVtLrLHd	59.166.0.5	21599	149.171.126.3	80	data_before_established	-	F	zeek	TCP
+#close	2025-03-08-00-38-37

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-08-00-40-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421972629.759928	CiNlBx25KoV7VtEFgl	59.166.0.1	50342	149.171.126.7	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421972635.770051	CceUzm2IV9lzIXHjic	59.166.0.4	5632	149.171.126.1	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421972678.558959	CvI8JO2lMCH3bZZmvg	59.166.0.8	63008	149.171.126.9	80	unescaped_%_in_URI	-	F	zeek	HTTP
+1421972681.888624	C5KqLQ3pcItRjlRIQ5	59.166.0.6	40154	149.171.126.9	80	unescaped_%_in_URI	-	F	zeek	HTTP
+#close	2025-03-08-00-40-06

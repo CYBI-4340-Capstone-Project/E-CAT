@@ -4,3 +4,93 @@ Removed 0 lines of full NaN values
 Removed 0 lines of full NaN values
 2025-03-06 17:11:49
 Removed 0 lines of full NaN values
+2025-03-08 20:54:02
+Removed 0 lines of full NaN values
+2025-03-08 20:54:05
+Removed 0 lines of NaN ID values
+2025-03-08 20:54:27
+Removed 14 lines with infinity valued features
+2025-03-08 20:55:02
+Removed 84348 duplicated lines
+2025-03-08 20:55:09
+Total examples of 4924253 with 4924253 attacks and 0 bonafide flows
+2025-03-08 21:55:59
+Removed 0 lines of full NaN values
+2025-03-08 21:56:03
+Removed 0 lines of NaN ID values
+2025-03-08 21:56:28
+Removed 14 lines with infinity valued features
+2025-03-08 21:57:06
+Removed 84348 duplicated lines
+2025-03-08 21:57:13
+Total examples of 4924253 with 4924253 attacks and 0 bonafide flows
+2025-03-08 22:21:39
+Removed 0 lines of full NaN values
+2025-03-08 22:21:43
+Removed 0 lines of NaN ID values
+2025-03-08 22:22:07
+Removed 14 lines with infinity valued features
+2025-03-08 22:22:45
+Removed 84348 duplicated lines
+2025-03-08 22:22:53
+Total examples of 4924253 with 4924253 attacks and 0 bonafide flows
+2025-03-08 22:38:47
+Removed 0 lines of full NaN values
+2025-03-08 22:38:50
+Removed 0 lines of NaN ID values
+2025-03-08 22:39:23
+Removed 14 lines with infinity valued features
+2025-03-08 22:39:58
+Removed 84348 duplicated lines
+2025-03-08 22:40:05
+Total examples of 4924253 with 4924253 attacks and 0 bonafide flows
+2025-03-08 22:44:53
+Removed 0 lines of full NaN values
+2025-03-08 22:44:57
+Removed 0 lines of NaN ID values
+2025-03-08 22:45:19
+Removed 14 lines with infinity valued features
+2025-03-08 22:45:55
+Removed 84348 duplicated lines
+2025-03-08 22:46:02
+Total examples of 4924253 with 4924253 attacks and 0 bonafide flows
+2025-03-08 22:51:29
+Removed 0 lines of full NaN values
+2025-03-08 22:51:33
+Removed 0 lines of NaN ID values
+2025-03-08 22:51:55
+Removed 14 lines with infinity valued features
+2025-03-08 22:52:31
+Removed 84348 duplicated lines
+2025-03-08 22:52:38
+Total examples of 4924253 with 4924253 attacks and 0 bonafide flows
+2025-03-08 23:00:04
+Removed 0 lines of full NaN values
+2025-03-08 23:00:07
+Removed 0 lines of NaN ID values
+2025-03-08 23:00:31
+Removed 14 lines with infinity valued features
+2025-03-08 23:01:06
+Removed 84348 duplicated lines
+2025-03-08 23:01:14
+Total examples of 4924253 with 4924253 attacks and 0 bonafide flows
+2025-03-08 23:05:55
+Removed 0 lines of full NaN values
+2025-03-08 23:05:59
+Removed 0 lines of NaN ID values
+2025-03-08 23:06:22
+Removed 14 lines with infinity valued features
+2025-03-08 23:06:57
+Removed 84348 duplicated lines
+2025-03-08 23:07:04
+Total examples of 4924253 with 4924253 attacks and 0 bonafide flows
+2025-03-08 23:17:15
+Removed 0 lines of full NaN values
+2025-03-08 23:17:19
+Removed 0 lines of NaN ID values
+2025-03-08 23:17:41
+Removed 14 lines with infinity valued features
+2025-03-08 23:18:17
+Removed 84348 duplicated lines
+2025-03-08 23:18:25
+Total examples of 4924253 with 4924253 attacks and 0 bonafide flows

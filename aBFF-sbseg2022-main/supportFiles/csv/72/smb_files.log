@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-08-02-12-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1424248935.360481	Csy92r46NSdj4snOZg	175.45.176.3	10852	149.171.126.13	445	-	SMB::FILE_OPEN	-	\\browser	0	-	-	-	-	-
+1424249029.664987	CYVi5q4Vhs1D4j82h	175.45.176.3	38316	149.171.126.15	445	-	SMB::FILE_OPEN	-	\\browser	0	-	-	-	-	-
+1424249160.702413	ClnaL548QIzcztwQv5	175.45.176.3	23620	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\srvsvc	0	-	-	-	-	-
+1424249174.355187	ClnaL548QIzcztwQv5	175.45.176.3	23620	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\proc\\sys\\crypto\\fips_enabled	0	-	-	-	-	-
+1424249177.119442	ClnaL548QIzcztwQv5	175.45.176.3	23620	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\EafEzDkaNkl\\wireshark\\console.lua	0	-	-	-	-	-
+1424249179.369242	Ct6cIrpWbGNsYcwik	175.45.176.0	55413	149.171.126.17	139	-	SMB::FILE_OPEN	-	\\SRVSVC	0	-	-	-	-	-
+1424249509.276795	CZnUi23gB0XMxRUtmc	175.45.176.0	52867	149.171.126.10	139	-	SMB::FILE_OPEN	-	\\DNSSERVER	0	-	-	-	-	-
+1424249531.555340	CXwMTl3lziq3XREGW9	175.45.176.0	62513	149.171.126.13	445	-	SMB::FILE_OPEN	-	\\aYBWCbavJeIr\\WkBLPEGMIh\\Briefcase Database	0	-	-	-	-	-
+1424249559.104690	C65APBsN9CMaCu7ef	175.45.176.3	32649	149.171.126.17	445	-	SMB::FILE_OPEN	-	\\izEEhBFmQ9Dis\\3EYX.lnk	0	-	-	-	-	-
+1424249559.892749	C65APBsN9CMaCu7ef	175.45.176.3	32649	149.171.126.17	445	-	SMB::FILE_OPEN	-	\\izEEhBFmQ9Dis\\Je5ch.dll	0	-	-	-	-	-
+1424250014.309993	CC3peR2akedbccn1J4	175.45.176.3	6820	149.171.126.14	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424250047.154499	CHSY2z44Keyes6z72	175.45.176.2	29186	149.171.126.10	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424250160.804439	Chkshb3LlPDDmNv8z9	175.45.176.2	9895	149.171.126.17	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424250353.203126	CDRFub2Qodu4KRzVi2	175.45.176.3	30137	149.171.126.14	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424250406.382477	CurldH3E1g2yu138F3	175.45.176.2	44130	149.171.126.14	139	-	SMB::FILE_OPEN	-	\\ROUTER	0	-	-	-	-	-
+#close	2025-03-08-02-12-50

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap
+#open	2025-03-08-01-45-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	version	opcode	result	diagnostic_message	object	argument
+#types	time	string	addr	port	addr	port	int	int	string	string	string	string	string
+1424223605.617655	C0KndYz2EHTSwUHZ	175.45.176.3	60635	149.171.126.13	389	1	3	bind simple	success	-	-	-
+1424223775.769592	CWCHYF3DzWIfk1M7Ah	175.45.176.2	54396	149.171.126.11	389	1255	3	bind SASL	SASL bind in progress	-	-	CRAM-MD5
+1424223775.993076	CWCHYF3DzWIfk1M7Ah	175.45.176.2	54396	149.171.126.11	389	1254	3	bind SASL	-	-	-	CRAM-MD5
+1424223886.211020	CIDq124zLwfT2DTFa9	175.45.176.2	35380	149.171.126.10	389	0	-	bind	success	-	-	-
+1424223886.128790	CIDq124zLwfT2DTFa9	175.45.176.2	35380	149.171.126.10	389	4328719365	2	bind simple	-	-	-	-
+1424224533.427041	ChkrNM2xCIpADFtii6	175.45.176.0	8178	149.171.126.14	389	1	3	bind simple	success	-	QCwuGZ	REDACTED
+#close	2025-03-08-01-46-09

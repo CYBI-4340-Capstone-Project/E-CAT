@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	mysql
+#open	2025-03-08-02-19-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	cmd	arg	success	rows	response
+#types	time	string	addr	port	addr	port	string	string	bool	count	string
+1424255679.464397	CqyVWA3lfN38wik3b	175.45.176.0	37098	149.171.126.13	3306	login	MwGUQYckZ	-	-	-
+1424256119.953689	CDtyTv33LfGdfRUag4	175.45.176.3	47569	149.171.126.16	3306	query	grant process on xBcmoATVuxCmzwljAhRGgHtkoVbZEGQUiIUgfKbtFFnfHLcnajwlCeTCwFEUMBuBiodNRZvUsSOfqdyuyKLGzTAYTtUvDxtXVbJemDqGtIemGXtcpemDqBhotEEYDNbDpsTfQmYQqZbJtRyWrFupRtcAscMcJfJssOrYVEqYrECcRWwSMFxhgUYqSvaYhfPpgDijDazoWJilpMXMXsneBhldkyfyGSFeZKwGIYNhqnIKvYzOIRVXyrjA to SZQCU	-	-	-
+#close	2025-03-08-02-19-29

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-08-02-16-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1424252834.222025	CObzK942ACq7YV6ir8	175.45.176.3	24359	149.171.126.14	2103	0.138312	2103	qmcomm	unknown-1
+1424253742.050141	CKbgHE21grEFgQPK8	175.45.176.1	48056	149.171.126.10	139	0.056084	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424253743.943232	CKbgHE21grEFgQPK8	175.45.176.1	48056	149.171.126.10	139	0.068486	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424253744.630795	CKbgHE21grEFgQPK8	175.45.176.1	48056	149.171.126.10	139	0.073819	\\PIPE\\srvsvc	srvsvc	NetrWkstaGetInfo
+#close	2025-03-08-02-16-19

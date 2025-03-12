@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	sip
+#open	2025-03-08-02-25-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	uri	date	request_from	request_to	response_from	response_to	reply_to	call_id	seq	subject	request_path	response_path	user_agent	status_code	status_msg	warning	request_body_len	response_body_len	content_type
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	string	string	string	string	vector[string]	vector[string]	string	count	string	string	count	count	string
+1424262193.998619	CP0mqP1J9plWgl02Ck	175.45.176.2	50648	149.171.126.12	5060	0	REGISTER	sip:NKvgOAWuXu14imo5yrUpQjIm@149.171.126.12	-	"jlkxd2AaTO" <sip:ej4ZHfY6Yye09kKrUNMFUeodW@175.45.176.2>	"37bFk7dj8GfSvRi" <sip:NKvgOAWuXu14imo5yrUpQjIm@149.171.126.12>	-	-	-	65196@175.45.176.2	18150 REGISTER	3NKHLQRWWwH41R0Piv0	SIP/2.0/UDP 175.45.176.2;rport=50648,SIP/2.0/UDP 175.45.176.2;rport=50648	(empty)	-	-	-	-	223	-	-
+1424262210.084970	CDXXuguSuFHVEH8m6	175.45.176.0	62395	149.171.126.12	5060	0	REGISTER	sip:OCg84X@149.171.126.12	-	"Na1NmQJo" <sip:cQEpMrEqMULT58x@175.45.176.0>	"Elu52okqNi" <sip:OCg84X@149.171.126.12>	-	-	-	50289@175.45.176.0	51086 REGISTER	ToUhi1dtpBWogQGFOqSGX	SIP/2.0/UDP 175.45.176.0	(empty)	-	-	-	-	61865	-	-
+1424262225.434689	Cw26UupXAObpiko57	175.45.176.3	53788	149.171.126.14	5060	0	REGISTER	sip:PBmpEPnlSdj8appE@149.171.126.14	-	"ASVP" <sip:QQrLEQdPW78@175.45.176.3>	"rOqt2AkT" <sip:PBmpEPnlSdj8appE@149.171.126.14>	-	-	-	10182@175.45.176.3	13580 REGISTER	Dm2iRF6FqbUer53xeMZ2NBq	SIP/2.0/UDP 175.45.176.3,SIP/2.0/UDP 175.45.176.3	(empty)	-	-	-	-	227	-	-
+1424262265.986925	CUPdOD3D4YDTCZUAZg	175.45.176.1	54792	149.171.126.19	5060	0	REGISTER	sip:xNR@149.171.126.19	-	"kzmn" <sip:rycUOAQ42964hta@175.45.176.1>	"kV7uMZfl1ScvP" <\x09\x09sip:xNR@149.171.126.19\x09>	-	-	-	47228@175.45.176.1	13827 REGISTER	jfAPFjAL4iYyxM 	SIP/2.0/UDP 175.45.176.1,SIP/2.0/UDP 175.45.176.1	(empty)	-	-	-	-	219	-	-
+1424262433.109939	C826ol1dXQ9sQD1Gdl	175.45.176.0	60097	149.171.126.12	5060	0	INVITE	sip:odKPENE0ce3QhIJO2995s@149.171.126.12	-	"UwRl <sip:ztMJfsnMk8n29fptuM@175.45.176.0>	"pujLVMJW" <sip:odKPENE0ce3QhIJO2995s@149.171.126.12>	-	-	-	61830@175.45.176.0	13949 INVITE	NIG79AC	SIP/2.0/UDP 175.45.176.0;rport=60097,SIP/2.0/UDP 175.45.176.0;rport=60097	(empty)	-	-	-	-	211	-	-
+1424262439.793068	Ci2UEr178bCWWtslzb	175.45.176.3	61864	149.171.126.19	5060	0	OPTIONS	sip:pjeEMT7p74hmdNvXuO0M3zou0vjdN@149.171.126.19	-	"QfYT0m2n" <sip:mAABqxaR22aUriaMxDmGa1drOxlKMO@175.45.176.3>	"ZNDTPlqGT" <sip:pjeEMT7p74hmdNvXuO0M3zou0vjdN@149.171.126.19>	-	-	-	30090@175.45.176.3	53457 OPTIONS	3xZN4Q2adYxCYc6	SIP/2.0/UDP 175.45.176.3;rport=61864,SIP/2.0/UDP 175.45.176.3;rport=61864	(empty)	-	-	-	-	219	-	-

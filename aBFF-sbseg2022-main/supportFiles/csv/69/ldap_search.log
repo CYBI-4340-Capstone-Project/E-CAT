@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2025-03-08-02-06-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1424245732.177995	CYRXESaEohoMIe218	175.45.176.1	47966	149.171.126.15	389	2	tree	never	cn=AhfXGDsbCc,dc=uBMOBut,dc=vMbhMSi	0	-	-	(|(k=c)(&(&(&(&(&(w=z)(|(|(&(r=j)(l=a))(q=f))(j=q)))(e=v))(c=c))(a=v))(m=y)))	-
+#close	2025-03-08-02-06-45

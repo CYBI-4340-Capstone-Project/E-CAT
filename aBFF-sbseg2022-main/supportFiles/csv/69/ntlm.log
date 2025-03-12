@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-02-06-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424244574.455194	CvvnFm2EvnS0IR3bqh	175.45.176.0	42826	149.171.126.10	445	-	YPvwinrqUM6yW	-	xI1byAK	xi1byak.domain.com	domain.com	T
+1424244617.448098	CYZQYj3wgQtSnCI85	175.45.176.2	56918	149.171.126.17	445	-	6oIMsb3hSuBF	-	sxF	sxf.domain.com	domain.com	T
+1424244642.626953	CSEj1z2951YxrTF9f9	175.45.176.3	60912	149.171.126.15	139	-	qgL5pvWn7	-	6G0LilNGU	6g0lilngu.domain.com	domain.com	T
+1424244707.696537	CmUl3b19hDQZxrDqV6	175.45.176.2	22915	149.171.126.10	445	-	grU	-	LGpWDG6k1gG	lgpwdg6k1gg.domain.com	domain.com	T
+1424244854.676338	C4aesj11M8lQJQSLl6	175.45.176.0	61103	149.171.126.15	445	-	Iqextcmt5gj	-	RA	ra.domain.com	domain.com	T
+1424244945.195656	CXKLKB22vqFbmFYHWc	175.45.176.0	59297	149.171.126.17	445	vrt	VRTVM-WINXPPRO	VRTVM-WINXPPRO	STICKY	sticky.vrt.telus.com	-	T
+1424245134.897271	C9hTJfTSlzgM0G4u4	175.45.176.2	38665	149.171.126.14	139	-	f5cN	-	Rooss7QV92e	rooss7qv92e.domain.com	domain.com	T
+1424245306.679886	Cusec82b3vg63uLYF7	175.45.176.0	9588	149.171.126.13	445	-	-	-	-	-	-	-
+1424245401.720831	CMrnJu45hei56wFd5j	175.45.176.1	55622	149.171.126.18	139	-	w5EPNw8uw4Jg	-	0h4t2A7z	0h4t2a7z.domain.com	domain.com	T
+1424245403.333034	CSCxzn2VuqGAorDXAc	175.45.176.1	24105	149.171.126.14	139	-	NA	-	bqL5MS2f	bql5ms2f.domain.com	domain.com	T
+1424245673.877891	CHYvxfKlI79HyLgn9	175.45.176.3	35440	149.171.126.11	445	-	oXURoqEC530	-	3knaap8	3knaap8.domain.com	domain.com	T
+1424245690.349531	CrzcOC2PnhDJDhqW6	175.45.176.3	4930	149.171.126.11	445	-	6c3EIrb9fA0	-	PaV9ok0Xx	pav9ok0xx.domain.com	domain.com	T
+1424245761.810064	CQR5Xl4obz9xZ0B3p7	175.45.176.1	39207	149.171.126.10	139	-	gwIUVZvN3cPR	-	Vp	vp.domain.com	domain.com	T
+1424245809.365982	COJCXB3X8AaXdSyxTd	175.45.176.1	19595	149.171.126.10	445	-	eKykKONUREwRO	-	jzlYl45yLin	jzlyl45ylin.domain.com	domain.com	T
+1424245822.903123	C48PUD3Z344F7X0nG3	175.45.176.1	56441	149.171.126.10	445	-	spTGPQ	-	nkIa4U	nkia4u.domain.com	domain.com	T
+#close	2025-03-08-02-06-45

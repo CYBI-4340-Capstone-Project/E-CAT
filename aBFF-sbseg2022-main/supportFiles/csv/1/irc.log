@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	irc
+#open	2025-03-07-06-43-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	nick	user	command	value	addl	dcc_file_name	dcc_file_size	dcc_mime_type	fuid
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	count	string	string
+1421927931.971146	CPi8H32TDF6DBahfm6	175.45.176.3	59980	149.171.126.10	6667	-	-	NICK	mE0XPYfB9x	-	-	-	-	-
+1421927932.945603	CPi8H32TDF6DBahfm6	175.45.176.3	59980	149.171.126.10	6667	mE0XPYfB9x	-	USER	mE0XPYfB9x	175.45.176.3 149.171.126.10 mE0XPYfB9xNOTICEJt7QtpwE7u :\x01VERSION Colloquy 2.0 (2D9) - Mac OS X 10.4.9 - http://colloquy.info\x01 	-	-	-	-
+#close	2025-03-07-06-43-17

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-08-02-03-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1424241710.504642	CsVTna3iw2eJSPF50h	175.45.176.2	12173	149.171.126.10	6502	0.140098	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424241710.826764	CsVTna3iw2eJSPF50h	175.45.176.2	12173	149.171.126.10	6502	0.140098	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424242210.477340	Ca0jvh1ze1FBt3VYjh	175.45.176.0	62131	149.171.126.11	6502	0.091444	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424242210.664627	Ca0jvh1ze1FBt3VYjh	175.45.176.0	62131	149.171.126.11	6502	0.091444	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+#close	2025-03-08-02-03-34

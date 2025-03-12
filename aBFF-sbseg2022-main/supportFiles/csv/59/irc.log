@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	irc
+#open	2025-03-08-01-50-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	nick	user	command	value	addl	dcc_file_name	dcc_file_size	dcc_mime_type	fuid
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	count	string	string
+1424228329.082742	CwjUUdIXszi3Or5w3	175.45.176.3	55637	149.171.126.16	50000	-	-	USER	AHPMGk14XKHC01	7ceO ZGYnEj Lm	-	-	-	-
+1424228329.082742	CwjUUdIXszi3Or5w3	175.45.176.3	55637	149.171.126.16	50000	-	AHPMGk14XKHC01	NICK	skYJSPM	7ceO ZGYnEj Lm	-	-	-	-
+1424228480.843792	CUKtJq2Xsn3khkOV45	175.45.176.1	47206	149.171.126.10	6667	-	-	USER	anonym	mlIDcnWEOgIsGmph 149.171.126.10 Anonym	-	-	-	-
+1424228480.843792	CUKtJq2Xsn3khkOV45	175.45.176.1	47206	149.171.126.10	6667	-	anonym	NICK	Cid	mlIDcnWEOgIsGmph 149.171.126.10 Anonym	-	-	-	-
+#close	2025-03-08-01-51-01

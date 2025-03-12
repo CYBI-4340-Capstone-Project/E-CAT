@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2025-03-08-01-56-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1424234414.566921	CVErlx2M6L6Tv5JVaa	175.45.176.1	3248	149.171.126.13	389	2	single	never	ou=vrt,dc=dc,dc=foobar,dc=com	10	success	-	(&(whenChanged>=19000101000000.0Z)(objectclass=user))	-
+1424234414.927266	CVErlx2M6L6Tv5JVaa	175.45.176.1	3248	149.171.126.13	389	3	single	never	ou=vrt,dc=dc,dc=foobar,dc=com	0	-	-	(&(whenChanged>=19000101000000.0Z)(objectclass=user))	-
+#close	2025-03-08-01-56-55

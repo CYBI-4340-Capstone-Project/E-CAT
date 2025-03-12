@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2025-03-08-01-53-58
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1424231870.884236	6a093b669dcf68491e3ca8dd03dbed50aac2297e9e01c663b10308eab7ae14b8	3	011E	emailAddress=cams@huawei.com,CN=cams,OU=huawei,O=huawei,ST=BeiJing,C=CN	emailAddress=huawei@huawei.com,CN=huawei,OU=huawei,O=huawei,L=BJ,ST=BeiJing,C=CN	1135566268.000000	1452654268.000000	rsaEncryption	sha1WithRSAEncryption	rsa	512	65537	-	-	-	-	-	F	-	T	F
+1424231870.884236	81228bd37c216d23867915a1dc52e9c1441f5309618d33a6ee98e9333f062d53	3	B606AC84E76C48AC	emailAddress=huawei@huawei.com,CN=huawei,OU=huawei,O=huawei,L=BJ,ST=BeiJing,C=CN	emailAddress=huawei@huawei.com,CN=huawei,OU=huawei,O=huawei,L=BJ,ST=BeiJing,C=CN	1135566035.000000	1452654035.000000	rsaEncryption	sha1WithRSAEncryption	rsa	512	65537	-	-	-	-	-	T	-	F	F
+#close	2025-03-08-01-54-10

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-08-02-25-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1424262102.463050	CQWKWd4BTOJCWbJhdd	175.45.176.3	50281	149.171.126.18	445	-	SMB::FILE_OPEN	-	\\XTIERRPCPIPE	0	-	-	-	-	-
+1424262249.499026	C2PzOb4TzwrFTo5F57	175.45.176.2	28197	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\IPC$	0	-	-	-	-	-
+1424262283.140211	CShlQb3B7kyt0paik3	175.45.176.1	45915	149.171.126.15	139	-	SMB::FILE_OPEN	-	\\NDDEAPI	0	-	-	-	-	-
+1424262415.818808	CtoOCPf3XRezi8nMd	175.45.176.2	39095	149.171.126.19	139	-	SMB::FILE_OPEN	-	\\spoolss	0	-	-	-	-	-
+1424262417.456875	CSVktC2OFEqw21Mw4c	175.45.176.2	20217	149.171.126.11	139	-	SMB::FILE_OPEN	-	\\ROUTER	0	-	-	-	-	-

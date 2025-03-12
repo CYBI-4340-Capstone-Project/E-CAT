@@ -1,0 +1,43 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-03-08-00-20-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1421953916.795281	CclNPk66M438p9Hak	59.166.0.0	41153	149.171.126.6	53	dnp3_corrupt_header_checksum	-	F	zeek	DNP3_UDP
+1421954049.960343	C3BNHX2n7EWkgsRGL4	59.166.0.6	49078	149.171.126.6	3128	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1421954050.008800	C3BNHX2n7EWkgsRGL4	59.166.0.6	49078	149.171.126.6	3128	bad_HTTP_request	-	F	zeek	HTTP
+1421954216.241739	C7WclJ2aY4bIfMtr73	59.166.0.8	48916	149.171.126.5	2811	NUL_in_line	-	F	zeek	NVT
+1421954216.247654	C7WclJ2aY4bIfMtr73	59.166.0.8	48916	149.171.126.5	2811	line_terminated_with_single_CR	-	F	zeek	NVT
+1421954227.606592	CYkaul2CQ8AeZsFRmh	59.166.0.3	10661	149.171.126.6	25	data_before_established	-	F	zeek	TCP
+1421954273.447273	Cqfss11HQKuaJqJuZd	59.166.0.1	11130	149.171.126.1	21	data_before_established	-	F	zeek	TCP
+1421954305.003567	C2bENh36DusNYHs5ff	59.166.0.3	1763	149.171.126.2	22164	TCP_ack_underflow_or_misorder	-	F	zeek	TCP
+1421954305.126684	CnD9ZI2t5yV4UkxU9a	59.166.0.5	59275	149.171.126.6	5190	possible_split_routing	-	F	zeek	-
+1421954305.126684	CnD9ZI2t5yV4UkxU9a	59.166.0.5	59275	149.171.126.6	5190	data_before_established	-	F	zeek	TCP
+1421954307.350706	Ckyibh34xeZrI94Kg7	59.166.0.6	29750	149.171.126.3	57582	possible_split_routing	-	F	zeek	-
+1421954307.350706	Ckyibh34xeZrI94Kg7	59.166.0.6	29750	149.171.126.3	57582	data_before_established	-	F	zeek	TCP
+1421954350.201107	C53sZd3XqYsONi2xF8	149.171.126.6	5190	59.166.0.4	41245	connection_originator_SYN_ack	-	F	zeek	TCP
+1421954350.206000	C53sZd3XqYsONi2xF8	59.166.0.4	41245	149.171.126.6	5190	data_before_established	-	F	zeek	TCP
+1421954351.201877	CxWypT1fSHe5DvzSUc	149.171.126.3	18959	59.166.0.3	30334	connection_originator_SYN_ack	-	F	zeek	TCP
+1421954351.212537	CxWypT1fSHe5DvzSUc	59.166.0.3	30334	149.171.126.3	18959	data_before_established	-	F	zeek	TCP
+1421954356.697474	CxhV1v1IcntGTviwsc	59.166.0.2	57195	149.171.126.3	6881	possible_split_routing	-	F	zeek	-
+1421954356.697474	CxhV1v1IcntGTviwsc	59.166.0.2	57195	149.171.126.3	6881	data_before_established	-	F	zeek	TCP
+1421954360.207457	C57N0Y1EivXlbQZTa7	59.166.0.5	55543	149.171.126.3	25278	possible_split_routing	-	F	zeek	-
+1421954360.207465	C57N0Y1EivXlbQZTa7	59.166.0.5	55543	149.171.126.3	25278	data_before_established	-	F	zeek	TCP
+1421954360.624509	CfNlQF2QN3KR7FD3Xb	59.166.0.0	46358	149.171.126.4	25	above_hole_data_without_any_acks	-	F	zeek	TCP
+1421954374.501627	Cs9dw13FlBnzUbsMJ	59.166.0.9	19036	149.171.126.4	1312	possible_split_routing	-	F	zeek	-
+1421954374.501627	Cs9dw13FlBnzUbsMJ	59.166.0.9	19036	149.171.126.4	1312	data_before_established	-	F	zeek	TCP
+1421954433.583702	CzTCCi4I8mZRIKIgu7	59.166.0.5	31315	149.171.126.6	29261	data_before_established	-	F	zeek	TCP
+1421954444.561626	CCh7tn10dZJFNI0fNi	59.166.0.5	55177	149.171.126.9	25	smtp_mail_transaction_invalid	data missing rcpt to	F	zeek	SMTP
+1421954445.012123	CStOdg4rxYQiqUXoe5	59.166.0.7	42078	149.171.126.0	42065	possible_split_routing	-	F	zeek	-
+1421954445.017722	CStOdg4rxYQiqUXoe5	59.166.0.7	42078	149.171.126.0	42065	data_before_established	-	F	zeek	TCP
+1421954445.362751	CZ5RIx4uAYpmNprB67	59.166.0.3	39474	149.171.126.8	25	smtp_mail_transaction_invalid	rcpt to missing mail from	F	zeek	SMTP
+1421954452.085098	CzOnhd2HWhJKhN3z36	59.166.0.8	2578	149.171.126.3	33244	data_before_established	-	F	zeek	TCP
+1421954452.797798	CBJqo8Np5JhcfFT91	59.166.0.9	34902	149.171.126.3	27509	possible_split_routing	-	F	zeek	-
+1421954452.797798	CBJqo8Np5JhcfFT91	59.166.0.9	34902	149.171.126.3	27509	data_before_established	-	F	zeek	TCP
+1421954452.827777	C07Woh3WR3v4XMolTd	59.166.0.6	23614	149.171.126.4	6881	possible_split_routing	-	F	zeek	-
+1421954452.827777	C07Woh3WR3v4XMolTd	59.166.0.6	23614	149.171.126.4	6881	data_before_established	-	F	zeek	TCP
+1421954453.168387	CBJqo8Np5JhcfFT91	59.166.0.9	34902	149.171.126.3	27509	inappropriate_FIN	-	F	zeek	TCP
+#close	2025-03-08-00-20-27

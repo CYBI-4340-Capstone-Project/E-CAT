@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-01-42-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424219044.737881	C2p60d47fijMe2cHD7	175.45.176.2	6621	149.171.126.16	139	-	29PMT	-	0Ot0NnDYfHj	0ot0nndyfhj.domain.com	domain.com	T
+1424219048.025922	CSjFKU3M7wgHUC14w6	175.45.176.2	47036	149.171.126.13	445	-	HxDJh1xYvlB7	-	ehloeXyj	ehloexyj.domain.com	domain.com	T
+1424219161.830320	C9aIjV1B8FyI5Dxx3	175.45.176.0	9788	149.171.126.11	139	-	xyzTseW	-	Y5U	y5u.domain.com	domain.com	T
+1424219898.691658	ChQv4w1LjXp5Ybncn7	175.45.176.2	7025	149.171.126.17	445	-	9mq6WU	-	PAu	pau.domain.com	domain.com	T
+1424220142.849028	CAFYoB9onVtqCu72j	175.45.176.0	30383	149.171.126.12	445	QsMvJVZA	-	-	BRGES$	brges$.szqxc.com	szqxc.com	T
+1424220385.678291	CAmhr24966peZygAZ9	175.45.176.2	2121	149.171.126.13	139	-	fZdnopQFS	-	IQtZ79iRCn	iqtz79ircn.domain.com	domain.com	T
+1424220452.423826	ChsXaa4YQjNGpml8w2	175.45.176.0	26603	149.171.126.12	139	-	ffYBfsKBKm8j	-	viWEzctNsJuHJ	viwezctnsjuhj.domain.com	domain.com	T
+1424220513.253973	CGGtHClKW1R7VVamj	175.45.176.2	35678	149.171.126.11	445	-	-	-	VRTVM-WIN2KSRV	vrtvm-win2ksrv	-	-
+1424220546.019473	CeMWWi3R83DDltuT28	175.45.176.0	48274	149.171.126.14	139	-	kfM	-	zFeFCtCKT4gNz	zfefctckt4gnz.domain.com	domain.com	T
+1424220562.180980	CEkU4k3fjVRQ0to7Dh	175.45.176.2	19948	149.171.126.15	139	-	uHEBNgh	-	5n3WF16RgatHT	5n3wf16rgatht.domain.com	domain.com	T
+1424220575.980344	CKCg3o0YYjECvwSVk	175.45.176.0	49231	149.171.126.19	445	-	HOD	-	VMWIN2000	vmwin2000	-	-
+1424220664.646740	C8s9Ja1kq6tKgUorAa	175.45.176.0	11063	149.171.126.15	445	anonymous	pTyzeTtmgZFvk	-	odLo	odlo.domain.com	domain.com	T
+1424220761.541153	CaUEe54XCfrVmfrGE1	175.45.176.2	37974	149.171.126.19	139	-	qqkm82ueC	-	nebkY7Kk	nebky7kk.domain.com	domain.com	T
+1424220770.178710	CuLf5pfPQ9LxnOU9b	175.45.176.2	10801	149.171.126.19	445	-	YpQ8M	-	SWUwq2Q	swuwq2q.domain.com	domain.com	T
+1424220936.519749	CWh7y24CkwuShyxWwl	175.45.176.3	3333	149.171.126.19	445	-	-	-	CA-AV-EHSAN	ca-av-ehsan	-	-
+1424221027.241712	Cft4813agh4mmYYkp5	175.45.176.0	23676	149.171.126.12	445	-	pU9MYu37Q	-	wtLx	wtlx.domain.com	domain.com	T
+1424221113.697866	CieuQf3fL6y4GrejB6	175.45.176.0	43734	149.171.126.12	445	zxNQXaQw0	-	-	AJMKJP$	ajmkjp$.tjemhwrk.com	tjemhwrk.com	T
+1424221133.183144	C7FWtJ3uXmVcDBU1F9	175.45.176.2	19199	149.171.126.11	139	-	QEybg	-	318	318.domain.com	domain.com	T
+1424221154.193411	CuQk0V3HSHnuf1XOqf	175.45.176.2	30985	149.171.126.15	445	-	S	-	9Q7SF0o1o	9q7sf0o1o.domain.com	domain.com	T
+1424221180.036596	C9Csfj43d9gBmXp3V2	175.45.176.1	1949	149.171.126.19	445	-	FoCf0C0WHwW4	-	J	j.domain.com	domain.com	T
+1424221351.249226	C93Y8I3JzPfSN3XcV3	175.45.176.0	62274	149.171.126.12	139	-	mcSQwke	-	GHJhBBo	ghjhbbo.domain.com	domain.com	T
+#close	2025-03-08-01-42-50

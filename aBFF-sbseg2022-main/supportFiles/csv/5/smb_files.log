@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-07-06-46-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1421930920.291927	CP1Kop3fxDyV9FI7O6	175.45.176.1	49760	149.171.126.10	445	-	SMB::FILE_OPEN	-	llsrpc	0	-	-	-	-	-
+1421930946.224869	CnkCCN3v15ppcrXw6d	175.45.176.0	4713	149.171.126.10	139	-	SMB::FILE_OPEN	-	\\ROUTER	0	-	-	-	-	-
+1421931155.680354	CSG5cS1MY48ykd72m8	175.45.176.3	12569	149.171.126.16	445	-	SMB::FILE_OPEN	-	\\PlughNTCommand	0	-	-	-	-	-
+1421931244.330763	C5asgN1uJtjUEa3Yzg	175.45.176.3	32381	149.171.126.16	445	-	SMB::FILE_OPEN	-	\\report_research\\TODAY\\poc.ini	10011	-	1209482522.000000	1209482522.000000	1209482522.000000	1209482522.000000
+#close	2025-03-07-06-46-41

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_mapping
+#open	2025-03-07-06-43-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	path	service	native_file_system	share_type
+#types	time	string	addr	port	addr	port	string	string	string	string
+1421928520.281572	CXFmbd2kGzwl1SmG49	175.45.176.1	46531	149.171.126.12	445	\\\\149.171.126.12\\IPC$	IPC	-	PIPE
+1421928609.686869	CHH0Ai4IG2QqCd8yVc	175.45.176.3	40262	149.171.126.18	445	\\\\127.0.0.1\\TGBSU	?????	-	DISK
+1421928626.274617	CRgXxS1zVkZPv0kNK4	175.45.176.0	31190	149.171.126.17	139	\\\\149.171.126.17\\IPC$	IPC	-	PIPE
+1421928650.587286	CTJFG32HQ9OJtaWxoc	175.45.176.2	62546	149.171.126.10	445	\\\\149.171.126.10\\IPC$	IPC	-	PIPE
+1421928675.208688	COf3fQ1ana6AYNR8hl	175.45.176.1	26890	149.171.126.11	445	\\\\149.171.126.11\\IPC$	IPC	-	PIPE
+1421928846.912394	CvY2W54b0qm5c545Z9	175.45.176.3	25566	149.171.126.12	139	\\\\149.171.126.12\\IPC$	IPC	-	PIPE
+#close	2025-03-07-06-43-29

@@ -469,7 +469,9 @@ def buildDataset(pcapTypeNum, maxNumFiles, datasetTypeNum, filepath):
 
     # Load files of pcapType and datasetType no more than maxNumFiles
     files = [s for s in os.listdir(filepath) if (datasetType[datasetTypeNum] in s and pcapType[pcapTypeNum] in s)]
+    print('files: ', files)
     maxNumFiles = min(maxNumFiles, len(files))
+    print('maxNumFiles: ', maxNumFiles)
     if pcapTypeNum < 2 or pcapTypeNum == 5:
         for file in files[0:maxNumFiles]:
             temp.append(pd.read_csv(filepath+file, dtype=FEATURE_TYPES, sep=','))
@@ -558,7 +560,7 @@ def buildDataset(pcapTypeNum, maxNumFiles, datasetTypeNum, filepath):
     if pcapTypeNum in [3, 4]:
         full_data.drop(['Label'], axis = 1, inplace = True)
         full_data.rename(columns={'attack': 'Label'}, inplace=True)
-        
+
     #----------------#
     # Drop bad flows #
     #----------------#
@@ -650,6 +652,9 @@ def setTarget(full_data, pNum, scanOnly, scan, zeroVarType):
     #---------------#
     zeroVar = zeroVarRead(zeroVarType)
     full_data.drop(columns=zeroVar, axis=1, inplace=True)
+
+    # Rename the 0 or '0' class to 'benign'
+    full_data['Label'] = full_data['Label'].apply(lambda x: 'benign' if x == 0 or x == '0' else x)
     
     X = full_data.drop(columns=["Label"])
     y = full_data.Label

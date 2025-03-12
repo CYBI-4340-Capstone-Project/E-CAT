@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	rfb
+#open	2025-03-08-01-54-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	client_major_version	client_minor_version	server_major_version	server_minor_version	authentication_method	auth	share_flag	desktop_name	width	height
+#types	time	string	addr	port	addr	port	string	string	string	string	string	bool	bool	string	count	count
+1424232499.514078	CFaEYF4Z8BZGJvcVp5	175.45.176.0	7221	149.171.126.16	5900	003	008	003	008	None	T	-	-	-	-
+#close	2025-03-08-01-54-10

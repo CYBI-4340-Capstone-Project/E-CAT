@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap
+#open	2025-03-07-06-42-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	version	opcode	result	diagnostic_message	object	argument
+#types	time	string	addr	port	addr	port	int	int	string	string	string	string	string
+1421929637.407802	CLmu9l1r5RgNWezYkh	175.45.176.1	39902	149.171.126.15	389	4	-	add	-	-	-	-
+#close	2025-03-07-06-42-15

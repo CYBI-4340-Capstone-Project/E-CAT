@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	irc
+#open	2025-03-08-01-54-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	nick	user	command	value	addl	dcc_file_name	dcc_file_size	dcc_mime_type	fuid
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	count	string	string
+1424232949.219820	CXc59N1036EH6k20Pj	175.45.176.1	39160	149.171.126.12	6667	-	-	USER	efWy4	K7MhZB RaF Y53sG4pzoId	-	-	-	-
+1424232949.357737	CXc59N1036EH6k20Pj	175.45.176.1	39160	149.171.126.12	6667	-	efWy4	NICK	SLOaB84mw3	K7MhZB RaF Y53sG4pzoId	-	-	-	-
+#close	2025-03-08-01-54-10

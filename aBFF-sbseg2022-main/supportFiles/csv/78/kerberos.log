@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2025-03-08-02-22-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1424259781.536828	CocGIH1jgjvSidL2jk	175.45.176.0	13327	149.171.126.14	88	AS	zpTocspoIS/EXAMPLE.COM	-	-	-	1424205817.000000	1424292217.000000	-	T	T	-	-	-	-
+1424259837.716999	CBt2rd1Zx9et1mvUe5	175.45.176.0	35720	149.171.126.19	88	AS	bgptpvkch/EXAMPLE.COM	iDumiYuhbnfkO/EXAMPLE.COM	-	-	1424205872.000000	1424292272.000000	-	T	T	-	-	-	-
+#close	2025-03-08-02-22-46

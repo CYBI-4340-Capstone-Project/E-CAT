@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-07-06-46-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1421929942.501198	CM7PSa2XZykz8z7nlj	175.45.176.3	22111	149.171.126.19	139	-	4Z	-	JZiYMR6	jziymr6.domain.com	domain.com	T
+1421930179.690470	CqgKQd2JWJcEZtBus6	175.45.176.1	18515	149.171.126.14	139	-	3bQ	-	1xHhm	1xhhm.domain.com	domain.com	T
+1421930186.742384	CyxofBQdvncKZQSch	175.45.176.2	22355	149.171.126.11	139	-	VxoE	-	cYypMVuis	cyypmvuis.domain.com	domain.com	T
+1421930257.526627	CSiIgk1HjcAjChIdK4	175.45.176.3	44701	149.171.126.17	139	-	ome	-	s2Cx	s2cx.domain.com	domain.com	T
+1421930382.363893	C1fdy24JjLOy0878Ff	175.45.176.2	23991	149.171.126.18	139	-	taVVmou4K	-	zGq5	zgq5.domain.com	domain.com	T
+1421930389.479064	CNozq1DomumzfKTU	175.45.176.3	16333	149.171.126.14	445	m974OuKbI	-	-	BRGES$$$	brges$$$.szqxc.com	szqxc.com	T
+1421930457.305060	CtZTGE4lRASCLmlMIe	175.45.176.1	15116	149.171.126.18	445	demo	7PVPXE	demo	DEMOPC	demopc.demo.com	demo.com	T
+1421930557.893044	CJqrPnQgYc9hzNa7j	175.45.176.1	25319	149.171.126.10	139	XJLqHvp	WdpmmmCPmPMHQ	-	Wzf	wzf.domain.com	domain.com	T
+#close	2025-03-07-06-46-27

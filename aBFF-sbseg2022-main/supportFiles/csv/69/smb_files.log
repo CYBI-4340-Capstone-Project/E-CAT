@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-08-02-06-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1424244617.906102	CYZQYj3wgQtSnCI85	175.45.176.2	56918	149.171.126.17	445	-	SMB::FILE_OPEN	-	llsrpc	0	-	-	-	-	-
+1424244642.874221	CSEj1z2951YxrTF9f9	175.45.176.3	60912	149.171.126.15	139	-	SMB::FILE_OPEN	-	\\ROUTER	0	-	-	-	-	-
+1424244855.141987	C4aesj11M8lQJQSLl6	175.45.176.0	61103	149.171.126.15	445	-	SMB::FILE_OPEN	-	\\PlughNTCommand	0	-	-	-	-	-
+1424244945.917318	CXKLKB22vqFbmFYHWc	175.45.176.0	59297	149.171.126.17	445	-	SMB::FILE_OPEN	-	\\report_research\\TODAY\\poc.ini	10011	-	1209482522.000000	1209482522.000000	1209482522.000000	1209482522.000000
+1424245404.095229	CSCxzn2VuqGAorDXAc	175.45.176.1	24105	149.171.126.14	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424245690.780155	CrzcOC2PnhDJDhqW6	175.45.176.3	4930	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\$Extend\\$Quota:$Q:$INDEX_ALLOCATION	0	-	-	-	-	-
+1424245809.932596	COJCXB3X8AaXdSyxTd	175.45.176.1	19595	149.171.126.10	445	-	SMB::FILE_OPEN	-	\\ABjFnAktSVVAAguooV\\ZTzwMKiKkPNnF\\Briefcase Database	0	-	-	-	-	-
+1424245823.638353	C48PUD3Z344F7X0nG3	175.45.176.1	56441	149.171.126.10	445	-	SMB::FILE_OPEN	-	NTSVCS	0	-	-	-	-	-
+#close	2025-03-08-02-06-45

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	radius
+#open	2025-03-08-02-03-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	mac	framed_addr	tunnel_client	connect_info	reply_msg	result	ttl
+#types	time	string	addr	port	addr	port	string	string	addr	string	string	string	string	interval
+1424241908.238531	CVG1U53re6lhvdBzeg	149.171.126.16	2048	175.45.176.1	1812	-	-	-	-	-	-	success	13.608627
+1424241921.847165	CVG1U53re6lhvdBzeg	149.171.126.16	2048	175.45.176.1	1812	-	-	-	-	-	-	success	-
+1424241922.613146	CVG1U53re6lhvdBzeg	149.171.126.16	2048	175.45.176.1	1812	-	-	-	-	-	-	success	-
+1424241922.613149	CVG1U53re6lhvdBzeg	149.171.126.16	2048	175.45.176.1	1812	-	-	-	-	-	-	success	-
+1424241905.885086	C91S1A1zq5GEdNdvO	175.45.176.1	2048	149.171.126.16	1812	A	00:d0:59:68:a8:96	-	-	-	-	unknown	-
+#close	2025-03-08-02-03-34

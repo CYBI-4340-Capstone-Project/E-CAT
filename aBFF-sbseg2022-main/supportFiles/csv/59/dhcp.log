@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2025-03-08-01-50-46
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1424228373.065447	CJosWl1CXRFPwyE1H2	175.45.176.0	-	02:1a:c5:00:00:00	-	rgVDYYTUMJVQy	-	-	-	-	-	-	DISCOVER,DISCOVER	0.000010
+1424228513.519015	CuJTNC3cJSi9R0ayg1	175.45.176.0	-	00:00:00:00:00:00	-	-	-	-	-	-	-	-	DISCOVER,DISCOVER	0.000010
+1424228705.196740	CUULiO2bLOldD0xySb	175.45.176.2	149.171.126.15	02:1a:c5:00:00:00	-	-	rq|9|b<Eh8r|NC	175.45.176.2	175.45.176.2	1627.000000	-	-	DISCOVER,DISCOVER,OFFER,OFFER,REQUEST,REQUEST,ACK,ACK	0.059055
+1424229379.871915	Cu4utv2AIZBzqSgvd7,CvNjXS1EdO7I7Fj8Dc	175.45.176.1	175.45.176.1	00:0c:29:eb:be:7b	qwertyuiopasdfghjklzxcvbnm12345678901234567890123456789012345678	-	example.org	10.2.8.221	10.2.1.98	600.000000	-	-	DISCOVER,DISCOVER,OFFER,OFFER,DISCOVER,DISCOVER	0.540251
+#close	2025-03-08-01-51-01

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-07-06-43-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1421927451.381633	CFgonT3z4b0M8fMVIa	175.45.176.3	42254	149.171.126.16	445	0.107721	\\spoolss	spoolss	RpcGetPrinter
+1421927451.516548	CFgonT3z4b0M8fMVIa	175.45.176.3	42254	149.171.126.16	445	0.104968	\\spoolss	spoolss	RpcGetPrinter
+1421927451.633637	CFgonT3z4b0M8fMVIa	175.45.176.3	42254	149.171.126.16	445	0.053185	\\spoolss	spoolss	RpcEnumJobs
+1421927451.735903	CFgonT3z4b0M8fMVIa	175.45.176.3	42254	149.171.126.16	445	0.175207	\\spoolss	spoolss	RpcEnumJobs
+1421928038.742807	C1SuyO3Qdw6kpfLbZ1	175.45.176.2	44640	149.171.126.13	6502	0.162968	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1421928039.050128	C1SuyO3Qdw6kpfLbZ1	175.45.176.2	44640	149.171.126.13	6502	0.162968	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+#close	2025-03-07-06-43-17

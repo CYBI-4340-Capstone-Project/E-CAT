@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-08-01-50-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1424226728.628675	CbjuAG3Unff86pitZa	175.45.176.3	53356	149.171.126.15	139	0.187226	\\spoolss	spoolss	RpcStartDocPrinter
+1424226728.870998	CbjuAG3Unff86pitZa	175.45.176.3	53356	149.171.126.15	139	0.163083	\\spoolss	spoolss	RpcWritePrinter
+1424226989.892904	Cpr2az3kAgCa1MN1n2	175.45.176.1	31185	149.171.126.11	445	0.068918	\\spoolss	spoolss	RpcGetPrinter
+1424226989.988187	Cpr2az3kAgCa1MN1n2	175.45.176.1	31185	149.171.126.11	445	0.091087	\\spoolss	spoolss	RpcGetPrinter
+1424226990.103033	Cpr2az3kAgCa1MN1n2	175.45.176.1	31185	149.171.126.11	445	0.118681	\\spoolss	spoolss	RpcEnumJobs
+1424226990.280666	Cpr2az3kAgCa1MN1n2	175.45.176.1	31185	149.171.126.11	445	0.159646	\\spoolss	spoolss	RpcEnumJobs
+1424227589.465196	CJJJeu48hUmcJREGI3	175.45.176.1	53385	149.171.126.16	6502	0.130612	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424227589.744454	CJJJeu48hUmcJREGI3	175.45.176.1	53385	149.171.126.16	6502	0.130612	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424228080.669972	C83GpDik8EBbGZnCj	175.45.176.1	11912	149.171.126.18	6502	0.089432	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424228080.862448	C83GpDik8EBbGZnCj	175.45.176.1	11912	149.171.126.18	6502	0.089432	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+#close	2025-03-08-01-50-35

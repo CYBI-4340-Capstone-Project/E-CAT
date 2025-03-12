@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-07-06-43-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1421928626.674452	CRgXxS1zVkZPv0kNK4	175.45.176.0	31190	149.171.126.17	139	-	SMB::FILE_OPEN	-	\\DNSSERVER	0	-	-	-	-	-
+1421928650.800231	CTJFG32HQ9OJtaWxoc	175.45.176.2	62546	149.171.126.10	445	-	SMB::FILE_OPEN	-	\\oZcVWnuEvuuSgny\\OXzcOrGxlin\\Briefcase Database	0	-	-	-	-	-
+1421928675.428511	COf3fQ1ana6AYNR8hl	175.45.176.1	26890	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\H7rnj3480Cm\\cABFpDQ.lnk	0	-	-	-	-	-
+1421928675.739074	COf3fQ1ana6AYNR8hl	175.45.176.1	26890	149.171.126.11	445	-	SMB::FILE_OPEN	-	\\H7rnj3480Cm\\EUFtsWk9.dll	0	-	-	-	-	-
+#close	2025-03-07-06-43-29

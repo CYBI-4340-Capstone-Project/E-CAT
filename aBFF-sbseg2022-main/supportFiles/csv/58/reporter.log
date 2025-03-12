@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2025-03-08-01-50-18
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1424226517.194459	Reporter::WARNING	get_file_handle() handler missing for Analyzer::ANALYZER_POP3	/opt/zeek/share/zeek/base/frameworks/files/main.zeek, line 523
+#close	2025-03-08-01-50-35

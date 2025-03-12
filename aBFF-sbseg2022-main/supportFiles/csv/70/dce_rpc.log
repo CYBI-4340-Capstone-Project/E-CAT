@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-08-02-09-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1424246511.702340	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	0.088507	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424246513.632423	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	0.222327	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424246515.676507	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	0.146169	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424246518.682177	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	0.113161	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424246522.177153	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	0.103005	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424246525.463521	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	0.061943	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424246527.551985	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	0.091950	\\PIPE\\srvsvc	srvsvc	NetrShareEnum
+1424246530.764128	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	0.165800	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424246534.218763	CYjwPk4Mo6qQbBfh6k	175.45.176.0	10142	149.171.126.17	139	0.260638	\\PIPE\\srvsvc	srvsvc	NetrServerGetInfo
+1424246930.476845	CwQc7z2JZJthIiXhJ1	175.45.176.3	27831	149.171.126.17	139	0.365366	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+1424246931.006357	CwQc7z2JZJthIiXhJ1	175.45.176.3	27831	149.171.126.17	139	0.365366	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+1424247088.620450	CeAEYmCshPUOWrEM5	175.45.176.2	5433	149.171.126.18	139	0.207230	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+1424247089.358170	CeAEYmCshPUOWrEM5	175.45.176.2	5433	149.171.126.18	139	0.207230	\\LSARPC\x00	lsarpc	LsarOpenPolicy
+#close	2025-03-08-02-09-37

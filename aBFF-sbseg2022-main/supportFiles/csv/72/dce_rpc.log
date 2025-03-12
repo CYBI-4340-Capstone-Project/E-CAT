@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2025-03-08-02-12-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1424249413.390411	CI8qUS2C2HTcmTpcp9	175.45.176.2	57038	149.171.126.13	6502	0.354718	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+1424249414.907988	CI8qUS2C2HTcmTpcp9	175.45.176.2	57038	149.171.126.13	6502	0.354718	6502	unknown-62b93df0-8b02-11ce-876c-00805f842837	unknown-43
+#close	2025-03-08-02-12-50

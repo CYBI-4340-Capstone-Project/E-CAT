@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	mysql
+#open	2025-03-08-01-57-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	cmd	arg	success	rows	response
+#types	time	string	addr	port	addr	port	string	string	bool	count	string
+1424235830.380673	CUfoIk1i0FdjPN7kD3	175.45.176.3	45097	149.171.126.11	3306	query	select @@version_comment limit 1	-	-	-
+1424235830.380673	CUfoIk1i0FdjPN7kD3	175.45.176.3	45097	149.171.126.11	3306	query	select @@version_comment limit 1	T	0	-
+#close	2025-03-08-01-57-19

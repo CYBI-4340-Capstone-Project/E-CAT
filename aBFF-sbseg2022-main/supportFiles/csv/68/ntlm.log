@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-02-06-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424242956.644237	C9BADC3uJaqaAG1EB9	175.45.176.1	43393	149.171.126.14	139	-	72Lg	-	KvOp	kvop.domain.com	domain.com	T
+1424243063.742693	C9eOOMbOzLph42bni	175.45.176.1	4652	149.171.126.14	445	-	02glJVRfxfAxS	-	LW	lw.domain.com	domain.com	T
+1424243147.552156	CJZpp131kHDXbwiVyj	175.45.176.0	51070	149.171.126.18	139	-	P2R	-	Dr0	dr0.domain.com	domain.com	T
+1424243200.050417	CbtfK02lZnJZE4ILXe	175.45.176.3	8777	149.171.126.18	139	-	A4Ls2	-	JYWSJM4	jywsjm4.domain.com	domain.com	T
+1424243412.501954	CD2RiXzlnDyUqVZR8	175.45.176.0	29708	149.171.126.17	139	-	kNmaKnvoi0Qr7	-	n7GYRZMoYn6S	n7gyrzmoyn6s.domain.com	domain.com	T
+1424243633.956187	CaCjXh3wP9BSRg9Avc	175.45.176.0	13591	149.171.126.15	139	-	iObI5q	-	T362Gvj	t362gvj.domain.com	domain.com	T
+1424243873.647804	C4YR5x49vfO7TITm59	175.45.176.0	56415	149.171.126.18	139	-	t2xDjx	-	zo7	zo7.domain.com	domain.com	T
+1424243880.863363	Csp2Js4Y6j1l8oEG34	175.45.176.3	27223	149.171.126.17	139	-	a4	-	JfyVtt3iB	jfyvtt3ib.domain.com	domain.com	T
+1424243952.563768	Cp8ONJ29GoqASABJQ8	175.45.176.3	39501	149.171.126.12	139	-	ahsrhXov	-	G6bbZ3	g6bbz3.domain.com	domain.com	T
+1424244077.283216	CDB0np17U8ovnDbc36	175.45.176.3	58719	149.171.126.14	139	-	mok26FV229	-	W0Fd	w0fd.domain.com	domain.com	T
+1424244084.393161	C7pVqY2EpwFZypDSDg	175.45.176.0	4319	149.171.126.13	445	npKIZLwAnY	-	-	OIKRFQV$$	oikrfqv$$.feypj.com	feypj.com	T
+1424244149.428105	CT6mGHzltnu5kWtGd	175.45.176.2	57673	149.171.126.12	445	demo	uRZnMvFqua0	demo	DEMOPC	demopc.demo.com	demo.com	T
+1424244252.090126	CQSNs4xlCo6ChZhG5	175.45.176.0	56842	149.171.126.14	139	hOnfXK	r4nM8YdFF1	-	1OMLFA	1omlfa.domain.com	domain.com	T
+1424244277.444010	CA3nRt1CkCJgzYr0ng	175.45.176.0	41552	149.171.126.11	445	-	YZ	-	HIlmbWy7	hilmbwy7.domain.com	domain.com	T
+1424244289.667650	CVVMcB42q2oWObXy3c	175.45.176.0	41065	149.171.126.17	139	-	zNEtWDho61eQ	-	KNSNg4m8IAS	knsng4m8ias.domain.com	domain.com	T
+#close	2025-03-08-02-06-20

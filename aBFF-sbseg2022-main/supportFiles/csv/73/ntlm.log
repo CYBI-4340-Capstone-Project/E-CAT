@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-02-12-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424250619.331001	CXpSkl3SKlEsZ57F0a	175.45.176.1	18262	149.171.126.14	139	-	JdZfy	-	LKazeY	lkazey.domain.com	domain.com	T
+1424250842.955118	CPqM8v4Urka6xpyP21	175.45.176.2	31015	149.171.126.17	139	-	WLqOJP7	-	1ETiEhtkEe7y	1etiehtkee7y.domain.com	domain.com	T
+1424251087.542061	CdIsbqLSsfpYBnYs9	175.45.176.0	11708	149.171.126.19	139	-	03AOi5HTYqAPc	-	69YC3tdtm	69yc3tdtm.domain.com	domain.com	T
+1424251094.716104	CFVHKS361h3Xrbl9Sc	175.45.176.3	7816	149.171.126.13	139	-	fIT6rcdSr	-	2iM	2im.domain.com	domain.com	T
+1424251166.342040	CgT08l2N4jO9nD0M37	175.45.176.3	41738	149.171.126.12	139	-	P3I5zx5W	-	Btsk1HYerr9	btsk1hyerr9.domain.com	domain.com	T
+1424251291.896298	CKA4Gf2pgzyPy4qZn	175.45.176.1	22559	149.171.126.19	139	-	oTru4rBZM8G	-	w3PXzfumagI	w3pxzfumagi.domain.com	domain.com	T
+1424251299.243420	CNpEYNivPHLULAvJb	175.45.176.0	18223	149.171.126.16	445	hbhDle	-	-	DTZELW$$$$	dtzelw$$$$.uuajmkjpntj.com	uuajmkjpntj.com	T
+1424251365.654461	CFjO0v4GMOLRdSxnDe	175.45.176.3	5038	149.171.126.14	445	demo	LKer	demo	DEMOPC	demopc.demo.com	demo.com	T
+1424251469.274477	CZAI9N1nlxHoJxVQkh	175.45.176.2	45157	149.171.126.17	139	FQAhbwH	g2JF8mMsSVC	-	BQNddmORm	bqnddmorm.domain.com	domain.com	T
+1424251495.352562	CePBWS1H6kKguy2OPb	175.45.176.2	36943	149.171.126.10	445	-	iFYkAxXr6Yu	-	EkM3eWi	ekm3ewi.domain.com	domain.com	T
+1424251507.204306	CvOV9H26ZWAoSehwt4	175.45.176.3	59098	149.171.126.11	139	-	WV	-	EadbQjh3V	eadbqjh3v.domain.com	domain.com	T
+1424251791.913540	CBt01w2VuS2S8aEPui	175.45.176.0	58697	149.171.126.19	445	-	Eytc3zKxGu	-	MzMb0	mzmb0.domain.com	domain.com	T
+1424251835.295100	C1Bu4v4cb6JU1YLEzl	175.45.176.2	42144	149.171.126.17	445	-	LdyXUVzwgQL	-	42Pjy	42pjy.domain.com	domain.com	T
+1424251861.346694	C80soz3x3nwuTzkEd1	175.45.176.2	20939	149.171.126.14	139	-	DMBYSGu	-	FRnFl9z	frnfl9z.domain.com	domain.com	T
+1424251925.871827	CSpvKCJNtKKKQDj07	175.45.176.1	51229	149.171.126.16	445	-	LbAeP3bFGIE	-	6uWGs	6uwgs.domain.com	domain.com	T
+#close	2025-03-08-02-13-14

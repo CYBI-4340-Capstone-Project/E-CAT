@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2025-03-08-02-03-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1424241738.933055	CGFjyD2NNc0SZY0Cjl	175.45.176.2	51200	149.171.126.14	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424241754.519271	CQxBAS3HjgjuumvgNi	175.45.176.2	7138	149.171.126.14	139	-	SMB::FILE_OPEN	-	\\ROUTER	0	-	-	-	-	-
+1424241779.068035	CmbR2128vCnrxLSdc	175.45.176.2	23076	149.171.126.12	445	-	SMB::FILE_OPEN	-	\\browser	0	-	-	-	-	-
+1424241866.138853	CMqP643LALVNcm9Ht1	175.45.176.0	30955	149.171.126.16	445	-	SMB::FILE_OPEN	-	\\browser	0	-	-	-	-	-
+1424241940.989840	C342di3UHBrpGL4Ieg	175.45.176.1	16476	149.171.126.16	445	-	SMB::FILE_OPEN	-	\\srvsvc	0	-	-	-	-	-
+1424241943.402831	C342di3UHBrpGL4Ieg	175.45.176.1	16476	149.171.126.16	445	-	SMB::FILE_OPEN	-	\\proc\\sys\\crypto\\fips_enabled	0	-	-	-	-	-
+1424241943.761904	C342di3UHBrpGL4Ieg	175.45.176.1	16476	149.171.126.16	445	-	SMB::FILE_OPEN	-	\\VRxiEogcQri\\wireshark\\console.lua	0	-	-	-	-	-
+1424241951.875900	Cnrmji4fb88ssNxky6	175.45.176.1	17830	149.171.126.17	445	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424242308.332877	CpS7OE1fJ7w8VBcS82	175.45.176.3	4583	149.171.126.15	139	-	SMB::FILE_OPEN	-	\\DNSSERVER	0	-	-	-	-	-
+1424242332.830882	Ce6lvb1G0REi33Fn78	175.45.176.1	64913	149.171.126.15	445	-	SMB::FILE_OPEN	-	\\QIVCUTxGdwQMeQqCBQCWen\\FPBTRhzjPzCI\\Briefcase Database	0	-	-	-	-	-
+1424242359.906256	C3VpW53RXpPB5R0Ipd	175.45.176.1	65462	149.171.126.13	445	-	SMB::FILE_OPEN	-	\\oR\\IYunZBTXnH.lnk	0	-	-	-	-	-
+1424242360.912544	C3VpW53RXpPB5R0Ipd	175.45.176.1	65462	149.171.126.13	445	-	SMB::FILE_OPEN	-	\\oR\\pXJ6E4.dll	0	-	-	-	-	-
+1424242813.469955	C5l9IH4nrPyDfpwG3	175.45.176.3	32254	149.171.126.16	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+1424242845.961073	CRfPiU2KOi71HQ7fCa	175.45.176.0	13246	149.171.126.16	139	-	SMB::FILE_OPEN	-	\\BROWSER	0	-	-	-	-	-
+#close	2025-03-08-02-03-34

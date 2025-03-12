@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-03-08-01-59-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1424236758.328440	CdvouFmlMWmyMxJc8	175.45.176.2	6222	149.171.126.17	443	SSLv3	TLS_DHE_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	T	CsxkrnXGYIi	800c1c21815b08683c7c9b505692c6d4cc2738af505cdae2ff6e6ec272d84640	ed40c89c3f1dcc64c7b938a5b036cc2cd62f6b0416cd0bfff5b35090350787ef	-
+1424236805.126167	CPpkLMm2scM7uI3Ml	175.45.176.3	11173	149.171.126.16	443	SSLv2	SSLv20_CK_DES_192_EDE3_CBC_WITH_MD5	-	-	F	-	-	T	Cs	ebc811160591bd12ebcc2cf243ad9f74d797410221c62718baa10956f3a8c5bb	(empty)	-
+1424236853.038486	C04KmG3ZtWh1gDuuVh	175.45.176.2	45942	149.171.126.13	1311	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	F	-	-	T	CsxnGIi	ed8dc9dd2837dde3754764fe6b295767f36e4a21666ceba8fc17478ebc05038c	(empty)	-
+1424237108.543854	Cb1g9G4LNzpZlkhafg	175.45.176.0	9941	149.171.126.17	443	TLSv10	TLS_DHE_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	F	CsrnX	(empty)	(empty)	-
+1424237574.232529	CKV9Dt3GdQ1jkhf1of	175.45.176.3	41917	149.171.126.16	2444	TLSv10	TLS_RSA_WITH_NULL_SHA	-	-	F	-	-	T	CsxnGIi	d0806cf65173dc8fcb9f4bce15d7aec79c90f0f8d8c9a3112b00c9748c741414	(empty)	-
+1424237672.626994	C5m7IwmlxVxAgfV46	175.45.176.0	6361	149.171.126.17	443	TLSv10	TLS_RSA_WITH_AES_256_CBC_SHA	-	-	F	-	-	T	CsxnGIi	dcfe9e1ba1b2cae7e60f16c121c4b11178484636ab94c410cb6a2d0805efddb6,d2a34864166234e3dc1d753b5397e6523922efff767581a1ff8cf925134dc651,175940aceee0ec31812718f4972279648f23a7d908dbc5e48bdb493899fd4adb	(empty)	-
+1424237794.425451	C253iA4Tgu1aSecuWb	175.45.176.2	24686	149.171.126.10	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	F	Csxn	e4423a795b6a03700b58047b734436836b3a7c973acaf0e08d7940fc44ed37af	(empty)	-
+#close	2025-03-08-02-00-01

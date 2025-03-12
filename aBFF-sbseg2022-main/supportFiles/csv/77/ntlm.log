@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-02-19-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424257196.269316	CDCHBA3Vq9djfhUT75	175.45.176.1	1225	149.171.126.14	139	-	Vi7PdC	-	u	u.domain.com	domain.com	T
+1424257229.003745	CbrbuN3UhLOt37Aw05	175.45.176.2	23883	149.171.126.15	139	-	5evmJ	-	0q8	0q8.domain.com	domain.com	T
+1424257340.827581	CGJ45c3Mei6uutDcL2	175.45.176.0	36404	149.171.126.15	139	-	4hvNYxOooyA	-	lRsq8fJ	lrsq8fj.domain.com	domain.com	T
+1424257448.248706	CnWqjQ2d226DH3Zgn5	175.45.176.3	24758	149.171.126.19	445	-	B2Y36LE8p1A	-	E9MhDNz4TybWk	e9mhdnz4tybwk.domain.com	domain.com	T
+1424257532.973284	Ctx1rn2t7kbHh5IS7l	175.45.176.0	58878	149.171.126.10	139	-	4kjkgq	-	dsCbSAKZ	dscbsakz.domain.com	domain.com	T
+1424257586.103030	C1qeAa3sEN0sj18ce8	175.45.176.1	58313	149.171.126.10	139	-	egG2Sfki	-	MtkjEO2qd	mtkjeo2qd.domain.com	domain.com	T
+1424257799.781285	Cl1uaS1rQo3uyB3Kw9	175.45.176.3	3549	149.171.126.16	139	-	WI1JJsYsl	-	wsgMxIHwQO2W	wsgmxihwqo2w.domain.com	domain.com	T
+1424258023.592375	CuFXlc3C6IINJdToYj	175.45.176.1	4420	149.171.126.17	139	-	w	-	89Sm8Vp	89sm8vp.domain.com	domain.com	T
+1424258267.427547	C0Vcnl1iDUzEfAgmK9	175.45.176.0	61186	149.171.126.10	139	-	hVI2OVcTgE5j	-	MmDZe	mmdze.domain.com	domain.com	T
+1424258274.870282	CdoPKe2s76Pc289C0c	175.45.176.0	23800	149.171.126.13	139	-	WvOuuGlnO1	-	lGFtzJTiHFCTk	lgftzjtihfctk.domain.com	domain.com	T
+1424258347.079359	CVz5hp4YrGBg8d2Ued	175.45.176.2	62043	149.171.126.17	139	-	scs	-	s	s.domain.com	domain.com	T
+1424258475.783339	ClADJ92fIrdlNTCAbi	175.45.176.3	10537	149.171.126.17	139	-	zU9b8j	-	pcjQQYollaQ8	pcjqqyollaq8.domain.com	domain.com	T
+1424258480.909031	CKiBpq4xfcnd4zZX0i	175.45.176.2	14323	149.171.126.16	445	xsv5jD	-	-	XZQMN$$	xzqmn$$.ggynodtn.com	ggynodtn.com	T
+1424258547.548022	CUGmeMCzPmoLK6zMa	175.45.176.1	44812	149.171.126.18	445	demo	kXqiX4geyZuB	demo	DEMOPC	demopc.demo.com	demo.com	T
+1424258653.153294	CUMxRE3y74NDm3fGY2	175.45.176.1	60502	149.171.126.17	139	tsmsp	h1d0SqpN	-	T	t.domain.com	domain.com	T
+1424258679.242186	CEmgLc27DKx6MR2CSd	175.45.176.2	38581	149.171.126.16	445	-	4FfG9TltQL	-	YB1p	yb1p.domain.com	domain.com	T
+1424258690.777535	C8qZcn4TRn1WiG5dBc	175.45.176.2	57588	149.171.126.18	139	-	B6	-	JBtkHfQ	jbtkhfq.domain.com	domain.com	T
+#close	2025-03-08-02-19-54

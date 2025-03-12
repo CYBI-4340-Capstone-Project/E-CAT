@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap
+#open	2025-03-08-02-12-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	version	opcode	result	diagnostic_message	object	argument
+#types	time	string	addr	port	addr	port	int	int	string	string	string	string	string
+1424249418.697161	Ce1hrbF7p0Cd59UWg	175.45.176.2	32114	149.171.126.16	389	1	3	bind simple	success	-	-	-
+1424249420.938174	Ce1hrbF7p0Cd59UWg	175.45.176.2	32114	149.171.126.16	389	2	-	extended	-	-	2.16.840.1.113719.1.27.100.84 (unknown)	-
+1424249879.708560	Cqvbr23U5cFT2ojXSj	175.45.176.1	64962	149.171.126.19	389	1	3	bind simple	success	-	o=yCNMJJgnUk,ou=hRyoAKuEOP,dc=DaBUId,dc=kcewAcKEl	REDACTED
+#close	2025-03-08-02-12-50

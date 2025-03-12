@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-08-02-00-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1424238225.784074	CYmLzR0kfmJbooxrd	175.45.176.1	12872	149.171.126.13	445	-	-	-	-	-	-	-
+1424238323.241838	CmwWf91xJAdqt8X4o3	175.45.176.3	12807	149.171.126.19	139	-	9Q	-	mL	ml.domain.com	domain.com	T
+1424238323.625573	CbyML22FJPlXcUe9Kj	175.45.176.3	16758	149.171.126.15	139	-	MIGu6	-	DsY6	dsy6.domain.com	domain.com	T
+1424238590.626688	CF7RNWYmeBi1uqGk1	175.45.176.3	41005	149.171.126.11	445	-	ZdrkpO	-	HZTEp	hztep.domain.com	domain.com	T
+1424238606.989010	C9FOE61loVjUVDz6Y4	175.45.176.3	56465	149.171.126.19	445	-	a3zhPv9UH	-	k	k.domain.com	domain.com	T
+1424238677.925763	CVfBPN2XctRm4ywbuf	175.45.176.0	32581	149.171.126.12	139	-	fA31W85YvV	-	mIcez6lpBaY3t	micez6lpbay3t.domain.com	domain.com	T
+1424238725.921457	COc6X64colqZDmAwZ9	175.45.176.0	59196	149.171.126.18	445	-	siWeQwzWVytN	-	mPbJx	mpbjx.domain.com	domain.com	T
+1424238740.333843	CMZvzW1UYpN9IGKDfg	175.45.176.2	10393	149.171.126.14	445	-	6GUjqxxC7eRZK	-	zmF7ErE5CG	zmf7ere5cg.domain.com	domain.com	T
+1424238968.206482	CS2tz54400wD4hUmBi	175.45.176.2	26622	149.171.126.12	139	-	VGkEM	-	7J	7j.domain.com	domain.com	T
+1424239011.841909	CNt4av3XYz2Wji91Sl	175.45.176.3	52245	149.171.126.10	139	-	6	-	pYvTRSrb	pyvtrsrb.domain.com	domain.com	T
+1424239072.909009	C6Dyx429v1N2hbo21e	175.45.176.2	26622	149.171.126.15	139	-	VZCljo08dllIh	-	aj2y	aj2y.domain.com	domain.com	T
+1424239240.232532	Cx5fIy2J04VqiZMXgb	175.45.176.2	21914	149.171.126.16	139	-	gcGPDGwSy	-	0F8xE	0f8xe.domain.com	domain.com	T
+1424239261.374569	CtxuhQ27LjGHpex27j	175.45.176.3	61230	149.171.126.11	139	-	45UX	-	BMLjEiYBx0s	bmljeiybx0s.domain.com	domain.com	T
+1424239416.597362	CQ7V5HM4JCV8DNFa2	175.45.176.1	63491	149.171.126.19	139	Administrator	WIN2KSRV	WIN2KSRV	SERVICEPC	servicepc	-	-
+#close	2025-03-08-02-00-27

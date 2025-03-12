@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-03-07-06-43-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1421928428.533650	CWzXir2OlJfNtbpq3g	175.45.176.1	18933	149.171.126.17	445	-	-	-	CA-AV-EHSAN	ca-av-ehsan	-	-
+1421928519.818876	CXFmbd2kGzwl1SmG49	175.45.176.1	46531	149.171.126.12	445	-	J1	-	EehuUzruQM	eehuuzruqm.domain.com	domain.com	T
+1421928609.313393	CHH0Ai4IG2QqCd8yVc	175.45.176.3	40262	149.171.126.18	445	RMzI34P	-	-	TUOI$	tuoi$.peejw.com	peejw.com	T
+1421928625.800355	CRgXxS1zVkZPv0kNK4	175.45.176.0	31190	149.171.126.17	139	-	ZMLe5q1Y	-	rX5owbiKja3f	rx5owbikja3f.domain.com	domain.com	T
+1421928650.081892	CTJFG32HQ9OJtaWxoc	175.45.176.2	62546	149.171.126.10	445	-	o48Th	-	jRVwKew	jrvwkew.domain.com	domain.com	T
+1421928674.750746	COf3fQ1ana6AYNR8hl	175.45.176.1	26890	149.171.126.11	445	-	LWT75	-	a4OM5	a4om5.domain.com	domain.com	T
+1421928846.332758	CvY2W54b0qm5c545Z9	175.45.176.3	25566	149.171.126.12	139	-	uz	-	D8dRx5bP0UEaS	d8drx5bp0ueas.domain.com	domain.com	T
+#close	2025-03-07-06-43-29
