@@ -1,6 +1,8 @@
 import pandas as pd
 import os
-from myFunc import FEATURE_TYPES, zeroVarRead, zeroVarWrite
+import pyarrow as pa
+import pyarrow.parquet as pq
+from myFunc import FEATURE_TYPES, zeroVarRead
 
 # Define a mapping for standardizing labels
 LABEL_MAPPING = {
@@ -44,48 +46,39 @@ LABEL_MAPPING = {
     'Theft': 'theft'
 }
 
-def process_and_append(file_path, zero_var_features, writer, chunk_size=50000):
+def process_and_save(file_path, zero_var_features, combined_file, first_file):
     """
-    Process a single CSV file in chunks and append it to the combined dataset.
+    Process a CSV file and save it to a Parquet file.
     """
-    chunk_iter = pd.read_csv(
-        file_path,
-        dtype=FEATURE_TYPES,
-        chunksize=chunk_size
-    )
+    df = pd.read_csv(file_path, dtype=FEATURE_TYPES)
 
-    for chunk in chunk_iter:
-        # Drop zero variance features and unnecessary ID columns early
-        chunk.drop(columns=[col for col in zero_var_features if col in chunk.columns], errors='ignore', inplace=True)
+    # Drop zero variance features
+    df.drop(columns=[col for col in zero_var_features if col in df.columns], errors='ignore', inplace=True)
 
-        # Drop rows with NaN in essential columns
-        chunk.dropna(subset=['Label'], inplace=True)
+    # Drop rows with NaN in essential columns
+    df.dropna(subset=['Label'], inplace=True)
 
-        # Standardize labels
-        chunk['Label'] = chunk['Label'].str.strip().str.lower().map(LABEL_MAPPING).fillna(chunk['Label'])
+    # Standardize labels
+    df['Label'] = df['Label'].str.strip().str.lower().map(LABEL_MAPPING).fillna(df['Label'])
 
-        # Write or append data
-        chunk.to_csv(writer, mode='a', header=writer.tell()==0, index=False)
+    # Save to Parquet file
+    df.to_parquet(combined_file, engine='pyarrow', index=False, compression='snappy', append=not first_file)
 
 def combine_datasets(input_files, combined_file):
     """
-    Combine multiple datasets into one efficient CSV file.
+    Combine multiple datasets into one efficient Parquet file.
     """
-
     # Remove combined file if it already exists
     if os.path.exists(combined_file):
         print(f"Removing existing combined file: {combined_file}")
         os.remove(combined_file)
 
-    with open(combined_file, 'w') as writer:
-        for idx, file_path in enumerate(input_files, start=1):
-            print(f"Processing {file_path}")
-            # Load zero variance features for the current dataset type
-            zero_var_features = zeroVarRead(idx)
-            process_and_append(file_path, zero_var_features, writer)
+    for idx, file_path in enumerate(input_files, start=1):
+        print(f"Processing {file_path}")
+        zero_var_features = zeroVarRead(idx)
+        process_and_save(file_path, zero_var_features, combined_file, first_file=(idx == 1))
 
     print(f"Combined dataset saved to {combined_file}")
-
 
 # Example usage
 input_files = [
@@ -95,5 +88,5 @@ input_files = [
     './dataset/final/BoT-IoT_CIC.csv'
 ]
 
-combined_file = './dataset/final/combined_dataset.csv'
+combined_file = './dataset/final/combined_dataset.parquet'
 combine_datasets(input_files, combined_file)
