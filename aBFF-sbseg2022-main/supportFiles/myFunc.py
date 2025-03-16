@@ -694,3 +694,40 @@ def setTarget(full_data, pNum, scanOnly, scan, zeroVarType):
     #X = X.select_dtypes(include=[np.number])
     
     return X, y
+
+def setTarget2(full_data, pNum, scanOnly, scan, zeroVarType):
+    #---------------#
+    # DEFINE TARGET #
+    #---------------#
+    zeroVar = zeroVarRead(zeroVarType)
+    full_data.drop(columns=zeroVar, axis=1, inplace=True)
+
+    # Rename the 0 or '0' class to 'benign'
+    full_data['Label'] = full_data['Label'].apply(lambda x: 'benign' if x == 0 or x == '0' else x)
+    
+    X = full_data.drop(columns=["Label"])
+    y = full_data.Label
+    
+    # Print initial class distribution
+    print("Initial class distribution in y:\n", y.value_counts())
+    
+    # Define identification scheme
+    targetText = ["benign"]
+    targetToML = (0, 1)
+    index = 0
+    if not scanOnly and scan and pNum:
+        targetText = ["benign"]
+        index = 1
+    
+    # Map labels to target values
+    y = y.apply(lambda x: targetToML[index] if x.casefold() in targetText else targetToML[index-1])
+    y = y.astype('int32')
+
+    # Print class distribution after transformation
+    print("Class distribution in y after transformation:\n", y.value_counts())
+    
+    # Select only numeric columns for NB15 dataset
+    if pNum == 1:  # Assuming pNum 1 corresponds to NB15 dataset
+        X = X.select_dtypes(include=[np.number])
+    
+    return X, y

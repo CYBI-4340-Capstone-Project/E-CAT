@@ -2,3 +2,5 @@
 training MLP from CIC-IDS_CIC_os
 2025-03-02 20:10:11
 training SVM from CIC-IDS_CIC_os
+2025-03-12 12:00:12
+training SVM from CIC-IDS_CIC_os
