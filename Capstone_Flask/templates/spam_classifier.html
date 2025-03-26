@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<main>
+    <h1 class="text-center">Email Spam Classifier</h1>
+    <form class="p-3 text-center" method="post">
+        <label for="teammate">Select Teammate:</label>
+        <select name="teammate" id="teammate">
+            <option value="giancarlo">giancarlo</option>
+            <option value="teammate2">Teammate 2</option>
+            <option value="teammate3">Teammate 3</option>
+            <!-- Add more teammates here if needed -->
+        </select>
+        <br><br>
+        <input class="btn btn-primary mt-3" type="submit" value="Classify Emails">
+    </form>
+    
+<br>
+
+ <!-- Display email bodies in text boxes -->
+ <div>
+    <label for="email1">Email 1:</label>
+    <textarea id="email1" rows="5" cols="50" readonly>{{ email_bodies[0] }}</textarea>
+</div>
+
+<div>
+    <label for="email2">Email 2:</label>
+    <textarea id="email2" rows="5" cols="50" readonly>{{ email_bodies[1] }}</textarea>
+</div>
+
+<!-- Display vectorized email bodies -->
+<div>
+    <h3>Vectorized Email 1:</h3>
+    <p>{{ vectorized_bodies[0] }}</p>
+</div>
+
+<div>
+    <h3>Vectorized Email 2:</h3>
+    <p>{{ vectorized_bodies[1] }}</p>
+</div>
+
+<!-- Classify emails and display the results at the bottom -->
+<div>
+    <h3>Classification Results:</h3>
+    <p>Email 1: {{ prediction[0] }}</p>
+    <p>Email 2: {{ prediction[1] }}</p>
+</div>
+
+{% endblock %}

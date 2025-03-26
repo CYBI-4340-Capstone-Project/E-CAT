@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ pageTitle }}</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="{{ url_for('index') }}">Home</a></li>
+				<li><a href="{{ url_for('spam_classifier') }}">Spam Classifier</a></li>
+				<li><a href="{{ url_for('phishing_classifier') }}">Phishing Classifier</a></li>
+				<li><a href="{{ url_for('malware_classifier') }}">Malware Classifier</a></li>
+                <li><a href="{{ url_for('network_classifier') }}">Network Traffic Classifier</a></li>
+			</ul>
+		</nav>
+    </header>
+
+    {% block body %}
+
+    {% endblock %}
+
+	<footer>
+        <p>&copy; Capstone Project: E-CAT: Enhanced Cyber AI/ML Tools with Ensemble/Boosting based Classifications </p>
+    </footer>
+</body>
+</html>
+
+</body>
+</html>
