@@ -1,7 +1,15 @@
-from flask import Flask, render_template, request
-from Email_Classifier_Module2 import load_model, load_feature_extractor, classify_emails, get_credentials, fetch_emails
+from flask import Flask, render_template, request, jsonify
+import os
+import logging
+from Email_Classifier_Module import load_model, load_feature_extractor, classify_emails, get_credentials, fetch_emails
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
+
+UPLOAD_FOLDER = '/home/capstone4340-admin/E-CAT/Capstone_Flask/Databases'  # Adjust as needed
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Load the model and vectorizer
 model, vectorizer = load_model(), load_feature_extractor()
@@ -49,6 +57,31 @@ def malware_classifier():
 def network_classifier():
     return render_template('network_classifier.html')
 
+@app.route('/network-classifier/upload', methods=['POST'])
+def upload_file():
+    if 'file' not in request.files:
+        logging.error("No file part in the request")
+        return jsonify({'message': 'No file part'}), 400
+
+    file = request.files['file']
+
+    if file.filename == '':
+        logging.error("No file selected")
+        return jsonify({'message': 'No file selected'}), 400
+
+    if file:
+        filename = file.filename  # Or generate a unique filename
+        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        file.save(filepath)
+        logging.info(f"File saved to {filepath}")
+
+        # Start processing the file (replace with your actual processing)
+        # process_pcap(filepath)  # Call your processing function here
+
+        return jsonify({'message': 'File uploaded successfully'}), 200
+    else:
+        logging.error("Upload failed")
+        return jsonify({'message': 'Upload failed'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='127.0.0.1', port=8000)

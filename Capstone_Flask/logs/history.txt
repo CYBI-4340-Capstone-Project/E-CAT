@@ -1,0 +1,563 @@
+    1  sudo apt update
+    2  sudo apt install argus-server argus-client -y
+    3  argus -h
+    4  ra -h
+    5  sudo mkdir -p /etc/argus
+    6  sudo mkdir -p /var/log/argus
+    7  sudo mkdir -p /usr/local/argus/argus.archive
+    8  sudo chmod 755 /etc/argus
+    9  sudo chmod 755 /var/log/argus
+   10  sudo chmod 755 /usr/local/argus/argus.archive
+   11  sudo nano /etc/argus/excel.rc
+   12  ip a
+   13  ls
+   14  pwd
+   15  ls
+   16  sudo argus -r 1.pcap -w argus_output.argus
+   17  ls -l
+   18  sudo ra -r argus_output.argus
+   19  sudo argus -r 2.pcap -w 2.argus
+   20  sudo ra -r 2.argus
+   21  ls
+   22  rm argus_output.argus
+   23  ls
+   24  rm 1.pcap
+   25  ls
+   26  sudo mkdir -p /etc/argus
+   27  sudo mkdir -p /var/log/argus
+   28  sudo chmod 755 /etc/argus
+   29  sudo chmod 755 /var/log/argus
+   30  sudo nano /etc/argus/excel.rc
+   31  ls
+   32  ra -r 2.argus -F /etc/argus/excel.rc -s stime ltime proto saddr sport daddr dport state dur sbytes dbytes sttl dttl sloss dloss sload dload spkts dpkts swin dwin stcpb dtcpb smeansz dmeansz sjit djit sintpkt dintpkt tcprtt synack ackdat -c ',' > 2.csv
+   33  ls -l
+   34  ls
+   35  sudo argus -r 1.pcap -w 1.argus
+   36  sudo ra -r 1.argus
+   37  ls
+   38  rm 1.argus 1.pcap
+   39  ls
+   40  sudo shutdown
+   41  ls
+   42  cd ~
+   43  ls
+   44  zeekctl
+   45  sudo zeekctl
+   46  which zeek
+   47  sudo netstat -tulnp | grep zeek
+   48  sudo kill -9 20100
+   49  sudo netstat -tulnp | grep zeek
+   50  ls
+   51  cd aBFF-sbseg2022-main/
+   52  ls
+   53  bash 1_Extract_features.sh
+   54  bash 1_Extract_Features.sh
+   55  ls
+   56  sudo nano 1_Extract_Features.sh
+   57  history
+   58  ls
+   59  ls csv
+   60  cd /3/csv
+   61  sudo python3 -m pip install cicflowmeter
+   62  sudo apt install pip
+   63  sudo apt install update
+   64  sudo apt update
+   65  sudo apt upgrade
+   66  sudo pip install cicflowmeter
+   67  sudo apt-get install libpcap-dev
+   68  ls
+   69  sudo apt install python3-pip -y
+   70  sudo pip3 install cicflowmeter
+   71  git clonse https://github.com/CanadianInstituteForCybersecurity/CICFlowMeter.git
+   72  git clone https://github.com/CanadianInstituteForCybersecurity/CICFlowMeter.git
+   73  ls
+   74  nano ~/.local/lib/python3.10/site-packages/scapy/utils.py
+   75  ls
+   76  cd ~/.local/lib
+   77  ls
+   78  ls -l
+   79  echo 'deb http://download.opensuse.org/repositories/security:/zeek/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/security:zeek.list
+   80  ls
+   81  curl -fsSL https://download.opensuse.org/repositories/security:zeek/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/security_zeek.gpg > /dev/null
+   82  sudo apt update
+   83  sudo apt install zeek-6.0
+   84  ls -l
+   85  cd CICFlowMeter
+   86  ls
+   87  ls -l
+   88  ls -all
+   89  cd ..
+   90  ls -all
+   91  cd .local
+   92  ls
+   93  cd ..
+   94  ls
+   95  cd .local
+   96  ls
+   97  cd share
+   98  ls
+   99  cd nano
+  100  ls
+  101  cd ~
+  102  ls
+  103  where utils.py
+  104  find utils.py
+  105  find -name "utils.py"
+  106  sudo apt install scapy
+  107  cd .local
+  108  ls
+  109  cd ..
+  110  pip3 install scapy
+  111  python3 -c "import scapy; print(scapy.__file__)"
+  112  sudo nano /usr/local/lib/python3.10/site-packages/scapy/utils.py
+  113  ls
+  114  python3 -c "import scapy; print(scapy.__file__)"
+  115  cd /usr/local/lib/python3.10
+  116  ls
+  117  cd dist-packages
+  118  ls
+  119  cd scapy
+  120  ls
+  121  sudo nano utils.py
+  122  cd ~
+  123  ls
+  124  gh repo clone c2dc/aBFF-sbseg2022
+  125  sudo apt install gh
+  126  gh repo clone c2dc/aBFF-sbseg2022
+  127  ip a
+  128  ls
+  129  unzip aBFF-sbseg2022-main.zip 
+  130  sudo apt install unzip
+  131  unzip aBFF-sbseg2022-main.zip 
+  132  ls
+  133  cd aBFF-sbseg2022-main/
+  134  ls
+  135  pwd
+  136  bash 1_Extract_features.sh /home/daniel/3.pcap
+  137  ls
+  138  bash 1_Extract_Features.sh /home/daniel/3.pcap
+  139  mv /home/daniel/3.pcap /home/daniel/aBFF-sbseg2022-main
+  140  ls
+  141  bash 1_Extract_Features.sh 3.pcap
+  142  which python
+  143  which python3
+  144  sudo nano 1_Extract_Features.sh 
+  145  which argus
+  146  which zeek
+  147  which cicflowmeter
+  148  cd ..
+  149  sudo apt-get install -y --no-install-recommends g++ cmake make libpcap-dev
+  150  which zeek-6.0
+  151  which zeek
+  152  echo 'deb http://download.opensuse.org/repositories/security:/zeek/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/security:zeek.list
+  153  curl -fsSL https://download.opensuse.org/repositories/security:zeek/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/security_zeek.gpg > /dev/null
+  154  sudo apt install zeek
+  155  which zeek
+  156  cd /opt/zeek
+  157  ls
+  158  cd etc
+  159  ls
+  160  ifconfig
+  161  sudo nano node.cfg
+  162  clear
+  163  sudo nano ~/.bashrc
+  164  source ~/.bashrc
+  165  which zeek
+  166  zeek --version
+  167  clear
+  168  cd ..
+  169  ls
+  170  cd bin
+  171  ls
+  172  ./zeekctl check
+  173  sudo ./zeekctl check
+  174  ./zeekctl deploy
+  175  sudo ./zeekctl deploy
+  176  sudo ./zeekctl status
+  177  cd ..
+  178  ls
+  179  cd logs
+  180  ls
+  181  cd logs
+  182  sudo cd logs
+  183  sudo su
+  184  ls
+  185  cd aBFF-sbseg2022-main/
+  186  ls
+  187  cd csv
+  188  ls
+  189  cd 3
+  190  ls
+  191  ip a
+  192  ls
+  193  sudols
+  194  pip install cicflowmeter
+  195  ls
+  196  cicflowmeter -f 2.pcap -c cic.csv
+  197  sudo nano /usr/local/lib/python3.10/dist-packages/scapy/utils.py
+  198  cicflowmeter -f 2.pcap -c cic.csv
+  199  ls
+  200  git clone https://gitlab.com/hieulw/cicflowmeter
+  201  cd cicflowmeter
+  202  python setup.py install
+  203  python3 setup.py install
+  204  sudo python3 setup.py install
+  205  pip uninstall cicflowmeter -y
+  206  sudo pip uninstall cicflowmeter -y
+  207  rm -rf *.egg-info build dist report.xml
+  208  sudo rm -rf *.egg-info build dist report.xml
+  209  history
+  210  history | grep install
+  211  sudo python3 setup.py install
+  212  sudo apt install gfortran
+  213  sudo python3 setup.py install
+  214  sudo apt update && sudo apt upgrade -y
+  215  sudo reboot
+  216  sudo apt install -y build-essential python3-dev python3-pip gfortran
+  217  ls
+  218  sudo apt install -y build-essential python3-dev python3-pip gfortran libopenblas-dev liblapack-dev libatlas-base-dev
+  219  sudo pip install numpy scipy
+  220  ls
+  221  cd cicflowmeter/
+  222  ls
+  223  sudo python3 setup.py install
+  224  sudo pip install --upgrade numpy
+  225  sudo pip install --upgrade --force-reinstall numpy
+  226  cd ..
+  227  pip uninstall -y numpy scipy cicflowmeter
+  228  sudo pip uninstall -y numpy scipy cicflowmeter
+  229  pip install numpy==1.17 scipy==1.5.2
+  230  python3 -m venv myenv
+  231  sudo apt install python3.10-venv
+  232  python3 -m venv myenv
+  233  source myenv/bin/activate
+  234  pip install numpy==1.17 scipy==1.5.2 cicflowmeter
+  235  ls
+  236  cd cicflowmeter/
+  237  ls
+  238  sudo python3 setup.py install
+  239  cd ..
+  240  sudo apt install python
+  241  sudo apt update
+  242  exit
+  243  ls
+  244  sudo apt install openjdk-8-jdk
+  245  sudo apt install maven
+  246  sudo apt install git
+  247  sudo apt install libpcap-dev
+  248  ls
+  249  cd CICFlowMeter/
+  250  ls
+  251  mvn clean install
+  252  mvn clean install -PautoInstallPackage -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true
+  253  ls
+  254  sudo nano pom.xml
+  255  mvn clean install -U
+  256  which jnetpcap
+  257  ls
+  258  sudo nano pom.xml
+  259  ls
+  260  cd jnetpcap/
+  261  ls
+  262  cd ..
+  263  sudo nano pom.xml
+  264  ip a
+  265  sudo nano pom.xml
+  266  mvn clean install
+  267  mvn clean install -U
+  268  mvn clean install -X
+  269  cd ..
+  270  ls
+  271  cd CICFlowMeter/
+  272  ls
+  273  mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
+  274  ls
+  275  cd jnetpcap
+  276  ls
+  277  cd ..
+  278  java
+  279  ls
+  280  cd jnetpcap
+  281  ls
+  282  cd linux
+  283  ls
+  284  mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
+  285  cd jnetpcap-1.4.r1425/
+  286  ls
+  287  mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
+  288  sudo bash
+  289  sudo apt-get install libpcap-dev
+  290  sudo apt-get upgrade libpcap-dev
+  291  wget https://github.com/iPAS/TCPDUMP_and_CICFlowMeter.git
+  292  ls
+  293  ip a
+  294  ls
+  295  unzip TCPDUMP_and_CICFlowMeter-master.zip 
+  296  ls
+  297  cd TCPDUMP_and_CICFlowMeter-master/
+  298  ls
+  299  cd CICFlowMeters/
+  300  ls
+  301  cd CICFlowMeter-3.0
+  302  ls
+  303  cd bin
+  304  ls
+  305  sudo ./CICFlowMeter
+  306  sudo mkdir data
+  307  ls
+  308  cd data
+  309  ls
+  310  sudo mkdir in
+  311  ls
+  312  cd in
+  313  ls
+  314  cd ..
+  315  ls
+  316  cd ..
+  317  ls
+  318  sudo mv 2.pcap /data/in
+  319  sudo mv 2.pcap /data/in/
+  320  sudo mv 2.pcap /data/in/2.pcap
+  321  sudo mv 2.pcap ./data/in/2.pcap
+  322  cd data/in
+  323  ls
+  324  cd ..
+  325  sudo ./CICFlowMeter
+  326  cd data
+  327  ls
+  328  sudo mkdir out
+  329  cd ..
+  330  sudo ./CICFlowMeter
+  331  ls
+  332  cd data/out
+  333  ls
+  334  ls -all
+  335  sudo apt-get install tcprewrite
+  336  sudo apt install tcprewrite
+  337  sudo apt install tcpreplay
+  338  ls
+  339  cd ..
+  340  ls
+  341  cd in
+  342  ls
+  343  tcprewrite --dlt=enet --infile=2.pcap --outfile=output.pcap
+  344  sudo tcprewrite --dlt=enet --infile=2.pcap --outfile=output.pcap
+  345  ls
+  346  sudo mv 2.pcap ..
+  347  cd ..
+  348  ls
+  349  cd ..
+  350  ls
+  351  cd data/out
+  352  ls
+  353  sudo rm 2_ISCX.csv
+  354  cd ..
+  355  sudo ./CICFlowMeter
+  356  cd /data/out
+  357  ls
+  358  cd data
+  359  ls
+  360  cd out
+  361  ls
+  362  cd ..
+  363  java -Xmx10000m -X2000m -XshowSettings:all
+  364  ls
+  365  cd TCPDUMP_and_CICFlowMeter-master/
+  366  ls
+  367  cd CICFlowMeters/
+  368  ls
+  369  cd CICFlowMeter-3.0
+  370  ls
+  371  cd bin
+  372  ls
+  373  sudo ./CICFlowMeter
+  374  ls
+  375  cd data/out
+  376  ls
+  377  ip a
+  378  cd ~
+  379  ls
+  380  sudo rm TCPDUMP_and_CICFlowMeter.git
+  381  ls
+  382  unzip NTLFlowLyzer-master.zip 
+  383  ls
+  384  cd NTLFlowLyzer-master/
+  385  ls
+  386  pip3 install -r requirements.txt
+  387  python3 setup.py install
+  388  sudo python3 setup.py install
+  389  ntlflowlyzer --version
+  390  ls
+  391  cd ..
+  392  ls
+  393  cd TCPDUMP_and_CICFlowMeter-master/
+  394  ls
+  395  ls pcap
+  396  ls
+  397  cd CICFlowMeters/
+  398  ls
+  399  cd CICFlowMeter-3.0
+  400  ls
+  401  cd bin
+  402  ls
+  403  cd data
+  404  ls
+  405  cd out
+  406  ls
+  407  sudo mv output_ISCX.csv cic.csv
+  408  ls
+  409  cd ..
+  410  ls
+  411  cd in
+  412  ls
+  413  pwd
+  414  cd ~
+  415  ls
+  416  cd aBFF-sbseg2022-main/
+  417  ls
+  418  cd csv
+  419  ls
+  420  cd ..
+  421  sudo mv 3.pcap /home/daniel/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeter-3.0/bin/data/in
+  422  cd /home/daniel/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeter-3.0/bin/data/in
+  423  ls
+  424  sudo mv output.pcap ..
+  425  ls
+  426  cd ..
+  427  ls
+  428  cd in
+  429  sudo tcprewrite --dlt=enet --infile=3.pcap --outfile=output.pcap
+  430  ls
+  431  cd ../..
+  432  sudo ./CICFlowMeter
+  433  ls /data/in
+  434  ls
+  435  cd data
+  436  ls
+  437  cd in
+  438  ls
+  439  sudo mv 3.pcap ..
+  440  cd ..
+  441  ls /out
+  442  ls
+  443  cd out
+  444  ls
+  445  sudo rm 3_ISCX.csv 
+  446  cd ../..
+  447  sudo ./CICFlowMeter
+  448  ls
+  449  c
+  450  cd TCPDUMP_and_CICFlowMeter-master/
+  451  ls
+  452  cd CICFlowMeters/
+  453  ls
+  454  cd cd ..
+  455  cd csv
+  456  ls
+  457  cd ..
+  458  ls
+  459  cd csv
+  460  ls
+  461  cd 3.1.4
+  462  ls
+  463  cd ..
+  464  cd 3.1.4
+  465  cd ..
+  466  cd 3.1.3
+  467  ls
+  468  cd ..
+  469  ls 2
+  470  cd ..
+  471  ls
+  472  cd CICFlowMeters/
+  473  ls
+  474  cd CICFlowMeter-3.0
+  475  ls
+  476  cd bin
+  477  ls
+  478  ls /data/out
+  479  ls /data/out/
+  480  cd data
+  481  ls
+  482  cd out
+  483  ls
+  484  cd ..
+  485  cd in
+  486  ls
+  487  cd ../..
+  488  ls
+  489  sudo ./CICFlowMeter
+  490  cd data
+  491  ls
+  492  cd out
+  493  ls
+  494  pwd
+  495  cd ~
+  496  ls
+  497  cd aBFF-sbseg2022-main/
+  498  ls
+  499  cd csv
+  500  ls
+  501  cd 3
+  502  ls
+  503  sudo mv /home/daniel/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeter-3.0/bin/data/out/output_ISCX.csv .
+  504  ls
+  505  sudo mv output_ISCX.csv cic.csv
+  506  ls
+  507  ip a
+  508  ls
+  509  cd c
+  510  cd CICFlowMeter/
+  511  ls
+  512  cd ..
+  513  cd 
+  514  cd NTLFlowLyzer-master/
+  515  ls
+  516  cd NTLFlowLyzer
+  517  ls
+  518  cd ..
+  519  ls
+  520  cd cicflowmeter/
+  521  ls
+  522  cd ..
+  523  ls
+  524  cd TCPDUMP_and_CICFlowMeter-master/
+  525  ls
+  526  cd CICFlowMeters/
+  527  ls
+  528  cd CICFlowMeter-3.0
+  529  ls
+  530  cd bin
+  531  ls
+  532  sudo ./CICFlowMeterls
+  533  ls
+  534  cd data
+  535  ls
+  536  cd in
+  537  ls
+  538  cd ..
+  539  ls
+  540  cd out
+  541  ls
+  542  cd ../..
+  543  ls
+  544  cd logs
+  545  ls
+  546  sudo rm 2.csv 3.csv 
+  547  sudo rm 2.csv 3.csv
+  548  sudo rm NTLFlowLyzer-master.zip
+  549  sudo rm NTLFlowLyzer-master
+  550  ip a
+  551  ls
+  552  sudo rm -r cicflowmeter/
+  553  sudo rm -r CICFlowMeter/
+  554  ls
+  555  sudo rm -r NTLFlowLyzer-master/
+  556  ls
+  557  sudo rm -rf myenv
+  558  ls
+  559  ls .
+  560  ls 
+  561  ls -all
+  562  history
+  563  history > history.txt

@@ -1,0 +1,187 @@
+2025-03-25 06:02:43 - Startup script started
+2025-03-25 06:02:43 - Updating package lists
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+Get:7 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [2150 kB]
+Get:8 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+Get:9 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+Get:10 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+Get:11 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+Get:12 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2417 kB]
+Get:13 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [400 kB]
+Get:14 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [18.5 kB]
+Get:15 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [3164 kB]
+Get:16 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [558 kB]
+Get:17 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [676 B]
+Get:18 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1195 kB]
+Get:19 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [334 kB]
+Get:20 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [13.6 kB]
+Get:21 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [2997 kB]
+Get:22 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [294 kB]
+Get:23 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [28.7 kB]
+Get:24 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [46.5 kB]
+Get:25 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [11.8 kB]
+Get:26 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [592 B]
+Get:27 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [68.4 kB]
+Get:28 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.1 kB]
+Get:29 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [392 B]
+Get:30 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:31 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [30.1 kB]
+Get:32 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.6 kB]
+Get:33 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [672 B]
+Get:34 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+Get:35 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [529 kB]
+Get:36 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [624 B]
+Get:37 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [967 kB]
+Get:38 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [208 kB]
+Get:39 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [21.7 kB]
+Get:40 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [39.6 kB]
+Get:41 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [8716 B]
+Get:42 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [368 B]
+Fetched 36.3 MB in 4s (8415 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+E: Unable to locate package caddy
+# Source: Caddy
+# Site: https://github.com/caddyserver/caddy
+# Repository: Caddy / stable
+# Description: Fast, multi-platform web server with automatic HTTPS
+
+
+deb [signed-by=/usr/share/keyrings/caddy-stable-archive-keyring.gpg] https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version main
+
+deb-src [signed-by=/usr/share/keyrings/caddy-stable-archive-keyring.gpg] https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version main
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Get:4 https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version InRelease [8266 B]
+Hit:5 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Get:6 https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version/main amd64 Packages [3947 B]
+Fetched 12.2 kB in 1s (19.8 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+2025-03-25 06:03:00 - Creating project directory
+2025-03-25 06:03:00 - Data directory created successfully
+2025-03-25 06:03:00 - Copying files from Cloud Storage
+Copying gs://capstone4340-bucket/E-CAT/app.py...
+/ [0 files][    0.0 B/  214.0 B]                                                / [1 files][  214.0 B/  214.0 B]                                                Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/ids.py...
+/ [1 files][  214.0 B/  930.0 B]                                                / [2 files][  930.0 B/  930.0 B]                                                Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/.gitignore...
+/ [2 files][  930.0 B/   1014 B]                                                / [3 files][   1014 B/   1014 B]                                                
+==> NOTE: You are performing a sequence of gsutil operations that may
+run significantly faster if you instead use gsutil -m cp ... Please
+see the -m section under "gsutil help options" for further information
+about when gsutil -m can be advantageous.
+
+Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/.gitmodules...
+/ [3 files][   1014 B/   1014 B]                                                / [4 files][   1014 B/   1014 B]                                                Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeter.revised...
+/ [4 files][   1014 B/  6.7 KiB]                                                -- [5 files][  6.7 KiB/  6.7 KiB]                                                Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.3/CHANGE_LOG.txt...
+- [5 files][  6.7 KiB/ 21.3 KiB]                                                - [6 files][ 21.3 KiB/ 21.3 KiB]                                                Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.3/COPYING...
+- [6 files][ 21.3 KiB/ 56.3 KiB]                                                - [7 files][ 56.3 KiB/ 56.3 KiB]                                                Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.3/COPYING.LESSER...
+- [7 files][ 56.3 KiB/ 63.9 KiB]                                                - [8 files][ 63.9 KiB/ 63.9 KiB]                                                Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.3/analysis.h...
+- [8 files][ 63.9 KiB/ 65.0 KiB]                                                \\ [9 files][ 65.0 KiB/ 65.0 KiB]                                                Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/CHANGE_LOG.txt...
+\ [9 files][ 65.0 KiB/ 79.1 KiB]                                                \ [10 files][ 79.1 KiB/ 79.1 KiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/CICFlowMeterV3.jar...
+\ [10 files][ 79.1 KiB/  4.3 MiB]                                               \ [11 files][  4.3 MiB/  4.3 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/COPYING...
+\ [11 files][  4.3 MiB/  4.4 MiB]                                               \ [12 files][  4.4 MiB/  4.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/COPYING.LESSER...
+\ [12 files][  4.4 MiB/  4.4 MiB]                                               || [13 files][  4.4 MiB/  4.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/LICENSE.txt...
+| [13 files][  4.4 MiB/  4.4 MiB]                                               | [14 files][  4.4 MiB/  4.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/README.md...
+| [14 files][  4.4 MiB/  4.4 MiB]                                               | [15 files][  4.4 MiB/  4.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/RELEASE_NOTES.txt...
+| [15 files][  4.4 MiB/  4.4 MiB]                                               | [16 files][  4.4 MiB/  4.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/analysis.h...
+| [16 files][  4.4 MiB/  4.4 MiB]                                               | [17 files][  4.4 MiB/  4.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/export.h...
+| [17 files][  4.4 MiB/  4.4 MiB]                                               // [18 files][  4.4 MiB/  4.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/jnetpcap-pcap100.dll...
+/ [18 files][  4.4 MiB/  4.4 MiB]                                               / [19 files][  4.4 MiB/  4.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/jnetpcap.dll...
+/ [19 files][  4.4 MiB/  4.8 MiB]                                               / [20 files][  4.8 MiB/  4.8 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/jnetpcap.jar...
+/ [20 files][  4.8 MiB/  5.2 MiB]                                               / [21 files][  5.2 MiB/  5.2 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/jnetpcap_bpf.h...
+/ [21 files][  5.2 MiB/  5.2 MiB]                                               -- [22 files][  5.2 MiB/  5.2 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/jnetpcap_dumper.h...
+- [22 files][  5.2 MiB/  5.2 MiB]                                               - [23 files][  5.2 MiB/  5.2 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/jnetpcap_ids.h...
+- [23 files][  5.2 MiB/  5.2 MiB]                                               - [24 files][  5.2 MiB/  5.2 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/jnetpcap_utils.h...
+- [24 files][  5.2 MiB/  5.2 MiB]                                               - [25 files][  5.2 MiB/  5.2 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/libjnetpcap-pcap100.so...
+- [25 files][  5.2 MiB/  5.2 MiB]                                               - [26 files][  5.2 MiB/  5.2 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/libjnetpcap.so...
+- [26 files][  5.2 MiB/  5.4 MiB]                                               \\ [27 files][  5.4 MiB/  5.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/mac_addr.h...
+\ [27 files][  5.4 MiB/  5.4 MiB]                                               \ [28 files][  5.4 MiB/  5.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/nio_jbuffer.h...
+\ [28 files][  5.4 MiB/  5.4 MiB]                                               \ [29 files][  5.4 MiB/  5.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/nio_jmemory.h...
+\ [29 files][  5.4 MiB/  5.4 MiB]                                               \ [30 files][  5.4 MiB/  5.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/packet_flow.h...
+\ [30 files][  5.4 MiB/  5.4 MiB]                                               || [31 files][  5.4 MiB/  5.4 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/packet_jscanner.h...
+| [31 files][  5.4 MiB/  5.5 MiB]                                               | [32 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/packet_protocol.h...
+| [32 files][  5.5 MiB/  5.5 MiB]                                               | [33 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/util_crc16.h...
+| [33 files][  5.5 MiB/  5.5 MiB]                                               | [34 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/util_crc32.h...
+| [34 files][  5.5 MiB/  5.5 MiB]                                               // [35 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/util_debug.h...
+/ [35 files][  5.5 MiB/  5.5 MiB]                                               / [36 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/util_in_cksum.h...
+/ [36 files][  5.5 MiB/  5.5 MiB]                                               / [37 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/winpcap_ext.h...
+/ [37 files][  5.5 MiB/  5.5 MiB]                                               / [38 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/winpcap_ids.h...
+/ [38 files][  5.5 MiB/  5.5 MiB]                                               -- [39 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeterV3-jnetpcap-1.4/winpcap_stat_ex.h...
+- [39 files][  5.5 MiB/  5.5 MiB]                                               - [40 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeters.original.tar.gz...
+- [40 files][  5.5 MiB/ 18.5 MiB]                                               - [41 files][ 18.5 MiB/ 18.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/install_new_cicflowmeter-3.0.sh...
+- [41 files][ 18.5 MiB/ 18.5 MiB]                                               - [42 files][ 18.5 MiB/ 18.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/install_new_cicflowmeter-4.0.sh...
+- [42 files][ 18.5 MiB/ 18.5 MiB]                                               - [43 files][ 18.5 MiB/ 18.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/install_new_cicflowmeter.sh...
+- [43 files][ 18.5 MiB/ 18.5 MiB]                                               \\ [44 files][ 18.5 MiB/ 18.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/README.md...
+\ [44 files][ 18.5 MiB/ 18.5 MiB]                                               \ [45 files][ 18.5 MiB/ 18.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/apt_ipv4.sh...
+\ [45 files][ 18.5 MiB/ 18.5 MiB]                                               \ [46 files][ 18.5 MiB/ 18.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/capture_interface_pcap.sh...
+\ [46 files][ 18.5 MiB/ 18.5 MiB]                                               || [47 files][ 18.5 MiB/ 18.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/clean_pcap_csv.sh...
+| [47 files][ 18.5 MiB/ 18.5 MiB]                                               | [48 files][ 18.5 MiB/ 18.5 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/convert_pcap_csv.sh...
+| [48 files][ 18.5 MiB/ 18.6 MiB]                                               | [49 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/csv/.keepme...
+| [49 files][ 18.6 MiB/ 18.6 MiB]                                               | [50 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/csv/2/.keepme...
+| [50 files][ 18.6 MiB/ 18.6 MiB]                                               | [51 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/csv/3.1.3/.keepme...
+| [51 files][ 18.6 MiB/ 18.6 MiB]                                               | [52 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/csv/3.1.4/.keepme...
+| [52 files][ 18.6 MiB/ 18.6 MiB]                                               | [53 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/pcap/.keepme...
+| [53 files][ 18.6 MiB/ 18.6 MiB]                                               | [54 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/pcap2ciclog.service...
+| [54 files][ 18.6 MiB/ 18.6 MiB]                                               | [55 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/pcap2ciclog.sh...
+| [55 files][ 18.6 MiB/ 18.6 MiB]                                               // [56 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/tmp/.keepme...
+/ [56 files][ 18.6 MiB/ 18.6 MiB]                                               / [57 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/try_me.sh...
+/ [57 files][ 18.6 MiB/ 18.6 MiB]                                               / [58 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/TCPDUMP_and_CICFlowMeter-master/watch_files.sh...
+/ [58 files][ 18.6 MiB/ 18.6 MiB]                                               / [59 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/capture.py...
+/ [59 files][ 18.6 MiB/ 18.6 MiB]                                               / [60 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/extract_features1.py...
+/ [60 files][ 18.6 MiB/ 18.6 MiB]                                               / [61 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/extract_features2.sh...
+/ [61 files][ 18.6 MiB/ 18.6 MiB]                                               -- [62 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/predict.py...
+- [62 files][ 18.6 MiB/ 18.6 MiB]                                               - [63 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/intrusion_detection/scripts/preprocess.py...
+- [63 files][ 18.6 MiB/ 18.6 MiB]                                               - [64 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/requirements.txt...
+- [64 files][ 18.6 MiB/ 18.6 MiB]                                               - [65 files][ 18.6 MiB/ 18.6 MiB]                                               Copying gs://capstone4340-bucket/E-CAT/startup.sh...
+- [65 files][ 18.6 MiB/ 18.6 MiB]                                               \\ [66 files][ 18.6 MiB/ 18.6 MiB]                                               
+==> NOTE: You are performing a sequence of gsutil operations that may
+run significantly faster if you instead use gsutil -m cp ... Please
+see the -m section under "gsutil help options" for further information
+about when gsutil -m can be advantageous.
+
+
+Operation completed over 66 objects/18.6 MiB.                                    
+2025-03-25 06:03:14 - Files copied successfully
+2025-03-25 06:03:14 - Creating env
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt install python3.10-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: /env/bin/python3
+
+2025-03-25 06:03:14 - ERROR: env failed
+2025-03-25 06:03:14 - Uploading log file to Bucket
+Copying file:///home/danielqjr04/startup.log [Content-Type=application/octet-stream]...
+/ [0 files][    0.0 B/ 26.2 KiB]                                                / [1 files][ 26.2 KiB/ 26.2 KiB]                                                
+Operation completed over 1 objects/26.2 KiB.                                     
+2025-03-25 06:03:17 - Log file uploaded successfully
+2025-03-25 06:03:17 - Uploading log file to Bucket
+Copying file:///home/danielqjr04/startup.log [Content-Type=application/octet-stream]...
+/ [0 files][    0.0 B/ 26.6 KiB]                                                

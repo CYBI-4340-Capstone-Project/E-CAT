@@ -1,0 +1,120 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt install argus-server argus-client -y
+    4  sudo apt-get install cmake make gcc g++ flex bison libpcap-dev libssl-dev python3-dev swig zlib1g-dev
+    5  echo 'deb http://download.opensuse.org/repositories/security:/zeek/xUbuntu_24.04/ /' | sudo tee / etc/apt/sources.list.d/security:zeek.list
+    6  ls
+    7  echo 'deb http://download.opensuse.org/repositories/security:/zeek/xUbuntu_24.04/ /' | sudo tee /etc/apt/sources.list.d/security:zeek.list
+    8  ls
+    9  sudo echo 'deb http://download.opensuse.org/repositories/security:/zeek/xUbuntu_24.04/ /' | sudo tee / etc/apt/sources.list.d/security:zeek.list
+   10  ls
+   11  sudo su
+   12  zeek --version
+   13  sudo zeek --version
+   14  sudo su
+   15  which zeek
+   16  ls
+   17  ip a
+   18  cd aBFF-sbseg2022-main/
+   19  ls
+   20  cd aBFF-sbseg2022-main/
+   21  ls
+   22  sudo su
+   23  ls
+   24  cd aBFF-sbseg2022-main/
+   25  ls
+   26  sudo su
+   27  ls
+   28  cd ..
+   29  ls
+   30  cd TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeter-3.0/bin
+   31  sudo mkdir data
+   32  cd data
+   33  sudo mkdir in
+   34  sudo mkdir out
+   35  cd ..
+   36  ls
+   37  sudo apt-get install tcprewrite
+   38  sudo apt install tcprewrite
+   39  sudo apt install tcpreplay
+   40  mkdir out
+   41  sudo rm -r data
+   42  mkdir data
+   43  cd data
+   44  mkdir in
+   45  mkdir out
+   46  cd in
+   47  ls
+   48  sudo tcprewrite --dlt=enet --infile=1.pcap --outfile=output.pcap
+   49  cd ..
+   50  sudo ./CICFlowMeter
+   51  ls
+   52  ./CICFlowMeter
+   53  sudo su
+   54  which java
+   55  java -version
+   56  sudo apt install openjdk-21-jre-headless
+   57  java -Xmx10000m -Xms2000m -XshowSettings:all
+   58  sudo ./CICFlowMeter
+   59  sudo tcprewrite --enet-dmac=00:22:22:22:22:22 --enet-smac=00:11:11:11:11:11:11 --infile=1.pcap --outfile=output1.pcap
+   60  sudo ./CICFlowMeter
+   61  sudo tcprewrite --enet-dmac=00:22:22:22:22:23,00:22:22:22:22:22 --enet-smac=00:11:11:11:11:11:12,00:11:11:11:11:11 --infile=1.pcap --outfile=output1.pcap
+   62  sudo ./CICFlowMeter
+   63  sudo tcprewrite --dlt=enet --infile=1.pcap --outfile=output1.pcap
+   64  tshark -r output1.pcap -T fields -e frame.encap_type
+   65  capinfos output1.pcap
+   66  ls
+   67  sudo apt install tshark
+   68  tshark -r 1.pcap -T fields -e frame.encap_type
+   69  tshark -r output1.pcap -T fields -e frame.encap_type
+   70  tshark -r 1.pcap -w tshark1.pcap -F pcap -Y "eth"
+   71  cd ~
+   72  cd CICFlowMeter-master/
+   73  ls
+   74  cd jnetpcap/linux/
+   75  ls
+   76  cd jnetpcap-1.4.r1425/
+   77  mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
+   78  sudo apt install maven
+   79  sudo apt install git
+   80  mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
+   81  cd ~/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeter3.0/bin
+   82  cd ~/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeter3.0/
+   83  cd ~/TCPDUMP_and_CICFlowMeter-master/CICFlowMeters/CICFlowMeter3.0
+   84  cd ~
+   85  ls
+   86  cd TCPDUMP_and_CICFlowMeter-master/
+   87  ls
+   88  cd CICFlowMeters/
+   89  ls
+   90  cd CICFlowMeter
+   91  cd CICFlowMeter-3.0
+   92  ls
+   93  cd bin
+   94  ls
+   95  sudo tcprewrite --dlt=enet --infile=1.pcap --outfile=output1.pcap
+   96  sudo ./CICFlowMeter
+   97  cd ~/CICFlowMeter
+   98  cd ~
+   99  ls
+  100  cd CICFlowMeter-master/
+  101  ls
+  102  sudo bash
+  103  ./gradlew execute
+  104  ls -all
+  105  sudo bash
+  106  sudo apt install openjdk-8-jdk
+  107  mvn clean install -PautoInstallPackage -Dmaven.wagon.http.ssl.insecure=true =Dmaven.wagon.http.ssl.allowall=true
+  108  cd ~
+  109  ls
+  110  cd aBFF-sbseg2022-main/
+  111  chmod 777 csv
+  112  sudo chmod 777 csv
+  113  cd csv
+  114  sudo chmod 777 *
+  115  history > history.txt
+  116  ls
+  117  cd ~
+  118  ls
+  119  history
+  120  history > test.txt

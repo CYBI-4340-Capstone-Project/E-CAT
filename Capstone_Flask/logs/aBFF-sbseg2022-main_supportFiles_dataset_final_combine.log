@@ -1,0 +1,1642 @@
+Tue Mar 18 02:09:15 UTC 2025 - Startup script started
+Tue Mar 18 02:09:15 UTC 2025 - Updating package lists
+Tue Mar 18 02:09:24 UTC 2025 - apt-get update completed successfully
+Tue Mar 18 02:09:24 UTC 2025 - Installing pip3
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  build-essential bzip2 cpp cpp-11 dpkg-dev fakeroot fontconfig-config
+  fonts-dejavu-core g++ g++-11 gcc gcc-11 gcc-11-base javascript-common
+  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
+  libasan6 libatomic1 libc-dev-bin libc-devtools libc6-dev libcc1-0
+  libcrypt-dev libdeflate0 libdpkg-perl libexpat1-dev libfakeroot
+  libfile-fcntllock-perl libfontconfig1 libgcc-11-dev libgd3 libgomp1 libisl23
+  libitm1 libjbig0 libjpeg-turbo8 libjpeg8 libjs-jquery libjs-sphinxdoc
+  libjs-underscore liblsan0 libmpc3 libnsl-dev libpython3-dev
+  libpython3.10-dev libquadmath0 libstdc++-11-dev libtiff5 libtirpc-dev
+  libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev lto-disabled-list make
+  manpages-dev python3-dev python3-wheel python3.10-dev rpcsvc-proto
+  zlib1g-dev
+Suggested packages:
+  bzip2-doc cpp-doc gcc-11-locales debian-keyring g++-multilib g++-11-multilib
+  gcc-11-doc gcc-multilib autoconf automake libtool flex bison gdb gcc-doc
+  gcc-11-multilib apache2 | lighttpd | httpd glibc-doc bzr libgd-tools
+  libstdc++-11-doc make-doc
+The following NEW packages will be installed:
+  build-essential bzip2 cpp cpp-11 dpkg-dev fakeroot fontconfig-config
+  fonts-dejavu-core g++ g++-11 gcc gcc-11 gcc-11-base javascript-common
+  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
+  libasan6 libatomic1 libc-dev-bin libc-devtools libc6-dev libcc1-0
+  libcrypt-dev libdeflate0 libdpkg-perl libexpat1-dev libfakeroot
+  libfile-fcntllock-perl libfontconfig1 libgcc-11-dev libgd3 libgomp1 libisl23
+  libitm1 libjbig0 libjpeg-turbo8 libjpeg8 libjs-jquery libjs-sphinxdoc
+  libjs-underscore liblsan0 libmpc3 libnsl-dev libpython3-dev
+  libpython3.10-dev libquadmath0 libstdc++-11-dev libtiff5 libtirpc-dev
+  libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev lto-disabled-list make
+  manpages-dev python3-dev python3-pip python3-wheel python3.10-dev
+  rpcsvc-proto zlib1g-dev
+0 upgraded, 64 newly installed, 0 to remove and 2 not upgraded.
+Need to get 71.3 MB of archives.
+After this operation, 239 MB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-dev-bin amd64 2.35-0ubuntu3.9 [20.3 kB]
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-134.145 [1297 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libcrypt-dev amd64 1:4.4.27-1 [112 kB]
+Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu6 [68.5 kB]
+Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtirpc-dev amd64 1.3.2-2ubuntu0.1 [192 kB]
+Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libnsl-dev amd64 1.3.0-2build2 [71.3 kB]
+Get:7 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6-dev amd64 2.35-0ubuntu3.9 [2100 kB]
+Get:8 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11-base amd64 11.4.0-1ubuntu1~22.04 [20.2 kB]
+Get:9 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libisl23 amd64 0.24-2build1 [727 kB]
+Get:10 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libmpc3 amd64 1.2.1-2build1 [46.9 kB]
+Get:11 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 cpp-11 amd64 11.4.0-1ubuntu1~22.04 [10.0 MB]
+Get:12 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 cpp amd64 4:11.2.0-1ubuntu1 [27.7 kB]
+Get:13 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcc1-0 amd64 12.3.0-1ubuntu1~22.04 [48.3 kB]
+Get:14 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgomp1 amd64 12.3.0-1ubuntu1~22.04 [126 kB]
+Get:15 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libitm1 amd64 12.3.0-1ubuntu1~22.04 [30.2 kB]
+Get:16 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libatomic1 amd64 12.3.0-1ubuntu1~22.04 [10.4 kB]
+Get:17 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libasan6 amd64 11.4.0-1ubuntu1~22.04 [2282 kB]
+Get:18 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 liblsan0 amd64 12.3.0-1ubuntu1~22.04 [1069 kB]
+Get:19 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtsan0 amd64 11.4.0-1ubuntu1~22.04 [2260 kB]
+Get:20 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libubsan1 amd64 12.3.0-1ubuntu1~22.04 [976 kB]
+Get:21 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libquadmath0 amd64 12.3.0-1ubuntu1~22.04 [154 kB]
+Get:22 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcc-11-dev amd64 11.4.0-1ubuntu1~22.04 [2517 kB]
+Get:23 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11 amd64 11.4.0-1ubuntu1~22.04 [20.1 MB]
+Get:24 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 gcc amd64 4:11.2.0-1ubuntu1 [5112 B]
+Get:25 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstdc++-11-dev amd64 11.4.0-1ubuntu1~22.04 [2101 kB]
+Get:26 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 g++-11 amd64 11.4.0-1ubuntu1~22.04 [11.4 MB]
+Get:27 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 g++ amd64 4:11.2.0-1ubuntu1 [1412 B]
+Get:28 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 make amd64 4.3-4.1build1 [180 kB]
+Get:29 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdpkg-perl all 1.21.1ubuntu2.3 [237 kB]
+Get:30 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 bzip2 amd64 1.0.8-5build1 [34.8 kB]
+Get:31 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 lto-disabled-list all 24 [12.5 kB]
+Get:32 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 dpkg-dev all 1.21.1ubuntu2.3 [922 kB]
+Get:33 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 build-essential amd64 12.9ubuntu3 [4744 B]
+Get:34 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libfakeroot amd64 1.28-1ubuntu1 [31.5 kB]
+Get:35 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 fakeroot amd64 1.28-1ubuntu1 [60.4 kB]
+Get:36 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-dejavu-core all 2.37-2build1 [1041 kB]
+Get:37 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig-config all 2.13.1-4.2ubuntu5 [29.1 kB]
+Get:38 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 javascript-common all 11+nmu1 [5936 B]
+Get:39 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-perl all 1.201-1 [41.8 kB]
+Get:40 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-xs-perl amd64 0.04-6build3 [11.9 kB]
+Get:41 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]
+Get:42 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libfontconfig1 amd64 2.13.1-4.2ubuntu5 [131 kB]
+Get:43 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8 amd64 2.1.2-0ubuntu1 [134 kB]
+Get:44 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8 amd64 8c-2ubuntu10 [2264 B]
+Get:45 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libdeflate0 amd64 1.10-2 [70.9 kB]
+Get:46 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.22.04.1 [29.2 kB]
+Get:47 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwebp7 amd64 1.2.2-2ubuntu0.22.04.2 [206 kB]
+Get:48 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.10 [185 kB]
+Get:49 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.2 [36.7 kB]
+Get:50 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgd3 amd64 2.3.0-2ubuntu2.3 [129 kB]
+Get:51 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-devtools amd64 2.35-0ubuntu3.9 [29.0 kB]
+Get:52 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1-dev amd64 2.4.7-1ubuntu0.5 [147 kB]
+Get:53 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libfile-fcntllock-perl amd64 0.22-3build7 [33.9 kB]
+Get:54 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1 [321 kB]
+Get:55 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-underscore all 1.13.2~dfsg-2 [118 kB]
+Get:56 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-sphinxdoc all 4.3.2-1 [139 kB]
+Get:57 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu9.2 [164 kB]
+Get:58 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-dev amd64 3.10.12-1~22.04.9 [4763 kB]
+Get:59 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-dev amd64 3.10.6-1~22.04.1 [7064 B]
+Get:60 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 manpages-dev all 5.10-1ubuntu1 [2309 kB]
+Get:61 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-dev amd64 3.10.12-1~22.04.9 [508 kB]
+Get:62 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-dev amd64 3.10.6-1~22.04.1 [26.0 kB]
+Get:63 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-wheel all 0.37.1-2ubuntu0.22.04.1 [32.0 kB]
+Get:64 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-pip all 22.0.2+dfsg-1ubuntu0.5 [1306 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 71.3 MB in 2s (38.1 MB/s)
+Selecting previously unselected package libc-dev-bin.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66644 files and directories currently installed.)
+Preparing to unpack .../00-libc-dev-bin_2.35-0ubuntu3.9_amd64.deb ...
+Unpacking libc-dev-bin (2.35-0ubuntu3.9) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../01-linux-libc-dev_5.15.0-134.145_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.15.0-134.145) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../02-libcrypt-dev_1%3a4.4.27-1_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.27-1) ...
+Selecting previously unselected package rpcsvc-proto.
+Preparing to unpack .../03-rpcsvc-proto_1.4.2-0ubuntu6_amd64.deb ...
+Unpacking rpcsvc-proto (1.4.2-0ubuntu6) ...
+Selecting previously unselected package libtirpc-dev:amd64.
+Preparing to unpack .../04-libtirpc-dev_1.3.2-2ubuntu0.1_amd64.deb ...
+Unpacking libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
+Selecting previously unselected package libnsl-dev:amd64.
+Preparing to unpack .../05-libnsl-dev_1.3.0-2build2_amd64.deb ...
+Unpacking libnsl-dev:amd64 (1.3.0-2build2) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../06-libc6-dev_2.35-0ubuntu3.9_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.35-0ubuntu3.9) ...
+Selecting previously unselected package gcc-11-base:amd64.
+Preparing to unpack .../07-gcc-11-base_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libisl23:amd64.
+Preparing to unpack .../08-libisl23_0.24-2build1_amd64.deb ...
+Unpacking libisl23:amd64 (0.24-2build1) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../09-libmpc3_1.2.1-2build1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.2.1-2build1) ...
+Selecting previously unselected package cpp-11.
+Preparing to unpack .../10-cpp-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking cpp-11 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../11-cpp_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking cpp (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../12-libcc1-0_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libcc1-0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../13-libgomp1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libgomp1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../14-libitm1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libitm1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../15-libatomic1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libatomic1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libasan6:amd64.
+Preparing to unpack .../16-libasan6_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libasan6:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../17-liblsan0_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking liblsan0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../18-libtsan0_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libtsan0:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libubsan1:amd64.
+Preparing to unpack .../19-libubsan1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libubsan1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../20-libquadmath0_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libgcc-11-dev:amd64.
+Preparing to unpack .../21-libgcc-11-dev_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package gcc-11.
+Preparing to unpack .../22-gcc-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking gcc-11 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../23-gcc_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking gcc (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package libstdc++-11-dev:amd64.
+Preparing to unpack .../24-libstdc++-11-dev_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package g++-11.
+Preparing to unpack .../25-g++-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking g++-11 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../26-g++_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking g++ (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package make.
+Preparing to unpack .../27-make_4.3-4.1build1_amd64.deb ...
+Unpacking make (4.3-4.1build1) ...
+Selecting previously unselected package libdpkg-perl.
+Preparing to unpack .../28-libdpkg-perl_1.21.1ubuntu2.3_all.deb ...
+Unpacking libdpkg-perl (1.21.1ubuntu2.3) ...
+Selecting previously unselected package bzip2.
+Preparing to unpack .../29-bzip2_1.0.8-5build1_amd64.deb ...
+Unpacking bzip2 (1.0.8-5build1) ...
+Selecting previously unselected package lto-disabled-list.
+Preparing to unpack .../30-lto-disabled-list_24_all.deb ...
+Unpacking lto-disabled-list (24) ...
+Selecting previously unselected package dpkg-dev.
+Preparing to unpack .../31-dpkg-dev_1.21.1ubuntu2.3_all.deb ...
+Unpacking dpkg-dev (1.21.1ubuntu2.3) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../32-build-essential_12.9ubuntu3_amd64.deb ...
+Unpacking build-essential (12.9ubuntu3) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../33-libfakeroot_1.28-1ubuntu1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.28-1ubuntu1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../34-fakeroot_1.28-1ubuntu1_amd64.deb ...
+Unpacking fakeroot (1.28-1ubuntu1) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../35-fonts-dejavu-core_2.37-2build1_all.deb ...
+Unpacking fonts-dejavu-core (2.37-2build1) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../36-fontconfig-config_2.13.1-4.2ubuntu5_all.deb ...
+Unpacking fontconfig-config (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../37-javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package libalgorithm-diff-perl.
+Preparing to unpack .../38-libalgorithm-diff-perl_1.201-1_all.deb ...
+Unpacking libalgorithm-diff-perl (1.201-1) ...
+Selecting previously unselected package libalgorithm-diff-xs-perl.
+Preparing to unpack .../39-libalgorithm-diff-xs-perl_0.04-6build3_amd64.deb ...
+Unpacking libalgorithm-diff-xs-perl (0.04-6build3) ...
+Selecting previously unselected package libalgorithm-merge-perl.
+Preparing to unpack .../40-libalgorithm-merge-perl_0.08-3_all.deb ...
+Unpacking libalgorithm-merge-perl (0.08-3) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../41-libfontconfig1_2.13.1-4.2ubuntu5_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../42-libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../43-libjpeg8_8c-2ubuntu10_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu10) ...
+Selecting previously unselected package libdeflate0:amd64.
+Preparing to unpack .../44-libdeflate0_1.10-2_amd64.deb ...
+Unpacking libdeflate0:amd64 (1.10-2) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../45-libjbig0_2.1-3.1ubuntu0.22.04.1_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+Selecting previously unselected package libwebp7:amd64.
+Preparing to unpack .../46-libwebp7_1.2.2-2ubuntu0.22.04.2_amd64.deb ...
+Unpacking libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../47-libtiff5_4.3.0-6ubuntu0.10_amd64.deb ...
+Unpacking libtiff5:amd64 (4.3.0-6ubuntu0.10) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../48-libxpm4_1%3a3.5.12-1ubuntu0.22.04.2_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../49-libgd3_2.3.0-2ubuntu2.3_amd64.deb ...
+Unpacking libgd3:amd64 (2.3.0-2ubuntu2.3) ...
+Selecting previously unselected package libc-devtools.
+Preparing to unpack .../50-libc-devtools_2.35-0ubuntu3.9_amd64.deb ...
+Unpacking libc-devtools (2.35-0ubuntu3.9) ...
+Selecting previously unselected package libexpat1-dev:amd64.
+Preparing to unpack .../51-libexpat1-dev_2.4.7-1ubuntu0.5_amd64.deb ...
+Unpacking libexpat1-dev:amd64 (2.4.7-1ubuntu0.5) ...
+Selecting previously unselected package libfile-fcntllock-perl.
+Preparing to unpack .../52-libfile-fcntllock-perl_0.22-3build7_amd64.deb ...
+Unpacking libfile-fcntllock-perl (0.22-3build7) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../53-libjs-jquery_3.6.0+dfsg+~3.5.13-1_all.deb ...
+Unpacking libjs-jquery (3.6.0+dfsg+~3.5.13-1) ...
+Selecting previously unselected package libjs-underscore.
+Preparing to unpack .../54-libjs-underscore_1.13.2~dfsg-2_all.deb ...
+Unpacking libjs-underscore (1.13.2~dfsg-2) ...
+Selecting previously unselected package libjs-sphinxdoc.
+Preparing to unpack .../55-libjs-sphinxdoc_4.3.2-1_all.deb ...
+Unpacking libjs-sphinxdoc (4.3.2-1) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../56-zlib1g-dev_1%3a1.2.11.dfsg-2ubuntu9.2_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu9.2) ...
+Selecting previously unselected package libpython3.10-dev:amd64.
+Preparing to unpack .../57-libpython3.10-dev_3.10.12-1~22.04.9_amd64.deb ...
+Unpacking libpython3.10-dev:amd64 (3.10.12-1~22.04.9) ...
+Selecting previously unselected package libpython3-dev:amd64.
+Preparing to unpack .../58-libpython3-dev_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking libpython3-dev:amd64 (3.10.6-1~22.04.1) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../59-manpages-dev_5.10-1ubuntu1_all.deb ...
+Unpacking manpages-dev (5.10-1ubuntu1) ...
+Selecting previously unselected package python3.10-dev.
+Preparing to unpack .../60-python3.10-dev_3.10.12-1~22.04.9_amd64.deb ...
+Unpacking python3.10-dev (3.10.12-1~22.04.9) ...
+Selecting previously unselected package python3-dev.
+Preparing to unpack .../61-python3-dev_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking python3-dev (3.10.6-1~22.04.1) ...
+Selecting previously unselected package python3-wheel.
+Preparing to unpack .../62-python3-wheel_0.37.1-2ubuntu0.22.04.1_all.deb ...
+Unpacking python3-wheel (0.37.1-2ubuntu0.22.04.1) ...
+Selecting previously unselected package python3-pip.
+Preparing to unpack .../63-python3-pip_22.0.2+dfsg-1ubuntu0.5_all.deb ...
+Unpacking python3-pip (22.0.2+dfsg-1ubuntu0.5) ...
+Setting up javascript-common (11+nmu1) ...
+Setting up gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up manpages-dev (5.10-1ubuntu1) ...
+Setting up lto-disabled-list (24) ...
+Setting up libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Setting up libfile-fcntllock-perl (0.22-3build7) ...
+Setting up libalgorithm-diff-perl (1.201-1) ...
+Setting up libdeflate0:amd64 (1.10-2) ...
+Setting up linux-libc-dev:amd64 (5.15.0-134.145) ...
+Setting up libgomp1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up bzip2 (1.0.8-5build1) ...
+Setting up python3-wheel (0.37.1-2ubuntu0.22.04.1) ...
+Setting up libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+Setting up libfakeroot:amd64 (1.28-1ubuntu1) ...
+Setting up libasan6:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up fakeroot (1.28-1ubuntu1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
+Setting up rpcsvc-proto (1.4.2-0ubuntu6) ...
+Setting up make (4.3-4.1build1) ...
+Setting up libquadmath0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libmpc3:amd64 (1.2.1-2build1) ...
+Setting up libatomic1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up fonts-dejavu-core (2.37-2build1) ...
+Setting up python3-pip (22.0.2+dfsg-1ubuntu0.5) ...
+Setting up libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+Setting up libdpkg-perl (1.21.1ubuntu2.3) ...
+Setting up libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
+Setting up libubsan1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libnsl-dev:amd64 (1.3.0-2build2) ...
+Setting up libcrypt-dev:amd64 (1:4.4.27-1) ...
+Setting up libjs-jquery (3.6.0+dfsg+~3.5.13-1) ...
+Setting up libisl23:amd64 (0.24-2build1) ...
+Setting up libc-dev-bin (2.35-0ubuntu3.9) ...
+Setting up libalgorithm-diff-xs-perl (0.04-6build3) ...
+Setting up libcc1-0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up liblsan0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libitm1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libjs-underscore (1.13.2~dfsg-2) ...
+Setting up libalgorithm-merge-perl (0.08-3) ...
+Setting up libtsan0:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu10) ...
+Setting up cpp-11 (11.4.0-1ubuntu1~22.04) ...
+Setting up fontconfig-config (2.13.1-4.2ubuntu5) ...
+Setting up dpkg-dev (1.21.1ubuntu2.3) ...
+Setting up libjs-sphinxdoc (4.3.2-1) ...
+Setting up libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up gcc-11 (11.4.0-1ubuntu1~22.04) ...
+Setting up cpp (4:11.2.0-1ubuntu1) ...
+Setting up libc6-dev:amd64 (2.35-0ubuntu3.9) ...
+Setting up libtiff5:amd64 (4.3.0-6ubuntu0.10) ...
+Setting up libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+Setting up gcc (4:11.2.0-1ubuntu1) ...
+Setting up libexpat1-dev:amd64 (2.4.7-1ubuntu0.5) ...
+Setting up libgd3:amd64 (2.3.0-2ubuntu2.3) ...
+Setting up libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu9.2) ...
+Setting up libc-devtools (2.35-0ubuntu3.9) ...
+Setting up g++-11 (11.4.0-1ubuntu1~22.04) ...
+Setting up libpython3.10-dev:amd64 (3.10.12-1~22.04.9) ...
+Setting up python3.10-dev (3.10.12-1~22.04.9) ...
+Setting up g++ (4:11.2.0-1ubuntu1) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Setting up build-essential (12.9ubuntu3) ...
+Setting up libpython3-dev:amd64 (3.10.6-1~22.04.1) ...
+Setting up python3-dev (3.10.6-1~22.04.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.9) ...
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+Tue Mar 18 02:09:36 UTC 2025 - pip3 installed successfully
+Tue Mar 18 02:09:36 UTC 2025 - Installing python dependencies
+Collecting fastparquet
+  Downloading fastparquet-2024.11.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 8.4 MB/s eta 0:00:00
+Collecting pyarrow
+  Downloading pyarrow-19.0.1-cp310-cp310-manylinux_2_28_x86_64.whl (42.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.1/42.1 MB 39.2 MB/s eta 0:00:00
+Collecting numpy
+  Downloading numpy-2.2.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.4/16.4 MB 121.2 MB/s eta 0:00:00
+Collecting pandas
+  Downloading pandas-2.2.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 69.2 MB/s eta 0:00:00
+Collecting scikit-learn
+  Downloading scikit_learn-1.6.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 105.9 MB/s eta 0:00:00
+Collecting imbalanced-learn
+  Downloading imbalanced_learn-0.13.0-py3-none-any.whl (238 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 238.4/238.4 KB 55.3 MB/s eta 0:00:00
+Collecting cramjam>=2.3
+  Downloading cramjam-2.9.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 123.5 MB/s eta 0:00:00
+Requirement already satisfied: packaging in /usr/lib/python3/dist-packages (from fastparquet) (21.3)
+Collecting fsspec
+  Downloading fsspec-2025.3.0-py3-none-any.whl (193 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 193.6/193.6 KB 48.9 MB/s eta 0:00:00
+Collecting tzdata>=2022.7
+  Downloading tzdata-2025.1-py2.py3-none-any.whl (346 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 346.8/346.8 KB 69.7 MB/s eta 0:00:00
+Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas) (2022.1)
+Collecting python-dateutil>=2.8.2
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 KB 58.0 MB/s eta 0:00:00
+Collecting threadpoolctl>=3.1.0
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Collecting scipy>=1.6.0
+  Downloading scipy-1.15.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.6/37.6 MB 58.5 MB/s eta 0:00:00
+Collecting joblib>=1.2.0
+  Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 301.8/301.8 KB 65.2 MB/s eta 0:00:00
+Collecting sklearn-compat<1,>=0.1
+  Downloading sklearn_compat-0.1.3-py3-none-any.whl (18 kB)
+Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+Installing collected packages: tzdata, threadpoolctl, python-dateutil, pyarrow, numpy, joblib, fsspec, cramjam, scipy, pandas, scikit-learn, fastparquet, sklearn-compat, imbalanced-learn
+Successfully installed cramjam-2.9.1 fastparquet-2024.11.0 fsspec-2025.3.0 imbalanced-learn-0.13.0 joblib-1.4.2 numpy-2.2.4 pandas-2.2.3 pyarrow-19.0.1 python-dateutil-2.9.0.post0 scikit-learn-1.6.1 scipy-1.15.2 sklearn-compat-0.1.3 threadpoolctl-3.6.0 tzdata-2025.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Tue Mar 18 02:09:52 UTC 2025 - Dependencies installed successfully
+Tue Mar 18 02:09:52 UTC 2025 - Creating data directory
+Tue Mar 18 02:09:52 UTC 2025 - Data directory created successfully
+Tue Mar 18 02:09:52 UTC 2025 - Copying files from Cloud Storage
+Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/OG_BoT-IoT_CIC.csv...
+/ [0 files][    0.0 B/  5.9 GiB]                                                -- [0 files][ 73.0 MiB/  5.9 GiB]                                                \|| [0 files][195.4 MiB/  5.9 GiB]                                                // [0 files][318.9 MiB/  5.9 GiB]                                                -\\ [0 files][442.7 MiB/  5.9 GiB]                                                |// [0 files][564.6 MiB/  5.9 GiB]                                                -- [0 files][686.0 MiB/  5.9 GiB]                                                \|| [0 files][807.5 MiB/  5.9 GiB]                                                /-- [0 files][918.6 MiB/  5.9 GiB]                                                \\ [0 files][  1.0 GiB/  5.9 GiB]                                                |// [0 files][  1.1 GiB/  5.9 GiB]                                                -\\ [0 files][  1.2 GiB/  5.9 GiB]  111.7 MiB/s                                   || [0 files][  1.3 GiB/  5.9 GiB]  109.6 MiB/s                                   /-- [0 files][  1.4 GiB/  5.9 GiB]  111.1 MiB/s                                   \|| [0 files][  1.6 GiB/  5.9 GiB]  114.3 MiB/s                                   // [0 files][  1.7 GiB/  5.9 GiB]  116.3 MiB/s                                   -\\ [0 files][  1.8 GiB/  5.9 GiB]  119.0 MiB/s                                   |// [0 files][  1.9 GiB/  5.9 GiB]  121.8 MiB/s                                   -- [0 files][  2.0 GiB/  5.9 GiB]  121.5 MiB/s                                   \|| [0 files][  2.1 GiB/  5.9 GiB]  118.6 MiB/s                                   /-- [0 files][  2.2 GiB/  5.9 GiB]  114.8 MiB/s                                   \\ [0 files][  2.4 GiB/  5.9 GiB]  114.2 MiB/s                                   |// [0 files][  2.5 GiB/  5.9 GiB]  112.1 MiB/s                                   -\\ [0 files][  2.6 GiB/  5.9 GiB]  111.8 MiB/s                                   || [0 files][  2.7 GiB/  5.9 GiB]  115.2 MiB/s                                   /-- [0 files][  2.8 GiB/  5.9 GiB]  118.6 MiB/s                                   \|| [0 files][  2.9 GiB/  5.9 GiB]  118.6 MiB/s                                   // [0 files][  3.1 GiB/  5.9 GiB]  120.1 MiB/s                                   -\\ [0 files][  3.2 GiB/  5.9 GiB]  120.0 MiB/s                                   |// [0 files][  3.3 GiB/  5.9 GiB]  116.4 MiB/s                                   -- [0 files][  3.4 GiB/  5.9 GiB]  116.5 MiB/s                                   \|| [0 files][  3.5 GiB/  5.9 GiB]  117.0 MiB/s                                   /-- [0 files][  3.6 GiB/  5.9 GiB]  117.2 MiB/s                                   \\ [0 files][  3.8 GiB/  5.9 GiB]  118.5 MiB/s                                   |// [0 files][  3.9 GiB/  5.9 GiB]  121.5 MiB/s                                   -\\ [0 files][  4.0 GiB/  5.9 GiB]  121.6 MiB/s                                   || [0 files][  4.1 GiB/  5.9 GiB]  121.8 MiB/s                                   /-- [0 files][  4.2 GiB/  5.9 GiB]  121.9 MiB/s                                   \|| [0 files][  4.3 GiB/  5.9 GiB]  120.2 MiB/s                                   // [0 files][  4.4 GiB/  5.9 GiB]  117.9 MiB/s                                   -\\ [0 files][  4.6 GiB/  5.9 GiB]  116.4 MiB/s                                   |// [0 files][  4.7 GiB/  5.9 GiB]  114.0 MiB/s                                   -- [0 files][  4.8 GiB/  5.9 GiB]  111.0 MiB/s                                   \|| [0 files][  4.9 GiB/  5.9 GiB]  112.3 MiB/s                                   /-- [0 files][  5.0 GiB/  5.9 GiB]  112.4 MiB/s                                   \\ [0 files][  5.1 GiB/  5.9 GiB]  112.4 MiB/s                                   |// [0 files][  5.2 GiB/  5.9 GiB]  112.0 MiB/s                                   -\\ [0 files][  5.3 GiB/  5.9 GiB]  112.4 MiB/s                                   || [0 files][  5.4 GiB/  5.9 GiB]  110.0 MiB/s                                   /-- [0 files][  5.5 GiB/  5.9 GiB]  108.2 MiB/s                                   \|| [0 files][  5.6 GiB/  5.9 GiB]  108.1 MiB/s                                   // [0 files][  5.8 GiB/  5.9 GiB]  109.5 MiB/s                                   -\\ [0 files][  5.9 GiB/  5.9 GiB]  111.6 MiB/s                                   || [1 files][  5.9 GiB/  5.9 GiB]  113.2 MiB/s                                   Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/OG_CIC-IDS_CIC.csv...
+| [1 files][  5.9 GiB/  7.0 GiB]  113.2 MiB/s                                   // [1 files][  6.3 GiB/  7.0 GiB]  167.5 MiB/s                                   -\\ [1 files][  6.8 GiB/  7.0 GiB]  263.1 MiB/s                                   || [2 files][  7.0 GiB/  7.0 GiB]  288.5 MiB/s                                   Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/OG_NB15_CIC.csv...
+| [2 files][  7.0 GiB/  9.1 GiB]  288.5 MiB/s                                   /-- [2 files][  7.3 GiB/  9.1 GiB]  320.5 MiB/s                                   \\ [2 files][  7.7 GiB/  9.1 GiB]  374.6 MiB/s                                   |// [2 files][  8.1 GiB/  9.1 GiB]  407.8 MiB/s                                   -\\ [2 files][  8.5 GiB/  9.1 GiB]  374.4 MiB/s                                   || [2 files][  8.9 GiB/  9.1 GiB]  378.2 MiB/s                                   /-- [3 files][  9.1 GiB/  9.1 GiB]  379.8 MiB/s                                   
+==> NOTE: You are performing a sequence of gsutil operations that may
+run significantly faster if you instead use gsutil -m cp ... Please
+see the -m section under "gsutil help options" for further information
+about when gsutil -m can be advantageous.
+
+Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/ToN-IoT_CIC.csv...
+- [3 files][  9.1 GiB/ 11.4 GiB]  379.8 MiB/s                                   \\ [3 files][  9.5 GiB/ 11.4 GiB]  387.1 MiB/s                                   |// [3 files][ 10.1 GiB/ 11.4 GiB]  421.7 MiB/s                                   -\\ [3 files][ 10.6 GiB/ 11.4 GiB]  454.2 MiB/s                                   || [3 files][ 11.1 GiB/ 11.4 GiB]  474.2 MiB/s                                   /-- [3 files][ 11.4 GiB/ 11.4 GiB]  462.6 MiB/s                                   \|| [3 files][ 11.4 GiB/ 11.4 GiB]  389.6 MiB/s                                   | [4 files][ 11.4 GiB/ 11.4 GiB]  385.2 MiB/s                                   Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/combine - Copy.ipynb...
+| [4 files][ 11.4 GiB/ 11.4 GiB]  385.1 MiB/s                                   | [5 files][ 11.4 GiB/ 11.4 GiB]  373.8 MiB/s                                   Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/combine.ipynb...
+| [5 files][ 11.4 GiB/ 11.4 GiB]  373.6 MiB/s                                   | [6 files][ 11.4 GiB/ 11.4 GiB]  365.0 MiB/s                                   Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/combine.py...
+| [6 files][ 11.4 GiB/ 11.4 GiB]  365.0 MiB/s                                   | [7 files][ 11.4 GiB/ 11.4 GiB]  353.7 MiB/s                                   
+Operation completed over 7 objects/11.4 GiB.                                     
+Tue Mar 18 02:11:03 UTC 2025 - Files copied successfully
+Tue Mar 18 02:11:03 UTC 2025 - Changing directory to data directory
+Tue Mar 18 02:11:03 UTC 2025 - Running script
+/home/danielqjr04/data/final/combine.py:36: DtypeWarning: Columns (84) have mixed types. Specify dtype option on import or set low_memory=False.
+  datasets = {name: pd.read_csv(path) for name, path in file_paths.items()}
+Before for statement
+Sample files created successfully!
+Loading datasets...
+Standardizing column names...
+Combined dataset saved to merged_dataset.parquet
+bwd_iat_std          91.0
+fwd_psh_flags       100.0
+bwd_psh_flags       100.0
+fwd_urg_flags       100.0
+bwd_urg_flags       100.0
+fin_flag_cnt        100.0
+rst_flag_cnt        100.0
+psh_flag_cnt        100.0
+ack_flag_cnt        100.0
+urg_flag_cnt        100.0
+cwe_flag_count      100.0
+ece_flag_cnt        100.0
+fwd_byts_b_avg      100.0
+fwd_pkts_b_avg      100.0
+fwd_blk_rate_avg    100.0
+bwd_byts_b_avg      100.0
+bwd_pkts_b_avg      100.0
+bwd_blk_rate_avg    100.0
+fwd_seg_size_min    100.0
+active_std           94.0
+dtype: float64
+merged_df.head    active_mean  bwd_urg_flags  fwd_seg_size_min  idle_mean  cwe_flag_count  \
+0          0.0              0                32        0.0               0   
+1          0.0              0                32        0.0               0   
+2          0.0              0                32        0.0               0   
+3          0.0              0                32        0.0               0   
+4          0.0              0                32        0.0               0   
+
+   fwd_pkt_len_min  tot_fwd_pkts  bwd_iat_max  fwd_pkt_len_mean  idle_max  \
+0                0            38        69081         12.789474         0   
+1                0             1            0          0.000000         0   
+2                0            36         9982         12.611111         0   
+3                0             1            0          0.000000         0   
+4                0            52        13884          9.346154         0   
+
+   bwd_iat_tot  flow_iat_min  bwd_blk_rate_avg         src_ip  \
+0       106066           1.0               0.0     59.166.0.8   
+1            0         214.0               0.0  149.171.126.9   
+2        37941           1.0               0.0     59.166.0.5   
+3            0         135.0               0.0  149.171.126.4   
+4       105110           1.0               0.0     59.166.0.8   
+
+   fwd_pkt_len_std  flow_iat_mean  bwd_header_len  flow_byts_s  fwd_iat_mean  \
+0        22.106813      1517.3334            1128    171682.78    2634.81080   
+1         0.000000       214.0000              32         0.00       0.00000   
+2        21.474607       535.4028            1192    495058.25     812.97144   
+3         0.000000       135.0000              32         0.00       0.00000   
+4        19.681667      1015.7500            1704    360817.12    1970.25490   
+
+   pkt_len_mean  fwd_pkt_len_max  fwd_byts_b_avg  flow_iat_std         dst_ip  \
+0     253.45946               66             0.0     7832.4820  149.171.126.9   
+1       0.00000                0             0.0        0.0000     59.166.0.8   
+2     257.89190               66             0.0     1560.6837  149.171.126.4   
+3       0.00000                0             0.0        0.0000     59.166.0.5   
+4     359.58490               66             0.0     2435.5088  149.171.126.0   
+
+  Label  init_fwd_win_byts  ack_flag_cnt  bwd_pkt_len_min  bwd_pkts_b_avg  \
+0     0               5792             0                0             0.0   
+1     0              14480             1                0             0.0   
+2     0               5792             0                0             0.0   
+3     0              14480             1                0             0.0   
+4     0               5792             0                0             0.0   
+
+   fwd_psh_flags  bwd_iat_mean  flow_iat_max  pkt_size_avg  subflow_bwd_pkts  \
+0              0     3119.5881       66048.0     256.93152                35   
+1              0        0.0000         214.0       0.00000                 1   
+2              0     1053.9166        9721.0     261.42465                37   
+3              0        0.0000         135.0       0.00000                 1   
+4              0     2021.3462       13629.0     363.00952                53   
+
+   subflow_fwd_byts  totlen_fwd_pkts            timestamp  fwd_header_len  \
+0               486              486  22/01/2015 01:52:31            1224   
+1                 0                0  22/01/2015 01:52:31              32   
+2               454              454  22/01/2015 01:52:31            1160   
+3                 0                0  22/01/2015 01:52:31              32   
+4               486              486  22/01/2015 01:52:31            1672   
+
+   bwd_pkt_len_mean  fin_flag_cnt  idle_std  ece_flag_cnt  dst_port  \
+0         522.00000             0       0.0             0     64795   
+1           0.00000             0       0.0             0     65139   
+2         503.51352             0       0.0             0     22612   
+3           0.00000             0       0.0             0     22489   
+4         710.00000             0       0.0             0     64654   
+
+   flow_pkts_s  subflow_fwd_pkts  rst_flag_cnt  protocol  bwd_pkt_len_std  \
+0    668.20447                38             0         6        623.85333   
+1   9345.79400                 1             0         6          0.00000   
+2   1893.69370                36             0         6        629.76810   
+3  14814.81400                 1             0         6          0.00000   
+4    993.96050                52             0         6        618.09296   
+
+   fwd_iat_std  syn_flag_cnt  bwd_byts_b_avg  urg_flag_cnt  bwd_iat_min  \
+0   10836.8310             0             0.0             0            1   
+1       0.0000             0             0.0             1            0   
+2    1706.1318             0             0.0             0            1   
+3       0.0000             0             0.0             1            0   
+4    3377.7124             0             0.0             0            1   
+
+   fwd_iat_max  fwd_pkts_b_avg  active_std  active_max  idle_min  pkt_len_var  \
+0      66048.0             0.0         0.0         0.0         0    247122.11   
+1          0.0             0.0         0.0         0.0         0         0.00   
+2       7453.0             0.0         0.0         0.0         0    256967.11   
+3          0.0             0.0         0.0         0.0         0         0.00   
+4      13925.0             0.0         0.0         0.0         0    313349.34   
+
+   pkt_len_max  psh_flag_cnt  down_up_ratio  fwd_blk_rate_avg  bwd_psh_flags  \
+0         1300             1            0.0               0.0              0   
+1            0             0            1.0               0.0              0   
+2         1300             1            1.0               0.0              0   
+3            0             0            1.0               0.0              0   
+4         1300             1            1.0               0.0              0   
+
+   fwd_urg_flags  active_min                                 flow_ID  \
+0              0         0.0  149.171.126.9-59.166.0.8-64795-65139-6   
+1              0         0.0  149.171.126.9-59.166.0.8-64795-65139-6   
+2              0         0.0  149.171.126.4-59.166.0.5-22612-22489-6   
+3              0         0.0  149.171.126.4-59.166.0.5-22612-22489-6   
+4              0         0.0  149.171.126.0-59.166.0.8-64654-58669-6   
+
+   fwd_seg_size_avg  flow_duration  pkt_len_std  subflow_bwd_byts  \
+0         12.789474       109248.0    497.11377             18270   
+1          0.000000          214.0      0.00000                 0   
+2         12.611111        38549.0    506.91925             18630   
+3          0.000000          135.0      0.00000                 0   
+4          9.346154       105638.0    559.77620             37630   
+
+   bwd_iat_std  init_bwd_win_byts  bwd_pkt_len_max  tot_bwd_pkts  bwd_pkts_s  \
+0   11824.1730              14480             1300            35    320.3720   
+1       0.0000              39096                0             1   4672.8970   
+2    2317.1938              14480             1300            37    959.8174   
+3       0.0000              23168                0             1   7407.4070   
+4    3332.4946              14480             1300            53    501.7134   
+
+   fwd_iat_tot  fwd_pkts_s  fwd_iat_min  src_port  totlen_bwd_pkts  \
+0      97488.0   347.83246          1.0     65139            18270   
+1          0.0  4672.89700          0.0     64795                0   
+2      28454.0   933.87634          1.0     22489            18630   
+3          0.0  7407.40700          0.0     22612                0   
+4     100483.0   492.24710          1.0     58669            37630   
+
+   fwd_act_data_pkts  pkt_len_min  bwd_seg_size_avg  
+0                 12            0         522.00000  
+1                  0            0           0.00000  
+2                 12            0         503.51352  
+3                  0            0           0.00000  
+4                 12            0         710.00000  
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 26530076 entries, 0 to 26530075
+Data columns (total 84 columns):
+ #   Column             Dtype  
+---  ------             -----  
+ 0   active_mean        float64
+ 1   bwd_urg_flags      int64  
+ 2   fwd_seg_size_min   int64  
+ 3   idle_mean          float64
+ 4   cwe_flag_count     int64  
+ 5   fwd_pkt_len_min    int64  
+ 6   tot_fwd_pkts       int64  
+ 7   bwd_iat_max        int64  
+ 8   fwd_pkt_len_mean   float64
+ 9   idle_max           int64  
+ 10  bwd_iat_tot        int64  
+ 11  flow_iat_min       float64
+ 12  bwd_blk_rate_avg   float64
+ 13  src_ip             object 
+ 14  fwd_pkt_len_std    float64
+ 15  flow_iat_mean      float64
+ 16  bwd_header_len     int64  
+ 17  flow_byts_s        float64
+ 18  fwd_iat_mean       float64
+ 19  pkt_len_mean       float64
+ 20  fwd_pkt_len_max    int64  
+ 21  fwd_byts_b_avg     float64
+ 22  flow_iat_std       float64
+ 23  dst_ip             object 
+ 24  Label              object 
+ 25  init_fwd_win_byts  int64  
+ 26  ack_flag_cnt       int64  
+ 27  bwd_pkt_len_min    int64  
+ 28  bwd_pkts_b_avg     float64
+ 29  fwd_psh_flags      int64  
+ 30  bwd_iat_mean       float64
+ 31  flow_iat_max       float64
+ 32  pkt_size_avg       float64
+ 33  subflow_bwd_pkts   int64  
+ 34  subflow_fwd_byts   int64  
+ 35  totlen_fwd_pkts    int64  
+ 36  timestamp          object 
+ 37  fwd_header_len     int64  
+ 38  bwd_pkt_len_mean   float64
+ 39  fin_flag_cnt       int64  
+ 40  idle_std           float64
+ 41  ece_flag_cnt       int64  
+ 42  dst_port           int64  
+ 43  flow_pkts_s        float64
+ 44  subflow_fwd_pkts   int64  
+ 45  rst_flag_cnt       int64  
+ 46  protocol           int64  
+ 47  bwd_pkt_len_std    float64
+ 48  fwd_iat_std        float64
+ 49  syn_flag_cnt       int64  
+ 50  bwd_byts_b_avg     float64
+ 51  urg_flag_cnt       int64  
+ 52  bwd_iat_min        int64  
+ 53  fwd_iat_max        float64
+ 54  fwd_pkts_b_avg     float64
+ 55  active_std         float64
+ 56  active_max         float64
+ 57  idle_min           int64  
+ 58  pkt_len_var        float64
+ 59  pkt_len_max        int64  
+ 60  psh_flag_cnt       int64  
+ 61  down_up_ratio      float64
+ 62  fwd_blk_rate_avg   float64
+ 63  bwd_psh_flags      int64  
+ 64  fwd_urg_flags      int64  
+ 65  active_min         float64
+ 66  flow_ID            object 
+ 67  fwd_seg_size_avg   float64
+ 68  flow_duration      float64
+ 69  pkt_len_std        float64
+ 70  subflow_bwd_byts   int64  
+ 71  bwd_iat_std        float64
+ 72  init_bwd_win_byts  int64  
+ 73  bwd_pkt_len_max    int64  
+ 74  tot_bwd_pkts       int64  
+ 75  bwd_pkts_s         float64
+ 76  fwd_iat_tot        float64
+ 77  fwd_pkts_s         float64
+ 78  fwd_iat_min        float64
+ 79  src_port           int64  
+ 80  totlen_bwd_pkts    int64  
+ 81  fwd_act_data_pkts  int64  
+ 82  pkt_len_min        int64  
+ 83  bwd_seg_size_avg   float64
+dtypes: float64(39), int64(40), object(5)
+memory usage: 16.6+ GB
+merged_df.info None
+merged_df["Label"] ['0' 'Reconnaissance' 'Exploits' 'DoS' 'Generic' 'Shellcode' 'Fuzzers'
+ 'Worms' 'Backdoors' 'Analysis' 'Backdoor' 'BENIGN' 'DDoS' 'PortScan'
+ 'Bot' 'Infiltration' 'Web Attack \x96 Brute Force' 'Web Attack \x96 XSS'
+ 'Web Attack \x96 Sql Injection' 'FTP-Patator' 'SSH-Patator'
+ 'DoS slowloris' 'DoS Slowhttptest' 'DoS Hulk' 'DoS GoldenEye'
+ 'Heartbleed' 'Benign' 'mitm' 'scanning' 'dos' 'ddos' 'injection'
+ 'password' 'backdoor' 'ransomware' 'xss' 'Theft']
+merged_df["Label"] ['BENIGN' 'Reconnaissance' 'Exploits' 'DoS' 'Generic' 'Shellcode'
+ 'Fuzzers' 'Worms' 'Backdoors' 'Analysis' 'Backdoor' 'DDoS' 'PortScan'
+ 'Bot' 'Infiltration' 'Web Attack - Brute Force' 'Web Attack - XSS'
+ 'Web Attack - SQL Injection' 'FTP-Patator' 'SSH-Patator' 'DoS slowloris'
+ 'DoS Slowhttptest' 'DoS Hulk' 'DoS GoldenEye' 'Heartbleed' 'MITM'
+ 'Scanning' 'dos' 'ddos' 'backdoor' 'Ransomware' 'Theft']
+merged_df["Label"].value_counts Label
+BENIGN                        9677060
+DDoS                          5041885
+DoS                           4916355
+Reconnaissance                3532075
+Web Attack - XSS              2149960
+Web Attack - Brute Force       341715
+Web Attack - SQL Injection     277717
+DoS Hulk                       230123
+PortScan                       158804
+Exploits                        50329
+Scanning                        36205
+Fuzzers                         33986
+backdoor                        27145
+DoS GoldenEye                   10293
+FTP-Patator                      7935
+Generic                          7368
+SSH-Patator                      5897
+DoS slowloris                    5796
+DoS Slowhttptest                 5499
+Ransomware                       5098
+Shellcode                        2259
+Bot                              1956
+Theft                            1701
+Analysis                          933
+Backdoor                          649
+MITM                              517
+Worms                             317
+ddos                              202
+dos                               145
+Backdoors                         105
+Infiltration                       36
+Heartbleed                         11
+Name: count, dtype: int64
+Cleaned dataset saved successfully!
+Balanced dataset saved successfully!
+Class Weights: {'Analysis': np.float64(564.6244640943194), 'BENIGN': np.float64(0.2633973125), 'Backdoor': np.float64(18.8822045593032), 'Bot': np.float64(269.3224054192229), 'DDoS': np.float64(0.2633973125), 'DoS': np.float64(0.2633973125), 'Exploits': np.float64(10.467019511613582), 'FTP-Patator': np.float64(66.38873660995588), 'Fuzzers': np.float64(15.500342052609899), 'Generic': np.float64(71.49764182953312), 'Heartbleed': np.float64(2633.973125), 'Infiltration': np.float64(2633.973125), 'MITM': np.float64(1018.9451160541586), 'PortScan': np.float64(3.3172629467771593), 'Ransomware': np.float64(103.33358670066693), 'Reconnaissance': np.float64(0.14914593404726684), 'SSH-Patator': np.float64(89.33264795658809), 'Scanning': np.float64(14.55032799337108), 'Shellcode': np.float64(233.19815183709605), 'Theft': np.float64(309.69701646090533), 'Web Attack - Brute Force': np.float64(1.5416198440220652), 'Web Attack - SQL Injection': np.float64(1.8968756864001843), 'Web Attack - XSS': np.float64(0.2450253144244544), 'Worms': np.float64(1661.8126971608833)}
+merged_df["Label"] Label
+BENIGN                        9677060
+DoS                           5168211
+DDoS                          5042087
+Reconnaissance                3532075
+Web Attack - XSS              2149960
+Web Attack - Brute Force       341715
+Web Attack - SQL Injection     277717
+PortScan                       158804
+Exploits                        50329
+Scanning                        36205
+Fuzzers                         33986
+Backdoor                        27899
+FTP-Patator                      7935
+Generic                          7368
+SSH-Patator                      5897
+Ransomware                       5098
+Shellcode                        2259
+Bot                              1956
+Theft                            1701
+Analysis                          933
+MITM                              517
+Worms                             317
+Infiltration                       36
+Heartbleed                         11
+Name: count, dtype: int64
+balanced_df["Label"].valuecounts Label
+15    3532075
+22    2149960
+1     2000000
+4     2000000
+5     2000000
+20     341715
+21     277717
+13     158804
+6       50329
+17      36205
+8       33986
+2       27899
+7        7935
+9        7368
+16       5897
+14       5098
+18       2259
+3        1956
+19       1701
+0         933
+12        517
+23        317
+10        200
+11        200
+Name: count, dtype: int64
+balanced_df.dtypes active_mean          float64
+fwd_seg_size_min       int64
+idle_mean            float64
+fwd_pkt_len_min        int64
+tot_fwd_pkts           int64
+bwd_iat_max            int64
+fwd_pkt_len_mean     float64
+idle_max               int64
+bwd_iat_tot            int64
+flow_iat_min         float64
+fwd_pkt_len_std      float64
+flow_iat_mean        float64
+bwd_header_len         int64
+flow_byts_s          float64
+fwd_iat_mean         float64
+pkt_len_mean         float64
+fwd_pkt_len_max        int64
+flow_iat_std         float64
+init_fwd_win_byts      int64
+ack_flag_cnt           int64
+bwd_pkt_len_min        int64
+fwd_psh_flags          int64
+bwd_iat_mean         float64
+flow_iat_max         float64
+pkt_size_avg         float64
+subflow_bwd_pkts       int64
+subflow_fwd_byts       int64
+totlen_fwd_pkts        int64
+fwd_header_len         int64
+bwd_pkt_len_mean     float64
+fin_flag_cnt           int64
+idle_std             float64
+dst_port               int64
+flow_pkts_s          float64
+subflow_fwd_pkts       int64
+rst_flag_cnt           int64
+protocol               int64
+bwd_pkt_len_std      float64
+fwd_iat_std          float64
+syn_flag_cnt           int64
+urg_flag_cnt           int64
+bwd_iat_min            int64
+fwd_iat_max          float64
+active_std           float64
+active_max           float64
+idle_min               int64
+pkt_len_var          float64
+pkt_len_max            int64
+psh_flag_cnt           int64
+down_up_ratio        float64
+active_min           float64
+fwd_seg_size_avg     float64
+flow_duration        float64
+pkt_len_std          float64
+subflow_bwd_byts       int64
+bwd_iat_std          float64
+init_bwd_win_byts      int64
+bwd_pkt_len_max        int64
+tot_bwd_pkts           int64
+bwd_pkts_s           float64
+fwd_iat_tot          float64
+fwd_pkts_s           float64
+fwd_iat_min          float64
+src_port               int64
+totlen_bwd_pkts        int64
+fwd_act_data_pkts      int64
+pkt_len_min            int64
+bwd_seg_size_avg     float64
+Label                  int64
+dtype: object
+balanced_df.isnull().sum().sum()) 0
+balanced_df.head()    active_mean  fwd_seg_size_min  idle_mean  fwd_pkt_len_min  tot_fwd_pkts  \
+0          0.0                 0        0.0                0             2   
+1          0.0                 0        0.0                0             4   
+2          0.0                 0        0.0                0            42   
+3          0.0                 0        0.0                0             2   
+4          0.0                 0        0.0                0             2   
+
+   bwd_iat_max  fwd_pkt_len_mean  idle_max  bwd_iat_tot  flow_iat_min  \
+0            9               0.0         0            9           7.0   
+1            0               0.0         0            0           4.0   
+2            0               0.0         0            0           3.0   
+3            0               0.0         0            0          34.0   
+4            0               0.0         0            0           9.0   
+
+   fwd_pkt_len_std  flow_iat_mean  bwd_header_len  flow_byts_s  fwd_iat_mean  \
+0              0.0      43554.332               0          0.0          7.00   
+1              0.0        976.000               0          0.0        976.00   
+2              0.0      36962.780               0          0.0      36962.78   
+3              0.0         34.000               0          0.0         34.00   
+4              0.0          9.000               0          0.0          9.00   
+
+   pkt_len_mean  fwd_pkt_len_max  flow_iat_std  init_fwd_win_byts  \
+0           0.0                0    75424.4600                 -1   
+1           0.0                0     1680.9559                 -1   
+2           0.0                0    49762.8050                 -1   
+3           0.0                0        0.0000                 -1   
+4           0.0                0        0.0000                 -1   
+
+   ack_flag_cnt  bwd_pkt_len_min  fwd_psh_flags  bwd_iat_mean  flow_iat_max  \
+0             0                0              0           9.0      130647.0   
+1             0                0              0           0.0        2917.0   
+2             0                0              0           0.0      234635.0   
+3             0                0              0           0.0          34.0   
+4             0                0              0           0.0           9.0   
+
+   pkt_size_avg  subflow_bwd_pkts  subflow_fwd_byts  totlen_fwd_pkts  \
+0           0.0                 2                 0                0   
+1           0.0                 0                 0                0   
+2           0.0                 0                 0                0   
+3           0.0                 0                 0                0   
+4           0.0                 0                 0                0   
+
+   fwd_header_len  bwd_pkt_len_mean  fin_flag_cnt  idle_std  dst_port  \
+0               0               0.0             0       0.0         0   
+1               0               0.0             0       0.0         0   
+2               0               0.0             0       0.0         0   
+3               0               0.0             0       0.0         0   
+4               0               0.0             0       0.0         0   
+
+     flow_pkts_s  subflow_fwd_pkts  rst_flag_cnt  protocol  bwd_pkt_len_std  \
+0      30.613104                 2             0         0              0.0   
+1    1366.120200                 4             0         0              0.0   
+2      27.714102                42             0         0              0.0   
+3   58823.530000                 2             0         0              0.0   
+4  222222.220000                 2             0         0              0.0   
+
+   fwd_iat_std  syn_flag_cnt  urg_flag_cnt  bwd_iat_min  fwd_iat_max  \
+0       0.0000             0             0            9          7.0   
+1    1680.9559             0             0            0       2917.0   
+2   49762.8050             0             0            0     234635.0   
+3       0.0000             0             0            0         34.0   
+4       0.0000             0             0            0          9.0   
+
+   active_std  active_max  idle_min  pkt_len_var  pkt_len_max  psh_flag_cnt  \
+0         0.0         0.0         0          0.0            0             0   
+1         0.0         0.0         0          0.0            0             0   
+2         0.0         0.0         0          0.0            0             0   
+3         0.0         0.0         0          0.0            0             0   
+4         0.0         0.0         0          0.0            0             0   
+
+   down_up_ratio  active_min  fwd_seg_size_avg  flow_duration  pkt_len_std  \
+0            1.0         0.0               0.0       130663.0          0.0   
+1            0.0         0.0               0.0         2928.0          0.0   
+2            0.0         0.0               0.0      1515474.0          0.0   
+3            0.0         0.0               0.0           34.0          0.0   
+4            0.0         0.0               0.0            9.0          0.0   
+
+   subflow_bwd_byts  bwd_iat_std  init_bwd_win_byts  bwd_pkt_len_max  \
+0                 0          0.0                 -1                0   
+1                 0          0.0                 -1                0   
+2                 0          0.0                 -1                0   
+3                 0          0.0                 -1                0   
+4                 0          0.0                 -1                0   
+
+   tot_bwd_pkts  bwd_pkts_s  fwd_iat_tot     fwd_pkts_s  fwd_iat_min  \
+0             2   15.306552          7.0      15.306552          7.0   
+1             0    0.000000       2928.0    1366.120200          4.0   
+2             0    0.000000    1515474.0      27.714102          3.0   
+3             0    0.000000         34.0   58823.530000         34.0   
+4             0    0.000000          9.0  222222.220000          9.0   
+
+   src_port  totlen_bwd_pkts  fwd_act_data_pkts  pkt_len_min  \
+0         0                0                  0            0   
+1         0                0                  0            0   
+2         0                0                  0            0   
+3         0                0                  0            0   
+4         0                0                  0            0   
+
+   bwd_seg_size_avg  Label  
+0               0.0      0  
+1               0.0      0  
+2               0.0      0  
+3               0.0      0  
+4               0.0      0  
+balanced_df.describe         active_mean  fwd_seg_size_min     idle_mean  fwd_pkt_len_min  \
+count  1.264307e+07      1.264307e+07  1.264307e+07     1.264307e+07   
+mean   9.451901e+05     -1.503451e+02  4.029624e+14     1.929916e+01   
+std    3.299931e+06      2.667869e+05  6.764161e+14     4.359519e+01   
+min    0.000000e+00     -5.368707e+08  0.000000e+00     0.000000e+00   
+25%    0.000000e+00      0.000000e+00  0.000000e+00     0.000000e+00   
+50%    0.000000e+00      0.000000e+00  6.993304e+06     0.000000e+00   
+75%    0.000000e+00      2.000000e+01  1.556342e+15     0.000000e+00   
+max    1.137061e+08      1.260000e+02  1.556549e+15     1.983000e+03   
+
+       tot_fwd_pkts   bwd_iat_max  fwd_pkt_len_mean      idle_max  \
+count  1.264307e+07  1.264307e+07      1.264307e+07  1.264307e+07   
+mean   5.818043e+00  3.021021e+06      6.933736e+01 -5.650512e+08   
+std    2.593958e+02  9.847854e+06      1.335392e+02  9.512750e+08   
+min    0.000000e+00 -2.147484e+09      0.000000e+00 -2.147484e+09   
+25%    1.000000e+00  0.000000e+00      0.000000e+00 -2.147484e+09   
+50%    3.000000e+00  3.800000e+01      3.333333e+01  0.000000e+00   
+75%    6.000000e+00  4.247400e+04      1.000000e+02  7.673760e+06   
+max    7.910980e+05  1.207718e+09      5.126219e+04  1.200000e+08   
+
+        bwd_iat_tot  flow_iat_min  fwd_pkt_len_std  flow_iat_mean  \
+count  1.264307e+07  1.264307e+07     1.264307e+07   1.264307e+07   
+mean   3.658669e+06  1.568730e+06     7.555793e+01   2.914272e+06   
+std    1.215407e+07  4.459827e+07     1.885420e+02   1.359559e+07   
+min   -2.147484e+09 -4.635490e+10     0.000000e+00  -2.267429e+10   
+25%    0.000000e+00  1.900000e+01     0.000000e+00   1.464000e+03   
+50%    3.900000e+01  1.731400e+04     0.000000e+00   9.710014e+04   
+75%    4.561900e+04  1.871698e+06     5.000000e+01   4.784328e+06   
+max    2.948874e+08  1.200000e+08     2.702002e+04   1.200000e+08   
+
+       bwd_header_len   flow_byts_s  fwd_iat_mean  pkt_len_mean  \
+count    1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07   
+mean    -1.984318e+00  2.424574e+05  3.334328e+06  8.283878e+01   
+std      3.074779e+05  7.712435e+06  1.887240e+07  1.538295e+02   
+min     -1.073741e+09 -1.200000e+07 -4.581762e+10  0.000000e+00   
+25%      1.600000e+01  0.000000e+00  0.000000e+00  0.000000e+00   
+50%      4.000000e+01  7.744387e+00  1.199803e+05  4.020000e+01   
+75%      6.800000e+01  1.433133e+03  4.732447e+06  1.000000e+02   
+max      5.585580e+06  2.071000e+09  1.200000e+08  2.986107e+04   
+
+       fwd_pkt_len_max  flow_iat_std  init_fwd_win_byts  ack_flag_cnt  \
+count     1.264307e+07  1.264307e+07       1.264307e+07  1.264307e+07   
+mean      1.836022e+02  1.885017e+06       5.885020e+03  1.503330e+00   
+std       4.170381e+02  1.603898e+07       1.179506e+04  4.672966e+01   
+min       0.000000e+00  0.000000e+00      -1.000000e+00  0.000000e+00   
+25%       0.000000e+00  0.000000e+00      -1.000000e+00  0.000000e+00   
+50%       3.700000e+01  7.003288e+04      -1.000000e+00  0.000000e+00   
+75%       1.000000e+02  1.817073e+06       1.024000e+03  1.000000e+00   
+max       6.424000e+04  3.308697e+10       6.553500e+04  1.417810e+05   
+
+       bwd_pkt_len_min  fwd_psh_flags  bwd_iat_mean  flow_iat_max  \
+count     1.264307e+07   1.264307e+07  1.264307e+07  1.264307e+07   
+mean      1.786430e+01   3.789586e-03  1.901412e+06  5.983496e+06   
+std       4.267595e+01   6.144286e-02  1.476503e+07  1.481352e+07   
+min       0.000000e+00   0.000000e+00 -4.581762e+10 -1.375943e+10   
+25%       0.000000e+00   0.000000e+00  0.000000e+00  3.108000e+03   
+50%       0.000000e+00   0.000000e+00  3.700000e+01  3.403430e+05   
+75%       0.000000e+00   0.000000e+00  3.025100e+04  7.994188e+06   
+max       1.838000e+03   1.000000e+00  2.991522e+08  3.589722e+09   
+
+       pkt_size_avg  subflow_bwd_pkts  subflow_fwd_byts  totlen_fwd_pkts  \
+count  1.264307e+07      1.264307e+07      1.264307e+07     1.264307e+07   
+mean   9.390470e+01      3.358346e+00      6.073201e+02     8.325984e+02   
+std    1.673749e+02      1.615876e+02      9.933584e+04     9.940495e+04   
+min    0.000000e+00      0.000000e+00      0.000000e+00     0.000000e+00   
+25%    0.000000e+00      0.000000e+00      0.000000e+00     0.000000e+00   
+50%    5.000000e+01      1.000000e+00      2.000000e+01     7.400000e+01   
+75%    1.200000e+02      2.000000e+00      2.430000e+02     3.400000e+02   
+max    2.986958e+04      2.792790e+05      1.864583e+08     1.864583e+08   
+
+       fwd_header_len  bwd_pkt_len_mean  fin_flag_cnt      idle_std  \
+count    1.264307e+07      1.264307e+07  1.264307e+07  1.264307e+07   
+mean    -5.703544e+02      1.020419e+02  2.072396e-01  1.307114e+13   
+std      1.095579e+06      2.487529e+02  4.121029e-01  1.177141e+14   
+min     -2.147484e+09      0.000000e+00  0.000000e+00  0.000000e+00   
+25%      3.200000e+01      0.000000e+00  0.000000e+00  0.000000e+00   
+50%      6.000000e+01      3.333333e+01  0.000000e+00  0.000000e+00   
+75%      1.000000e+02      1.000000e+02  0.000000e+00  0.000000e+00   
+max      4.302516e+06      5.345946e+04  2.000000e+00  1.100646e+15   
+
+           dst_port   flow_pkts_s  subflow_fwd_pkts  rst_flag_cnt  \
+count  1.264307e+07  1.264307e+07      1.264307e+07  1.264307e+07   
+mean   6.742814e+03  1.544858e+04      4.631420e+00  4.363639e-02   
+std    1.565890e+04  1.083768e+05      1.283932e+02  1.116321e+00   
+min    0.000000e+00 -2.000000e+06      0.000000e+00  0.000000e+00   
+25%    8.000000e+01  2.573300e-01      0.000000e+00  0.000000e+00   
+50%    8.000000e+01  1.178898e+01      2.000000e+00  0.000000e+00   
+75%    4.430000e+02  9.994289e+02      5.000000e+00  0.000000e+00   
+max    6.553500e+04  4.000000e+06      2.100840e+05  2.430000e+02   
+
+           protocol  bwd_pkt_len_std   fwd_iat_std  syn_flag_cnt  \
+count  1.264307e+07     1.264307e+07  1.264307e+07  1.264307e+07   
+mean   8.666483e+00     1.118953e+02  1.909233e+06  7.238188e-01   
+std    4.808892e+00     3.205558e+02  1.475495e+07  9.474632e+00   
+min    0.000000e+00     0.000000e+00  0.000000e+00  0.000000e+00   
+25%    6.000000e+00     0.000000e+00  0.000000e+00  0.000000e+00   
+50%    6.000000e+00     0.000000e+00  2.373466e+04  1.000000e+00   
+75%    6.000000e+00     5.773503e+01  1.067950e+06  1.000000e+00   
+max    1.700000e+01     2.923192e+04  3.308697e+10  3.309400e+04   
+
+       urg_flag_cnt   bwd_iat_min   fwd_iat_max    active_std    active_max  \
+count  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07   
+mean   5.535166e-02  9.478838e+05  5.411070e+06  5.433115e+04  9.874617e+05   
+std    2.286654e-01  5.321021e+06  1.985841e+07  5.513272e+05  3.402136e+06   
+min    0.000000e+00 -2.147484e+09 -4.581762e+10  0.000000e+00  0.000000e+00   
+25%    0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+50%    0.000000e+00  3.000000e+00  3.277860e+05  0.000000e+00  0.000000e+00   
+75%    0.000000e+00  1.127000e+03  6.473362e+06  0.000000e+00  0.000000e+00   
+max    1.000000e+00  1.200000e+08  3.589722e+09  7.429367e+07  1.137061e+08   
+
+           idle_min   pkt_len_var   pkt_len_max  psh_flag_cnt  down_up_ratio  \
+count  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07   1.264307e+07   
+mean  -5.388428e+08  7.982028e+04  2.825689e+02  3.695119e-01   3.783113e-01   
+std    9.365455e+08  9.881098e+05  7.470757e+02  7.976854e+00   2.667225e+01   
+min   -2.147484e+09  0.000000e+00  0.000000e+00  0.000000e+00   0.000000e+00   
+25%   -2.147484e+09  0.000000e+00  0.000000e+00  0.000000e+00   0.000000e+00   
+50%    0.000000e+00  0.000000e+00  7.200000e+01  0.000000e+00   0.000000e+00   
+75%    5.645446e+06  2.727273e+03  1.000000e+02  0.000000e+00   1.000000e+00   
+max    1.207599e+09  9.175309e+08  6.516000e+04  2.553900e+04   8.510200e+04   
+
+         active_min  fwd_seg_size_avg  flow_duration   pkt_len_std  \
+count  1.264307e+07      1.264307e+07   1.264307e+07  1.264307e+07   
+mean   9.067116e+05      6.933736e+01   1.347784e+07  1.032835e+02   
+std    3.253490e+06      1.335392e+02   4.661448e+07  2.629733e+02   
+min    0.000000e+00      0.000000e+00  -4.581762e+10  0.000000e+00   
+25%    0.000000e+00      0.000000e+00   4.448000e+03  0.000000e+00   
+50%    0.000000e+00      3.333333e+01   7.841240e+05  0.000000e+00   
+75%    0.000000e+00      1.000000e+02   2.387319e+07  5.222330e+01   
+max    1.137061e+08      5.126219e+04   1.200000e+08  3.029077e+04   
+
+       subflow_bwd_byts   bwd_iat_std  init_bwd_win_byts  bwd_pkt_len_max  \
+count      1.264307e+07  1.264307e+07       1.264307e+07     1.264307e+07   
+mean       2.403540e+03  1.309444e+06       5.400352e+03     2.477794e+02   
+std        4.012546e+05  6.479610e+06       1.097271e+04     7.083367e+02   
+min        0.000000e+00  0.000000e+00      -1.000000e+00     0.000000e+00   
+25%        0.000000e+00  0.000000e+00       0.000000e+00     0.000000e+00   
+50%        2.200000e+01  0.000000e+00       1.390000e+02     5.300000e+01   
+75%        1.000000e+02  2.664451e+02       1.025000e+03     1.000000e+02   
+max        6.270464e+08  9.405680e+09       6.553500e+04     6.516000e+04   
+
+       tot_bwd_pkts    bwd_pkts_s   fwd_iat_tot    fwd_pkts_s   fwd_iat_min  \
+count  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07   
+mean   4.200535e+00  5.138082e+03  1.087501e+07  1.031379e+04  1.888321e+06   
+std    2.236214e+02  4.076548e+04  4.580525e+07  9.078260e+04  4.465301e+07   
+min    0.000000e+00  0.000000e+00 -4.581762e+10  0.000000e+00 -4.635490e+10   
+25%    1.000000e+00  4.939395e-02  0.000000e+00  1.191827e-01  0.000000e+00   
+50%    2.000000e+00  5.761529e-01  6.338230e+05  3.149031e-01  1.720000e+02   
+75%    3.000000e+00  2.188543e+02  1.837486e+07  1.093513e+02  2.386462e+06   
+max    5.168330e+05  2.000000e+06  1.200000e+08  3.000000e+06  1.200000e+08   
+
+           src_port  totlen_bwd_pkts  fwd_act_data_pkts   pkt_len_min  \
+count  1.264307e+07     1.264307e+07       1.264307e+07  1.264307e+07   
+mean   3.889122e+04     2.619795e+03       2.095564e+00  1.638732e+01   
+std    1.824287e+04     4.014128e+05       1.210457e+02  3.727411e+01   
+min    0.000000e+00     0.000000e+00       0.000000e+00  0.000000e+00   
+25%    3.060700e+04     0.000000e+00       0.000000e+00  0.000000e+00   
+50%    4.280100e+04     9.000000e+01       1.000000e+00  0.000000e+00   
+75%    5.303000e+04     1.000000e+02       2.000000e+00  0.000000e+00   
+max    6.553500e+04     6.270000e+08       2.035880e+05  1.472000e+03   
+
+       bwd_seg_size_avg         Label  
+count      1.264307e+07  1.264307e+07  
+mean       1.020419e+02  1.080753e+01  
+std        2.487529e+02  7.693059e+00  
+min        0.000000e+00  0.000000e+00  
+25%        0.000000e+00  4.000000e+00  
+50%        3.333333e+01  1.500000e+01  
+75%        1.000000e+02  1.500000e+01  
+max        5.345946e+04  2.300000e+01  
+balanced_df.describe         active_mean  fwd_seg_size_min     idle_mean  fwd_pkt_len_min  \
+count  1.264307e+07      1.264307e+07  1.264307e+07     1.264307e+07   
+mean   9.451901e+05     -1.503451e+02  4.029624e+14     1.929916e+01   
+std    3.299931e+06      2.667869e+05  6.764161e+14     4.359519e+01   
+min    0.000000e+00     -5.368707e+08  0.000000e+00     0.000000e+00   
+25%    0.000000e+00      0.000000e+00  0.000000e+00     0.000000e+00   
+50%    0.000000e+00      0.000000e+00  6.993304e+06     0.000000e+00   
+75%    0.000000e+00      2.000000e+01  1.556342e+15     0.000000e+00   
+max    1.137061e+08      1.260000e+02  1.556549e+15     1.983000e+03   
+
+       tot_fwd_pkts   bwd_iat_max  fwd_pkt_len_mean      idle_max  \
+count  1.264307e+07  1.264307e+07      1.264307e+07  1.264307e+07   
+mean   5.818043e+00  3.021021e+06      6.933736e+01 -5.650512e+08   
+std    2.593958e+02  9.847854e+06      1.335392e+02  9.512750e+08   
+min    0.000000e+00 -2.147484e+09      0.000000e+00 -2.147484e+09   
+25%    1.000000e+00  0.000000e+00      0.000000e+00 -2.147484e+09   
+50%    3.000000e+00  3.800000e+01      3.333333e+01  0.000000e+00   
+75%    6.000000e+00  4.247400e+04      1.000000e+02  7.673760e+06   
+max    7.910980e+05  1.207718e+09      5.126219e+04  1.200000e+08   
+
+        bwd_iat_tot  flow_iat_min  fwd_pkt_len_std  flow_iat_mean  \
+count  1.264307e+07  1.264307e+07     1.264307e+07   1.264307e+07   
+mean   3.658669e+06  1.568730e+06     7.555793e+01   2.914272e+06   
+std    1.215407e+07  4.459827e+07     1.885420e+02   1.359559e+07   
+min   -2.147484e+09 -4.635490e+10     0.000000e+00  -2.267429e+10   
+25%    0.000000e+00  1.900000e+01     0.000000e+00   1.464000e+03   
+50%    3.900000e+01  1.731400e+04     0.000000e+00   9.710014e+04   
+75%    4.561900e+04  1.871698e+06     5.000000e+01   4.784328e+06   
+max    2.948874e+08  1.200000e+08     2.702002e+04   1.200000e+08   
+
+       bwd_header_len   flow_byts_s  fwd_iat_mean  pkt_len_mean  \
+count    1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07   
+mean    -1.984318e+00  2.424574e+05  3.334328e+06  8.283878e+01   
+std      3.074779e+05  7.712435e+06  1.887240e+07  1.538295e+02   
+min     -1.073741e+09 -1.200000e+07 -4.581762e+10  0.000000e+00   
+25%      1.600000e+01  0.000000e+00  0.000000e+00  0.000000e+00   
+50%      4.000000e+01  7.744387e+00  1.199803e+05  4.020000e+01   
+75%      6.800000e+01  1.433133e+03  4.732447e+06  1.000000e+02   
+max      5.585580e+06  2.071000e+09  1.200000e+08  2.986107e+04   
+
+       fwd_pkt_len_max  flow_iat_std  init_fwd_win_byts  ack_flag_cnt  \
+count     1.264307e+07  1.264307e+07       1.264307e+07  1.264307e+07   
+mean      1.836022e+02  1.885017e+06       5.885630e+03  1.503330e+00   
+std       4.170381e+02  1.603898e+07       1.179475e+04  4.672966e+01   
+min       0.000000e+00  0.000000e+00       0.000000e+00  0.000000e+00   
+25%       0.000000e+00  0.000000e+00       0.000000e+00  0.000000e+00   
+50%       3.700000e+01  7.003288e+04       0.000000e+00  0.000000e+00   
+75%       1.000000e+02  1.817073e+06       1.024000e+03  1.000000e+00   
+max       6.424000e+04  3.308697e+10       6.553500e+04  1.417810e+05   
+
+       bwd_pkt_len_min  fwd_psh_flags  bwd_iat_mean  flow_iat_max  \
+count     1.264307e+07   1.264307e+07  1.264307e+07  1.264307e+07   
+mean      1.786430e+01   3.789586e-03  1.901412e+06  5.983496e+06   
+std       4.267595e+01   6.144286e-02  1.476503e+07  1.481352e+07   
+min       0.000000e+00   0.000000e+00 -4.581762e+10 -1.375943e+10   
+25%       0.000000e+00   0.000000e+00  0.000000e+00  3.108000e+03   
+50%       0.000000e+00   0.000000e+00  3.700000e+01  3.403430e+05   
+75%       0.000000e+00   0.000000e+00  3.025100e+04  7.994188e+06   
+max       1.838000e+03   1.000000e+00  2.991522e+08  3.589722e+09   
+
+       pkt_size_avg  subflow_bwd_pkts  subflow_fwd_byts  totlen_fwd_pkts  \
+count  1.264307e+07      1.264307e+07      1.264307e+07     1.264307e+07   
+mean   9.390470e+01      3.358346e+00      6.073201e+02     8.325984e+02   
+std    1.673749e+02      1.615876e+02      9.933584e+04     9.940495e+04   
+min    0.000000e+00      0.000000e+00      0.000000e+00     0.000000e+00   
+25%    0.000000e+00      0.000000e+00      0.000000e+00     0.000000e+00   
+50%    5.000000e+01      1.000000e+00      2.000000e+01     7.400000e+01   
+75%    1.200000e+02      2.000000e+00      2.430000e+02     3.400000e+02   
+max    2.986958e+04      2.792790e+05      1.864583e+08     1.864583e+08   
+
+       fwd_header_len  bwd_pkt_len_mean  fin_flag_cnt      idle_std  \
+count    1.264307e+07      1.264307e+07  1.264307e+07  1.264307e+07   
+mean    -5.703544e+02      1.020419e+02  2.072396e-01  1.307114e+13   
+std      1.095579e+06      2.487529e+02  4.121029e-01  1.177141e+14   
+min     -2.147484e+09      0.000000e+00  0.000000e+00  0.000000e+00   
+25%      3.200000e+01      0.000000e+00  0.000000e+00  0.000000e+00   
+50%      6.000000e+01      3.333333e+01  0.000000e+00  0.000000e+00   
+75%      1.000000e+02      1.000000e+02  0.000000e+00  0.000000e+00   
+max      4.302516e+06      5.345946e+04  2.000000e+00  1.100646e+15   
+
+           dst_port   flow_pkts_s  subflow_fwd_pkts  rst_flag_cnt  \
+count  1.264307e+07  1.264307e+07      1.264307e+07  1.264307e+07   
+mean   6.742814e+03  1.544858e+04      4.631420e+00  4.363639e-02   
+std    1.565890e+04  1.083768e+05      1.283932e+02  1.116321e+00   
+min    0.000000e+00 -2.000000e+06      0.000000e+00  0.000000e+00   
+25%    8.000000e+01  2.573300e-01      0.000000e+00  0.000000e+00   
+50%    8.000000e+01  1.178898e+01      2.000000e+00  0.000000e+00   
+75%    4.430000e+02  9.994289e+02      5.000000e+00  0.000000e+00   
+max    6.553500e+04  4.000000e+06      2.100840e+05  2.430000e+02   
+
+           protocol  bwd_pkt_len_std   fwd_iat_std  syn_flag_cnt  \
+count  1.264307e+07     1.264307e+07  1.264307e+07  1.264307e+07   
+mean   8.666483e+00     1.118953e+02  1.909233e+06  7.238188e-01   
+std    4.808892e+00     3.205558e+02  1.475495e+07  9.474632e+00   
+min    0.000000e+00     0.000000e+00  0.000000e+00  0.000000e+00   
+25%    6.000000e+00     0.000000e+00  0.000000e+00  0.000000e+00   
+50%    6.000000e+00     0.000000e+00  2.373466e+04  1.000000e+00   
+75%    6.000000e+00     5.773503e+01  1.067950e+06  1.000000e+00   
+max    1.700000e+01     2.923192e+04  3.308697e+10  3.309400e+04   
+
+       urg_flag_cnt   bwd_iat_min   fwd_iat_max    active_std    active_max  \
+count  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07   
+mean   5.535166e-02  9.478838e+05  5.411070e+06  5.433115e+04  9.874617e+05   
+std    2.286654e-01  5.321021e+06  1.985841e+07  5.513272e+05  3.402136e+06   
+min    0.000000e+00 -2.147484e+09 -4.581762e+10  0.000000e+00  0.000000e+00   
+25%    0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+50%    0.000000e+00  3.000000e+00  3.277860e+05  0.000000e+00  0.000000e+00   
+75%    0.000000e+00  1.127000e+03  6.473362e+06  0.000000e+00  0.000000e+00   
+max    1.000000e+00  1.200000e+08  3.589722e+09  7.429367e+07  1.137061e+08   
+
+           idle_min   pkt_len_var   pkt_len_max  psh_flag_cnt  down_up_ratio  \
+count  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07   1.264307e+07   
+mean  -5.388428e+08  7.982028e+04  2.825689e+02  3.695119e-01   3.783113e-01   
+std    9.365455e+08  9.881098e+05  7.470757e+02  7.976854e+00   2.667225e+01   
+min   -2.147484e+09  0.000000e+00  0.000000e+00  0.000000e+00   0.000000e+00   
+25%   -2.147484e+09  0.000000e+00  0.000000e+00  0.000000e+00   0.000000e+00   
+50%    0.000000e+00  0.000000e+00  7.200000e+01  0.000000e+00   0.000000e+00   
+75%    5.645446e+06  2.727273e+03  1.000000e+02  0.000000e+00   1.000000e+00   
+max    1.207599e+09  9.175309e+08  6.516000e+04  2.553900e+04   8.510200e+04   
+
+         active_min  fwd_seg_size_avg  flow_duration   pkt_len_std  \
+count  1.264307e+07      1.264307e+07   1.264307e+07  1.264307e+07   
+mean   9.067116e+05      6.933736e+01   1.347784e+07  1.032835e+02   
+std    3.253490e+06      1.335392e+02   4.661448e+07  2.629733e+02   
+min    0.000000e+00      0.000000e+00  -4.581762e+10  0.000000e+00   
+25%    0.000000e+00      0.000000e+00   4.448000e+03  0.000000e+00   
+50%    0.000000e+00      3.333333e+01   7.841240e+05  0.000000e+00   
+75%    0.000000e+00      1.000000e+02   2.387319e+07  5.222330e+01   
+max    1.137061e+08      5.126219e+04   1.200000e+08  3.029077e+04   
+
+       subflow_bwd_byts   bwd_iat_std  init_bwd_win_byts  bwd_pkt_len_max  \
+count      1.264307e+07  1.264307e+07       1.264307e+07     1.264307e+07   
+mean       2.403540e+03  1.309444e+06       5.400558e+03     2.477794e+02   
+std        4.012546e+05  6.479610e+06       1.097261e+04     7.083367e+02   
+min        0.000000e+00  0.000000e+00       0.000000e+00     0.000000e+00   
+25%        0.000000e+00  0.000000e+00       0.000000e+00     0.000000e+00   
+50%        2.200000e+01  0.000000e+00       1.390000e+02     5.300000e+01   
+75%        1.000000e+02  2.664451e+02       1.025000e+03     1.000000e+02   
+max        6.270464e+08  9.405680e+09       6.553500e+04     6.516000e+04   
+
+       tot_bwd_pkts    bwd_pkts_s   fwd_iat_tot    fwd_pkts_s   fwd_iat_min  \
+count  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07  1.264307e+07   
+mean   4.200535e+00  5.138082e+03  1.087501e+07  1.031379e+04  1.888321e+06   
+std    2.236214e+02  4.076548e+04  4.580525e+07  9.078260e+04  4.465301e+07   
+min    0.000000e+00  0.000000e+00 -4.581762e+10  0.000000e+00 -4.635490e+10   
+25%    1.000000e+00  4.939395e-02  0.000000e+00  1.191827e-01  0.000000e+00   
+50%    2.000000e+00  5.761529e-01  6.338230e+05  3.149031e-01  1.720000e+02   
+75%    3.000000e+00  2.188543e+02  1.837486e+07  1.093513e+02  2.386462e+06   
+max    5.168330e+05  2.000000e+06  1.200000e+08  3.000000e+06  1.200000e+08   
+
+           src_port  totlen_bwd_pkts  fwd_act_data_pkts   pkt_len_min  \
+count  1.264307e+07     1.264307e+07       1.264307e+07  1.264307e+07   
+mean   3.889122e+04     2.619795e+03       2.095564e+00  1.638732e+01   
+std    1.824287e+04     4.014128e+05       1.210457e+02  3.727411e+01   
+min    0.000000e+00     0.000000e+00       0.000000e+00  0.000000e+00   
+25%    3.060700e+04     0.000000e+00       0.000000e+00  0.000000e+00   
+50%    4.280100e+04     9.000000e+01       1.000000e+00  0.000000e+00   
+75%    5.303000e+04     1.000000e+02       2.000000e+00  0.000000e+00   
+max    6.553500e+04     6.270000e+08       2.035880e+05  1.472000e+03   
+
+       bwd_seg_size_avg         Label  
+count      1.264307e+07  1.264307e+07  
+mean       1.020419e+02  1.080753e+01  
+std        2.487529e+02  7.693059e+00  
+min        0.000000e+00  0.000000e+00  
+25%        0.000000e+00  4.000000e+00  
+50%        3.333333e+01  1.500000e+01  
+75%        1.000000e+02  1.500000e+01  
+max        5.345946e+04  2.300000e+01  
+zero_percent fwd_psh_flags    99.621041
+rst_flag_cnt     99.560059
+urg_flag_cnt     94.464834
+active_std       96.421566
+dtype: float64
+Cleaned dataset saved successfully!
+Final Cleaned Dataset Columns:
+active_mean
+fwd_seg_size_min
+idle_mean
+fwd_pkt_len_min
+tot_fwd_pkts
+bwd_iat_max
+fwd_pkt_len_mean
+idle_max
+bwd_iat_tot
+flow_iat_min
+fwd_pkt_len_std
+flow_iat_mean
+bwd_header_len
+flow_byts_s
+fwd_iat_mean
+pkt_len_mean
+fwd_pkt_len_max
+flow_iat_std
+init_fwd_win_byts
+ack_flag_cnt
+bwd_pkt_len_min
+fwd_psh_flags
+bwd_iat_mean
+flow_iat_max
+pkt_size_avg
+subflow_bwd_pkts
+subflow_fwd_byts
+totlen_fwd_pkts
+fwd_header_len
+bwd_pkt_len_mean
+fin_flag_cnt
+idle_std
+dst_port
+flow_pkts_s
+subflow_fwd_pkts
+rst_flag_cnt
+protocol
+bwd_pkt_len_std
+fwd_iat_std
+syn_flag_cnt
+urg_flag_cnt
+bwd_iat_min
+fwd_iat_max
+active_std
+active_max
+idle_min
+pkt_len_var
+pkt_len_max
+psh_flag_cnt
+down_up_ratio
+active_min
+fwd_seg_size_avg
+flow_duration
+pkt_len_std
+subflow_bwd_byts
+bwd_iat_std
+init_bwd_win_byts
+bwd_pkt_len_max
+tot_bwd_pkts
+bwd_pkts_s
+fwd_iat_tot
+fwd_pkts_s
+fwd_iat_min
+src_port
+totlen_bwd_pkts
+fwd_act_data_pkts
+pkt_len_min
+bwd_seg_size_avg
+Label
+balanced_df.head    active_mean  fwd_seg_size_min  idle_mean  fwd_pkt_len_min  tot_fwd_pkts  \
+0          0.0                 0        0.0                0             2   
+1          0.0                 0        0.0                0             4   
+2          0.0                 0        0.0                0            42   
+3          0.0                 0        0.0                0             2   
+4          0.0                 0        0.0                0             2   
+
+   bwd_iat_max  fwd_pkt_len_mean  idle_max  bwd_iat_tot  flow_iat_min  \
+0            9               0.0         0            9           7.0   
+1            0               0.0         0            0           4.0   
+2            0               0.0         0            0           3.0   
+3            0               0.0         0            0          34.0   
+4            0               0.0         0            0           9.0   
+
+   fwd_pkt_len_std  flow_iat_mean  bwd_header_len  flow_byts_s  fwd_iat_mean  \
+0              0.0      43554.332               0          0.0          7.00   
+1              0.0        976.000               0          0.0        976.00   
+2              0.0      36962.780               0          0.0      36962.78   
+3              0.0         34.000               0          0.0         34.00   
+4              0.0          9.000               0          0.0          9.00   
+
+   pkt_len_mean  fwd_pkt_len_max  flow_iat_std  init_fwd_win_byts  \
+0           0.0                0    75424.4600                  0   
+1           0.0                0     1680.9559                  0   
+2           0.0                0    49762.8050                  0   
+3           0.0                0        0.0000                  0   
+4           0.0                0        0.0000                  0   
+
+   ack_flag_cnt  bwd_pkt_len_min  fwd_psh_flags  bwd_iat_mean  flow_iat_max  \
+0             0                0              0           9.0      130647.0   
+1             0                0              0           0.0        2917.0   
+2             0                0              0           0.0      234635.0   
+3             0                0              0           0.0          34.0   
+4             0                0              0           0.0           9.0   
+
+   pkt_size_avg  subflow_bwd_pkts  subflow_fwd_byts  totlen_fwd_pkts  \
+0           0.0                 2                 0                0   
+1           0.0                 0                 0                0   
+2           0.0                 0                 0                0   
+3           0.0                 0                 0                0   
+4           0.0                 0                 0                0   
+
+   fwd_header_len  bwd_pkt_len_mean  fin_flag_cnt  idle_std  dst_port  \
+0               0               0.0             0       0.0         0   
+1               0               0.0             0       0.0         0   
+2               0               0.0             0       0.0         0   
+3               0               0.0             0       0.0         0   
+4               0               0.0             0       0.0         0   
+
+     flow_pkts_s  subflow_fwd_pkts  rst_flag_cnt  protocol  bwd_pkt_len_std  \
+0      30.613104                 2             0         0              0.0   
+1    1366.120200                 4             0         0              0.0   
+2      27.714102                42             0         0              0.0   
+3   58823.530000                 2             0         0              0.0   
+4  222222.220000                 2             0         0              0.0   
+
+   fwd_iat_std  syn_flag_cnt  urg_flag_cnt  bwd_iat_min  fwd_iat_max  \
+0       0.0000             0             0            9          7.0   
+1    1680.9559             0             0            0       2917.0   
+2   49762.8050             0             0            0     234635.0   
+3       0.0000             0             0            0         34.0   
+4       0.0000             0             0            0          9.0   
+
+   active_std  active_max  idle_min  pkt_len_var  pkt_len_max  psh_flag_cnt  \
+0         0.0         0.0         0          0.0            0             0   
+1         0.0         0.0         0          0.0            0             0   
+2         0.0         0.0         0          0.0            0             0   
+3         0.0         0.0         0          0.0            0             0   
+4         0.0         0.0         0          0.0            0             0   
+
+   down_up_ratio  active_min  fwd_seg_size_avg  flow_duration  pkt_len_std  \
+0            1.0         0.0               0.0       130663.0          0.0   
+1            0.0         0.0               0.0         2928.0          0.0   
+2            0.0         0.0               0.0      1515474.0          0.0   
+3            0.0         0.0               0.0           34.0          0.0   
+4            0.0         0.0               0.0            9.0          0.0   
+
+   subflow_bwd_byts  bwd_iat_std  init_bwd_win_byts  bwd_pkt_len_max  \
+0                 0          0.0                  0                0   
+1                 0          0.0                  0                0   
+2                 0          0.0                  0                0   
+3                 0          0.0                  0                0   
+4                 0          0.0                  0                0   
+
+   tot_bwd_pkts  bwd_pkts_s  fwd_iat_tot     fwd_pkts_s  fwd_iat_min  \
+0             2   15.306552          7.0      15.306552          7.0   
+1             0    0.000000       2928.0    1366.120200          4.0   
+2             0    0.000000    1515474.0      27.714102          3.0   
+3             0    0.000000         34.0   58823.530000         34.0   
+4             0    0.000000          9.0  222222.220000          9.0   
+
+   src_port  totlen_bwd_pkts  fwd_act_data_pkts  pkt_len_min  \
+0         0                0                  0            0   
+1         0                0                  0            0   
+2         0                0                  0            0   
+3         0                0                  0            0   
+4         0                0                  0            0   
+
+   bwd_seg_size_avg  Label  
+0               0.0      0  
+1               0.0      0  
+2               0.0      0  
+3               0.0      0  
+4               0.0      0  
+zero_percent fwd_psh_flags    99.621041
+rst_flag_cnt     99.560059
+urg_flag_cnt     94.464834
+active_std       96.421566
+dtype: float64
+balanced_df.head    active_mean  fwd_seg_size_min  idle_mean  fwd_pkt_len_min  tot_fwd_pkts  \
+0          0.0                 0        0.0                0             2   
+1          0.0                 0        0.0                0             4   
+2          0.0                 0        0.0                0            42   
+3          0.0                 0        0.0                0             2   
+4          0.0                 0        0.0                0             2   
+
+   bwd_iat_max  fwd_pkt_len_mean  idle_max  bwd_iat_tot  flow_iat_min  \
+0            9               0.0         0            9           7.0   
+1            0               0.0         0            0           4.0   
+2            0               0.0         0            0           3.0   
+3            0               0.0         0            0          34.0   
+4            0               0.0         0            0           9.0   
+
+   fwd_pkt_len_std  flow_iat_mean  bwd_header_len  flow_byts_s  fwd_iat_mean  \
+0              0.0      43554.332               0          0.0          7.00   
+1              0.0        976.000               0          0.0        976.00   
+2              0.0      36962.780               0          0.0      36962.78   
+3              0.0         34.000               0          0.0         34.00   
+4              0.0          9.000               0          0.0          9.00   
+
+   pkt_len_mean  fwd_pkt_len_max  flow_iat_std  init_fwd_win_byts  \
+0           0.0                0    75424.4600                  0   
+1           0.0                0     1680.9559                  0   
+2           0.0                0    49762.8050                  0   
+3           0.0                0        0.0000                  0   
+4           0.0                0        0.0000                  0   
+
+   ack_flag_cnt  bwd_pkt_len_min  fwd_psh_flags  bwd_iat_mean  flow_iat_max  \
+0             0                0              0           9.0      130647.0   
+1             0                0              0           0.0        2917.0   
+2             0                0              0           0.0      234635.0   
+3             0                0              0           0.0          34.0   
+4             0                0              0           0.0           9.0   
+
+   pkt_size_avg  subflow_bwd_pkts  subflow_fwd_byts  totlen_fwd_pkts  \
+0           0.0                 2                 0                0   
+1           0.0                 0                 0                0   
+2           0.0                 0                 0                0   
+3           0.0                 0                 0                0   
+4           0.0                 0                 0                0   
+
+   fwd_header_len  bwd_pkt_len_mean  fin_flag_cnt  idle_std  dst_port  \
+0               0               0.0             0       0.0         0   
+1               0               0.0             0       0.0         0   
+2               0               0.0             0       0.0         0   
+3               0               0.0             0       0.0         0   
+4               0               0.0             0       0.0         0   
+
+     flow_pkts_s  subflow_fwd_pkts  rst_flag_cnt  protocol  bwd_pkt_len_std  \
+0      30.613104                 2             0         0              0.0   
+1    1366.120200                 4             0         0              0.0   
+2      27.714102                42             0         0              0.0   
+3   58823.530000                 2             0         0              0.0   
+4  222222.220000                 2             0         0              0.0   
+
+   fwd_iat_std  syn_flag_cnt  urg_flag_cnt  bwd_iat_min  fwd_iat_max  \
+0       0.0000             0             0            9          7.0   
+1    1680.9559             0             0            0       2917.0   
+2   49762.8050             0             0            0     234635.0   
+3       0.0000             0             0            0         34.0   
+4       0.0000             0             0            0          9.0   
+
+   active_std  active_max  idle_min  pkt_len_var  pkt_len_max  psh_flag_cnt  \
+0         0.0         0.0         0          0.0            0             0   
+1         0.0         0.0         0          0.0            0             0   
+2         0.0         0.0         0          0.0            0             0   
+3         0.0         0.0         0          0.0            0             0   
+4         0.0         0.0         0          0.0            0             0   
+
+   down_up_ratio  active_min  fwd_seg_size_avg  flow_duration  pkt_len_std  \
+0            1.0         0.0               0.0       130663.0          0.0   
+1            0.0         0.0               0.0         2928.0          0.0   
+2            0.0         0.0               0.0      1515474.0          0.0   
+3            0.0         0.0               0.0           34.0          0.0   
+4            0.0         0.0               0.0            9.0          0.0   
+
+   subflow_bwd_byts  bwd_iat_std  init_bwd_win_byts  bwd_pkt_len_max  \
+0                 0          0.0                  0                0   
+1                 0          0.0                  0                0   
+2                 0          0.0                  0                0   
+3                 0          0.0                  0                0   
+4                 0          0.0                  0                0   
+
+   tot_bwd_pkts  bwd_pkts_s  fwd_iat_tot     fwd_pkts_s  fwd_iat_min  \
+0             2   15.306552          7.0      15.306552          7.0   
+1             0    0.000000       2928.0    1366.120200          4.0   
+2             0    0.000000    1515474.0      27.714102          3.0   
+3             0    0.000000         34.0   58823.530000         34.0   
+4             0    0.000000          9.0  222222.220000          9.0   
+
+   src_port  totlen_bwd_pkts  fwd_act_data_pkts  pkt_len_min  \
+0         0                0                  0            0   
+1         0                0                  0            0   
+2         0                0                  0            0   
+3         0                0                  0            0   
+4         0                0                  0            0   
+
+   bwd_seg_size_avg  Label  
+0               0.0      0  
+1               0.0      0  
+2               0.0      0  
+3               0.0      0  
+4               0.0      0  
+zero_percent active_mean          78.000124
+fwd_seg_size_min     59.268686
+fwd_pkt_len_min      75.535738
+fwd_pkt_len_std      69.490039
+init_fwd_win_byts    67.190978
+ack_flag_cnt         71.594275
+bwd_pkt_len_min      77.839593
+fwd_psh_flags        99.621041
+fin_flag_cnt         79.552911
+idle_std             77.474753
+rst_flag_cnt         99.560059
+bwd_pkt_len_std      62.768626
+urg_flag_cnt         94.464834
+active_std           96.421566
+active_max           78.000124
+pkt_len_var          57.664210
+psh_flag_cnt         80.747027
+down_up_ratio        67.909893
+active_min           78.000124
+pkt_len_std          57.664210
+bwd_iat_std          73.803912
+pkt_len_min          78.011814
+dtype: float64
+Tue Mar 18 02:20:28 UTC 2025 - Uploading output file to Bucket
+Tue Mar 18 02:20:28 UTC 2025 - Uploading oversampled file to Cloud Storage
+Copying file:///home/danielqjr04/data/final/final_cleaned_dataset.parquet [Content-Type=application/octet-stream]...
+/ [0 files][    0.0 B/  1.5 GiB]                                                ==> NOTE: You are uploading one or more large file(s), which would run
+significantly faster if you enable parallel composite uploads. This
+feature can be enabled by editing the
+"parallel_composite_upload_threshold" value in your .boto
+configuration file. However, note that if you do this large files will
+be uploaded as `composite objects
+<https://cloud.google.com/storage/docs/composite-objects>`_,which
+means that any user who downloads such objects will need to have a
+compiled crcmod installed (see "gsutil help crcmod"). This is because
+without a compiled crcmod, computing checksums on composite objects is
+so slow that gsutil disables downloads of composite objects.
+
+-- [0 files][135.1 MiB/  1.5 GiB]                                                \|| [0 files][265.3 MiB/  1.5 GiB]                                                // [0 files][384.9 MiB/  1.5 GiB]                                                -\\ [0 files][503.5 MiB/  1.5 GiB]                                                |// [0 files][621.3 MiB/  1.5 GiB]                                                -- [0 files][749.2 MiB/  1.5 GiB]                                                \|| [0 files][875.3 MiB/  1.5 GiB]                                                /-- [0 files][995.2 MiB/  1.5 GiB]                                                \\ [0 files][  1.1 GiB/  1.5 GiB]                                                |// [0 files][  1.2 GiB/  1.5 GiB]                                                -\\ [0 files][  1.3 GiB/  1.5 GiB]  121.0 MiB/s                                   || [0 files][  1.4 GiB/  1.5 GiB]  121.5 MiB/s                                   // [1 files][  1.5 GiB/  1.5 GiB]  112.1 MiB/s                                   -
+Operation completed over 1 objects/1.5 GiB.                                      
+Tue Mar 18 02:20:43 UTC 2025 - Startup script completed successfully
+Tue Mar 18 02:20:43 UTC 2025 - Uploading log file to Bucket
+Tue Mar 18 02:20:43 UTC 2025 - Uploading log file to Cloud Storage
+Copying file:///home/danielqjr04/combine.log [Content-Type=application/octet-stream]...
+/ [0 files][    0.0 B/100.3 KiB]                                                

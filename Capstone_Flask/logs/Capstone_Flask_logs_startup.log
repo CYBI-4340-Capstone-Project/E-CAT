@@ -1,0 +1,1253 @@
+2025-03-28 18:12:02 - Startup script started
+date: extra operand ‘%H:%M:%S'’
+Try 'date --help' for more information.
+ - Creating new user: capstone4340-admin
+adduser: The user `capstone4340-admin' already exists.
+ - Setting up SSH for capstone4340-admin
+date: extra operand ‘%H:%M:%S'’
+Try 'date --help' for more information.
+date: extra operand ‘%H:%M:%S'’
+Try 'date --help' for more information.
+ - Adding SSH key for capstone4340-admin
+ - Adding capstone4340-admin to sudo group
+date: extra operand ‘%H:%M:%S'’
+Try 'date --help' for more information.
+chown: cannot access '/home/capstone4340-admin/project': No such file or directory
+2025-03-28 18:12:03 - Updating package lists
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+Get:7 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+Get:8 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+Get:9 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+Get:10 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+Get:11 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2423 kB]
+Get:12 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [400 kB]
+Get:13 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [18.5 kB]
+Get:14 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [3179 kB]
+Get:15 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [562 kB]
+Get:16 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [676 B]
+Get:17 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1196 kB]
+Get:18 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [294 kB]
+Get:19 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [28.7 kB]
+Get:20 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [46.5 kB]
+Get:21 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [11.8 kB]
+Get:22 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [592 B]
+Get:23 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [68.4 kB]
+Get:24 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.1 kB]
+Get:25 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [392 B]
+Get:26 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:27 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [30.0 kB]
+Get:28 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.6 kB]
+Get:29 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [672 B]
+Get:30 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+Get:31 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [2181 kB]
+Get:32 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [337 kB]
+Get:33 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [13.6 kB]
+Get:34 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [3059 kB]
+Get:35 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [541 kB]
+Get:36 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [624 B]
+Get:37 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [969 kB]
+Get:38 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [208 kB]
+Get:39 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [21.7 kB]
+Get:40 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [39.6 kB]
+Get:41 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [8716 B]
+Get:42 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [368 B]
+Fetched 36.4 MB in 9s (4064 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+11 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+#
+# Patch available for a potential RCE vulnerability 
+# in FreeType, tracked by CVE-2025-27363.
+# For more see: https://ubuntu.com/security/CVE-2025-27363
+#
+The following NEW packages will be installed:
+  linux-gcp-6.8-headers-6.8.0-1026 linux-gcp-6.8-tools-6.8.0-1026
+  linux-headers-6.8.0-1026-gcp linux-image-6.8.0-1026-gcp
+  linux-modules-6.8.0-1026-gcp linux-tools-6.8.0-1026-gcp
+The following packages will be upgraded:
+  cloud-init libdw1 libelf1 libfreetype6 libxslt1.1 linux-gcp
+  linux-headers-gcp linux-image-gcp linux-tools-common sosreport tzdata
+11 upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+9 standard LTS security updates
+Need to get 63.6 MB of archives.
+After this operation, 284 MB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdw1 amd64 0.186-1ubuntu0.1 [251 kB]
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libelf1 amd64 0.186-1ubuntu0.1 [51.1 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 tzdata all 2025a-0ubuntu0.22.04 [347 kB]
+Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libfreetype6 amd64 2.11.1+dfsg-1ubuntu0.3 [388 kB]
+Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxslt1.1 amd64 1.1.34-4ubuntu0.22.04.3 [164 kB]
+Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-modules-6.8.0-1026-gcp amd64 6.8.0-1026.28~22.04.1 [25.4 MB]
+Get:7 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-image-6.8.0-1026-gcp amd64 6.8.0-1026.28~22.04.1 [14.8 MB]
+Get:8 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-gcp amd64 6.8.0-1026.28~22.04.1 [1750 B]
+Get:9 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-image-gcp amd64 6.8.0-1026.28~22.04.1 [2556 B]
+Get:10 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-gcp-6.8-headers-6.8.0-1026 amd64 6.8.0-1026.28~22.04.1 [13.6 MB]
+Get:11 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-6.8.0-1026-gcp amd64 6.8.0-1026.28~22.04.1 [3629 kB]
+Get:12 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-gcp amd64 6.8.0-1026.28~22.04.1 [2478 B]
+Get:13 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-tools-common all 5.15.0-135.146 [291 kB]
+Get:14 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-gcp-6.8-tools-6.8.0-1026 amd64 6.8.0-1026.28~22.04.1 [3771 kB]
+Get:15 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-tools-6.8.0-1026-gcp amd64 6.8.0-1026.28~22.04.1 [1768 B]
+Get:16 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 sosreport amd64 4.8.2-0ubuntu0~22.04.1 [360 kB]
+Get:17 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 cloud-init all 24.4.1-0ubuntu0~22.04.2 [566 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 63.6 MB in 2s (27.0 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66644 files and directories currently installed.)
+Preparing to unpack .../00-libdw1_0.186-1ubuntu0.1_amd64.deb ...
+Unpacking libdw1:amd64 (0.186-1ubuntu0.1) over (0.186-1build1) ...
+Preparing to unpack .../01-libelf1_0.186-1ubuntu0.1_amd64.deb ...
+Unpacking libelf1:amd64 (0.186-1ubuntu0.1) over (0.186-1build1) ...
+Preparing to unpack .../02-tzdata_2025a-0ubuntu0.22.04_all.deb ...
+Unpacking tzdata (2025a-0ubuntu0.22.04) over (2024b-0ubuntu0.22.04.1) ...
+Preparing to unpack .../03-libfreetype6_2.11.1+dfsg-1ubuntu0.3_amd64.deb ...
+Unpacking libfreetype6:amd64 (2.11.1+dfsg-1ubuntu0.3) over (2.11.1+dfsg-1ubuntu0.2) ...
+Preparing to unpack .../04-libxslt1.1_1.1.34-4ubuntu0.22.04.3_amd64.deb ...
+Unpacking libxslt1.1:amd64 (1.1.34-4ubuntu0.22.04.3) over (1.1.34-4ubuntu0.22.04.1) ...
+Selecting previously unselected package linux-modules-6.8.0-1026-gcp.
+Preparing to unpack .../05-linux-modules-6.8.0-1026-gcp_6.8.0-1026.28~22.04.1_amd64.deb ...
+Unpacking linux-modules-6.8.0-1026-gcp (6.8.0-1026.28~22.04.1) ...
+Selecting previously unselected package linux-image-6.8.0-1026-gcp.
+Preparing to unpack .../06-linux-image-6.8.0-1026-gcp_6.8.0-1026.28~22.04.1_amd64.deb ...
+Unpacking linux-image-6.8.0-1026-gcp (6.8.0-1026.28~22.04.1) ...
+Preparing to unpack .../07-linux-gcp_6.8.0-1026.28~22.04.1_amd64.deb ...
+Unpacking linux-gcp (6.8.0-1026.28~22.04.1) over (6.8.0-1025.27~22.04.1) ...
+Preparing to unpack .../08-linux-image-gcp_6.8.0-1026.28~22.04.1_amd64.deb ...
+Unpacking linux-image-gcp (6.8.0-1026.28~22.04.1) over (6.8.0-1025.27~22.04.1) ...
+Selecting previously unselected package linux-gcp-6.8-headers-6.8.0-1026.
+Preparing to unpack .../09-linux-gcp-6.8-headers-6.8.0-1026_6.8.0-1026.28~22.04.1_amd64.deb ...
+Unpacking linux-gcp-6.8-headers-6.8.0-1026 (6.8.0-1026.28~22.04.1) ...
+Selecting previously unselected package linux-headers-6.8.0-1026-gcp.
+Preparing to unpack .../10-linux-headers-6.8.0-1026-gcp_6.8.0-1026.28~22.04.1_amd64.deb ...
+Unpacking linux-headers-6.8.0-1026-gcp (6.8.0-1026.28~22.04.1) ...
+Preparing to unpack .../11-linux-headers-gcp_6.8.0-1026.28~22.04.1_amd64.deb ...
+Unpacking linux-headers-gcp (6.8.0-1026.28~22.04.1) over (6.8.0-1025.27~22.04.1) ...
+Preparing to unpack .../12-linux-tools-common_5.15.0-135.146_all.deb ...
+Unpacking linux-tools-common (5.15.0-135.146) over (5.15.0-134.145) ...
+Selecting previously unselected package linux-gcp-6.8-tools-6.8.0-1026.
+Preparing to unpack .../13-linux-gcp-6.8-tools-6.8.0-1026_6.8.0-1026.28~22.04.1_amd64.deb ...
+Unpacking linux-gcp-6.8-tools-6.8.0-1026 (6.8.0-1026.28~22.04.1) ...
+Selecting previously unselected package linux-tools-6.8.0-1026-gcp.
+Preparing to unpack .../14-linux-tools-6.8.0-1026-gcp_6.8.0-1026.28~22.04.1_amd64.deb ...
+Unpacking linux-tools-6.8.0-1026-gcp (6.8.0-1026.28~22.04.1) ...
+Preparing to unpack .../15-sosreport_4.8.2-0ubuntu0~22.04.1_amd64.deb ...
+Unpacking sosreport (4.8.2-0ubuntu0~22.04.1) over (4.7.2-0ubuntu1~22.04.2) ...
+Preparing to unpack .../16-cloud-init_24.4.1-0ubuntu0~22.04.2_all.deb ...
+Unpacking cloud-init (24.4.1-0ubuntu0~22.04.2) over (24.4.1-0ubuntu0~22.04.1) ...
+Setting up cloud-init (24.4.1-0ubuntu0~22.04.2) ...
+Setting up linux-modules-6.8.0-1026-gcp (6.8.0-1026.28~22.04.1) ...
+Setting up linux-image-6.8.0-1026-gcp (6.8.0-1026.28~22.04.1) ...
+I: /boot/vmlinuz is now a symlink to vmlinuz-6.8.0-1026-gcp
+I: /boot/initrd.img is now a symlink to initrd.img-6.8.0-1026-gcp
+Setting up tzdata (2025a-0ubuntu0.22.04) ...
+
+Current default time zone: 'Etc/UTC'
+Local time is now:      Fri Mar 28 18:12:43 UTC 2025.
+Universal Time is now:  Fri Mar 28 18:12:43 UTC 2025.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up libfreetype6:amd64 (2.11.1+dfsg-1ubuntu0.3) ...
+Setting up sosreport (4.8.2-0ubuntu0~22.04.1) ...
+Setting up linux-image-gcp (6.8.0-1026.28~22.04.1) ...
+Setting up libxslt1.1:amd64 (1.1.34-4ubuntu0.22.04.3) ...
+Setting up linux-gcp-6.8-headers-6.8.0-1026 (6.8.0-1026.28~22.04.1) ...
+Setting up libelf1:amd64 (0.186-1ubuntu0.1) ...
+Setting up linux-tools-common (5.15.0-135.146) ...
+Setting up libdw1:amd64 (0.186-1ubuntu0.1) ...
+Setting up linux-gcp-6.8-tools-6.8.0-1026 (6.8.0-1026.28~22.04.1) ...
+Setting up linux-tools-6.8.0-1026-gcp (6.8.0-1026.28~22.04.1) ...
+Setting up linux-headers-6.8.0-1026-gcp (6.8.0-1026.28~22.04.1) ...
+Setting up linux-headers-gcp (6.8.0-1026.28~22.04.1) ...
+Setting up linux-gcp (6.8.0-1026.28~22.04.1) ...
+Processing triggers for rsyslog (8.2112.0-2ubuntu2.2) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.9) ...
+Processing triggers for linux-image-6.8.0-1026-gcp (6.8.0-1026.28~22.04.1) ...
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-6.8.0-1026-gcp
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/40-force-partuuid.cfg'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+GRUB_FORCE_PARTUUID is set, will attempt initrdless boot
+Found linux image: /boot/vmlinuz-6.8.0-1026-gcp
+Found initrd image: /boot/initrd.img-6.8.0-1026-gcp
+Found linux image: /boot/vmlinuz-6.8.0-1025-gcp
+Found initrd image: /boot/initrd.img-6.8.0-1025-gcp
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+
+Pending kernel upgrade!
+
+Running kernel version:
+  6.8.0-1025-gcp
+
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-1026-gcp.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting. [Return]
+
+Services to be restarted:
+ systemctl restart packagekit.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.81.0-1ubuntu1.20).
+curl set to manually installed.
+The following NEW packages will be installed:
+  apt-transport-https debian-archive-keyring debian-keyring
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 29.8 MB of archives.
+After this operation, 32.4 MB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 apt-transport-https all 2.4.13 [1510 B]
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 debian-archive-keyring all 2021.1.1ubuntu2 [90.6 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 debian-keyring all 2021.12.24 [29.7 MB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 29.8 MB in 2s (13.3 MB/s)
+Selecting previously unselected package apt-transport-https.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 98174 files and directories currently installed.)
+Preparing to unpack .../apt-transport-https_2.4.13_all.deb ...
+Unpacking apt-transport-https (2.4.13) ...
+Selecting previously unselected package debian-archive-keyring.
+Preparing to unpack .../debian-archive-keyring_2021.1.1ubuntu2_all.deb ...
+Unpacking debian-archive-keyring (2021.1.1ubuntu2) ...
+Selecting previously unselected package debian-keyring.
+Preparing to unpack .../debian-keyring_2021.12.24_all.deb ...
+Unpacking debian-keyring (2021.12.24) ...
+Setting up apt-transport-https (2.4.13) ...
+Setting up debian-archive-keyring (2021.1.1ubuntu2) ...
+Setting up debian-keyring (2021.12.24) ...
+
+Pending kernel upgrade!
+
+Running kernel version:
+  6.8.0-1025-gcp
+
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-1026-gcp.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting. [Return]
+
+Services to be restarted:
+ systemctl restart packagekit.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+# Source: Caddy
+# Site: https://github.com/caddyserver/caddy
+# Repository: Caddy / stable
+# Description: Fast, multi-platform web server with automatic HTTPS
+
+
+deb [signed-by=/usr/share/keyrings/caddy-stable-archive-keyring.gpg] https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version main
+
+deb-src [signed-by=/usr/share/keyrings/caddy-stable-archive-keyring.gpg] https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version main
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Get:5 https://packages.cloud.google.com/apt google-cloud-ops-agent-jammy-2 InRelease [1291 B]
+Get:6 https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version InRelease [8266 B]
+Get:7 https://packages.cloud.google.com/apt google-cloud-ops-agent-jammy-2/main amd64 Packages [32.5 kB]
+Get:8 https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version/main amd64 Packages [3947 B]
+Fetched 46.0 kB in 1s (41.2 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+#
+# Patch available for a potential RCE vulnerability 
+# in FreeType, tracked by CVE-2025-27363.
+# For more see: https://ubuntu.com/security/CVE-2025-27363
+#
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  caddy
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 14.4 MB of archives.
+After this operation, 40.0 MB of additional disk space will be used.
+Get:1 https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version/main amd64 caddy amd64 2.9.1 [14.4 MB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 14.4 MB in 1s (13.8 MB/s)
+Selecting previously unselected package caddy.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 98202 files and directories currently installed.)
+Preparing to unpack .../archives/caddy_2.9.1_amd64.deb ...
+Unpacking caddy (2.9.1) ...
+Setting up caddy (2.9.1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/caddy.service → /lib/systemd/system/caddy.service.
+Processing triggers for man-db (2.10.2-1) ...
+
+Pending kernel upgrade!
+
+Running kernel version:
+  6.8.0-1025-gcp
+
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-1026-gcp.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting. [Return]
+
+Services to be restarted:
+ systemctl restart packagekit.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-setuptools is already the newest version (59.6.0-1.2ubuntu0.22.04.2).
+The following additional packages will be installed:
+  bzip2 cpp cpp-11 dpkg-dev fakeroot fontconfig-config fonts-dejavu-core g++
+  g++-11 gcc gcc-11 gcc-11-base javascript-common libalgorithm-diff-perl
+  libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan6 libatomic1
+  libc-dev-bin libc-devtools libc6-dev libcc1-0 libcrypt-dev libdeflate0
+  libdpkg-perl libexpat1-dev libfakeroot libfile-fcntllock-perl libfontconfig1
+  libgcc-11-dev libgd3 libgomp1 libisl23 libitm1 libjbig0 libjpeg-turbo8
+  libjpeg8 libjs-jquery libjs-sphinxdoc libjs-underscore liblsan0 libmpc3
+  libnsl-dev libpython3-dev libpython3.10-dev libquadmath0 libstdc++-11-dev
+  libtiff5 libtirpc-dev libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev
+  lto-disabled-list make manpages-dev python3-wheel python3.10-dev
+  rpcsvc-proto zlib1g-dev
+Suggested packages:
+  bzip2-doc cpp-doc gcc-11-locales g++-multilib g++-11-multilib gcc-11-doc
+  gcc-multilib autoconf automake libtool flex bison gdb gcc-doc
+  gcc-11-multilib glibc-doc bzr libgd-tools libssl-doc libstdc++-11-doc
+  make-doc
+The following NEW packages will be installed:
+  build-essential bzip2 cpp cpp-11 dpkg-dev fakeroot fontconfig-config
+  fonts-dejavu-core g++ g++-11 gcc gcc-11 gcc-11-base javascript-common
+  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
+  libasan6 libatomic1 libc-dev-bin libc-devtools libc6-dev libcc1-0
+  libcrypt-dev libdeflate0 libdpkg-perl libexpat1-dev libfakeroot libffi-dev
+  libfile-fcntllock-perl libfontconfig1 libgcc-11-dev libgd3 libgomp1 libisl23
+  libitm1 libjbig0 libjpeg-turbo8 libjpeg8 libjs-jquery libjs-sphinxdoc
+  libjs-underscore liblsan0 libmpc3 libnsl-dev libpython3-dev
+  libpython3.10-dev libquadmath0 libssl-dev libstdc++-11-dev libtiff5
+  libtirpc-dev libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev
+  lto-disabled-list make manpages-dev python3-dev python3-pip python3-wheel
+  python3.10-dev rpcsvc-proto zlib1g-dev
+0 upgraded, 66 newly installed, 0 to remove and 0 not upgraded.
+Need to get 73.7 MB of archives.
+After this operation, 252 MB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-dev-bin amd64 2.35-0ubuntu3.9 [20.3 kB]
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-135.146 [1321 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libcrypt-dev amd64 1:4.4.27-1 [112 kB]
+Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu6 [68.5 kB]
+Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtirpc-dev amd64 1.3.2-2ubuntu0.1 [192 kB]
+Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libnsl-dev amd64 1.3.0-2build2 [71.3 kB]
+Get:7 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6-dev amd64 2.35-0ubuntu3.9 [2100 kB]
+Get:8 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11-base amd64 11.4.0-1ubuntu1~22.04 [20.2 kB]
+Get:9 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libisl23 amd64 0.24-2build1 [727 kB]
+Get:10 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libmpc3 amd64 1.2.1-2build1 [46.9 kB]
+Get:11 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 cpp-11 amd64 11.4.0-1ubuntu1~22.04 [10.0 MB]
+Get:12 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 cpp amd64 4:11.2.0-1ubuntu1 [27.7 kB]
+Get:13 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcc1-0 amd64 12.3.0-1ubuntu1~22.04 [48.3 kB]
+Get:14 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgomp1 amd64 12.3.0-1ubuntu1~22.04 [126 kB]
+Get:15 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libitm1 amd64 12.3.0-1ubuntu1~22.04 [30.2 kB]
+Get:16 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libatomic1 amd64 12.3.0-1ubuntu1~22.04 [10.4 kB]
+Get:17 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libasan6 amd64 11.4.0-1ubuntu1~22.04 [2282 kB]
+Get:18 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 liblsan0 amd64 12.3.0-1ubuntu1~22.04 [1069 kB]
+Get:19 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtsan0 amd64 11.4.0-1ubuntu1~22.04 [2260 kB]
+Get:20 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libubsan1 amd64 12.3.0-1ubuntu1~22.04 [976 kB]
+Get:21 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libquadmath0 amd64 12.3.0-1ubuntu1~22.04 [154 kB]
+Get:22 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcc-11-dev amd64 11.4.0-1ubuntu1~22.04 [2517 kB]
+Get:23 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11 amd64 11.4.0-1ubuntu1~22.04 [20.1 MB]
+Get:24 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 gcc amd64 4:11.2.0-1ubuntu1 [5112 B]
+Get:25 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstdc++-11-dev amd64 11.4.0-1ubuntu1~22.04 [2101 kB]
+Get:26 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 g++-11 amd64 11.4.0-1ubuntu1~22.04 [11.4 MB]
+Get:27 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 g++ amd64 4:11.2.0-1ubuntu1 [1412 B]
+Get:28 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 make amd64 4.3-4.1build1 [180 kB]
+Get:29 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdpkg-perl all 1.21.1ubuntu2.3 [237 kB]
+Get:30 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 bzip2 amd64 1.0.8-5build1 [34.8 kB]
+Get:31 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 lto-disabled-list all 24 [12.5 kB]
+Get:32 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 dpkg-dev all 1.21.1ubuntu2.3 [922 kB]
+Get:33 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 build-essential amd64 12.9ubuntu3 [4744 B]
+Get:34 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libfakeroot amd64 1.28-1ubuntu1 [31.5 kB]
+Get:35 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 fakeroot amd64 1.28-1ubuntu1 [60.4 kB]
+Get:36 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-dejavu-core all 2.37-2build1 [1041 kB]
+Get:37 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig-config all 2.13.1-4.2ubuntu5 [29.1 kB]
+Get:38 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 javascript-common all 11+nmu1 [5936 B]
+Get:39 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-perl all 1.201-1 [41.8 kB]
+Get:40 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-xs-perl amd64 0.04-6build3 [11.9 kB]
+Get:41 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]
+Get:42 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libfontconfig1 amd64 2.13.1-4.2ubuntu5 [131 kB]
+Get:43 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8 amd64 2.1.2-0ubuntu1 [134 kB]
+Get:44 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8 amd64 8c-2ubuntu10 [2264 B]
+Get:45 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libdeflate0 amd64 1.10-2 [70.9 kB]
+Get:46 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.22.04.1 [29.2 kB]
+Get:47 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwebp7 amd64 1.2.2-2ubuntu0.22.04.2 [206 kB]
+Get:48 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.10 [185 kB]
+Get:49 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.2 [36.7 kB]
+Get:50 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgd3 amd64 2.3.0-2ubuntu2.3 [129 kB]
+Get:51 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-devtools amd64 2.35-0ubuntu3.9 [29.0 kB]
+Get:52 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1-dev amd64 2.4.7-1ubuntu0.5 [147 kB]
+Get:53 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libfile-fcntllock-perl amd64 0.22-3build7 [33.9 kB]
+Get:54 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1 [321 kB]
+Get:55 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-underscore all 1.13.2~dfsg-2 [118 kB]
+Get:56 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-sphinxdoc all 4.3.2-1 [139 kB]
+Get:57 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu9.2 [164 kB]
+Get:58 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-dev amd64 3.10.12-1~22.04.9 [4763 kB]
+Get:59 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-dev amd64 3.10.6-1~22.04.1 [7064 B]
+Get:60 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssl-dev amd64 3.0.2-0ubuntu1.19 [2376 kB]
+Get:61 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 manpages-dev all 5.10-1ubuntu1 [2309 kB]
+Get:62 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-dev amd64 3.10.12-1~22.04.9 [508 kB]
+Get:63 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-dev amd64 3.10.6-1~22.04.1 [26.0 kB]
+Get:64 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-wheel all 0.37.1-2ubuntu0.22.04.1 [32.0 kB]
+Get:65 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-pip all 22.0.2+dfsg-1ubuntu0.5 [1306 kB]
+Get:66 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libffi-dev amd64 3.4.2-4 [63.7 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 73.7 MB in 2s (47.3 MB/s)
+Selecting previously unselected package libc-dev-bin.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 98237 files and directories currently installed.)
+Preparing to unpack .../00-libc-dev-bin_2.35-0ubuntu3.9_amd64.deb ...
+Unpacking libc-dev-bin (2.35-0ubuntu3.9) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../01-linux-libc-dev_5.15.0-135.146_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.15.0-135.146) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../02-libcrypt-dev_1%3a4.4.27-1_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.27-1) ...
+Selecting previously unselected package rpcsvc-proto.
+Preparing to unpack .../03-rpcsvc-proto_1.4.2-0ubuntu6_amd64.deb ...
+Unpacking rpcsvc-proto (1.4.2-0ubuntu6) ...
+Selecting previously unselected package libtirpc-dev:amd64.
+Preparing to unpack .../04-libtirpc-dev_1.3.2-2ubuntu0.1_amd64.deb ...
+Unpacking libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
+Selecting previously unselected package libnsl-dev:amd64.
+Preparing to unpack .../05-libnsl-dev_1.3.0-2build2_amd64.deb ...
+Unpacking libnsl-dev:amd64 (1.3.0-2build2) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../06-libc6-dev_2.35-0ubuntu3.9_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.35-0ubuntu3.9) ...
+Selecting previously unselected package gcc-11-base:amd64.
+Preparing to unpack .../07-gcc-11-base_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libisl23:amd64.
+Preparing to unpack .../08-libisl23_0.24-2build1_amd64.deb ...
+Unpacking libisl23:amd64 (0.24-2build1) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../09-libmpc3_1.2.1-2build1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.2.1-2build1) ...
+Selecting previously unselected package cpp-11.
+Preparing to unpack .../10-cpp-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking cpp-11 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../11-cpp_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking cpp (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../12-libcc1-0_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libcc1-0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../13-libgomp1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libgomp1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../14-libitm1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libitm1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../15-libatomic1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libatomic1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libasan6:amd64.
+Preparing to unpack .../16-libasan6_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libasan6:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../17-liblsan0_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking liblsan0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../18-libtsan0_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libtsan0:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libubsan1:amd64.
+Preparing to unpack .../19-libubsan1_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libubsan1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../20-libquadmath0_12.3.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Selecting previously unselected package libgcc-11-dev:amd64.
+Preparing to unpack .../21-libgcc-11-dev_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package gcc-11.
+Preparing to unpack .../22-gcc-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking gcc-11 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../23-gcc_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking gcc (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package libstdc++-11-dev:amd64.
+Preparing to unpack .../24-libstdc++-11-dev_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package g++-11.
+Preparing to unpack .../25-g++-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
+Unpacking g++-11 (11.4.0-1ubuntu1~22.04) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../26-g++_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking g++ (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package make.
+Preparing to unpack .../27-make_4.3-4.1build1_amd64.deb ...
+Unpacking make (4.3-4.1build1) ...
+Selecting previously unselected package libdpkg-perl.
+Preparing to unpack .../28-libdpkg-perl_1.21.1ubuntu2.3_all.deb ...
+Unpacking libdpkg-perl (1.21.1ubuntu2.3) ...
+Selecting previously unselected package bzip2.
+Preparing to unpack .../29-bzip2_1.0.8-5build1_amd64.deb ...
+Unpacking bzip2 (1.0.8-5build1) ...
+Selecting previously unselected package lto-disabled-list.
+Preparing to unpack .../30-lto-disabled-list_24_all.deb ...
+Unpacking lto-disabled-list (24) ...
+Selecting previously unselected package dpkg-dev.
+Preparing to unpack .../31-dpkg-dev_1.21.1ubuntu2.3_all.deb ...
+Unpacking dpkg-dev (1.21.1ubuntu2.3) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../32-build-essential_12.9ubuntu3_amd64.deb ...
+Unpacking build-essential (12.9ubuntu3) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../33-libfakeroot_1.28-1ubuntu1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.28-1ubuntu1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../34-fakeroot_1.28-1ubuntu1_amd64.deb ...
+Unpacking fakeroot (1.28-1ubuntu1) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../35-fonts-dejavu-core_2.37-2build1_all.deb ...
+Unpacking fonts-dejavu-core (2.37-2build1) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../36-fontconfig-config_2.13.1-4.2ubuntu5_all.deb ...
+Unpacking fontconfig-config (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../37-javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package libalgorithm-diff-perl.
+Preparing to unpack .../38-libalgorithm-diff-perl_1.201-1_all.deb ...
+Unpacking libalgorithm-diff-perl (1.201-1) ...
+Selecting previously unselected package libalgorithm-diff-xs-perl.
+Preparing to unpack .../39-libalgorithm-diff-xs-perl_0.04-6build3_amd64.deb ...
+Unpacking libalgorithm-diff-xs-perl (0.04-6build3) ...
+Selecting previously unselected package libalgorithm-merge-perl.
+Preparing to unpack .../40-libalgorithm-merge-perl_0.08-3_all.deb ...
+Unpacking libalgorithm-merge-perl (0.08-3) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../41-libfontconfig1_2.13.1-4.2ubuntu5_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../42-libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../43-libjpeg8_8c-2ubuntu10_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu10) ...
+Selecting previously unselected package libdeflate0:amd64.
+Preparing to unpack .../44-libdeflate0_1.10-2_amd64.deb ...
+Unpacking libdeflate0:amd64 (1.10-2) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../45-libjbig0_2.1-3.1ubuntu0.22.04.1_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+Selecting previously unselected package libwebp7:amd64.
+Preparing to unpack .../46-libwebp7_1.2.2-2ubuntu0.22.04.2_amd64.deb ...
+Unpacking libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../47-libtiff5_4.3.0-6ubuntu0.10_amd64.deb ...
+Unpacking libtiff5:amd64 (4.3.0-6ubuntu0.10) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../48-libxpm4_1%3a3.5.12-1ubuntu0.22.04.2_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../49-libgd3_2.3.0-2ubuntu2.3_amd64.deb ...
+Unpacking libgd3:amd64 (2.3.0-2ubuntu2.3) ...
+Selecting previously unselected package libc-devtools.
+Preparing to unpack .../50-libc-devtools_2.35-0ubuntu3.9_amd64.deb ...
+Unpacking libc-devtools (2.35-0ubuntu3.9) ...
+Selecting previously unselected package libexpat1-dev:amd64.
+Preparing to unpack .../51-libexpat1-dev_2.4.7-1ubuntu0.5_amd64.deb ...
+Unpacking libexpat1-dev:amd64 (2.4.7-1ubuntu0.5) ...
+Selecting previously unselected package libfile-fcntllock-perl.
+Preparing to unpack .../52-libfile-fcntllock-perl_0.22-3build7_amd64.deb ...
+Unpacking libfile-fcntllock-perl (0.22-3build7) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../53-libjs-jquery_3.6.0+dfsg+~3.5.13-1_all.deb ...
+Unpacking libjs-jquery (3.6.0+dfsg+~3.5.13-1) ...
+Selecting previously unselected package libjs-underscore.
+Preparing to unpack .../54-libjs-underscore_1.13.2~dfsg-2_all.deb ...
+Unpacking libjs-underscore (1.13.2~dfsg-2) ...
+Selecting previously unselected package libjs-sphinxdoc.
+Preparing to unpack .../55-libjs-sphinxdoc_4.3.2-1_all.deb ...
+Unpacking libjs-sphinxdoc (4.3.2-1) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../56-zlib1g-dev_1%3a1.2.11.dfsg-2ubuntu9.2_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu9.2) ...
+Selecting previously unselected package libpython3.10-dev:amd64.
+Preparing to unpack .../57-libpython3.10-dev_3.10.12-1~22.04.9_amd64.deb ...
+Unpacking libpython3.10-dev:amd64 (3.10.12-1~22.04.9) ...
+Selecting previously unselected package libpython3-dev:amd64.
+Preparing to unpack .../58-libpython3-dev_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking libpython3-dev:amd64 (3.10.6-1~22.04.1) ...
+Selecting previously unselected package libssl-dev:amd64.
+Preparing to unpack .../59-libssl-dev_3.0.2-0ubuntu1.19_amd64.deb ...
+Unpacking libssl-dev:amd64 (3.0.2-0ubuntu1.19) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../60-manpages-dev_5.10-1ubuntu1_all.deb ...
+Unpacking manpages-dev (5.10-1ubuntu1) ...
+Selecting previously unselected package python3.10-dev.
+Preparing to unpack .../61-python3.10-dev_3.10.12-1~22.04.9_amd64.deb ...
+Unpacking python3.10-dev (3.10.12-1~22.04.9) ...
+Selecting previously unselected package python3-dev.
+Preparing to unpack .../62-python3-dev_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking python3-dev (3.10.6-1~22.04.1) ...
+Selecting previously unselected package python3-wheel.
+Preparing to unpack .../63-python3-wheel_0.37.1-2ubuntu0.22.04.1_all.deb ...
+Unpacking python3-wheel (0.37.1-2ubuntu0.22.04.1) ...
+Selecting previously unselected package python3-pip.
+Preparing to unpack .../64-python3-pip_22.0.2+dfsg-1ubuntu0.5_all.deb ...
+Unpacking python3-pip (22.0.2+dfsg-1ubuntu0.5) ...
+Selecting previously unselected package libffi-dev:amd64.
+Preparing to unpack .../65-libffi-dev_3.4.2-4_amd64.deb ...
+Unpacking libffi-dev:amd64 (3.4.2-4) ...
+Setting up javascript-common (11+nmu1) ...
+Setting up gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up manpages-dev (5.10-1ubuntu1) ...
+Setting up lto-disabled-list (24) ...
+Setting up libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Setting up libfile-fcntllock-perl (0.22-3build7) ...
+Setting up libalgorithm-diff-perl (1.201-1) ...
+Setting up libdeflate0:amd64 (1.10-2) ...
+Setting up linux-libc-dev:amd64 (5.15.0-135.146) ...
+Setting up libgomp1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up bzip2 (1.0.8-5build1) ...
+Setting up libffi-dev:amd64 (3.4.2-4) ...
+Setting up python3-wheel (0.37.1-2ubuntu0.22.04.1) ...
+Setting up libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+Setting up libfakeroot:amd64 (1.28-1ubuntu1) ...
+Setting up libasan6:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up fakeroot (1.28-1ubuntu1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
+Setting up rpcsvc-proto (1.4.2-0ubuntu6) ...
+Setting up make (4.3-4.1build1) ...
+Setting up libquadmath0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libssl-dev:amd64 (3.0.2-0ubuntu1.19) ...
+Setting up libmpc3:amd64 (1.2.1-2build1) ...
+Setting up libatomic1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up fonts-dejavu-core (2.37-2build1) ...
+Setting up python3-pip (22.0.2+dfsg-1ubuntu0.5) ...
+Setting up libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+Setting up libdpkg-perl (1.21.1ubuntu2.3) ...
+Setting up libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
+Setting up libubsan1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libnsl-dev:amd64 (1.3.0-2build2) ...
+Setting up libcrypt-dev:amd64 (1:4.4.27-1) ...
+Setting up libjs-jquery (3.6.0+dfsg+~3.5.13-1) ...
+Setting up libisl23:amd64 (0.24-2build1) ...
+Setting up libc-dev-bin (2.35-0ubuntu3.9) ...
+Setting up libalgorithm-diff-xs-perl (0.04-6build3) ...
+Setting up libcc1-0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up liblsan0:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libitm1:amd64 (12.3.0-1ubuntu1~22.04) ...
+Setting up libjs-underscore (1.13.2~dfsg-2) ...
+Setting up libalgorithm-merge-perl (0.08-3) ...
+Setting up libtsan0:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu10) ...
+Setting up cpp-11 (11.4.0-1ubuntu1~22.04) ...
+Setting up fontconfig-config (2.13.1-4.2ubuntu5) ...
+Setting up dpkg-dev (1.21.1ubuntu2.3) ...
+Setting up libjs-sphinxdoc (4.3.2-1) ...
+Setting up libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up gcc-11 (11.4.0-1ubuntu1~22.04) ...
+Setting up cpp (4:11.2.0-1ubuntu1) ...
+Setting up libc6-dev:amd64 (2.35-0ubuntu3.9) ...
+Setting up libtiff5:amd64 (4.3.0-6ubuntu0.10) ...
+Setting up libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+Setting up gcc (4:11.2.0-1ubuntu1) ...
+Setting up libexpat1-dev:amd64 (2.4.7-1ubuntu0.5) ...
+Setting up libgd3:amd64 (2.3.0-2ubuntu2.3) ...
+Setting up libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
+Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu9.2) ...
+Setting up libc-devtools (2.35-0ubuntu3.9) ...
+Setting up g++-11 (11.4.0-1ubuntu1~22.04) ...
+Setting up libpython3.10-dev:amd64 (3.10.12-1~22.04.9) ...
+Setting up python3.10-dev (3.10.12-1~22.04.9) ...
+Setting up g++ (4:11.2.0-1ubuntu1) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Setting up build-essential (12.9ubuntu3) ...
+Setting up libpython3-dev:amd64 (3.10.6-1~22.04.1) ...
+Setting up python3-dev (3.10.6-1~22.04.1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.9) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for install-info (6.8-4build1) ...
+
+Pending kernel upgrade!
+
+Running kernel version:
+  6.8.0-1025-gcp
+
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-1026-gcp.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting. [Return]
+
+Services to be restarted:
+ systemctl restart packagekit.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  python3-pip-whl python3-setuptools-whl python3.10-venv
+The following NEW packages will be installed:
+  python3-pip-whl python3-setuptools-whl python3-venv python3.10-venv
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2475 kB of archives.
+After this operation, 2891 kB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-pip-whl all 22.0.2+dfsg-1ubuntu0.5 [1680 kB]
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-setuptools-whl all 59.6.0-1.2ubuntu0.22.04.2 [788 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3.10-venv amd64 3.10.12-1~22.04.9 [5722 B]
+Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-venv amd64 3.10.6-1~22.04.1 [1042 B]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 2475 kB in 0s (31.5 MB/s)
+Selecting previously unselected package python3-pip-whl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 105206 files and directories currently installed.)
+Preparing to unpack .../python3-pip-whl_22.0.2+dfsg-1ubuntu0.5_all.deb ...
+Unpacking python3-pip-whl (22.0.2+dfsg-1ubuntu0.5) ...
+Selecting previously unselected package python3-setuptools-whl.
+Preparing to unpack .../python3-setuptools-whl_59.6.0-1.2ubuntu0.22.04.2_all.deb ...
+Unpacking python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.2) ...
+Selecting previously unselected package python3.10-venv.
+Preparing to unpack .../python3.10-venv_3.10.12-1~22.04.9_amd64.deb ...
+Unpacking python3.10-venv (3.10.12-1~22.04.9) ...
+Selecting previously unselected package python3-venv.
+Preparing to unpack .../python3-venv_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking python3-venv (3.10.6-1~22.04.1) ...
+Setting up python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.2) ...
+Setting up python3-pip-whl (22.0.2+dfsg-1ubuntu0.5) ...
+Setting up python3.10-venv (3.10.12-1~22.04.9) ...
+Setting up python3-venv (3.10.6-1~22.04.1) ...
+
+Pending kernel upgrade!
+
+Running kernel version:
+  6.8.0-1025-gcp
+
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-1026-gcp.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting. [Return]
+
+Services to be restarted:
+ systemctl restart packagekit.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+2025-03-28 18:13:40 - Creating project directory
+2025-03-28 18:13:40 - Data directory created successfully
+2025-03-28 18:13:40 - Copying files from Cloud Storage
+Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/LICENSE.txt...
+/ [0 files][    0.0 B/  1.8 KiB]                                                / [1 files][  1.8 KiB/  1.8 KiB]                                                Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/README.md...
+/ [1 files][  1.8 KiB/  6.0 KiB]                                                / [2 files][  6.0 KiB/  6.0 KiB]                                                Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/bin/CICFlowMeter...
+/ [2 files][  6.0 KiB/ 11.7 KiB]                                                / [3 files][ 11.7 KiB/ 11.7 KiB]                                                Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/bin/CICFlowMeter.bat...
+/ [3 files][ 11.7 KiB/ 14.6 KiB]                                                / [4 files][ 14.6 KiB/ 14.6 KiB]                                                
+==> NOTE: You are performing a sequence of gsutil operations that may
+run significantly faster if you instead use gsutil -m cp ... Please
+see the -m section under "gsutil help options" for further information
+about when gsutil -m can be advantageous.
+
+Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/CICFlowMeter-3.0.jar...
+/ [4 files][ 14.6 KiB/166.0 KiB]                                                -- [5 files][166.0 KiB/166.0 KiB]                                                Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/animal-sniffer-annotations-1.14.jar...
+- [5 files][166.0 KiB/169.4 KiB]                                                - [6 files][169.4 KiB/169.4 KiB]                                                Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/checker-compat-qual-2.0.0.jar...
+- [6 files][169.4 KiB/200.2 KiB]                                                - [7 files][200.2 KiB/200.2 KiB]                                                Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/commons-io-2.5.jar...
+- [7 files][200.2 KiB/404.0 KiB]                                                - [8 files][404.0 KiB/404.0 KiB]                                                Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/commons-lang3-3.6.jar...
+- [8 files][404.0 KiB/887.3 KiB]                                                - [9 files][887.3 KiB/887.3 KiB]                                                Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/commons-math3-3.5.jar...
+- [9 files][887.3 KiB/  2.8 MiB]                                                - [10 files][  2.8 MiB/  2.8 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/error_prone_annotations-2.1.3.jar...
+- [10 files][  2.8 MiB/  2.8 MiB]                                               \\ [11 files][  2.8 MiB/  2.8 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/guava-23.6-jre.jar...
+\ [11 files][  2.8 MiB/  5.4 MiB]                                               \ [12 files][  5.4 MiB/  5.4 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/hamcrest-core-1.3.jar...
+\ [12 files][  5.4 MiB/  5.4 MiB]                                               \ [13 files][  5.4 MiB/  5.4 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/j2objc-annotations-1.1.jar...
+\ [13 files][  5.4 MiB/  5.5 MiB]                                               \ [14 files][  5.5 MiB/  5.5 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/java-cup-0.11a.jar...
+\ [14 files][  5.5 MiB/  5.6 MiB]                                               \ [15 files][  5.6 MiB/  5.6 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/jfreechart-1.5.0.jar...
+\ [15 files][  5.6 MiB/  7.0 MiB]                                               || [16 files][  7.0 MiB/  7.0 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/jnetpcap-1.4.r1425-1g.jar...
+| [16 files][  7.0 MiB/  8.1 MiB]                                               | [17 files][  8.1 MiB/  8.1 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/jsr305-1.3.9.jar...
+| [17 files][  8.1 MiB/  8.1 MiB]                                               | [18 files][  8.1 MiB/  8.1 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/junit-4.12.jar...
+| [18 files][  8.1 MiB/  8.4 MiB]                                               | [19 files][  8.4 MiB/  8.4 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/log4j-1.2.17.jar...
+| [19 files][  8.4 MiB/  8.9 MiB]                                               | [20 files][  8.9 MiB/  8.9 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/native/jnetpcap-pcap100.dll...
+| [20 files][  8.9 MiB/  8.9 MiB]                                               // [21 files][  8.9 MiB/  8.9 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/native/jnetpcap.dll...
+/ [21 files][  8.9 MiB/  9.3 MiB]                                               / [22 files][  9.3 MiB/  9.3 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/native/libjnetpcap-pcap100.so...
+/ [22 files][  9.3 MiB/  9.3 MiB]                                               / [23 files][  9.3 MiB/  9.3 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/native/libjnetpcap.so...
+/ [23 files][  9.3 MiB/  9.5 MiB]                                               / [24 files][  9.5 MiB/  9.5 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/slf4j-api-1.7.25.jar...
+/ [24 files][  9.5 MiB/  9.5 MiB]                                               / [25 files][  9.5 MiB/  9.5 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/slf4j-log4j12-1.7.25.jar...
+/ [25 files][  9.5 MiB/  9.6 MiB]                                               / [26 files][  9.6 MiB/  9.6 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/tika-core-1.17.jar...
+/ [26 files][  9.6 MiB/ 10.2 MiB]                                               -- [27 files][ 10.2 MiB/ 10.2 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/CICFlowMeter-3.0/lib/weka-stable-3.6.14.jar...
+- [27 files][ 10.2 MiB/ 16.5 MiB]                                               - [28 files][ 16.5 MiB/ 16.5 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/Databases/1.pcap...
+- [28 files][ 16.5 MiB/ 16.8 MiB]                                               - [29 files][ 16.8 MiB/ 16.8 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/Databases/2.pcap...
+- [29 files][ 16.8 MiB/ 16.9 MiB]                                               - [30 files][ 16.9 MiB/ 16.9 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/Databases/3.pcap...
+- [30 files][ 16.9 MiB/ 17.0 MiB]                                               - [31 files][ 17.0 MiB/ 17.0 MiB]                                               Copying gs://capstone4340-bucket/Capstone_Flask/Databases/Copy of final_oversampled_SMOTE.parquet...
+- [31 files][ 17.0 MiB/  1.2 GiB]                                               \|| [31 files][ 51.8 MiB/  1.2 GiB]                                               /-- [31 files][101.3 MiB/  1.2 GiB]                                               \\ [31 files][149.5 MiB/  1.2 GiB]                                               |// [31 files][197.8 MiB/  1.2 GiB]                                               -\\ [31 files][246.0 MiB/  1.2 GiB]                                               || [31 files][294.4 MiB/  1.2 GiB]                                               /-- [31 files][340.8 MiB/  1.2 GiB]                                               \|| [31 files][387.0 MiB/  1.2 GiB]   47.3 MiB/s                                  // [31 files][434.4 MiB/  1.2 GiB]   47.1 MiB/s                                  -\\ [31 files][482.4 MiB/  1.2 GiB]   46.9 MiB/s                                  |// [31 files][529.0 MiB/  1.2 GiB]   46.6 MiB/s                                  -- [31 files][576.2 MiB/  1.2 GiB]   46.8 MiB/s                                  \|| [31 files][626.0 MiB/  1.2 GiB]   47.4 MiB/s                                  /-- [31 files][673.7 MiB/  1.2 GiB]   47.3 MiB/s                                  \\ [31 files][722.9 MiB/  1.2 GiB]   47.8 MiB/s                                  |// [31 files][768.6 MiB/  1.2 GiB]   47.0 MiB/s                                  -\\ [31 files][809.3 MiB/  1.2 GiB]   45.5 MiB/s                                  || [31 files][855.7 MiB/  1.2 GiB]   45.0 MiB/s                                  /-- [31 files][902.6 MiB/  1.2 GiB]   44.9 MiB/s                                  \|| [31 files][949.3 MiB/  1.2 GiB]   44.4 MiB/s                                  // [31 files][995.9 MiB/  1.2 GiB]   45.3 MiB/s                                  -\\ [31 files][  1.0 GiB/  1.2 GiB]   46.6 MiB/s                                  |// [31 files][  1.1 GiB/  1.2 GiB]   46.8 MiB/s                                  -- [31 files][  1.1 GiB/  1.2 GiB]   46.7 MiB/s                                  \|| [31 files][  1.2 GiB/  1.2 GiB]   46.5 MiB/s                                  /-- [31 files][  1.2 GiB/  1.2 GiB]   46.7 MiB/s                                  - [32 files][  1.2 GiB/  1.2 GiB]   46.8 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/Email_Classifier_Module.py...
+- [32 files][  1.2 GiB/  1.2 GiB]   46.8 MiB/s                                  - [33 files][  1.2 GiB/  1.2 GiB]   45.9 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/app.py...
+- [33 files][  1.2 GiB/  1.2 GiB]   45.9 MiB/s                                  - [34 files][  1.2 GiB/  1.2 GiB]   44.4 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/capture.py...
+- [34 files][  1.2 GiB/  1.2 GiB]   44.3 MiB/s                                  - [35 files][  1.2 GiB/  1.2 GiB]   43.7 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/extract_features.sh...
+- [35 files][  1.2 GiB/  1.2 GiB]   43.6 MiB/s                                  \\ [36 files][  1.2 GiB/  1.2 GiB]   42.7 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/feature_extractor.pkl...
+\ [36 files][  1.2 GiB/  1.2 GiB]   42.7 MiB/s                                  \ [37 files][  1.2 GiB/  1.2 GiB]   41.9 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/ids.py...
+\ [37 files][  1.2 GiB/  1.2 GiB]   41.9 MiB/s                                  \ [38 files][  1.2 GiB/  1.2 GiB]   40.8 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/E-CAT_startup (1).log...
+\ [38 files][  1.2 GiB/  1.2 GiB]   40.8 MiB/s                                  \ [39 files][  1.2 GiB/  1.2 GiB]   39.8 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/E-CAT_startup (2).log...
+\ [39 files][  1.2 GiB/  1.2 GiB]   39.8 MiB/s                                  \ [40 files][  1.2 GiB/  1.2 GiB]   38.6 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/E-CAT_startup (3).log...
+\ [40 files][  1.2 GiB/  1.2 GiB]   38.6 MiB/s                                  \ [41 files][  1.2 GiB/  1.2 GiB]   37.8 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/E-CAT_startup.log...
+\ [41 files][  1.2 GiB/  1.2 GiB]   37.8 MiB/s                                  || [42 files][  1.2 GiB/  1.2 GiB]   36.7 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/aBFF-sbseg2022-main_supportFiles_dataset_final_combine.log...
+| [42 files][  1.2 GiB/  1.2 GiB]   36.7 MiB/s                                  | [43 files][  1.2 GiB/  1.2 GiB]   35.6 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/aBFF-sbseg2022-main_supportFiles_dataset_final_oversampling2 (1).log...
+| [43 files][  1.2 GiB/  1.2 GiB]   35.6 MiB/s                                  | [44 files][  1.2 GiB/  1.2 GiB]   34.3 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/aBFF-sbseg2022-main_supportFiles_dataset_final_oversampling2 (2).log...
+| [44 files][  1.2 GiB/  1.2 GiB]   34.3 MiB/s                                  | [45 files][  1.2 GiB/  1.2 GiB]   33.6 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/aBFF-sbseg2022-main_supportFiles_dataset_final_oversampling2 (3).log...
+| [45 files][  1.2 GiB/  1.2 GiB]   33.5 MiB/s                                  | [46 files][  1.2 GiB/  1.2 GiB]   32.3 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/aBFF-sbseg2022-main_supportFiles_dataset_final_oversampling2 (4).log...
+| [46 files][  1.2 GiB/  1.2 GiB]   32.3 MiB/s                                  | [47 files][  1.2 GiB/  1.2 GiB]   31.1 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/aBFF-sbseg2022-main_supportFiles_dataset_final_oversampling2 (5).log...
+| [47 files][  1.2 GiB/  1.2 GiB]   31.1 MiB/s                                  // [48 files][  1.2 GiB/  1.2 GiB]   30.0 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/aBFF-sbseg2022-main_supportFiles_dataset_final_oversampling2 (6).log...
+/ [48 files][  1.2 GiB/  1.2 GiB]   29.9 MiB/s                                  / [49 files][  1.2 GiB/  1.2 GiB]   28.7 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/aBFF-sbseg2022-main_supportFiles_dataset_final_oversampling2.log...
+/ [49 files][  1.2 GiB/  1.2 GiB]   28.7 MiB/s                                  / [50 files][  1.2 GiB/  1.2 GiB]   27.6 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/best_XGB.log...
+/ [50 files][  1.2 GiB/  1.2 GiB]   27.6 MiB/s                                  / [51 files][  1.2 GiB/  1.2 GiB]   26.8 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/clean_ADASYN.log...
+/ [51 files][  1.2 GiB/  1.2 GiB]   26.8 MiB/s                                  -- [52 files][  1.2 GiB/  1.2 GiB]   25.4 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/clean_SMOTE.log...
+- [52 files][  1.2 GiB/  1.2 GiB]   25.4 MiB/s                                  - [53 files][  1.2 GiB/  1.2 GiB]   24.2 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/clean_results_SMOTE.log...
+- [53 files][  1.2 GiB/  1.2 GiB]   24.1 MiB/s                                  - [54 files][  1.2 GiB/  1.2 GiB]   23.2 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/results_SMOTE.log...
+- [54 files][  1.2 GiB/  1.2 GiB]   23.2 MiB/s                                  - [55 files][  1.2 GiB/  1.2 GiB]   22.1 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/logs/startup.log...
+- [55 files][  1.2 GiB/  1.2 GiB]   22.1 MiB/s                                  - [56 files][  1.2 GiB/  1.2 GiB]   20.6 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/models/Copy of final_oversampled_SMOTE_DT.joblib...
+- [56 files][  1.2 GiB/  1.8 GiB]   20.5 MiB/s                                  \|| [56 files][  1.3 GiB/  1.8 GiB]   26.6 MiB/s                                  /-- [56 files][  1.4 GiB/  1.8 GiB]   38.7 MiB/s                                  \\ [56 files][  1.5 GiB/  1.8 GiB]   58.6 MiB/s                                  |// [56 files][  1.6 GiB/  1.8 GiB]   77.6 MiB/s                                  -\\ [56 files][  1.6 GiB/  1.8 GiB]   86.6 MiB/s                                  || [56 files][  1.7 GiB/  1.8 GiB]   80.3 MiB/s                                  /-- [56 files][  1.7 GiB/  1.8 GiB]   67.7 MiB/s                                  \\ [56 files][  1.8 GiB/  1.8 GiB]   56.4 MiB/s                                  |// [56 files][  1.8 GiB/  1.8 GiB]   47.7 MiB/s                                  -- [57 files][  1.8 GiB/  1.8 GiB]   45.4 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/models/final_oversampled_SMOTE_XGB.joblib...
+- [57 files][  1.8 GiB/  1.9 GiB]   45.4 MiB/s                                  \\ [58 files][  1.9 GiB/  1.9 GiB]   49.8 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/predict.py...
+\ [58 files][  1.9 GiB/  1.9 GiB]   49.8 MiB/s                                  \ [59 files][  1.9 GiB/  1.9 GiB]   48.9 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/preprocess.py...
+\ [59 files][  1.9 GiB/  1.9 GiB]   49.0 MiB/s                                  \ [60 files][  1.9 GiB/  1.9 GiB]   48.1 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/setup/install_java.sh...
+\ [60 files][  1.9 GiB/  1.9 GiB]   48.1 MiB/s                                  \ [61 files][  1.9 GiB/  1.9 GiB]   47.5 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/setup/install_zeek.sh...
+\ [61 files][  1.9 GiB/  1.9 GiB]   47.5 MiB/s                                  || [62 files][  1.9 GiB/  1.9 GiB]   46.2 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/setup/requirements.txt...
+| [62 files][  1.9 GiB/  1.9 GiB]   46.2 MiB/s                                  | [63 files][  1.9 GiB/  1.9 GiB]   45.2 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/setup/startup.sh...
+| [63 files][  1.9 GiB/  1.9 GiB]   45.2 MiB/s                                  | [64 files][  1.9 GiB/  1.9 GiB]   43.8 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/spam_classifier_model.pkl...
+| [64 files][  1.9 GiB/  1.9 GiB]   43.8 MiB/s                                  | [65 files][  1.9 GiB/  1.9 GiB]   42.6 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/static/css/style.css...
+| [65 files][  1.9 GiB/  1.9 GiB]   42.6 MiB/s                                  | [66 files][  1.9 GiB/  1.9 GiB]   41.4 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/templates/base.html...
+| [66 files][  1.9 GiB/  1.9 GiB]   41.4 MiB/s                                  // [67 files][  1.9 GiB/  1.9 GiB]   40.7 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/templates/index.html...
+/ [67 files][  1.9 GiB/  1.9 GiB]   40.7 MiB/s                                  / [68 files][  1.9 GiB/  1.9 GiB]   39.6 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/templates/malware_classifier.html...
+/ [68 files][  1.9 GiB/  1.9 GiB]   39.6 MiB/s                                  / [69 files][  1.9 GiB/  1.9 GiB]   38.6 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/templates/network_classifier.html...
+/ [69 files][  1.9 GiB/  1.9 GiB]   38.7 MiB/s                                  / [70 files][  1.9 GiB/  1.9 GiB]   37.6 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/templates/phishing_classifier.html...
+/ [70 files][  1.9 GiB/  1.9 GiB]   37.5 MiB/s                                  / [71 files][  1.9 GiB/  1.9 GiB]   36.8 MiB/s                                  Copying gs://capstone4340-bucket/Capstone_Flask/templates/spam_classifier.html...
+/ [71 files][  1.9 GiB/  1.9 GiB]   36.8 MiB/s                                  / [72 files][  1.9 GiB/  1.9 GiB]   35.8 MiB/s                                  
+==> NOTE: You are performing a sequence of gsutil operations that may
+run significantly faster if you instead use gsutil -m cp ... Please
+see the -m section under "gsutil help options" for further information
+about when gsutil -m can be advantageous.
+
+
+Operation completed over 72 objects/1.9 GiB.                                     
+2025-03-28 18:14:30 - Files copied successfully
+2025-03-28 18:14:30 - Creating env
+2025-03-28 18:14:35 - Created env successfully
+2025-03-28 18:14:35 - Activating env
+2025-03-28 18:14:35 - Activated env successfully
+2025-03-28 18:14:35 - Changing directory to setup directory
+2025-03-28 18:14:35 - Installing dependencies
+Collecting Flask
+  Downloading flask-3.1.0-py3-none-any.whl (102 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.0/103.0 KB 2.5 MB/s eta 0:00:00
+Collecting gunicorn
+  Downloading gunicorn-23.0.0-py3-none-any.whl (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.0/85.0 KB 6.4 MB/s eta 0:00:00
+Collecting itsdangerous
+  Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Collecting Werkzeug
+  Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.5/224.5 KB 7.0 MB/s eta 0:00:00
+Collecting scapy
+  Downloading scapy-2.6.1-py3-none-any.whl (2.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 11.8 MB/s eta 0:00:00
+Collecting pandas
+  Downloading pandas-2.2.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 35.9 MB/s eta 0:00:00
+Collecting scikit-learn
+  Downloading scikit_learn-1.6.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 60.1 MB/s eta 0:00:00
+Collecting cmake
+  Downloading cmake-4.0.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (27.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.9/27.9 MB 50.4 MB/s eta 0:00:00
+Collecting make
+  Downloading make-0.1.6.post2-py3-none-any.whl (14 kB)
+Collecting flex
+  Downloading flex-6.14.1.tar.gz (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.9/40.9 KB 7.1 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting bison
+  Downloading bison-0.1.3-py2.py3-none-any.whl (24 kB)
+Collecting swig
+  Downloading swig-4.3.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 78.2 MB/s eta 0:00:00
+Collecting Jinja2>=3.1.2
+  Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 KB 23.1 MB/s eta 0:00:00
+Collecting blinker>=1.9
+  Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Collecting click>=8.1.3
+  Downloading click-8.1.8-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.2/98.2 KB 19.4 MB/s eta 0:00:00
+Collecting packaging
+  Downloading packaging-24.2-py3-none-any.whl (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 KB 12.9 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.1.1
+  Downloading MarkupSafe-3.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20 kB)
+Collecting python-dateutil>=2.8.2
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 KB 28.7 MB/s eta 0:00:00
+Collecting numpy>=1.22.4
+  Downloading numpy-2.2.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.4/16.4 MB 76.2 MB/s eta 0:00:00
+Collecting tzdata>=2022.7
+  Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 KB 47.4 MB/s eta 0:00:00
+Collecting pytz>=2020.1
+  Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 KB 58.2 MB/s eta 0:00:00
+Collecting scipy>=1.6.0
+  Downloading scipy-1.15.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.6/37.6 MB 34.3 MB/s eta 0:00:00
+Collecting joblib>=1.2.0
+  Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 301.8/301.8 KB 45.7 MB/s eta 0:00:00
+Collecting threadpoolctl>=3.1.0
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Collecting jinja2-time
+  Downloading jinja2_time-0.2.0-py2.py3-none-any.whl (6.4 kB)
+Collecting PyYAML>=3.11
+  Downloading PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 751.2/751.2 KB 65.3 MB/s eta 0:00:00
+Collecting jsonpointer>=1.7
+  Downloading jsonpointer-3.0.0-py2.py3-none-any.whl (7.6 kB)
+Collecting requests>=2.4.3
+  Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 KB 10.8 MB/s eta 0:00:00
+Collecting rfc3987>=1.3.4
+  Downloading rfc3987-1.3.8-py2.py3-none-any.whl (13 kB)
+Collecting six>=1.7.3
+  Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting strict-rfc3339>=0.7
+  Downloading strict-rfc3339-0.7.tar.gz (17 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting validate-email>=1.2
+  Downloading validate_email-1.3.tar.gz (4.7 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.4.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (146 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 146.1/146.1 KB 28.4 MB/s eta 0:00:00
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.3.0-py3-none-any.whl (128 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.4/128.4 KB 23.5 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.10-py3-none-any.whl (70 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 KB 14.4 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2025.1.31-py3-none-any.whl (166 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 KB 31.6 MB/s eta 0:00:00
+Collecting arrow
+  Downloading arrow-1.3.0-py3-none-any.whl (66 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.4/66.4 KB 14.0 MB/s eta 0:00:00
+Collecting types-python-dateutil>=2.8.10
+  Downloading types_python_dateutil-2.9.0.20241206-py3-none-any.whl (14 kB)
+Using legacy 'setup.py install' for flex, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for strict-rfc3339, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for validate-email, since package 'wheel' is not installed.
+Installing collected packages: validate-email, swig, strict-rfc3339, rfc3987, pytz, urllib3, tzdata, types-python-dateutil, threadpoolctl, six, scapy, PyYAML, packaging, numpy, MarkupSafe, jsonpointer, joblib, itsdangerous, idna, cmake, click, charset-normalizer, certifi, blinker, Werkzeug, scipy, requests, python-dateutil, Jinja2, gunicorn, bison, scikit-learn, pandas, flex, Flask, arrow, jinja2-time, make
+  Running setup.py install for validate-email: started
+  Running setup.py install for validate-email: finished with status 'done'
+  Running setup.py install for strict-rfc3339: started
+  Running setup.py install for strict-rfc3339: finished with status 'done'
+  Running setup.py install for flex: started
+  Running setup.py install for flex: finished with status 'done'
+Successfully installed Flask-3.1.0 Jinja2-3.1.6 MarkupSafe-3.0.2 PyYAML-6.0.2 Werkzeug-3.1.3 arrow-1.3.0 bison-0.1.3 blinker-1.9.0 certifi-2025.1.31 charset-normalizer-3.4.1 click-8.1.8 cmake-4.0.0 flex-6.14.1 gunicorn-23.0.0 idna-3.10 itsdangerous-2.2.0 jinja2-time-0.2.0 joblib-1.4.2 jsonpointer-3.0.0 make-0.1.6.post2 numpy-2.2.4 packaging-24.2 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.2 requests-2.32.3 rfc3987-1.3.8 scapy-2.6.1 scikit-learn-1.6.1 scipy-1.15.2 six-1.17.0 strict-rfc3339-0.7 swig-4.3.0 threadpoolctl-3.6.0 types-python-dateutil-2.9.0.20241206 tzdata-2025.2 urllib3-2.3.0 validate-email-1.3
+Reading package lists...
+Building dependency tree...
+Reading state information...
+g++ is already the newest version (4:11.2.0-1ubuntu1).
+g++ set to manually installed.
+gcc is already the newest version (4:11.2.0-1ubuntu1).
+gcc set to manually installed.
+libssl-dev is already the newest version (3.0.2-0ubuntu1.19).
+python3-dev is already the newest version (3.10.6-1~22.04.1).
+zlib1g-dev is already the newest version (1:1.2.11.dfsg-2ubuntu9.2).
+zlib1g-dev set to manually installed.
+The following additional packages will be installed:
+  libdbus-1-dev libpcap0.8-dev pkg-config
+The following NEW packages will be installed:
+  libdbus-1-dev libpcap-dev libpcap0.8-dev pkg-config
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 510 kB of archives.
+After this operation, 2007 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Abort.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  geoip-database libgeoip1 libmysqlclient21 mysql-common net-tools
+Suggested packages:
+  geoip-bin
+The following NEW packages will be installed:
+  argus-client argus-server geoip-database libgeoip1 libmysqlclient21
+  mysql-common net-tools
+0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+Need to get 8377 kB of archives.
+After this operation, 53.4 MB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 libgeoip1 amd64 1.6.12-8 [84.4 kB]
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 mysql-common all 5.8+1.0.8 [7212 B]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libmysqlclient21 amd64 8.0.41-0ubuntu0.22.04.1 [1308 kB]
+Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 argus-client amd64 1:3.0.8.2-6.1ubuntu1 [3536 kB]
+Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 net-tools amd64 1.60+git20181103.0eebece-1ubuntu5 [204 kB]
+Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 argus-server amd64 2:3.0.8.2-2.1 [206 kB]
+Get:7 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 geoip-database all 20191224-3 [3030 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 8377 kB in 1s (9644 kB/s)
+Selecting previously unselected package libgeoip1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 105222 files and directories currently installed.)
+Preparing to unpack .../0-libgeoip1_1.6.12-8_amd64.deb ...
+Unpacking libgeoip1:amd64 (1.6.12-8) ...
+Selecting previously unselected package mysql-common.
+Preparing to unpack .../1-mysql-common_5.8+1.0.8_all.deb ...
+Unpacking mysql-common (5.8+1.0.8) ...
+Selecting previously unselected package libmysqlclient21:amd64.
+Preparing to unpack .../2-libmysqlclient21_8.0.41-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libmysqlclient21:amd64 (8.0.41-0ubuntu0.22.04.1) ...
+Selecting previously unselected package argus-client.
+Preparing to unpack .../3-argus-client_1%3a3.0.8.2-6.1ubuntu1_amd64.deb ...
+Unpacking argus-client (1:3.0.8.2-6.1ubuntu1) ...
+Selecting previously unselected package net-tools.
+Preparing to unpack .../4-net-tools_1.60+git20181103.0eebece-1ubuntu5_amd64.deb ...
+Unpacking net-tools (1.60+git20181103.0eebece-1ubuntu5) ...
+Selecting previously unselected package argus-server.
+Preparing to unpack .../5-argus-server_2%3a3.0.8.2-2.1_amd64.deb ...
+Unpacking argus-server (2:3.0.8.2-2.1) ...
+Selecting previously unselected package geoip-database.
+Preparing to unpack .../6-geoip-database_20191224-3_all.deb ...
+Unpacking geoip-database (20191224-3) ...
+Setting up mysql-common (5.8+1.0.8) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Setting up libmysqlclient21:amd64 (8.0.41-0ubuntu0.22.04.1) ...
+Setting up net-tools (1.60+git20181103.0eebece-1ubuntu5) ...
+Setting up argus-server (2:3.0.8.2-2.1) ...
+argus.service is a disabled or a static unit not running, not starting it.
+Setting up libgeoip1:amd64 (1.6.12-8) ...
+Setting up argus-client (1:3.0.8.2-6.1ubuntu1) ...
+Setting up geoip-database (20191224-3) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.9) ...
+
+Pending kernel upgrade!
+
+Running kernel version:
+  6.8.0-1025-gcp
+
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-1026-gcp.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting. [Return]
+
+Services to be restarted:
+ systemctl restart packagekit.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  tcpreplay
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 321 kB of archives.
+After this operation, 1927 kB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 tcpreplay amd64 4.3.4-1 [321 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 321 kB in 0s (833 kB/s)
+Selecting previously unselected package tcpreplay.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 105452 files and directories currently installed.)
+Preparing to unpack .../tcpreplay_4.3.4-1_amd64.deb ...
+Unpacking tcpreplay (4.3.4-1) ...
+Setting up tcpreplay (4.3.4-1) ...
+Processing triggers for man-db (2.10.2-1) ...
+
+Pending kernel upgrade!
+
+Running kernel version:
+  6.8.0-1025-gcp
+
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-1026-gcp.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting. [Return]
+
+Services to be restarted:
+ systemctl restart packagekit.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  dos2unix
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 384 kB of archives.
+After this operation, 1367 kB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/universe amd64 dos2unix amd64 7.4.2-2 [384 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 384 kB in 0s (12.3 MB/s)
+Selecting previously unselected package dos2unix.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 105469 files and directories currently installed.)
+Preparing to unpack .../dos2unix_7.4.2-2_amd64.deb ...
+Unpacking dos2unix (7.4.2-2) ...
+Setting up dos2unix (7.4.2-2) ...
+Processing triggers for man-db (2.10.2-1) ...
+
+Pending kernel upgrade!
+
+Running kernel version:
+  6.8.0-1025-gcp
+
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-1026-gcp.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting. [Return]
+
+Services to be restarted:
+ systemctl restart packagekit.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+2025-03-28 18:15:21 - Changing directory to Capstone_Flask directory
+2025-03-28 18:15:21 - Getting external IP from metadata server
+2025-03-28 18:15:21 - Creating the Caddyfile
+2025-03-28 18:15:21 - Stopping Caddy instance
+{"level":"warn","ts":1743185722.085607,"msg":"unable to determine directory for user configuration; falling back to current directory","error":"neither $XDG_CONFIG_HOME nor $HOME are defined"}
+2025-03-28 18:15:22 - Starting Caddy
+{"level":"info","ts":1743185722.3424926,"msg":"using adjacent Caddyfile"}
+{"level":"info","ts":1743185722.345568,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"warn","ts":1743185722.345625,"msg":"Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies","adapter":"caddyfile","file":"Caddyfile","line":2}
+{"level":"info","ts":1743185722.3474746,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//127.0.0.1:2019","//localhost:2019","//[::1]:2019"]}
+{"level":"info","ts":1743185722.3479424,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0xc00019ac80"}
+{"level":"warn","ts":1743185722.3480194,"logger":"http.auto_https","msg":"server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server","server_name":"srv0","http_port":80}
+{"level":"warn","ts":1743185722.3491304,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1743185722.349149,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1743185722.3491547,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1743185722.3492622,"msg":"autosaved config (load with --resume flag)","file":"/root/.config/caddy/autosave.json"}
+{"level":"info","ts":1743185722.3492706,"msg":"serving initial configuration"}
+Successfully started Caddy (pid=10624) - Caddy is running in the background
+2025-03-28 18:15:22 - Creating data directory and changing permissions
+{"level":"info","ts":1743185722.4109902,"logger":"tls","msg":"cleaning storage unit","storage":"FileStorage:/root/.local/share/caddy"}
+{"level":"info","ts":1743185722.427257,"logger":"tls","msg":"finished cleaning storage units"}
+dos2unix: converting file install_zeek.sh to Unix format...
+2025-03-28 18:15:22 - Data directory created and permissions changed successfully
+2025-03-28 18:15:22 - Starting gunicorn in background
+[2025-03-28 18:15:22 +0000] [10652] [INFO] Starting gunicorn 23.0.0
+[2025-03-28 18:15:22 +0000] [10652] [INFO] Listening at: http://127.0.0.1:8000 (10652)
+[2025-03-28 18:15:22 +0000] [10652] [INFO] Using worker: sync
+[2025-03-28 18:15:22 +0000] [10653] [INFO] Booting worker with pid: 10653
+[2025-03-28 18:15:22 +0000] [10653] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/env/lib/python3.10/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/env/lib/python3.10/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/env/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/env/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/env/lib/python3.10/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/capstone4340-admin/E-CAT/Capstone_Flask/app.py", line 4, in <module>
+    from Email_Classifier_Module import load_model, load_feature_extractor, classify_emails, get_credentials, fetch_emails
+  File "/home/capstone4340-admin/E-CAT/Capstone_Flask/Email_Classifier_Module.py", line 6, in <module>
+    from google_auth_oauthlib.flow import InstalledAppFlow
+ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[2025-03-28 18:15:22 +0000] [10653] [INFO] Worker exiting (pid: 10653)
+[2025-03-28 18:15:23 +0000] [10652] [ERROR] Worker (pid:10653) exited with code 3
+[2025-03-28 18:15:23 +0000] [10652] [ERROR] Shutting down: Master
+[2025-03-28 18:15:23 +0000] [10652] [ERROR] Reason: Worker failed to boot.
+2025-03-28 18:15:23 - ERROR: Failed to start gunicorn in background
+2025-03-28 18:15:23 - Uploading log file to Bucket
+Copying file:///home/capstone4340-admin/startup.log [Content-Type=application/octet-stream]...
+/ [0 files][    0.0 B/ 95.8 KiB]                                                / [1 files][ 95.8 KiB/ 95.8 KiB]                                                
+Operation completed over 1 objects/95.8 KiB.                                     
+2025-03-28 18:15:26 - Log file uploaded successfully
+2025-03-28 18:15:26 - Uploading log file to Bucket
+Copying file:///home/capstone4340-admin/startup.log [Content-Type=application/octet-stream]...
+/ [0 files][    0.0 B/ 96.2 KiB]                                                
