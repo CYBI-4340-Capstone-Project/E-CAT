@@ -1,0 +1,24 @@
+{% extends 'base_home.html' %}
+
+{% block head %}
+  <meta charset="UTF-8">
+  <title>Settings Dashboard</title>
+{% endblock %}
+{% block body %}
+<!-- Creating a form  with jinja formatting-->
+<h1>Settings</h1>
+<span class="label">Username: </span>
+<span class="value">{{ name_to_update.user_Name }}</span>
+<span class="label">User ID: </span>
+<span class="value">{{ name_to_update.user_ID }}</span>
+<span class="label">Email: </span>
+<span class="value">{{ name_to_update.user_Email }}</span>
+<ul>
+    <li><a href="{{ url_for('settings_edit') }}">Edit Account</a></li>
+    <li><a href="{{ url_for('settings_delete') }}">Delete Account</a></li>
+</ul>
+ <!-- Handling flash messages -->
+{% for message in get_flashed_messages() %}
+<div class="alert" role="alert" style="text-align: center; color: black; font-size: 25px;">{{ message }}</div>
+{% endfor %}
+{% endblock %}

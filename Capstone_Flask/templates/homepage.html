@@ -1,0 +1,16 @@
+{% extends 'base_home.html' %}
+<!-- Begin head -->
+{% block head %}
+{% endblock %}
+{% block body %}
+	<main>
+		<h1>Capstone Project: E-CAT: Enhanced Cyber AI/ML Tools with Ensemble/Boosting based Classifications  </h1>
+		<p>Weâ€™re a group of passionate gamers on a mission to share our love for video games with everyone! Our goal is to provide a diverse library of games across popular consoles,
+			 making it easy for everyone to enjoy quality gaming experiences at affordable prices. Whether youâ€™re revisiting classics or exploring the latest releases,
+			  weâ€™re here to help you play more for less.</p>
+	</main>
+<!-- Handling flash messages -->
+{% for message in get_flashed_messages() %}
+<div class="alert" role="alert" style="text-align: center; color: black; font-size: 25px;">{{ message }}</div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,54 @@
+<!-- Python's 'Flask' module uses the 'Jinja' web template engine to manage its template inheritance. -->
+
+<!-- 'Index.html' is an extension of 'Base.html' -->
+{% extends 'base.html' %}
+
+<!-- Begin head -->
+{% block head %}
+<title>Login Page</title>
+
+<!-- Linking the stylesheet -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style_log_in.css') }}">
+{% endblock %}
+
+{% block body %}
+
+<div id="solidHalf">
+    <div class="spacer" style="padding-top: 25%; padding-right: 400px"></div>
+    <div class="box">
+    <h1>Forgot Password?</h1>
+    <h2 style="padding-bottom: 5px; transform: translatey(-10px)">Enter your username to confirm</h2>
+
+    <!-- Creating a form  with jinja formatting-->
+    <form action="/" method="post">
+        
+        <!--Uses the SECRET_KEY to lock this page behind said key, to prevent CSRF attacks.-->
+        {{ form.hidden_tag() }}
+
+        <!--Elements created through jinja-->
+        {{ form.username(placeholder="Username") }}
+        <div class="spacer"></div>
+        {{ form.password(type="password", placeholder="Password") }}
+        <div class="spacer"style="padding-top: 40px;"></div>
+        {{ form.submit(id="submitButton") }}
+
+    </form>
+    </div>
+
+    <div style="text-align: center">
+        <p class="subText">Remembered your password? <a href="{{ url_for('log_in') }}">Sign in</a></p>
+    </div>
+    <!-- Handling flash messages -->
+    {% for message in get_flashed_messages() %}
+    <div class="alert" role="alert" style="text-align: center; color: black; font-size: 25px;">{{ message }}</div>
+    {% endfor %}
+</div>
+
+<div id="imgContainer">
+    <img src="../static/Assets/Images/calendar.jpg" alt="Image alt text" id="bgImage">
+    <div id="textBlock">
+        <p style="color: #dfdfdf; margin-bottom: 2px; display: inline;">Image by</p>
+        <a href="https://www.freepik.com/free-photo/time-organization-concept-with-calendar_16688688.htm#page=2&query=calendar%20green%20pin&position=18&from_view=search&track=ais&uuid=c78ee2f7-68ef-4a11-b2aa-67143f01c33b">Freepik</a>
+    </div>
+</div>
+{% endblock %}

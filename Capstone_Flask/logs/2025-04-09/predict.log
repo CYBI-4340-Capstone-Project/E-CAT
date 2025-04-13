@@ -1,0 +1,28 @@
+2025-04-09 11:35:21,836 - INFO - Loaded model: final_XGB
+2025-04-09 11:35:22,979 - INFO - Loaded model: final_DT
+2025-04-09 11:35:23,039 - INFO - Saved results DataFrame with predictions to ./Databases/1/1/1_results.csv
+2025-04-09 16:02:49,362 - INFO - Loading model: final_XGB
+2025-04-09 16:02:49,548 - INFO - Loaded model: final_XGB
+2025-04-09 16:02:49,548 - INFO - Loading model: final_DT
+2025-04-09 16:02:50,325 - INFO - Loaded model: final_DT
+2025-04-09 16:02:50,377 - INFO - Saved results DataFrame with predictions to ./Databases/1/1/1_results.csv
+2025-04-09 16:03:53,095 - INFO - Loading model: final_XGB
+2025-04-09 16:03:53,300 - INFO - Loaded model: final_XGB
+2025-04-09 16:03:53,300 - INFO - Loading model: final_DT
+2025-04-09 16:03:54,022 - INFO - Loaded model: final_DT
+2025-04-09 16:03:54,066 - INFO - Saved results DataFrame with predictions to ./Databases/1/1/1_results.csv
+2025-04-09 16:07:41,266 - INFO - Loading model: final_XGB
+2025-04-09 16:07:41,459 - INFO - Loaded model: final_XGB
+2025-04-09 16:07:41,459 - INFO - Loading model: final_DT
+2025-04-09 16:07:42,193 - INFO - Loaded model: final_DT
+2025-04-09 16:07:42,193 - ERROR - Prediction failed: cannot access local variable 'df' where it is not associated with a value
+2025-04-09 16:08:30,605 - INFO - Loading model: final_XGB
+2025-04-09 16:08:30,800 - INFO - Loaded model: final_XGB
+2025-04-09 16:08:30,800 - INFO - Loading model: final_DT
+2025-04-09 16:08:31,558 - INFO - Loaded model: final_DT
+2025-04-09 16:08:31,634 - INFO - Saved results DataFrame with predictions to ./Databases/1/1/1_results.csv
+2025-04-09 16:20:42,514 - INFO - Loading model: final_XGB
+2025-04-09 16:20:42,712 - INFO - Loaded model: final_XGB
+2025-04-09 16:20:42,712 - INFO - Loading model: final_DT
+2025-04-09 16:20:43,423 - INFO - Loaded model: final_DT
+2025-04-09 16:20:43,504 - INFO - Saved results DataFrame with predictions to ./Databases/1/1/1_results.csv

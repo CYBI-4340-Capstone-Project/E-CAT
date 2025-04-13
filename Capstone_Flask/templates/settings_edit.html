@@ -1,0 +1,29 @@
+{% extends 'base_home.html' %}
+
+{% block head %}
+  <meta charset="UTF-8">
+  <title>Settings Dashboard</title>
+{% endblock %}
+{% block body %}
+<!-- Creating a form  with jinja formatting-->
+<h1>Settings</h1>
+<!--Elements created through jinja-->
+<form action="/Homepage/Settings/Confirm" method="POST">
+  {{ form.hidden_tag() }}
+  <div class="form">
+    <span class="label">{{ form.username.label}}</span>
+    <span class="value">{{ form.username(class="form-control")}}</br></span>
+  </div>
+  <div class="form">
+    <span class="label">{{ form.password.label}}</span>
+    <span class="value">{{ form.password(type="password")}}</br></span>
+  </div>
+  <div class="spacer"></div>
+  {{ form.submit(id="submitButton") }}
+</form>
+
+<!-- Handling flash messages -->
+{% for message in get_flashed_messages() %}
+<div class="alert" role="alert" style="text-align: center; color: black; font-size: 25px;">{{ message }}</div>
+{% endfor %}
+{% endblock %}

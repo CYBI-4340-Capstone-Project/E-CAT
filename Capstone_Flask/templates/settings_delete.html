@@ -1,0 +1,17 @@
+{% extends 'base_home.html' %}
+
+{% block head %}
+  <meta charset="UTF-8">
+  <title>Settings Dashboard</title>
+{% endblock %}
+{% block body %}
+<br><br><br><br><br>
+<h1>Successfully deleted your Account!</h1>
+<p>Return to <a href="{{ url_for('log_in') }}">Log in Page</a></p>
+<p>Create a <a href="{{ url_for('Register') }}">new account</a></p>
+
+<!-- Handling flash messages -->
+{% for message in get_flashed_messages() %}
+<div class="alert" role="alert" style="text-align: center; color: black; font-size: 25px;">{{ message }}</div>
+{% endfor %}
+{% endblock %}

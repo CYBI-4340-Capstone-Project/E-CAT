@@ -1,1145 +1,0 @@
-2025-03-21 07:14:05 - Startup script started
-2025-03-21 07:14:05 - Updating package lists
-2025-03-21 07:14:13 - apt-get update completed successfully
-2025-03-21 07:14:13 - Installing pip3
-Reading package lists...
-Building dependency tree...
-Reading state information...
-The following additional packages will be installed:
-  build-essential bzip2 cpp cpp-11 dpkg-dev fakeroot fontconfig-config
-  fonts-dejavu-core g++ g++-11 gcc gcc-11 gcc-11-base javascript-common
-  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
-  libasan6 libatomic1 libc-dev-bin libc-devtools libc6-dev libcc1-0
-  libcrypt-dev libdeflate0 libdpkg-perl libexpat1-dev libfakeroot
-  libfile-fcntllock-perl libfontconfig1 libgcc-11-dev libgd3 libgomp1 libisl23
-  libitm1 libjbig0 libjpeg-turbo8 libjpeg8 libjs-jquery libjs-sphinxdoc
-  libjs-underscore liblsan0 libmpc3 libnsl-dev libpython3-dev
-  libpython3.10-dev libquadmath0 libstdc++-11-dev libtiff5 libtirpc-dev
-  libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev lto-disabled-list make
-  manpages-dev python3-dev python3-wheel python3.10-dev rpcsvc-proto
-  zlib1g-dev
-Suggested packages:
-  bzip2-doc cpp-doc gcc-11-locales debian-keyring g++-multilib g++-11-multilib
-  gcc-11-doc gcc-multilib autoconf automake libtool flex bison gdb gcc-doc
-  gcc-11-multilib apache2 | lighttpd | httpd glibc-doc bzr libgd-tools
-  libstdc++-11-doc make-doc
-The following NEW packages will be installed:
-  build-essential bzip2 cpp cpp-11 dpkg-dev fakeroot fontconfig-config
-  fonts-dejavu-core g++ g++-11 gcc gcc-11 gcc-11-base javascript-common
-  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
-  libasan6 libatomic1 libc-dev-bin libc-devtools libc6-dev libcc1-0
-  libcrypt-dev libdeflate0 libdpkg-perl libexpat1-dev libfakeroot
-  libfile-fcntllock-perl libfontconfig1 libgcc-11-dev libgd3 libgomp1 libisl23
-  libitm1 libjbig0 libjpeg-turbo8 libjpeg8 libjs-jquery libjs-sphinxdoc
-  libjs-underscore liblsan0 libmpc3 libnsl-dev libpython3-dev
-  libpython3.10-dev libquadmath0 libstdc++-11-dev libtiff5 libtirpc-dev
-  libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev lto-disabled-list make
-  manpages-dev python3-dev python3-pip python3-wheel python3.10-dev
-  rpcsvc-proto zlib1g-dev
-0 upgraded, 64 newly installed, 0 to remove and 4 not upgraded.
-Need to get 71.3 MB of archives.
-After this operation, 239 MB of additional disk space will be used.
-Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-dev-bin amd64 2.35-0ubuntu3.9 [20.3 kB]
-Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-134.145 [1297 kB]
-Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libcrypt-dev amd64 1:4.4.27-1 [112 kB]
-Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu6 [68.5 kB]
-Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtirpc-dev amd64 1.3.2-2ubuntu0.1 [192 kB]
-Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libnsl-dev amd64 1.3.0-2build2 [71.3 kB]
-Get:7 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6-dev amd64 2.35-0ubuntu3.9 [2100 kB]
-Get:8 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11-base amd64 11.4.0-1ubuntu1~22.04 [20.2 kB]
-Get:9 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libisl23 amd64 0.24-2build1 [727 kB]
-Get:10 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libmpc3 amd64 1.2.1-2build1 [46.9 kB]
-Get:11 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 cpp-11 amd64 11.4.0-1ubuntu1~22.04 [10.0 MB]
-Get:12 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 cpp amd64 4:11.2.0-1ubuntu1 [27.7 kB]
-Get:13 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcc1-0 amd64 12.3.0-1ubuntu1~22.04 [48.3 kB]
-Get:14 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgomp1 amd64 12.3.0-1ubuntu1~22.04 [126 kB]
-Get:15 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libitm1 amd64 12.3.0-1ubuntu1~22.04 [30.2 kB]
-Get:16 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libatomic1 amd64 12.3.0-1ubuntu1~22.04 [10.4 kB]
-Get:17 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libasan6 amd64 11.4.0-1ubuntu1~22.04 [2282 kB]
-Get:18 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 liblsan0 amd64 12.3.0-1ubuntu1~22.04 [1069 kB]
-Get:19 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtsan0 amd64 11.4.0-1ubuntu1~22.04 [2260 kB]
-Get:20 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libubsan1 amd64 12.3.0-1ubuntu1~22.04 [976 kB]
-Get:21 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libquadmath0 amd64 12.3.0-1ubuntu1~22.04 [154 kB]
-Get:22 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcc-11-dev amd64 11.4.0-1ubuntu1~22.04 [2517 kB]
-Get:23 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11 amd64 11.4.0-1ubuntu1~22.04 [20.1 MB]
-Get:24 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 gcc amd64 4:11.2.0-1ubuntu1 [5112 B]
-Get:25 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstdc++-11-dev amd64 11.4.0-1ubuntu1~22.04 [2101 kB]
-Get:26 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 g++-11 amd64 11.4.0-1ubuntu1~22.04 [11.4 MB]
-Get:27 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 g++ amd64 4:11.2.0-1ubuntu1 [1412 B]
-Get:28 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 make amd64 4.3-4.1build1 [180 kB]
-Get:29 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdpkg-perl all 1.21.1ubuntu2.3 [237 kB]
-Get:30 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 bzip2 amd64 1.0.8-5build1 [34.8 kB]
-Get:31 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 lto-disabled-list all 24 [12.5 kB]
-Get:32 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 dpkg-dev all 1.21.1ubuntu2.3 [922 kB]
-Get:33 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 build-essential amd64 12.9ubuntu3 [4744 B]
-Get:34 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libfakeroot amd64 1.28-1ubuntu1 [31.5 kB]
-Get:35 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 fakeroot amd64 1.28-1ubuntu1 [60.4 kB]
-Get:36 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-dejavu-core all 2.37-2build1 [1041 kB]
-Get:37 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig-config all 2.13.1-4.2ubuntu5 [29.1 kB]
-Get:38 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 javascript-common all 11+nmu1 [5936 B]
-Get:39 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-perl all 1.201-1 [41.8 kB]
-Get:40 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-xs-perl amd64 0.04-6build3 [11.9 kB]
-Get:41 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]
-Get:42 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libfontconfig1 amd64 2.13.1-4.2ubuntu5 [131 kB]
-Get:43 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8 amd64 2.1.2-0ubuntu1 [134 kB]
-Get:44 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8 amd64 8c-2ubuntu10 [2264 B]
-Get:45 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libdeflate0 amd64 1.10-2 [70.9 kB]
-Get:46 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.22.04.1 [29.2 kB]
-Get:47 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwebp7 amd64 1.2.2-2ubuntu0.22.04.2 [206 kB]
-Get:48 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.10 [185 kB]
-Get:49 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.2 [36.7 kB]
-Get:50 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgd3 amd64 2.3.0-2ubuntu2.3 [129 kB]
-Get:51 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-devtools amd64 2.35-0ubuntu3.9 [29.0 kB]
-Get:52 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1-dev amd64 2.4.7-1ubuntu0.5 [147 kB]
-Get:53 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libfile-fcntllock-perl amd64 0.22-3build7 [33.9 kB]
-Get:54 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1 [321 kB]
-Get:55 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-underscore all 1.13.2~dfsg-2 [118 kB]
-Get:56 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-sphinxdoc all 4.3.2-1 [139 kB]
-Get:57 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu9.2 [164 kB]
-Get:58 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-dev amd64 3.10.12-1~22.04.9 [4763 kB]
-Get:59 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-dev amd64 3.10.6-1~22.04.1 [7064 B]
-Get:60 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy/main amd64 manpages-dev all 5.10-1ubuntu1 [2309 kB]
-Get:61 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-dev amd64 3.10.12-1~22.04.9 [508 kB]
-Get:62 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-dev amd64 3.10.6-1~22.04.1 [26.0 kB]
-Get:63 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-wheel all 0.37.1-2ubuntu0.22.04.1 [32.0 kB]
-Get:64 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-pip all 22.0.2+dfsg-1ubuntu0.5 [1306 kB]
-dpkg-preconfigure: unable to re-open stdin: No such file or directory
-Fetched 71.3 MB in 2s (43.6 MB/s)
-Selecting previously unselected package libc-dev-bin.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66644 files and directories currently installed.)
-Preparing to unpack .../00-libc-dev-bin_2.35-0ubuntu3.9_amd64.deb ...
-Unpacking libc-dev-bin (2.35-0ubuntu3.9) ...
-Selecting previously unselected package linux-libc-dev:amd64.
-Preparing to unpack .../01-linux-libc-dev_5.15.0-134.145_amd64.deb ...
-Unpacking linux-libc-dev:amd64 (5.15.0-134.145) ...
-Selecting previously unselected package libcrypt-dev:amd64.
-Preparing to unpack .../02-libcrypt-dev_1%3a4.4.27-1_amd64.deb ...
-Unpacking libcrypt-dev:amd64 (1:4.4.27-1) ...
-Selecting previously unselected package rpcsvc-proto.
-Preparing to unpack .../03-rpcsvc-proto_1.4.2-0ubuntu6_amd64.deb ...
-Unpacking rpcsvc-proto (1.4.2-0ubuntu6) ...
-Selecting previously unselected package libtirpc-dev:amd64.
-Preparing to unpack .../04-libtirpc-dev_1.3.2-2ubuntu0.1_amd64.deb ...
-Unpacking libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
-Selecting previously unselected package libnsl-dev:amd64.
-Preparing to unpack .../05-libnsl-dev_1.3.0-2build2_amd64.deb ...
-Unpacking libnsl-dev:amd64 (1.3.0-2build2) ...
-Selecting previously unselected package libc6-dev:amd64.
-Preparing to unpack .../06-libc6-dev_2.35-0ubuntu3.9_amd64.deb ...
-Unpacking libc6-dev:amd64 (2.35-0ubuntu3.9) ...
-Selecting previously unselected package gcc-11-base:amd64.
-Preparing to unpack .../07-gcc-11-base_11.4.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04) ...
-Selecting previously unselected package libisl23:amd64.
-Preparing to unpack .../08-libisl23_0.24-2build1_amd64.deb ...
-Unpacking libisl23:amd64 (0.24-2build1) ...
-Selecting previously unselected package libmpc3:amd64.
-Preparing to unpack .../09-libmpc3_1.2.1-2build1_amd64.deb ...
-Unpacking libmpc3:amd64 (1.2.1-2build1) ...
-Selecting previously unselected package cpp-11.
-Preparing to unpack .../10-cpp-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking cpp-11 (11.4.0-1ubuntu1~22.04) ...
-Selecting previously unselected package cpp.
-Preparing to unpack .../11-cpp_4%3a11.2.0-1ubuntu1_amd64.deb ...
-Unpacking cpp (4:11.2.0-1ubuntu1) ...
-Selecting previously unselected package libcc1-0:amd64.
-Preparing to unpack .../12-libcc1-0_12.3.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libcc1-0:amd64 (12.3.0-1ubuntu1~22.04) ...
-Selecting previously unselected package libgomp1:amd64.
-Preparing to unpack .../13-libgomp1_12.3.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libgomp1:amd64 (12.3.0-1ubuntu1~22.04) ...
-Selecting previously unselected package libitm1:amd64.
-Preparing to unpack .../14-libitm1_12.3.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libitm1:amd64 (12.3.0-1ubuntu1~22.04) ...
-Selecting previously unselected package libatomic1:amd64.
-Preparing to unpack .../15-libatomic1_12.3.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libatomic1:amd64 (12.3.0-1ubuntu1~22.04) ...
-Selecting previously unselected package libasan6:amd64.
-Preparing to unpack .../16-libasan6_11.4.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libasan6:amd64 (11.4.0-1ubuntu1~22.04) ...
-Selecting previously unselected package liblsan0:amd64.
-Preparing to unpack .../17-liblsan0_12.3.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking liblsan0:amd64 (12.3.0-1ubuntu1~22.04) ...
-Selecting previously unselected package libtsan0:amd64.
-Preparing to unpack .../18-libtsan0_11.4.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libtsan0:amd64 (11.4.0-1ubuntu1~22.04) ...
-Selecting previously unselected package libubsan1:amd64.
-Preparing to unpack .../19-libubsan1_12.3.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libubsan1:amd64 (12.3.0-1ubuntu1~22.04) ...
-Selecting previously unselected package libquadmath0:amd64.
-Preparing to unpack .../20-libquadmath0_12.3.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libquadmath0:amd64 (12.3.0-1ubuntu1~22.04) ...
-Selecting previously unselected package libgcc-11-dev:amd64.
-Preparing to unpack .../21-libgcc-11-dev_11.4.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
-Selecting previously unselected package gcc-11.
-Preparing to unpack .../22-gcc-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking gcc-11 (11.4.0-1ubuntu1~22.04) ...
-Selecting previously unselected package gcc.
-Preparing to unpack .../23-gcc_4%3a11.2.0-1ubuntu1_amd64.deb ...
-Unpacking gcc (4:11.2.0-1ubuntu1) ...
-Selecting previously unselected package libstdc++-11-dev:amd64.
-Preparing to unpack .../24-libstdc++-11-dev_11.4.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
-Selecting previously unselected package g++-11.
-Preparing to unpack .../25-g++-11_11.4.0-1ubuntu1~22.04_amd64.deb ...
-Unpacking g++-11 (11.4.0-1ubuntu1~22.04) ...
-Selecting previously unselected package g++.
-Preparing to unpack .../26-g++_4%3a11.2.0-1ubuntu1_amd64.deb ...
-Unpacking g++ (4:11.2.0-1ubuntu1) ...
-Selecting previously unselected package make.
-Preparing to unpack .../27-make_4.3-4.1build1_amd64.deb ...
-Unpacking make (4.3-4.1build1) ...
-Selecting previously unselected package libdpkg-perl.
-Preparing to unpack .../28-libdpkg-perl_1.21.1ubuntu2.3_all.deb ...
-Unpacking libdpkg-perl (1.21.1ubuntu2.3) ...
-Selecting previously unselected package bzip2.
-Preparing to unpack .../29-bzip2_1.0.8-5build1_amd64.deb ...
-Unpacking bzip2 (1.0.8-5build1) ...
-Selecting previously unselected package lto-disabled-list.
-Preparing to unpack .../30-lto-disabled-list_24_all.deb ...
-Unpacking lto-disabled-list (24) ...
-Selecting previously unselected package dpkg-dev.
-Preparing to unpack .../31-dpkg-dev_1.21.1ubuntu2.3_all.deb ...
-Unpacking dpkg-dev (1.21.1ubuntu2.3) ...
-Selecting previously unselected package build-essential.
-Preparing to unpack .../32-build-essential_12.9ubuntu3_amd64.deb ...
-Unpacking build-essential (12.9ubuntu3) ...
-Selecting previously unselected package libfakeroot:amd64.
-Preparing to unpack .../33-libfakeroot_1.28-1ubuntu1_amd64.deb ...
-Unpacking libfakeroot:amd64 (1.28-1ubuntu1) ...
-Selecting previously unselected package fakeroot.
-Preparing to unpack .../34-fakeroot_1.28-1ubuntu1_amd64.deb ...
-Unpacking fakeroot (1.28-1ubuntu1) ...
-Selecting previously unselected package fonts-dejavu-core.
-Preparing to unpack .../35-fonts-dejavu-core_2.37-2build1_all.deb ...
-Unpacking fonts-dejavu-core (2.37-2build1) ...
-Selecting previously unselected package fontconfig-config.
-Preparing to unpack .../36-fontconfig-config_2.13.1-4.2ubuntu5_all.deb ...
-Unpacking fontconfig-config (2.13.1-4.2ubuntu5) ...
-Selecting previously unselected package javascript-common.
-Preparing to unpack .../37-javascript-common_11+nmu1_all.deb ...
-Unpacking javascript-common (11+nmu1) ...
-Selecting previously unselected package libalgorithm-diff-perl.
-Preparing to unpack .../38-libalgorithm-diff-perl_1.201-1_all.deb ...
-Unpacking libalgorithm-diff-perl (1.201-1) ...
-Selecting previously unselected package libalgorithm-diff-xs-perl.
-Preparing to unpack .../39-libalgorithm-diff-xs-perl_0.04-6build3_amd64.deb ...
-Unpacking libalgorithm-diff-xs-perl (0.04-6build3) ...
-Selecting previously unselected package libalgorithm-merge-perl.
-Preparing to unpack .../40-libalgorithm-merge-perl_0.08-3_all.deb ...
-Unpacking libalgorithm-merge-perl (0.08-3) ...
-Selecting previously unselected package libfontconfig1:amd64.
-Preparing to unpack .../41-libfontconfig1_2.13.1-4.2ubuntu5_amd64.deb ...
-Unpacking libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
-Selecting previously unselected package libjpeg-turbo8:amd64.
-Preparing to unpack .../42-libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb ...
-Unpacking libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
-Selecting previously unselected package libjpeg8:amd64.
-Preparing to unpack .../43-libjpeg8_8c-2ubuntu10_amd64.deb ...
-Unpacking libjpeg8:amd64 (8c-2ubuntu10) ...
-Selecting previously unselected package libdeflate0:amd64.
-Preparing to unpack .../44-libdeflate0_1.10-2_amd64.deb ...
-Unpacking libdeflate0:amd64 (1.10-2) ...
-Selecting previously unselected package libjbig0:amd64.
-Preparing to unpack .../45-libjbig0_2.1-3.1ubuntu0.22.04.1_amd64.deb ...
-Unpacking libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
-Selecting previously unselected package libwebp7:amd64.
-Preparing to unpack .../46-libwebp7_1.2.2-2ubuntu0.22.04.2_amd64.deb ...
-Unpacking libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
-Selecting previously unselected package libtiff5:amd64.
-Preparing to unpack .../47-libtiff5_4.3.0-6ubuntu0.10_amd64.deb ...
-Unpacking libtiff5:amd64 (4.3.0-6ubuntu0.10) ...
-Selecting previously unselected package libxpm4:amd64.
-Preparing to unpack .../48-libxpm4_1%3a3.5.12-1ubuntu0.22.04.2_amd64.deb ...
-Unpacking libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
-Selecting previously unselected package libgd3:amd64.
-Preparing to unpack .../49-libgd3_2.3.0-2ubuntu2.3_amd64.deb ...
-Unpacking libgd3:amd64 (2.3.0-2ubuntu2.3) ...
-Selecting previously unselected package libc-devtools.
-Preparing to unpack .../50-libc-devtools_2.35-0ubuntu3.9_amd64.deb ...
-Unpacking libc-devtools (2.35-0ubuntu3.9) ...
-Selecting previously unselected package libexpat1-dev:amd64.
-Preparing to unpack .../51-libexpat1-dev_2.4.7-1ubuntu0.5_amd64.deb ...
-Unpacking libexpat1-dev:amd64 (2.4.7-1ubuntu0.5) ...
-Selecting previously unselected package libfile-fcntllock-perl.
-Preparing to unpack .../52-libfile-fcntllock-perl_0.22-3build7_amd64.deb ...
-Unpacking libfile-fcntllock-perl (0.22-3build7) ...
-Selecting previously unselected package libjs-jquery.
-Preparing to unpack .../53-libjs-jquery_3.6.0+dfsg+~3.5.13-1_all.deb ...
-Unpacking libjs-jquery (3.6.0+dfsg+~3.5.13-1) ...
-Selecting previously unselected package libjs-underscore.
-Preparing to unpack .../54-libjs-underscore_1.13.2~dfsg-2_all.deb ...
-Unpacking libjs-underscore (1.13.2~dfsg-2) ...
-Selecting previously unselected package libjs-sphinxdoc.
-Preparing to unpack .../55-libjs-sphinxdoc_4.3.2-1_all.deb ...
-Unpacking libjs-sphinxdoc (4.3.2-1) ...
-Selecting previously unselected package zlib1g-dev:amd64.
-Preparing to unpack .../56-zlib1g-dev_1%3a1.2.11.dfsg-2ubuntu9.2_amd64.deb ...
-Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu9.2) ...
-Selecting previously unselected package libpython3.10-dev:amd64.
-Preparing to unpack .../57-libpython3.10-dev_3.10.12-1~22.04.9_amd64.deb ...
-Unpacking libpython3.10-dev:amd64 (3.10.12-1~22.04.9) ...
-Selecting previously unselected package libpython3-dev:amd64.
-Preparing to unpack .../58-libpython3-dev_3.10.6-1~22.04.1_amd64.deb ...
-Unpacking libpython3-dev:amd64 (3.10.6-1~22.04.1) ...
-Selecting previously unselected package manpages-dev.
-Preparing to unpack .../59-manpages-dev_5.10-1ubuntu1_all.deb ...
-Unpacking manpages-dev (5.10-1ubuntu1) ...
-Selecting previously unselected package python3.10-dev.
-Preparing to unpack .../60-python3.10-dev_3.10.12-1~22.04.9_amd64.deb ...
-Unpacking python3.10-dev (3.10.12-1~22.04.9) ...
-Selecting previously unselected package python3-dev.
-Preparing to unpack .../61-python3-dev_3.10.6-1~22.04.1_amd64.deb ...
-Unpacking python3-dev (3.10.6-1~22.04.1) ...
-Selecting previously unselected package python3-wheel.
-Preparing to unpack .../62-python3-wheel_0.37.1-2ubuntu0.22.04.1_all.deb ...
-Unpacking python3-wheel (0.37.1-2ubuntu0.22.04.1) ...
-Selecting previously unselected package python3-pip.
-Preparing to unpack .../63-python3-pip_22.0.2+dfsg-1ubuntu0.5_all.deb ...
-Unpacking python3-pip (22.0.2+dfsg-1ubuntu0.5) ...
-Setting up javascript-common (11+nmu1) ...
-Setting up gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04) ...
-Setting up manpages-dev (5.10-1ubuntu1) ...
-Setting up lto-disabled-list (24) ...
-Setting up libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
-Setting up libfile-fcntllock-perl (0.22-3build7) ...
-Setting up libalgorithm-diff-perl (1.201-1) ...
-Setting up libdeflate0:amd64 (1.10-2) ...
-Setting up linux-libc-dev:amd64 (5.15.0-134.145) ...
-Setting up libgomp1:amd64 (12.3.0-1ubuntu1~22.04) ...
-Setting up bzip2 (1.0.8-5build1) ...
-Setting up python3-wheel (0.37.1-2ubuntu0.22.04.1) ...
-Setting up libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
-Setting up libfakeroot:amd64 (1.28-1ubuntu1) ...
-Setting up libasan6:amd64 (11.4.0-1ubuntu1~22.04) ...
-Setting up fakeroot (1.28-1ubuntu1) ...
-update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
-Setting up libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
-Setting up rpcsvc-proto (1.4.2-0ubuntu6) ...
-Setting up make (4.3-4.1build1) ...
-Setting up libquadmath0:amd64 (12.3.0-1ubuntu1~22.04) ...
-Setting up libmpc3:amd64 (1.2.1-2build1) ...
-Setting up libatomic1:amd64 (12.3.0-1ubuntu1~22.04) ...
-Setting up fonts-dejavu-core (2.37-2build1) ...
-Setting up python3-pip (22.0.2+dfsg-1ubuntu0.5) ...
-Setting up libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
-Setting up libdpkg-perl (1.21.1ubuntu2.3) ...
-Setting up libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
-Setting up libubsan1:amd64 (12.3.0-1ubuntu1~22.04) ...
-Setting up libnsl-dev:amd64 (1.3.0-2build2) ...
-Setting up libcrypt-dev:amd64 (1:4.4.27-1) ...
-Setting up libjs-jquery (3.6.0+dfsg+~3.5.13-1) ...
-Setting up libisl23:amd64 (0.24-2build1) ...
-Setting up libc-dev-bin (2.35-0ubuntu3.9) ...
-Setting up libalgorithm-diff-xs-perl (0.04-6build3) ...
-Setting up libcc1-0:amd64 (12.3.0-1ubuntu1~22.04) ...
-Setting up liblsan0:amd64 (12.3.0-1ubuntu1~22.04) ...
-Setting up libitm1:amd64 (12.3.0-1ubuntu1~22.04) ...
-Setting up libjs-underscore (1.13.2~dfsg-2) ...
-Setting up libalgorithm-merge-perl (0.08-3) ...
-Setting up libtsan0:amd64 (11.4.0-1ubuntu1~22.04) ...
-Setting up libjpeg8:amd64 (8c-2ubuntu10) ...
-Setting up cpp-11 (11.4.0-1ubuntu1~22.04) ...
-Setting up fontconfig-config (2.13.1-4.2ubuntu5) ...
-Setting up dpkg-dev (1.21.1ubuntu2.3) ...
-Setting up libjs-sphinxdoc (4.3.2-1) ...
-Setting up libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
-Setting up gcc-11 (11.4.0-1ubuntu1~22.04) ...
-Setting up cpp (4:11.2.0-1ubuntu1) ...
-Setting up libc6-dev:amd64 (2.35-0ubuntu3.9) ...
-Setting up libtiff5:amd64 (4.3.0-6ubuntu0.10) ...
-Setting up libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
-Setting up gcc (4:11.2.0-1ubuntu1) ...
-Setting up libexpat1-dev:amd64 (2.4.7-1ubuntu0.5) ...
-Setting up libgd3:amd64 (2.3.0-2ubuntu2.3) ...
-Setting up libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
-Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu9.2) ...
-Setting up libc-devtools (2.35-0ubuntu3.9) ...
-Setting up g++-11 (11.4.0-1ubuntu1~22.04) ...
-Setting up libpython3.10-dev:amd64 (3.10.12-1~22.04.9) ...
-Setting up python3.10-dev (3.10.12-1~22.04.9) ...
-Setting up g++ (4:11.2.0-1ubuntu1) ...
-update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
-Setting up build-essential (12.9ubuntu3) ...
-Setting up libpython3-dev:amd64 (3.10.6-1~22.04.1) ...
-Setting up python3-dev (3.10.6-1~22.04.1) ...
-Processing triggers for man-db (2.10.2-1) ...
-Processing triggers for libc-bin (2.35-0ubuntu3.9) ...
-
-Running kernel seems to be up-to-date.
-
-No services need to be restarted.
-
-No containers need to be restarted.
-
-No user sessions are running outdated binaries.
-
-No VM guests are running outdated hypervisor (qemu) binaries on this host.
-2025-03-21 07:14:25 - pip3 installed successfully
-2025-03-21 07:14:25 - Installing python dependencies
-Collecting xgboost
-  Downloading xgboost-3.0.0-py3-none-manylinux_2_28_x86_64.whl (253.9 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 253.9/253.9 MB 8.4 MB/s eta 0:00:00
-Collecting fastparquet
-  Downloading fastparquet-2024.11.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 140.8 MB/s eta 0:00:00
-Collecting pyarrow
-  Downloading pyarrow-19.0.1-cp310-cp310-manylinux_2_28_x86_64.whl (42.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.1/42.1 MB 59.5 MB/s eta 0:00:00
-Collecting numpy
-  Downloading numpy-2.2.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.4 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.4/16.4 MB 142.7 MB/s eta 0:00:00
-Collecting pandas
-  Downloading pandas-2.2.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 167.9 MB/s eta 0:00:00
-Collecting scikit-learn
-  Downloading scikit_learn-1.6.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.5 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 178.7 MB/s eta 0:00:00
-Collecting imbalanced-learn
-  Downloading imbalanced_learn-0.13.0-py3-none-any.whl (238 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 238.4/238.4 KB 54.3 MB/s eta 0:00:00
-Collecting nvidia-nccl-cu12
-  Downloading nvidia_nccl_cu12-2.26.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (201.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 201.3/201.3 MB 10.5 MB/s eta 0:00:00
-Collecting scipy
-  Downloading scipy-1.15.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.6 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.6/37.6 MB 67.2 MB/s eta 0:00:00
-Requirement already satisfied: packaging in /usr/lib/python3/dist-packages (from fastparquet) (21.3)
-Collecting fsspec
-  Downloading fsspec-2025.3.0-py3-none-any.whl (193 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 193.6/193.6 KB 47.2 MB/s eta 0:00:00
-Collecting cramjam>=2.3
-  Downloading cramjam-2.9.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.4 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 172.1 MB/s eta 0:00:00
-Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas) (2022.1)
-Collecting tzdata>=2022.7
-  Downloading tzdata-2025.1-py2.py3-none-any.whl (346 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 346.8/346.8 KB 67.5 MB/s eta 0:00:00
-Collecting python-dateutil>=2.8.2
-  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 KB 56.0 MB/s eta 0:00:00
-Collecting threadpoolctl>=3.1.0
-  Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
-Collecting joblib>=1.2.0
-  Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 301.8/301.8 KB 54.2 MB/s eta 0:00:00
-Collecting sklearn-compat<1,>=0.1
-  Downloading sklearn_compat-0.1.3-py3-none-any.whl (18 kB)
-Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
-Installing collected packages: tzdata, threadpoolctl, python-dateutil, pyarrow, nvidia-nccl-cu12, numpy, joblib, fsspec, cramjam, scipy, pandas, xgboost, scikit-learn, fastparquet, sklearn-compat, imbalanced-learn
-Successfully installed cramjam-2.9.1 fastparquet-2024.11.0 fsspec-2025.3.0 imbalanced-learn-0.13.0 joblib-1.4.2 numpy-2.2.4 nvidia-nccl-cu12-2.26.2 pandas-2.2.3 pyarrow-19.0.1 python-dateutil-2.9.0.post0 scikit-learn-1.6.1 scipy-1.15.2 sklearn-compat-0.1.3 threadpoolctl-3.6.0 tzdata-2025.1 xgboost-3.0.0
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-2025-03-21 07:14:51 - Dependencies installed successfully
-2025-03-21 07:14:51 - Creating data directory
-2025-03-21 07:14:51 - Data directory created successfully
-2025-03-21 07:14:51 - Copying files from Cloud Storage
-Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/combine - Copy.ipynb...
-/ [0 files][    0.0 B/ 43.8 KiB]                                                / [1 files][ 43.8 KiB/ 43.8 KiB]                                                Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/combine.ipynb...
-/ [1 files][ 43.8 KiB/ 95.1 KiB]                                                / [2 files][ 95.1 KiB/ 95.1 KiB]                                                Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/combine.log...
-/ [2 files][ 95.1 KiB/195.6 KiB]                                                / [3 files][195.6 KiB/195.6 KiB]                                                
-==> NOTE: You are performing a sequence of gsutil operations that may
-run significantly faster if you instead use gsutil -m cp ... Please
-see the -m section under "gsutil help options" for further information
-about when gsutil -m can be advantageous.
-
-Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/combine.py...
-/ [3 files][195.6 KiB/203.6 KiB]                                                / [4 files][203.6 KiB/203.6 KiB]                                                Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/final_oversampled_ADASYN.parquet...
-/ [4 files][203.6 KiB/945.6 MiB]                                                -\\ [4 files][ 74.7 MiB/945.6 MiB]                                                |// [4 files][193.8 MiB/945.6 MiB]                                                -- [4 files][311.1 MiB/945.6 MiB]                                                \|| [4 files][432.3 MiB/945.6 MiB]                                                /-- [4 files][551.9 MiB/945.6 MiB]                                                \\ [4 files][671.3 MiB/945.6 MiB]                                                |// [4 files][788.8 MiB/945.6 MiB]                                                -\\ [4 files][897.1 MiB/945.6 MiB]                                                || [5 files][945.6 MiB/945.6 MiB]                                                Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/final_oversampled_SMOTE.parquet...
-| [5 files][945.6 MiB/  2.1 GiB]                                                // [5 files][  1.1 GiB/  2.1 GiB]                                                -\\ [5 files][  1.3 GiB/  2.1 GiB]  143.5 MiB/s                                   |// [5 files][  1.7 GiB/  2.1 GiB]  195.8 MiB/s                                   -- [5 files][  2.0 GiB/  2.1 GiB]  235.1 MiB/s                                   \\ [6 files][  2.1 GiB/  2.1 GiB]  247.0 MiB/s                                   Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/final_oversampled_SMOTE_DT.joblib...
-\ [6 files][  2.1 GiB/  2.7 GiB]  247.2 MiB/s                                   |// [6 files][  2.4 GiB/  2.7 GiB]  293.1 MiB/s                                   -\\ [7 files][  2.7 GiB/  2.7 GiB]  309.2 MiB/s                                   Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/final_oversampled_SMOTE_LR.joblib...
-\ [7 files][  2.7 GiB/  2.7 GiB]  309.0 MiB/s                                   \ [8 files][  2.7 GiB/  2.7 GiB]  303.5 MiB/s                                   Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/final_oversampled_SMOTE_MLP.joblib...
-\ [8 files][  2.7 GiB/  2.7 GiB]  303.5 MiB/s                                   \ [9 files][  2.7 GiB/  2.7 GiB]  294.1 MiB/s                                   Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/final_oversampled_SMOTE_NB.joblib...
-\ [9 files][  2.7 GiB/  2.7 GiB]  294.2 MiB/s                                   \ [10 files][  2.7 GiB/  2.7 GiB]  284.1 MiB/s                                  Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/final_oversampled_SMOTE_RF.joblib...
-\ [10 files][  2.7 GiB/ 54.0 GiB]  284.0 MiB/s                                  |// [10 files][  3.0 GiB/ 54.0 GiB]  268.3 MiB/s                                  -\\ [10 files][  3.4 GiB/ 54.0 GiB]  293.2 MiB/s                                  || [10 files][  3.9 GiB/ 54.0 GiB]  349.2 MiB/s                                  /-- [10 files][  4.3 GiB/ 54.0 GiB]  347.4 MiB/s                                  \|| [10 files][  4.7 GiB/ 54.0 GiB]  405.5 MiB/s                                  // [10 files][  5.1 GiB/ 54.0 GiB]  435.2 MiB/s                                  -\\ [10 files][  5.6 GiB/ 54.0 GiB]  437.8 MiB/s                                  |// [10 files][  6.0 GiB/ 54.0 GiB]  439.8 MiB/s                                  -- [10 files][  6.4 GiB/ 54.0 GiB]  442.4 MiB/s                                  \|| [10 files][  6.8 GiB/ 54.0 GiB]  428.8 MiB/s                                  /-- [10 files][  7.1 GiB/ 54.0 GiB]  407.1 MiB/s                                  \\ [10 files][  7.5 GiB/ 54.0 GiB]  393.4 MiB/s                                  |// [10 files][  7.9 GiB/ 54.0 GiB]  378.8 MiB/s                                  -\\ [10 files][  8.2 GiB/ 54.0 GiB]  369.7 MiB/s                                  || [10 files][  8.6 GiB/ 54.0 GiB]  372.0 MiB/s                                  /-- [10 files][  9.0 GiB/ 54.0 GiB]  373.9 MiB/s                                  \|| [10 files][  9.3 GiB/ 54.0 GiB]  373.4 MiB/s                                  // [10 files][  9.7 GiB/ 54.0 GiB]  373.4 MiB/s                                  -\\ [10 files][ 10.1 GiB/ 54.0 GiB]  373.2 MiB/s                                  |// [10 files][ 10.4 GiB/ 54.0 GiB]  371.3 MiB/s                                  -- [10 files][ 10.8 GiB/ 54.0 GiB]  373.7 MiB/s                                  \|| [10 files][ 11.2 GiB/ 54.0 GiB]  372.7 MiB/s                                  /-- [10 files][ 11.5 GiB/ 54.0 GiB]  374.9 MiB/s                                  \\ [10 files][ 11.9 GiB/ 54.0 GiB]  372.6 MiB/s                                  |// [10 files][ 12.2 GiB/ 54.0 GiB]  371.8 MiB/s                                  -\\ [10 files][ 12.6 GiB/ 54.0 GiB]  366.7 MiB/s                                  || [10 files][ 12.9 GiB/ 54.0 GiB]  366.8 MiB/s                                  /-- [10 files][ 13.4 GiB/ 54.0 GiB]  373.7 MiB/s                                  \|| [10 files][ 13.8 GiB/ 54.0 GiB]  387.0 MiB/s                                  // [10 files][ 14.2 GiB/ 54.0 GiB]  399.4 MiB/s                                  -\\ [10 files][ 14.6 GiB/ 54.0 GiB]  419.5 MiB/s                                  |// [10 files][ 15.1 GiB/ 54.0 GiB]  433.1 MiB/s                                  -- [10 files][ 15.5 GiB/ 54.0 GiB]  432.7 MiB/s                                  \|| [10 files][ 15.8 GiB/ 54.0 GiB]  418.2 MiB/s                                  /-- [10 files][ 16.2 GiB/ 54.0 GiB]  406.7 MiB/s                                  \\ [10 files][ 16.6 GiB/ 54.0 GiB]  396.6 MiB/s                                  |// [10 files][ 16.9 GiB/ 54.0 GiB]  383.7 MiB/s                                  -\\ [10 files][ 17.3 GiB/ 54.0 GiB]  374.5 MiB/s                                  || [10 files][ 17.7 GiB/ 54.0 GiB]  376.9 MiB/s                                  /-- [10 files][ 18.0 GiB/ 54.0 GiB]  377.9 MiB/s                                  \|| [10 files][ 18.4 GiB/ 54.0 GiB]  376.7 MiB/s                                  // [10 files][ 18.8 GiB/ 54.0 GiB]  376.2 MiB/s                                  -\\ [10 files][ 19.1 GiB/ 54.0 GiB]  377.8 MiB/s                                  |// [10 files][ 19.5 GiB/ 54.0 GiB]  377.1 MiB/s                                  -- [10 files][ 19.9 GiB/ 54.0 GiB]  374.2 MiB/s                                  \|| [10 files][ 20.2 GiB/ 54.0 GiB]  367.1 MiB/s                                  /-- [10 files][ 20.6 GiB/ 54.0 GiB]  366.6 MiB/s                                  \\ [10 files][ 20.9 GiB/ 54.0 GiB]  364.8 MiB/s                                  |// [10 files][ 21.3 GiB/ 54.0 GiB]  364.6 MiB/s                                  -\\ [10 files][ 21.6 GiB/ 54.0 GiB]  363.5 MiB/s                                  || [10 files][ 22.0 GiB/ 54.0 GiB]  366.3 MiB/s                                  /-- [10 files][ 22.4 GiB/ 54.0 GiB]  364.9 MiB/s                                  \|| [10 files][ 22.7 GiB/ 54.0 GiB]  366.3 MiB/s                                  // [10 files][ 23.1 GiB/ 54.0 GiB]  365.8 MiB/s                                  -\\ [10 files][ 23.4 GiB/ 54.0 GiB]  367.9 MiB/s                                  |// [10 files][ 23.8 GiB/ 54.0 GiB]  363.8 MiB/s                                  -- [10 files][ 24.1 GiB/ 54.0 GiB]  365.3 MiB/s                                  \|| [10 files][ 24.5 GiB/ 54.0 GiB]  360.2 MiB/s                                  /-- [10 files][ 24.8 GiB/ 54.0 GiB]  354.9 MiB/s                                  \\ [10 files][ 25.2 GiB/ 54.0 GiB]  352.6 MiB/s                                  |// [10 files][ 25.5 GiB/ 54.0 GiB]  357.0 MiB/s                                  -\\ [10 files][ 25.9 GiB/ 54.0 GiB]  365.3 MiB/s                                  || [10 files][ 26.4 GiB/ 54.0 GiB]  386.2 MiB/s                                  /-- [10 files][ 26.8 GiB/ 54.0 GiB]  407.4 MiB/s                                  \|| [10 files][ 27.2 GiB/ 54.0 GiB]  428.2 MiB/s                                  // [10 files][ 27.7 GiB/ 54.0 GiB]  445.8 MiB/s                                  -\\ [10 files][ 28.1 GiB/ 54.0 GiB]  439.8 MiB/s                                  |// [10 files][ 28.4 GiB/ 54.0 GiB]  424.2 MiB/s                                  -- [10 files][ 28.8 GiB/ 54.0 GiB]  411.5 MiB/s                                  \|| [10 files][ 29.2 GiB/ 54.0 GiB]  395.9 MiB/s                                  /-- [10 files][ 29.5 GiB/ 54.0 GiB]  374.9 MiB/s                                  \\ [10 files][ 29.9 GiB/ 54.0 GiB]  372.7 MiB/s                                  |// [10 files][ 30.3 GiB/ 54.0 GiB]  372.0 MiB/s                                  -\\ [10 files][ 30.6 GiB/ 54.0 GiB]  370.2 MiB/s                                  || [10 files][ 31.0 GiB/ 54.0 GiB]  370.0 MiB/s                                  /-- [10 files][ 31.3 GiB/ 54.0 GiB]  368.2 MiB/s                                  \|| [10 files][ 31.7 GiB/ 54.0 GiB]  368.6 MiB/s                                  // [10 files][ 32.1 GiB/ 54.0 GiB]  368.2 MiB/s                                  -\\ [10 files][ 32.4 GiB/ 54.0 GiB]  366.6 MiB/s                                  |// [10 files][ 32.8 GiB/ 54.0 GiB]  369.3 MiB/s                                  -- [10 files][ 33.2 GiB/ 54.0 GiB]  373.0 MiB/s                                  \|| [10 files][ 33.5 GiB/ 54.0 GiB]  373.3 MiB/s                                  /-- [10 files][ 33.9 GiB/ 54.0 GiB]  375.0 MiB/s                                  \\ [10 files][ 34.3 GiB/ 54.0 GiB]  376.4 MiB/s                                  |// [10 files][ 34.6 GiB/ 54.0 GiB]  377.5 MiB/s                                  -\\ [10 files][ 35.0 GiB/ 54.0 GiB]  377.7 MiB/s                                  || [10 files][ 35.4 GiB/ 54.0 GiB]  376.1 MiB/s                                  /-- [10 files][ 35.7 GiB/ 54.0 GiB]  376.3 MiB/s                                  \|| [10 files][ 36.1 GiB/ 54.0 GiB]  376.4 MiB/s                                  // [10 files][ 36.5 GiB/ 54.0 GiB]  376.6 MiB/s                                  -\\ [10 files][ 36.8 GiB/ 54.0 GiB]  378.3 MiB/s                                  |// [10 files][ 37.2 GiB/ 54.0 GiB]  377.8 MiB/s                                  -- [10 files][ 37.6 GiB/ 54.0 GiB]  378.3 MiB/s                                  \|| [10 files][ 38.0 GiB/ 54.0 GiB]  378.4 MiB/s                                  /-- [10 files][ 38.3 GiB/ 54.0 GiB]  372.6 MiB/s                                  \\ [10 files][ 38.7 GiB/ 54.0 GiB]  372.9 MiB/s                                  |// [10 files][ 39.0 GiB/ 54.0 GiB]  371.5 MiB/s                                  -\\ [10 files][ 39.4 GiB/ 54.0 GiB]  365.9 MiB/s                                  || [10 files][ 39.8 GiB/ 54.0 GiB]  364.5 MiB/s                                  /-- [10 files][ 40.1 GiB/ 54.0 GiB]  365.5 MiB/s                                  \|| [10 files][ 40.4 GiB/ 54.0 GiB]  360.8 MiB/s                                  // [10 files][ 40.8 GiB/ 54.0 GiB]  359.4 MiB/s                                  -\\ [10 files][ 41.1 GiB/ 54.0 GiB]  348.3 MiB/s                                  |// [10 files][ 41.2 GiB/ 54.0 GiB]  298.7 MiB/s                                  -- [10 files][ 41.3 GiB/ 54.0 GiB]  250.9 MiB/s                                  \|| [10 files][ 41.5 GiB/ 54.0 GiB]  204.1 MiB/s                                  /-- [10 files][ 41.6 GiB/ 54.0 GiB]  156.5 MiB/s                                  \\ [10 files][ 41.7 GiB/ 54.0 GiB]  124.2 MiB/s                                  |// [10 files][ 41.8 GiB/ 54.0 GiB]  124.3 MiB/s                                  -\\ [10 files][ 42.0 GiB/ 54.0 GiB]  126.9 MiB/s                                  || [10 files][ 42.1 GiB/ 54.0 GiB]  126.0 MiB/s                                  /-- [10 files][ 42.2 GiB/ 54.0 GiB]  126.2 MiB/s                                  \|| [10 files][ 42.3 GiB/ 54.0 GiB]  126.8 MiB/s                                  // [10 files][ 42.4 GiB/ 54.0 GiB]  121.6 MiB/s                                  -\\ [10 files][ 42.6 GiB/ 54.0 GiB]  122.3 MiB/s                                  |// [10 files][ 42.7 GiB/ 54.0 GiB]  121.1 MiB/s                                  -- [10 files][ 42.8 GiB/ 54.0 GiB]  121.1 MiB/s                                  \|| [10 files][ 42.9 GiB/ 54.0 GiB]  120.5 MiB/s                                  /-- [10 files][ 43.0 GiB/ 54.0 GiB]  125.5 MiB/s                                  \\ [10 files][ 43.2 GiB/ 54.0 GiB]  123.4 MiB/s                                  |// [10 files][ 43.3 GiB/ 54.0 GiB]  124.6 MiB/s                                  -\\ [10 files][ 43.4 GiB/ 54.0 GiB]  124.3 MiB/s                                  || [10 files][ 43.5 GiB/ 54.0 GiB]  124.4 MiB/s                                  /-- [10 files][ 43.7 GiB/ 54.0 GiB]  124.3 MiB/s                                  \\ [10 files][ 43.8 GiB/ 54.0 GiB]  123.9 MiB/s                                  |// [10 files][ 43.9 GiB/ 54.0 GiB]  124.2 MiB/s                                  -\\ [10 files][ 44.0 GiB/ 54.0 GiB]  124.7 MiB/s                                  || [10 files][ 44.1 GiB/ 54.0 GiB]  124.1 MiB/s                                  /-- [10 files][ 44.3 GiB/ 54.0 GiB]  124.0 MiB/s                                  \|| [10 files][ 44.4 GiB/ 54.0 GiB]  123.9 MiB/s                                  // [10 files][ 44.5 GiB/ 54.0 GiB]  123.4 MiB/s                                  -\\ [10 files][ 44.6 GiB/ 54.0 GiB]  124.4 MiB/s                                  |// [10 files][ 44.7 GiB/ 54.0 GiB]  123.4 MiB/s                                  -- [10 files][ 44.9 GiB/ 54.0 GiB]  123.4 MiB/s                                  \|| [10 files][ 45.0 GiB/ 54.0 GiB]  123.5 MiB/s                                  /-- [10 files][ 45.1 GiB/ 54.0 GiB]  124.8 MiB/s                                  \\ [10 files][ 45.2 GiB/ 54.0 GiB]  124.3 MiB/s                                  |// [10 files][ 45.4 GiB/ 54.0 GiB]  124.6 MiB/s                                  -\\ [10 files][ 45.5 GiB/ 54.0 GiB]  124.9 MiB/s                                  || [10 files][ 45.6 GiB/ 54.0 GiB]  126.2 MiB/s                                  /-- [10 files][ 45.7 GiB/ 54.0 GiB]  126.3 MiB/s                                  \|| [10 files][ 45.8 GiB/ 54.0 GiB]  126.7 MiB/s                                  // [10 files][ 46.0 GiB/ 54.0 GiB]  125.3 MiB/s                                  -\\ [10 files][ 46.1 GiB/ 54.0 GiB]  126.2 MiB/s                                  |// [10 files][ 46.2 GiB/ 54.0 GiB]  125.8 MiB/s                                  -- [10 files][ 46.3 GiB/ 54.0 GiB]  125.4 MiB/s                                  \|| [10 files][ 46.5 GiB/ 54.0 GiB]  125.7 MiB/s                                  // [10 files][ 46.6 GiB/ 54.0 GiB]  126.0 MiB/s                                  -\\ [10 files][ 46.7 GiB/ 54.0 GiB]  125.8 MiB/s                                  |// [10 files][ 46.8 GiB/ 54.0 GiB]  125.1 MiB/s                                  -- [10 files][ 47.0 GiB/ 54.0 GiB]  126.0 MiB/s                                  \|| [10 files][ 47.1 GiB/ 54.0 GiB]  125.5 MiB/s                                  /-- [10 files][ 47.2 GiB/ 54.0 GiB]  124.5 MiB/s                                  \\ [10 files][ 47.3 GiB/ 54.0 GiB]  125.6 MiB/s                                  |// [10 files][ 47.4 GiB/ 54.0 GiB]  126.1 MiB/s                                  -\\ [10 files][ 47.6 GiB/ 54.0 GiB]  124.4 MiB/s                                  || [10 files][ 47.7 GiB/ 54.0 GiB]  130.1 MiB/s                                  /-- [10 files][ 47.9 GiB/ 54.0 GiB]  137.4 MiB/s                                  \|| [10 files][ 48.0 GiB/ 54.0 GiB]  143.8 MiB/s                                  // [10 files][ 48.2 GiB/ 54.0 GiB]  149.2 MiB/s                                  -\\ [10 files][ 48.3 GiB/ 54.0 GiB]  154.8 MiB/s                                  |// [10 files][ 48.4 GiB/ 54.0 GiB]  149.5 MiB/s                                  -- [10 files][ 48.6 GiB/ 54.0 GiB]  142.4 MiB/s                                  \|| [10 files][ 48.7 GiB/ 54.0 GiB]  136.1 MiB/s                                  /-- [10 files][ 48.8 GiB/ 54.0 GiB]  130.5 MiB/s                                  \\ [10 files][ 48.9 GiB/ 54.0 GiB]  125.5 MiB/s                                  |// [10 files][ 49.1 GiB/ 54.0 GiB]  126.7 MiB/s                                  -\\ [10 files][ 49.2 GiB/ 54.0 GiB]  127.0 MiB/s                                  || [10 files][ 49.3 GiB/ 54.0 GiB]  125.8 MiB/s                                  /-- [10 files][ 49.4 GiB/ 54.0 GiB]  124.4 MiB/s                                  \|| [10 files][ 49.6 GiB/ 54.0 GiB]  124.7 MiB/s                                  // [10 files][ 49.7 GiB/ 54.0 GiB]  122.9 MiB/s                                  -\\ [10 files][ 49.8 GiB/ 54.0 GiB]  123.7 MiB/s                                  |// [10 files][ 49.9 GiB/ 54.0 GiB]  122.8 MiB/s                                  -- [10 files][ 50.0 GiB/ 54.0 GiB]  125.2 MiB/s                                  \|| [10 files][ 50.2 GiB/ 54.0 GiB]  125.2 MiB/s                                  /-- [10 files][ 50.3 GiB/ 54.0 GiB]  125.2 MiB/s                                  \\ [10 files][ 50.4 GiB/ 54.0 GiB]  126.4 MiB/s                                  |// [10 files][ 50.5 GiB/ 54.0 GiB]  126.5 MiB/s                                  -\\ [10 files][ 50.7 GiB/ 54.0 GiB]  130.4 MiB/s                                  || [10 files][ 50.8 GiB/ 54.0 GiB]  137.7 MiB/s                                  /-- [10 files][ 51.0 GiB/ 54.0 GiB]  144.1 MiB/s                                  \|| [10 files][ 51.2 GiB/ 54.0 GiB]  150.1 MiB/s                                  // [10 files][ 51.3 GiB/ 54.0 GiB]  156.3 MiB/s                                  -\\ [10 files][ 51.5 GiB/ 54.0 GiB]  157.2 MiB/s                                  |// [10 files][ 51.6 GiB/ 54.0 GiB]  150.8 MiB/s                                  -- [10 files][ 51.7 GiB/ 54.0 GiB]  144.4 MiB/s                                  \|| [10 files][ 51.8 GiB/ 54.0 GiB]  137.2 MiB/s                                  /-- [10 files][ 52.0 GiB/ 54.0 GiB]  130.9 MiB/s                                  \\ [10 files][ 52.1 GiB/ 54.0 GiB]  123.9 MiB/s                                  |// [10 files][ 52.2 GiB/ 54.0 GiB]  123.7 MiB/s                                  -\\ [10 files][ 52.3 GiB/ 54.0 GiB]  123.8 MiB/s                                  || [10 files][ 52.4 GiB/ 54.0 GiB]  124.4 MiB/s                                  /-- [10 files][ 52.6 GiB/ 54.0 GiB]  123.8 MiB/s                                  \|| [10 files][ 52.7 GiB/ 54.0 GiB]  125.4 MiB/s                                  // [10 files][ 52.8 GiB/ 54.0 GiB]  132.6 MiB/s                                  -\\ [10 files][ 53.0 GiB/ 54.0 GiB]  140.6 MiB/s                                  |// [10 files][ 53.2 GiB/ 54.0 GiB]  146.7 MiB/s                                  -- [10 files][ 53.3 GiB/ 54.0 GiB]  154.2 MiB/s                                  \|| [10 files][ 53.5 GiB/ 54.0 GiB]  161.6 MiB/s                                  /-- [10 files][ 53.6 GiB/ 54.0 GiB]  154.3 MiB/s                                  \\ [10 files][ 53.7 GiB/ 54.0 GiB]  147.3 MiB/s                                  |// [10 files][ 53.8 GiB/ 54.0 GiB]  140.6 MiB/s                                  -\\ [10 files][ 54.0 GiB/ 54.0 GiB]  133.6 MiB/s                                  \ [11 files][ 54.0 GiB/ 54.0 GiB]  128.4 MiB/s                                  Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/final_oversampled_SMOTE_SVM.joblib...
-\ [11 files][ 54.0 GiB/ 54.0 GiB]  128.4 MiB/s                                  \ [12 files][ 54.0 GiB/ 54.0 GiB]  123.5 MiB/s                                  Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/final_oversampled_SMOTE_XGB.joblib...
-\ [12 files][ 54.0 GiB/ 54.0 GiB]  123.5 MiB/s                                  || [13 files][ 54.0 GiB/ 54.0 GiB]  117.0 MiB/s                                  Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/oversampling.py...
-| [13 files][ 54.0 GiB/ 54.0 GiB]  116.9 MiB/s                                  | [14 files][ 54.0 GiB/ 54.0 GiB]  111.8 MiB/s                                  Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/oversampling2.log...
-| [14 files][ 54.0 GiB/ 54.0 GiB]  111.8 MiB/s                                  | [15 files][ 54.0 GiB/ 54.0 GiB]  106.7 MiB/s                                  Copying gs://capstone4340-bucket/aBFF-sbseg2022-main/supportFiles/dataset/final/oversampling2.py...
-| [15 files][ 54.0 GiB/ 54.0 GiB]  106.6 MiB/s                                  | [16 files][ 54.0 GiB/ 54.0 GiB]  102.8 MiB/s                                  
-Operation completed over 16 objects/54.0 GiB.                                    
-2025-03-21 07:18:36 - Files copied successfully
-2025-03-21 07:18:36 - Changing directory to data directory
-2025-03-21 07:18:36 - Running script
-2025-03-21 07:18:37,624 - INFO - Testing oversampling for final_oversampled_SMOTE.parquet
-2025-03-21 07:19:00,956 - INFO - Model MLP already exists at final_oversampled_SMOTE_MLP.joblib. Loading and evaluating.
-2025-03-21 07:19:02,782 - INFO - Loaded Model Results - MLP:
-2025-03-21 07:19:02,782 - INFO -   Accuracy: 0.7442
-2025-03-21 07:19:02,782 - INFO -   Precision: 0.7407
-2025-03-21 07:19:02,782 - INFO -   Recall: 0.7442
-2025-03-21 07:19:02,782 - INFO -   F1-Score: 0.7295
-2025-03-21 07:19:02,783 - INFO -   Confusion Matrix:
-[[  2516     12     24      0      0      0   2383      0     49     16
-       0      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [   194 489415     11     68     63    886    607     24   2302    135
-       0     20     86   1591     61   1712     70     20    348     23
-     425     13   1906     20]
- [    88     28  38727      0      1      0    307      0    157    136
-       0      0     18      0    231      0      0      1    266      0
-       0      2     30      8]
- [     0      4      0  19659      0      0      0      0      0      0
-       0      0      0     19      0      0      0      0      0    318
-       0      0      0      0]
- [     0    138      0      0 191070  89817      0      0      0      0
-       0      0     14      0      0  18956      0      0      0      4
-       0      0      1      0]
- [    26    126      0      0 179119 102182    241     10     59     21
-       0      1      8      1      0  18170      0      0     15      6
-      10      0      0      5]
- [   554    248     11      2      0      5  32611      0   2891   1442
-       0      0      0      0      0      2      0      0   1651      2
-       0      0      0    581]
- [     0     14      0      0      0     36      0  19940      0      0
-       0      0      0      0      0      0      9      0      0      0
-       1      0      0      0]
- [   114     25      2      0      0      8   3231      0  36367    119
-       0      0      0      0      0      2      0      0      7      0
-       0      0      0    125]
- [   189     46      4      0     10      2   8595      0   2016   8530
-       0      1      0      0      0     11      0      0    501      4
-       0      0      0     91]
- [     0      0      0      0      0      0      0      0      0      0
-    2000      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0     94      0      0      0      0      0      0      0      0
-       0   4906      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0     53      1      0      0      0      0      0      0      0
-       0      0   4743      0     31      0      0     52      0      0
-      49     16     55      0]
- [     1     31      1      1      0     25      0      0      0      0
-       0      0      0  59931      0      0      1      0      0      1
-       7      0      1      0]
- [     0     18     12      0      0      0      0      0      0      0
-       0      0      9      0  19907      0      0     11      0      0
-       0      1     42      0]
- [     6     74      1      0   2228   7198    303      0    288     83
-       0      0      0      0      0 139440      0      0      0    379
-       0      0      0      0]
- [     0     72      0      0      0     35      0     47      0      0
-       0      0      0     46      0      0  19800      0      0      0
-       0      0      0      0]
- [     0      6      0      0      2      1      0      0      0      0
-       0      0     57      0     18      0      0  24897      0      1
-    4846    493   9679      0]
- [     0    123      0      0      0      0    622      0     70     62
-       0      0      0      0      0      0      0      0  19121      0
-       0      0      0      2]
- [     0      5      0      0      0      1      0      0      0      0
-       0      0      0      0      0    147      0      0      0  19847
-       0      0      0      0]
- [     0     35      0      0      3      0      0      0      0      0
-       0      0      4      0     25      0     19   1848      0      0
-   47998    813  19255      0]
- [     0     34      0      0      0      1      0      0      1      0
-       0      0     22      0     16      0      0   3085      0      0
-   27341   1721  27779      0]
- [     0     34      0      0      0      1      0      0      0      0
-       0      0     83      0     29      0      0    789      0      0
-   20062    905  78097      0]
- [    11      1      0      0      0      0   2348      0    296     55
-       0      0      0      0      0      0      0      0      9      0
-       0      0      0   2280]]
-2025-03-21 07:19:03,234 - INFO -               precision    recall  f1-score   support
-
-           0       0.68      0.50      0.58      5000
-           1       1.00      0.98      0.99    500000
-           2       1.00      0.97      0.98     40000
-           3       1.00      0.98      0.99     20000
-           4       0.51      0.64      0.57    300000
-           5       0.51      0.34      0.41    300000
-           6       0.64      0.82      0.71     40000
-           7       1.00      1.00      1.00     20000
-           8       0.82      0.91      0.86     40000
-           9       0.80      0.43      0.56     20000
-          10       1.00      1.00      1.00      2000
-          11       1.00      0.98      0.99      5000
-          12       0.94      0.95      0.94      5000
-          13       0.97      1.00      0.99     60000
-          14       0.98      1.00      0.99     20000
-          15       0.78      0.93      0.85    150000
-          16       1.00      0.99      0.99     20000
-          17       0.81      0.62      0.70     40000
-          18       0.87      0.96      0.91     20000
-          19       0.96      0.99      0.98     20000
-          20       0.48      0.69      0.56     70000
-          21       0.43      0.03      0.05     60000
-          22       0.57      0.78      0.66    100000
-          23       0.73      0.46      0.56      5000
-
-    accuracy                           0.74   1862000
-   macro avg       0.81      0.79      0.78   1862000
-weighted avg       0.74      0.74      0.73   1862000
-
-2025-03-21 07:19:03,234 - INFO - Model SVM already exists at final_oversampled_SMOTE_SVM.joblib. Loading and evaluating.
-2025-03-21 07:19:04,070 - INFO - Loaded Model Results - SVM:
-2025-03-21 07:19:04,070 - INFO -   Accuracy: 0.6240
-2025-03-21 07:19:04,070 - INFO -   Precision: 0.6463
-2025-03-21 07:19:04,070 - INFO -   Recall: 0.6240
-2025-03-21 07:19:04,070 - INFO -   F1-Score: 0.6231
-2025-03-21 07:19:04,071 - INFO -   Confusion Matrix:
-[[  2679     23      0    135      0      0    135      0   1838      7
-       0     42      0      0      0      0      0      0      0    141
-       0      0      0      0]
- [  4403 407012     29  10017    882  20557   1975   1763   6071   4432
-       6    500   1560   7285   6305   2342   2609   7311   6245    151
-    5464    198   1777   1106]
- [    74    351  38284     38      0      4    175      0    220     38
-       0      2     40      0    256      0      0      8    345     38
-      11      0     52     64]
- [     0    897      0  13932      0    118      0      0      0      0
-      19      1      0   5032      0      0      1      0      0      0
-       0      0      0      0]
- [   277    701      0    659 124639 150641     11      0    236    694
-       0     35     12   1102      0  17538      0      0   2705    747
-       0      0      3      0]
- [   380   2410      0    173 117795 153749    277    156   2327    767
-       0    158      8   1539      0  16756     18      0   2692    748
-       0      0      0     47]
- [  4817   1557      0     36      0     87   7828      0  16893   2386
-       0      2      0      0      0      0      0      0   2120     20
-       0      0      0   4254]
- [     0     10      0      0      0     11      0  19929      3      0
-       0      0      0     34      0      0     13      0      0      0
-       0      0      0      0]
- [  4060    361      0     43      2     10   1073      0  28635    450
-       0      5      0      0      6      0      0      0   1407     23
-       0      0      0   3925]
- [  2809    467      0     86      0     49   2443      0   8430   4266
-       0     57      0      0     42      0      0      0    687     38
-       0      0      0    626]
- [     0     22      0      0      0      0      0      0      0      0
-    1978      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0     22      0      0      0     53      0      0     30      0
-       0   4710      0    185      0      0      0      0      0      0
-       0      0      0      0]
- [     0    211      1      0      0      0      0      0      0      0
-       0      0   3944      0    119      0      0    253      0      0
-      86     20    366      0]
- [   316    132      0      9      0      9      6   1025      8      0
-       0      0      0  58491      0      0      2      0      0      2
-       0      0      0      0]
- [     0   1280      7      0      0      0      0      0      0      0
-       0      0    157      0  18292      0      0    201      0      0
-       9      7     47      0]
- [   419      0      0    691  16830  18659     19      0    700     47
-       0     11      0     26      0  96302      0      0      5  16203
-       0      0      0     88]
- [     0      8      0      0      0     12      0     43      1      0
-       0      7      0    108      0      0  19821      0      0      0
-       0      0      0      0]
- [     0    598      7      0      0      0      0      0      0      0
-       0      0    541      0    200      0      0  19794      0      0
-    6679    930  11251      0]
- [     0    287      0      0      0      0    232      0    354     35
-       0      0      0      0      0      0      0      0  19025      0
-       0      0      0     67]
- [     0     19      0    207      0     17      1      0      0      2
-     118    259      0      0      0    518      0      0      0  18859
-       0      0      0      0]
- [     8   2051      3      0      0      6      0      0     18     10
-       0      0   1186      0   1129      0     24   8596      0      0
-   48327   2764   5878      0]
- [     2   2449      5      0      0      1      0      0      0      0
-       0      0   1148      0    949      0      2   8261      0      0
-   31246   4298  11639      0]
- [     0   3779      7      0      0      0      0      0      7      0
-       0      0   1794      0   5494      0      0   9839      0      0
-   25935   8119  45026      0]
- [   117     23      0      0      0      0     91      0   2295    455
-       0      0      0      0      0      0      0      0     29      0
-       0      0      0   1990]]
-2025-03-21 07:19:04,534 - INFO -               precision    recall  f1-score   support
-
-           0       0.13      0.54      0.21      5000
-           1       0.96      0.81      0.88    500000
-           2       1.00      0.96      0.98     40000
-           3       0.54      0.70      0.61     20000
-           4       0.48      0.42      0.45    300000
-           5       0.45      0.51      0.48    300000
-           6       0.55      0.20      0.29     40000
-           7       0.87      1.00      0.93     20000
-           8       0.42      0.72      0.53     40000
-           9       0.31      0.21      0.25     20000
-          10       0.93      0.99      0.96      2000
-          11       0.81      0.94      0.87      5000
-          12       0.38      0.79      0.51      5000
-          13       0.79      0.97      0.87     60000
-          14       0.56      0.91      0.69     20000
-          15       0.72      0.64      0.68    150000
-          16       0.88      0.99      0.93     20000
-          17       0.36      0.49      0.42     40000
-          18       0.54      0.95      0.69     20000
-          19       0.51      0.94      0.66     20000
-          20       0.41      0.69      0.51     70000
-          21       0.26      0.07      0.11     60000
-          22       0.59      0.45      0.51    100000
-          23       0.16      0.40      0.23      5000
-
-    accuracy                           0.62   1862000
-   macro avg       0.57      0.68      0.59   1862000
-weighted avg       0.65      0.62      0.62   1862000
-
-2025-03-21 07:19:04,534 - INFO - Training and evaluating KNN...
-2025-03-21 07:19:07,320 - INFO - KNN training time: 2.79 seconds
-2025-03-21 09:54:03,624 - INFO - Accuracy: 0.7502
-2025-03-21 09:54:03,624 - INFO - Precision: 0.7502
-2025-03-21 09:54:03,625 - INFO - Recall: 0.7502
-2025-03-21 09:54:03,625 - INFO - F1-Score: 0.7492
-2025-03-21 09:54:03,626 - INFO - Confusion Matrix:
-[[  4072     22     30      0      0      1    589      0     50    210
-       0      0      0      0      0      0      0      0      0      0
-       0      0      0     26]
- [   203 492501     28     32     24    207    556      9   2025    154
-       0     28     72   1051     57    732     31     49    283      2
-     144    151   1637     24]
- [    88     20  39118      0      0      0    174      0     85     97
-       0      0      8      0    215      1      0      0    183      0
-       0      0      0     11]
- [     0      1      0  19999      0      0      0      0      0      0
-       0      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0     22      0      0 150549 136331      0      0      0      0
-       0      0     15      0      0  13081      0      0      0      2
-       0      0      0      0]
- [    28    108      6      0 140858 146120    197      0     62     56
-       0      0      8      4      0  12533      0      0      9      1
-       0      0      0     10]
- [   946    148     80      0      0     14  32724      0   2238   2216
-       0      0      0      0      0      8      0      0    750      1
-       0      0      0    875]
- [     0      3      0      0      0      0      0  19995      0      0
-       0      0      0      0      0      0      0      0      0      0
-       2      0      0      0]
- [   164    425     23      0      0      3   2164      0  36267    580
-       0      0      0      0      0     88      0      0     48      0
-       0      0      0    238]
- [   370     40     43      0      2      4   2888      0   1288  14974
-       0      0      0      0      0     12      0      0    251      1
-       0      0      0    127]
- [     0      0      0      0      0      0      0      0      0      0
-    2000      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0      1      0      0      0      0      0      0      0      0
-       0   4999      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0     16      3      0      0      0      0      0      0      0
-       0      0   4929      0      2      0      0     33      0      0
-       5      6      6      0]
- [     0    207      1      1      0      5      0      0      0      0
-       0      0      0  59781      0      0      0      0      0      1
-       4      0      0      0]
- [     0      9     39      0      0      0      0      0      0      0
-       0      0      2      0  19927      0      0     14      0      0
-       4      1      4      0]
- [    10    467      2      0   6619   5562    247      0    151     29
-       0      0      0      0      0 136830      0      0      2     37
-       0      0      0     44]
- [     0      8      0      0      0      1      0      3      0      0
-       0      0      0      0      0      0  19988      0      0      0
-       0      0      0      0]
- [     0     13      0      0      0      0      0      0      0      0
-       0      0     75      0     31      0      0  30122      0      0
-    4107   1087   4565      0]
- [     0     55     42      0      0      0    429      0     37    148
-       0      0      0      0      0      1      0      0  19288      0
-       0      0      0      0]
- [     0      4      0      0      0      0      1      0      0      0
-       0      0      0      0      0     24      0      0      0  19971
-       0      0      0      0]
- [     0    147      0      0      0      2      0      0      1      0
-       0      0     19      1     23      0      9   3574      0      0
-   40964  16874   8386      0]
- [     0     44      3      0      0      1      0      0      0      0
-       0      0     24      0     20      0      0   3197      0      0
-   27214  18158  11339      0]
- [     0    220      3      0      0      0      0      0      0      0
-       0      0     59      0     28      0      0   2608      0      0
-   22962  13951  60169      0]
- [    90      3      4      0      0      2   1231      0    112    145
-       0      0      0      0      0      2      0      0      2      0
-       0      0      0   3409]]
-2025-03-21 09:54:04,081 - INFO -               precision    recall  f1-score   support
-
-           0       0.68      0.81      0.74      5000
-           1       1.00      0.99      0.99    500000
-           2       0.99      0.98      0.99     40000
-           3       1.00      1.00      1.00     20000
-           4       0.51      0.50      0.50    300000
-           5       0.51      0.49      0.50    300000
-           6       0.79      0.82      0.81     40000
-           7       1.00      1.00      1.00     20000
-           8       0.86      0.91      0.88     40000
-           9       0.80      0.75      0.78     20000
-          10       1.00      1.00      1.00      2000
-          11       0.99      1.00      1.00      5000
-          12       0.95      0.99      0.97      5000
-          13       0.98      1.00      0.99     60000
-          14       0.98      1.00      0.99     20000
-          15       0.84      0.91      0.87    150000
-          16       1.00      1.00      1.00     20000
-          17       0.76      0.75      0.76     40000
-          18       0.93      0.96      0.95     20000
-          19       1.00      1.00      1.00     20000
-          20       0.43      0.59      0.50     70000
-          21       0.36      0.30      0.33     60000
-          22       0.70      0.60      0.65    100000
-          23       0.72      0.68      0.70      5000
-
-    accuracy                           0.75   1862000
-   macro avg       0.82      0.83      0.83   1862000
-weighted avg       0.75      0.75      0.75   1862000
-
-2025-03-21 09:54:06,255 - INFO - Model saved as final_oversampled_SMOTE_KNN.joblib
-2025-03-21 09:54:06,256 - INFO - Model XGB already exists at final_oversampled_SMOTE_XGB.joblib. Loading and evaluating.
-2025-03-21 09:54:21,108 - INFO - Loaded Model Results - XGB:
-2025-03-21 09:54:21,108 - INFO -   Accuracy: 0.7766
-2025-03-21 09:54:21,108 - INFO -   Precision: 0.7825
-2025-03-21 09:54:21,108 - INFO -   Recall: 0.7766
-2025-03-21 09:54:21,108 - INFO -   F1-Score: 0.7513
-2025-03-21 09:54:21,109 - INFO -   Confusion Matrix:
-[[  3495      4      1      0      0      0   1448      0      2     40
-       0      0      0      0      0      0      0      0      0      0
-       0      0      0     10]
- [   163 494248     14      5     60     37    455      0   2314     39
-       0      0      4      2     26   1214      0    313    121      1
-      74    101    802      7]
- [   105      9  39253      0      0      0    181      0     79     70
-       0      0      0      0    106      0      0      0    185      0
-       0      0      0     12]
- [     0      0      0  20000      0      0      0      0      0      0
-       0      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0     25      0      0 249477  33113      0      0      0      0
-       0      0     15      0      0  17368      0      0      0      2
-       0      0      0      0]
- [    14     41      1      0 235623  47341    271      0     34     34
-       0      0      8      1      0  16618      0      0      8      1
-       0      0      0      5]
- [   542     64     27      0      0      0  35168      0   1658   1232
-       0      0      0      0      0      6      0      0    814      0
-       0      0      0    489]
- [     0      0      0      0      0      0      0  19999      0      0
-       0      0      0      0      0      0      0      0      0      0
-       1      0      0      0]
- [   125     43      7      0      0      0   1770      0  37855    112
-       0      0      0      0      0      2      0      0      3      0
-       0      0      0     83]
- [   333     20     28      0      0      0   7187      0   1206  10785
-       0      0      0      0      0      4      0      0    387      0
-       0      0      0     50]
- [     0      0      0      0      0      0      0      0      0      0
-    2000      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0      0      0      0      0      0      0      0      0      0
-       0   5000      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0      3      0      0      2      0      0      0      0      0
-       0      0   4994      0      0      0      0      1      0      0
-       0      0      0      0]
- [     0      6      0      0      0      1      0      0      0      0
-       0      0      0  59989      0      0      0      0      0      0
-       4      0      0      0]
- [     0      0     34      0      0      0      0      0      0      0
-       0      0      0      0  19966      0      0      0      0      0
-       0      0      0      0]
- [     6    221      0      0   1879    935    233      0    116      6
-       0      0      0      0      0 146589      0      0      0      9
-       0      0      0      6]
- [     0      1      0      0      0      0      0      0      0      0
-       0      0      0      0      0      0  19999      0      0      0
-       0      0      0      0]
- [     0      0      0      0      0      0      0      0      0      0
-       0      0     28      0      0      0      0  34174      0      0
-    3592    275   1931      0]
- [     0      8      0      0      0      0    411      0     23    147
-       0      0      0      0      0      0      0      0  19411      0
-       0      0      0      0]
- [     0      1      0      0      0      0      0      0      0      0
-       0      0      0      0      0      3      0      0      0  19996
-       0      0      0      0]
- [     0      4      0      0      0      2      0      0      0      0
-       0      0      0      0      0      0      0   1859      0      0
-   52943   4990  10202      0]
- [     0     13      0      0      0      3      0      0      0      0
-       0      0      2      0      0      0      0   1177      0      0
-   19446  27365  11994      0]
- [     0    386      0      0      0      0      0      0      0      0
-       0      0      7      0      0      0      0   1622      0      0
-   18619   7299  72067      0]
- [    56      0      0      0      0      0   1053      0      1     39
-       0      0      0      0      0      0      0      0      8      0
-       0      0      0   3843]]
-2025-03-21 09:54:21,552 - INFO -               precision    recall  f1-score   support
-
-           0       0.72      0.70      0.71      5000
-           1       1.00      0.99      0.99    500000
-           2       1.00      0.98      0.99     40000
-           3       1.00      1.00      1.00     20000
-           4       0.51      0.83      0.63    300000
-           5       0.58      0.16      0.25    300000
-           6       0.73      0.88      0.80     40000
-           7       1.00      1.00      1.00     20000
-           8       0.87      0.95      0.91     40000
-           9       0.86      0.54      0.66     20000
-          10       1.00      1.00      1.00      2000
-          11       1.00      1.00      1.00      5000
-          12       0.99      1.00      0.99      5000
-          13       1.00      1.00      1.00     60000
-          14       0.99      1.00      1.00     20000
-          15       0.81      0.98      0.88    150000
-          16       1.00      1.00      1.00     20000
-          17       0.87      0.85      0.86     40000
-          18       0.93      0.97      0.95     20000
-          19       1.00      1.00      1.00     20000
-          20       0.56      0.76      0.64     70000
-          21       0.68      0.46      0.55     60000
-          22       0.74      0.72      0.73    100000
-          23       0.85      0.77      0.81      5000
-
-    accuracy                           0.78   1862000
-   macro avg       0.86      0.86      0.85   1862000
-weighted avg       0.78      0.78      0.75   1862000
-
-2025-03-21 09:54:21,552 - INFO - Model NB already exists at final_oversampled_SMOTE_NB.joblib. Loading and evaluating.
-2025-03-21 09:54:43,940 - INFO - Loaded Model Results - NB:
-2025-03-21 09:54:43,940 - INFO -   Accuracy: 0.3841
-2025-03-21 09:54:43,940 - INFO -   Precision: 0.5796
-2025-03-21 09:54:43,940 - INFO -   Recall: 0.3841
-2025-03-21 09:54:43,940 - INFO -   F1-Score: 0.3211
-2025-03-21 09:54:43,941 - INFO -   Confusion Matrix:
-[[  2276      2      0      0      0      8      0      0     24     64
-       0      0      0      0      0      0      0      0   2576     17
-       0      0      0     33]
- [   595  30926   9016  25369  39413   4541   5011      7   1592  55264
-       0    388   1525    125  99702   1971    249   4782 154992     16
-     230   1156   6044  57086]
- [    66    119  38395    216     19      1      5      0      4     39
-       0      0    133      0    232      0      0      3    588      2
-       0      1     44    133]
- [     0      0     20  19980      0      0      0      0      0      0
-       0      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [    30     32     46     61 265739   4097      0      0   2343    293
-       0      0     11      0      0  26683      0      4    493    168
-       0      0      0      0]
- [    72    596    150    115 258976   9862      9      0      8    291
-       0      0      8      0      0  25439      0      0   4186    203
-       0      0      0     85]
- [  1901     40     15   1797     98      8   2915      0    259    378
-       0      0      0      0      0      0      0      0  23038      1
-       0      0      0   9550]
- [     0      9      0     30      0      0      0  19944      3      0
-       0      0      0      0      0      0     14      0      0      0
-       0      0      0      0]
- [  1744    118    167   2262     33     58   1378      0   1150     77
-       0      0      0      0      0      1      0      0  27934      4
-       0      0      0   5074]
- [   710    108      9    624     12    219    474      0    309   1324
-       0      0      0      0      0      0      0      0   9801      1
-       0      0      0   6409]
- [     0      1      0      0      0      0      0      0      0      0
-    1999      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0      2      2    184     12     35      0      0    111      9
-       0   4588      0      0      0      0      0      0     57      0
-       0      0      0      0]
- [     0     12     27      0      0      0      0      0      0      0
-       0      0   4046      0    208      0      0    330      0      0
-       0     10    367      0]
- [     0     89      0    407      1     26      0      0     11      6
-       0      0      0  59271      0      0      0      0    189      0
-       0      0      0      0]
- [     0    334     80      0      0      0      0      0      0      0
-       0      0   1842      0  14576      0      0      1      0      0
-       0   1133   2034      0]
- [   333    118    229   1133  30596    112      0      0      0     12
-       0      0      0      0      0 114858      0      0   1399   1208
-       0      0      0      2]
- [     0     12      0     40      0      0      0     50      0      0
-       0      0      0      0      0      0  19770      0    128      0
-       0      0      0      0]
- [     0    442     13      0      0      0      0      0      0      0
-       0      0    243      0    124      0      0  20580      0      0
-    3782  14763     53      0]
- [     0      7     16     86      0      0      0      0     13     58
-       0      0      0      0      0      0      0      0  19772      0
-       0      0      0     48]
- [     0     83      6    267    456    262      0      0      0     15
-       0      0      0      0      0  14039      0      0    100   4771
-       0      0      0      1]
- [     2    108     38     21      0      0      0      0    305     17
-       0      0    267      0    401      0      0  10527      1      0
-   26085  31953    275      0]
- [     0    165     80      2      0      0      0      0      0      3
-       0      0    266      0    346      0      0  11275      0      0
-   16029  31506    328      0]
- [     0    902     77      0      0      0      0      0     35      0
-       0      0    360      0    753      0      0  32303      0      0
-   17831  47386    353      0]
- [    48      1      0     94      0      0     18      0     12    124
-       0      0      0      0      0      0      0      0   4255      0
-       0      0      0    448]]
-2025-03-21 09:54:44,402 - INFO -               precision    recall  f1-score   support
-
-           0       0.29      0.46      0.36      5000
-           1       0.90      0.06      0.12    500000
-           2       0.79      0.96      0.87     40000
-           3       0.38      1.00      0.55     20000
-           4       0.45      0.89      0.59    300000
-           5       0.51      0.03      0.06    300000
-           6       0.30      0.07      0.12     40000
-           7       1.00      1.00      1.00     20000
-           8       0.19      0.03      0.05     40000
-           9       0.02      0.07      0.03     20000
-          10       1.00      1.00      1.00      2000
-          11       0.92      0.92      0.92      5000
-          12       0.47      0.81      0.59      5000
-          13       1.00      0.99      0.99     60000
-          14       0.13      0.73      0.21     20000
-          15       0.63      0.77      0.69    150000
-          16       0.99      0.99      0.99     20000
-          17       0.26      0.51      0.34     40000
-          18       0.08      0.99      0.15     20000
-          19       0.75      0.24      0.36     20000
-          20       0.41      0.37      0.39     70000
-          21       0.25      0.53      0.34     60000
-          22       0.04      0.00      0.01    100000
-          23       0.01      0.09      0.01      5000
-
-    accuracy                           0.38   1862000
-   macro avg       0.49      0.56      0.45   1862000
-weighted avg       0.58      0.38      0.32   1862000
-
-2025-03-21 09:54:44,402 - INFO - Model LR already exists at final_oversampled_SMOTE_LR.joblib. Loading and evaluating.
-2025-03-21 09:54:45,240 - INFO - Loaded Model Results - LR:
-2025-03-21 09:54:45,240 - INFO -   Accuracy: 0.6735
-2025-03-21 09:54:45,240 - INFO -   Precision: 0.6871
-2025-03-21 09:54:45,240 - INFO -   Recall: 0.6735
-2025-03-21 09:54:45,240 - INFO -   F1-Score: 0.6651
-2025-03-21 09:54:45,241 - INFO -   Confusion Matrix:
-[[  4387      0      0      0      0      0    522      0     22     51
-       0      0      0      0      0      0      0      0      0     11
-       0      0      0      7]
- [  1463 444074   1450   9680    661   2007   3856    895   4723   2508
-       4   2798   1477   4481   5370   1805   2710    429   5138    533
-     556    159   1882   1341]
- [   127     67  38536      0      0      0    416      0     64     57
-       0      0     58      2    282      2      0      2    216      2
-      18      3     17    131]
- [     0      9      0  19970      0      0      0      0      0      0
-       0      0      0     21      0      0      0      0      0      0
-       0      0      0      0]
- [     1      5      0      9 194115  68809      1      0      0    111
-       0    399     13      6      0  36100      0      0      0    428
-       0      0      2      1]
- [   128   1020      7      1 182661  78585     92    715     75    159
-       0    131      8    113      0  34966    746      0     15    449
-      71      0      0     58]
- [ 10991    315      1      2      0      6  15160      0   4120   2352
-       0      0      0      8      0      1      0      0   1714      2
-       1      0      0   5327]
- [     0      3      0      0      0      0      0  19953      0      0
-       0      0      0      0      0      0     44      0      0      0
-       0      0      0      0]
- [  1766     17      1      2      1      1   3108      0  25610   1370
-       0      2      0      4      0      1      0      0      0      2
-       0      0      0   8115]
- [  4848     35      0      5      0      6   3886      0   2004   7503
-       0      0      0      2      0      5      0      0    374      2
-       1      0      0   1329]
- [     0      0      0      0      0      0      0      0      0      0
-    2000      0      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0      0      0      0      0      0      0      0      0      0
-       0   5000      0      0      0      0      0      0      0      0
-       0      0      0      0]
- [     0      5      1      0      0      0      0      0      0      0
-       0      0   4688      0     17      0      0     53      0      0
-      81     29    126      0]
- [     0     17      0      0      1     25      0     23      0      0
-       0      0      0  59910      0      3     21      0      0      0
-       0      0      0      0]
- [     0     53      9      0      0      0      0      0      0      0
-       0      0     94      0  19786      0      0     45      0      0
-       5      6      2      0]
- [    92      1     10     25  10040   1821     28      0    623    141
-       0      3      0     25      0 112314      0      0      0  24781
-       0      0      0     96]
- [     0      5      0      0      0      0      0     46      0      0
-       0     12      0     82      0      0  19855      0      0      0
-       0      0      0      0]
- [     0      3      3      0      0      0      0      0      0      0
-       0      0    202      0     38      0      0  20801      0      0
-    7242   3337   8374      0]
- [     0      6      0      0      0      0    750      0     88    117
-       0      0      0      0      0      0      0      0  18685      0
-       0      0      0    354]
- [     0      0      0      1      0      0     24      0      0      2
-       0      0      0      0      0    109      0      0      4  19860
-       0      0      0      0]
- [     0    342      9      0      0      0      0      0      0      0
-       0      0    297      0    262      0     24   4006      0      0
-   46707   6024  12329      0]
- [     1     19      4      0      0      0      0      0      0      0
-       0      0    217      0    187      0      2   4439      0      0
-   27913   7951  19267      0]
- [     0     72      6      0      0      0      0      0      0      0
-       0      0    249      0    348      0      0   3549      0      0
-   20381   9636  65759      0]
- [   628      0      0      0      0      0    203      0   1242    152
-       0      0      0      0      0      0      0      0     19      0
-       0      0      0   2756]]
-2025-03-21 09:54:45,699 - INFO -               precision    recall  f1-score   support
-
-           0       0.18      0.88      0.30      5000
-           1       1.00      0.89      0.94    500000
-           2       0.96      0.96      0.96     40000
-           3       0.67      1.00      0.80     20000
-           4       0.50      0.65      0.56    300000
-           5       0.52      0.26      0.35    300000
-           6       0.54      0.38      0.45     40000
-           7       0.92      1.00      0.96     20000
-           8       0.66      0.64      0.65     40000
-           9       0.52      0.38      0.43     20000
-          10       1.00      1.00      1.00      2000
-          11       0.60      1.00      0.75      5000
-          12       0.64      0.94      0.76      5000
-          13       0.93      1.00      0.96     60000
-          14       0.75      0.99      0.85     20000
-          15       0.61      0.75      0.67    150000
-          16       0.85      0.99      0.91     20000
-          17       0.62      0.52      0.57     40000
-          18       0.71      0.93      0.81     20000
-          19       0.43      0.99      0.60     20000
-          20       0.45      0.67      0.54     70000
-          21       0.29      0.13      0.18     60000
-          22       0.61      0.66      0.63    100000
-          23       0.14      0.55      0.22      5000
-
-    accuracy                           0.67   1862000
-   macro avg       0.63      0.76      0.66   1862000
-weighted avg       0.69      0.67      0.67   1862000
-
-2025-03-21 09:54:45,699 - INFO - Model RF already exists at final_oversampled_SMOTE_RF.joblib. Loading and evaluating.
-2025-03-21 09:57:10 - ERROR: Script execution failed
-2025-03-21 09:57:10 - Uploading Models
-2025-03-21 09:57:10 - WARNING: Model file /home/danielqjr04/data/final/SMOTE_KNN.joblib not found, skipping...
-2025-03-21 09:57:10 - WARNING: Model file /home/danielqjr04/data/final/ADASYN_MLP.joblib not found, skipping...
-2025-03-21 09:57:10 - WARNING: Model file /home/danielqjr04/data/final/ADASYN_SVM.joblib not found, skipping...
-2025-03-21 09:57:10 - WARNING: Model file /home/danielqjr04/data/final/ADASYN_KNN.joblib not found, skipping...
-2025-03-21 09:57:10 - WARNING: Model file /home/danielqjr04/data/final/ADASYN_XGB.joblib not found, skipping...
-2025-03-21 09:57:10 - WARNING: Model file /home/danielqjr04/data/final/ADASYN_NB.joblib not found, skipping...
-2025-03-21 09:57:10 - WARNING: Model file /home/danielqjr04/data/final/ADASYN_LR.joblib not found, skipping...
-2025-03-21 09:57:10 - WARNING: Model file /home/danielqjr04/data/final/ADASYN_RF.joblib not found, skipping...
-2025-03-21 09:57:10 - WARNING: Model file /home/danielqjr04/data/final/ADASYN_DT.joblib not found, skipping...
-2025-03-21 09:57:10 - Uploading log file to Bucket
-Copying file:///home/danielqjr04/oversampling2.log [Content-Type=application/octet-stream]...
-/ [0 files][    0.0 B/ 90.8 KiB]                                                / [1 files][ 90.8 KiB/ 90.8 KiB]                                                
-Operation completed over 1 objects/90.8 KiB.                                     
-2025-03-21 09:57:14 - Log file uploaded successfully
-2025-03-21 09:57:14 - Uploading log file to Bucket
-Copying file:///home/danielqjr04/oversampling2.log [Content-Type=application/octet-stream]...
-/ [0 files][    0.0 B/ 91.2 KiB]                                                

@@ -1,0 +1,66 @@
+2025-04-08 11:57:57,550 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-04-08 11:57:57,551 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 11:57:57,572 - INFO -  * Restarting with watchdog (fsevents)
+2025-04-08 11:58:00,422 - WARNING -  * Debugger is active!
+2025-04-08 11:58:00,448 - INFO -  * Debugger PIN: 798-971-458
+2025-04-08 11:59:11,720 - INFO - 127.0.0.1 - - [08/Apr/2025 11:59:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-08 11:59:11,755 - INFO - 127.0.0.1 - - [08/Apr/2025 11:59:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-08 11:59:11,756 - INFO - 127.0.0.1 - - [08/Apr/2025 11:59:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-08 11:59:11,807 - INFO - 127.0.0.1 - - [08/Apr/2025 11:59:11] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=HrYUdpRB839r8Tle3nLY HTTP/1.1" 200 -
+2025-04-08 12:06:34,371 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-04-08 12:06:34,372 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 12:06:34,381 - INFO -  * Restarting with watchdog (fsevents)
+2025-04-08 12:06:35,605 - WARNING -  * Debugger is active!
+2025-04-08 12:06:35,614 - INFO -  * Debugger PIN: 798-971-458
+2025-04-08 12:07:10,144 - INFO - 127.0.0.1 - - [08/Apr/2025 12:07:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-08 12:07:10,177 - INFO - 127.0.0.1 - - [08/Apr/2025 12:07:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-08 12:07:10,178 - INFO - 127.0.0.1 - - [08/Apr/2025 12:07:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:07:10,188 - INFO - 127.0.0.1 - - [08/Apr/2025 12:07:10] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=kev7kcCjW6jJMnAQNUDF HTTP/1.1" 200 -
+2025-04-08 12:12:04,696 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-04-08 12:12:04,697 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 12:12:04,706 - INFO -  * Restarting with watchdog (fsevents)
+2025-04-08 12:12:05,882 - WARNING -  * Debugger is active!
+2025-04-08 12:12:05,892 - INFO -  * Debugger PIN: 798-971-458
+2025-04-08 12:12:33,808 - INFO - 127.0.0.1 - - [08/Apr/2025 12:12:33] "GET / HTTP/1.1" 200 -
+2025-04-08 12:12:33,842 - INFO - 127.0.0.1 - - [08/Apr/2025 12:12:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-08 12:12:33,955 - INFO - 127.0.0.1 - - [08/Apr/2025 12:12:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-08 12:12:38,102 - INFO - 127.0.0.1 - - [08/Apr/2025 12:12:38] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-08 12:12:38,107 - INFO - 127.0.0.1 - - [08/Apr/2025 12:12:38] "GET /Homepage HTTP/1.1" 200 -
+2025-04-08 12:12:38,139 - INFO - 127.0.0.1 - - [08/Apr/2025 12:12:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:14:17,846 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:17] "GET /Homepage HTTP/1.1" 200 -
+2025-04-08 12:14:17,858 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:14:20,738 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-08 12:14:20,744 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:20] "GET / HTTP/1.1" 200 -
+2025-04-08 12:14:20,767 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:14:23,932 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-08 12:14:23,938 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:23] "GET /Homepage HTTP/1.1" 200 -
+2025-04-08 12:14:23,970 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:14:26,149 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:26] "GET /Homepage/Network_Classifier HTTP/1.1" 200 -
+2025-04-08 12:14:26,176 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:14:26,180 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:26] "GET /static/JS/network_results.js HTTP/1.1" 200 -
+2025-04-08 12:14:27,887 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:27] "[35m[1mGET /Homepage/Settings HTTP/1.1[0m" 500 -
+2025-04-08 12:14:27,923 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:27] "GET /Homepage/Settings?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-08 12:14:27,924 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:27] "GET /Homepage/Settings?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-08 12:14:27,950 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:27] "GET /Homepage/Settings?__debugger__=yes&cmd=resource&f=console.png&s=JdtrtVaeSvIDBqkyui6w HTTP/1.1" 200 -
+2025-04-08 12:14:27,977 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:27] "GET /Homepage/Settings?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-08 12:14:31,546 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:31] "GET /Homepage/Network_Classifier HTTP/1.1" 200 -
+2025-04-08 12:14:31,568 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:14:31,568 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:31] "[36mGET /static/JS/network_results.js HTTP/1.1[0m" 304 -
+2025-04-08 12:14:34,440 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:34] "[35m[1mGET /Homepage/Settings HTTP/1.1[0m" 500 -
+2025-04-08 12:14:34,478 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:34] "[36mGET /Homepage/Settings?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-08 12:14:34,478 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:34] "[36mGET /Homepage/Settings?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:14:34,491 - INFO - 127.0.0.1 - - [08/Apr/2025 12:14:34] "[36mGET /Homepage/Settings?__debugger__=yes&cmd=resource&f=console.png&s=JdtrtVaeSvIDBqkyui6w HTTP/1.1[0m" 304 -
+2025-04-08 12:15:22,735 - INFO - 127.0.0.1 - - [08/Apr/2025 12:15:22] "GET /Homepage/Settings HTTP/1.1" 200 -
+2025-04-08 12:15:22,775 - INFO - 127.0.0.1 - - [08/Apr/2025 12:15:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:15:22,822 - INFO - 127.0.0.1 - - [08/Apr/2025 12:15:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-08 12:15:25,167 - INFO - 127.0.0.1 - - [08/Apr/2025 12:15:25] "GET /Homepage/Network_Classifier HTTP/1.1" 200 -
+2025-04-08 12:15:25,189 - INFO - 127.0.0.1 - - [08/Apr/2025 12:15:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-08 12:15:25,191 - INFO - 127.0.0.1 - - [08/Apr/2025 12:15:25] "[36mGET /static/JS/network_results.js HTTP/1.1[0m" 304 -
+2025-04-08 12:15:44,020 - INFO - File saved to /Users/dantheman/Documents/GitHub/E-CAT/Capstone_Flask/Databases/1/1/1.pcap
+2025-04-08 12:15:44,702 - INFO - Tshark output saved to /Users/dantheman/Documents/GitHub/E-CAT/Capstone_Flask/Databases/1/1/tshark.csv
+2025-04-08 12:16:37,044 - ERROR - Failed to process /Users/dantheman/Documents/GitHub/E-CAT/Capstone_Flask/Databases/1/1/1.pcap for 1: Command '['sudo', 'tcprewrite', '--dlt=enet', '--infile', '/Users/dantheman/Documents/GitHub/E-CAT/Capstone_Flask/Databases/1/1/1_OG.pcap', '--outfile', '/Users/dantheman/Documents/GitHub/E-CAT/Capstone_Flask/Databases/1/1/1.pcap']' returned non-zero exit status 1.
+2025-04-08 12:16:37,044 - ERROR - Extract Result: {extract_result['status']}
+2025-04-08 12:16:37,047 - INFO - 127.0.0.1 - - [08/Apr/2025 12:16:37] "[35m[1mPOST /Homepage/Network_Classifier/upload HTTP/1.1[0m" 500 -

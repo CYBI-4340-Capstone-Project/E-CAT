@@ -1,0 +1,40 @@
+<!-- Python's 'Flask' module uses the 'Jinja' web template engine to manage its template inheritance. -->
+
+<!-- 'Index.html' is an extension of 'Base.html' -->
+{% extends 'base.html' %}
+
+<!-- Begin head -->
+{% block head %}
+<title>Login Page</title>
+
+{% endblock %}
+
+{% block body %}
+
+<h1>Sign In</h1>
+
+<!-- Creating a form  with jinja formatting-->
+<form action="/" method="post">
+    
+    <!--Uses the SECRET_KEY to lock this page behind said key, to prevent CSRF attacks.-->
+    {{ form.hidden_tag() }}
+
+    <!--Elements created through jinja-->
+    {{ form.username(placeholder="Username") }}
+    <div class="spacer"></div>
+    {{ form.password(type="password", placeholder="Password") }}
+    <div class="spacer"style="padding-top: 40px;"></div>
+    {{ form.submit(id="submitButton") }}
+
+</form>
+</div>
+
+<div style="text-align: center">
+    <p class="subText">Not registered? <a href="{{ url_for('Register') }}">Create an account</a></p>
+    <p class="subText">Forgot your password? <a href="{{ url_for('forgotpw') }}">Click here</a></p>
+</div>
+    <!-- Handling flash messages -->
+    {% for message in get_flashed_messages() %}
+    <div class="alert" role="alert" style="text-align: center; color: black; font-size: 25px;">{{ message }}</div>
+    {% endfor %}
+{% endblock %}

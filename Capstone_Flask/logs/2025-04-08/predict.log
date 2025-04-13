@@ -1,0 +1,36 @@
+2025-04-08 15:09:34,717 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:09:34,717 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:10:00,084 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:10:00,084 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:11:15,464 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:11:15,465 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:12:11,055 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:12:11,055 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:24:07,857 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:24:07,859 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:25:56,963 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:25:56,963 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:29:01,820 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:29:01,821 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:37:20,596 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:37:20,596 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:39:26,609 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:39:26,609 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:39:57,015 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:39:57,015 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:40:35,529 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:40:35,529 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:41:44,986 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:41:44,986 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:42:53,993 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:42:53,994 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:45:14,079 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:45:14,080 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:46:32,704 - ERROR - Model loading failed: No module named 'xgboost'
+2025-04-08 15:46:32,704 - ERROR - Prediction failed: No module named 'xgboost'
+2025-04-08 15:49:55,383 - INFO - Loaded model: final_XGB
+2025-04-08 15:49:56,543 - INFO - Loaded model: final_DT
+2025-04-08 15:49:56,596 - INFO - Saved results DataFrame with predictions to ./Databases/1/1/1_results.csv
+2025-04-08 15:54:31,626 - INFO - Loaded model: final_XGB
+2025-04-08 15:54:32,691 - INFO - Loaded model: final_DT
+2025-04-08 15:54:32,950 - INFO - Saved results DataFrame with predictions to ./Databases/1/1/1_results.csv
