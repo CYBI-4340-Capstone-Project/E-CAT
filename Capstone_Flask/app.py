@@ -22,7 +22,8 @@ import pickle
 import base64
 import pandas as pd
 import numpy as np
-
+from xgboost import XGBClassifier
+import warnings
 
 
 # Configure logging
@@ -465,15 +466,43 @@ def spam_classifier():
     else: 
         return redirect(url_for('log_in'))
     
-#======================= Phishing_Classifier =======================#
-@app.route('/Homepage/Phishing_Classifier', methods=['GET', 'POST'])
-def phishing_classifier():
-    if session.get('username'):
-        session['user_authenticated'] = None
-        session['delete_account_confirmed'] = None
-        return render_template('phishing_classifier.html')
-    else: 
+#======================= URL_Classifier =======================#
+warnings.filterwarnings("ignore", category=UserWarning)
+
+@app.route('/Homepage/URL_Classifier', methods=['GET', 'POST'])
+def url_classifier():
+    if not session.get('username'):
+        flash('Please log in first', 'error')
         return redirect(url_for('log_in'))
+    
+    if request.method == 'POST':
+        url = request.form.get('url', '').strip()
+        virustotal_key = request.form.get('virustotal_key', '').strip() or None
+        
+        if not url:
+            flash('Please enter a valid URL', 'error')
+            return redirect(url_for('url_classifier'))
+        
+        try:
+            # Initialize scanner
+            from url_scanner import URLScanner
+            scanner = URLScanner()
+            
+            # Scan URL
+            results = scanner.scan(url, virustotal_key)
+            
+            # Debug output
+            app.logger.info(f"Scan results: {results}")
+            
+            return render_template('url_classifier.html', 
+                                results=results,
+                                scanned_url=url)
+            
+        except Exception as e:
+            app.logger.error(f"URL scan failed: {str(e)}")
+            flash(f'Analysis failed: {str(e)}', 'error')
+    
+    return render_template('url_classifier.html')
 
 #======================= Malware_Classifier =======================#
 @app.route('/Homepage/Malware_Classifier', methods=['GET', 'POST'])
